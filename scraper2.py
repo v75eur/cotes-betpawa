@@ -98,6 +98,9 @@ def repartir(o1, o2):
             return m1, m2, tot, g
     return None
 
+def nom_res(m, k):
+    return {"1": m['equipe1'], "X": "Nul", "2": m['equipe2']}[k]
+
 def bloc_match(m):
     try:
         c = {"1": float(m["c1"]), "X": float(m["cX"]), "2": float(m["c2"])}
@@ -113,15 +116,22 @@ def bloc_match(m):
         if r is None:
             continue
         m1, m2, tot, g = r
-        lignes += f"   ✅ {nom}: {m1} + {m2} F (total {tot}) → gain +{g:.0f} F"
+        z = [k for k in "1X2" if k not in (x, y)][0]
+        r1, r2 = m1 * c[x], m2 * c[y]
+        lignes += f"   ✅ {nom} · total {tot} F · gain minimum +{g:.1f} F\n"
+        lignes += f"   Compte 1: {m1} F sur {nom_res(m, x)} (cote {c[x]})\n"
+        lignes += f"   Compte 2: {m2} F sur {nom_res(m, y)} (cote {c[y]})\n"
+        lignes += f"   Si {nom_res(m, x)}: recu {r1:.1f} F → gain +{r1 - tot:.1f} F\n"
+        lignes += f"   Si {nom_res(m, y)}: recu {r2:.1f} F → gain +{r2 - tot:.1f} F\n"
+        lignes += f"   Si {nom_res(m, z)}: perte -{tot} F\n"
         if p:
-            lignes += f" │ 🤖 {calibrer(p[nom]):.0%}"
+            lignes += f"   🤖 chance que ca passe: {calibrer(p[nom]):.0%}\n"
         lignes += "\n"
     if not lignes:
         return ""
     txt = f"🕒 {m['heure']} · {m['equipe1']} 🆚 {m['equipe2']}\n"
     txt += f"   1 {c['1']} │ X {c['X']} │ 2 {c['2']}\n"
-    return txt + lignes + "\n"
+    return txt + lignes
 
 def construire(matches, maintenant):
     entete = (f"⚽ COTES 1X2\n📅 {JOURS[maintenant.weekday()]} {maintenant:%d/%m/%Y}"
