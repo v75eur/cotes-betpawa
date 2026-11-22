@@ -1,8 +1,8 @@
 name: Scraper Cotes betPawa
 
 on:
-  schedule:
-    - cron: '0 * * * *'
+  repository_dispatch:
+    types: [run-cotes]
   workflow_dispatch:
 
 permissions:
