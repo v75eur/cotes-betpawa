@@ -49,3 +49,9 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python scraper.py
+
+      - name: Run scraper 1X2
+        continue-on-error: true
+        env:
+          NTFY_TOPIC_2: ${{ secrets.NTFY_TOPIC_2 }}
+        run: python scraper2.py
