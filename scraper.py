@@ -5,8 +5,9 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright
 
-URL = "https://www.betpawa.bj/events?categoryId=2&marketId=Double%20Chance&day=all&competitions=11965,12097,12039,12127,12110"
+URL = "https://www.betpawa.bj/events?categoryId=2&marketId=Double%20Chance&day=today&competitions=11965,12097,12039,12127,12110"
 NTFY_TOPIC = os.environ["NTFY_TOPIC"]
+FUSEAU = ZoneInfo("Africa/Porto-Novo")
 SEUIL = 1.20          # cotes <= SEUIL marquees avec 🔥
 TAILLE_MAX = 3500     # octets max par notification ntfy
 
@@ -27,14 +28,16 @@ JS = """() => {
       const i = lines.indexOf(label);
       return i >= 0 ? lines[i + 1] : '';
     };
+    const d = text.match(/(\\d{2}\\/\\d{2})/);
     const m = {
       heure: lines[0].split(' ')[0],
+      date: d ? d[1] : '',
       equipe1: lines[1],
       equipe2: lines[2],
       ligue: lines[3].replace('Football / ', ''),
       c1X: val('1X'), cX2: val('X2'), c12: val('12')
     };
-    const key = m.heure + m.equipe1 + m.equipe2;
+    const key = m.date + m.heure + m.equipe1 + m.equipe2;
     if (!seen.has(key) && m.c1X) { seen.add(key); results.push(m); }
   });
   return results;
@@ -56,10 +59,9 @@ def bloc_ligue(ligue, matchs):
         txt += f"   {cote('1X', m['c1X'])} │ {cote('X2', m['cX2'])} │ {cote('12', m['c12'])}\n\n"
     return txt
 
-def construire_messages(matches):
-    now = datetime.now(ZoneInfo("Africa/Porto-Novo"))
+def construire_messages(matches, maintenant):
     entete = (f"⚽ COTES DOUBLE CHANCE\n"
-              f"📅 {JOURS[now.weekday()]} {now:%d/%m/%Y} · 🏟️ {len(matches)} matchs\n"
+              f"📅 {JOURS[maintenant.weekday()]} {maintenant:%d/%m/%Y} · 🏟️ {len(matches)} matchs\n"
               f"━━━━━━━━━━━━━━━━━━\n\n")
     groupes = {}
     for m in sorted(matches, key=lambda x: x['heure']):
@@ -73,8 +75,7 @@ def construire_messages(matches):
             courant = ""
         courant += b
     messages.append(courant)
-    pied = f"🔥 = cote ≤ {SEUIL}\n🔞 Jouez avec moderation"
-    messages[-1] += pied
+    messages[-1] += f"🔥 = cote ≤ {SEUIL}\n🔞 Jouez avec moderation"
     return messages
 
 async def main():
@@ -86,10 +87,15 @@ async def main():
         matches = await page.evaluate(JS)
         await browser.close()
 
+    maintenant = datetime.now(FUSEAU)
+    auj = maintenant.strftime("%d/%m")
+    print("Dates vues:", sorted({m['date'] for m in matches}))
+    matches = [m for m in matches if m['date'] in ("", auj)]
+
     if not matches:
         send_ntfy("😕 Aucun match trouve pour le moment.", "Cotes betPawa")
         return
-    messages = construire_messages(matches)
+    messages = construire_messages(matches, maintenant)
     for i, msg in enumerate(messages, 1):
         titre = "Cotes betPawa" + (f" ({i}/{len(messages)})" if len(messages) > 1 else "")
         send_ntfy(msg, titre)
