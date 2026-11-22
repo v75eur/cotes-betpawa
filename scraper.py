@@ -92,13 +92,18 @@ async def main():
         page = await browser.new_page()
         await page.goto(URL, wait_until="networkidle", timeout=60000)
         await page.wait_for_timeout(5000)
+        for _ in range(15):
+            await page.mouse.wheel(0, 4000)
+            await page.wait_for_timeout(1200)
         matches = await page.evaluate(JS)
+        print("Matchs lus sur la page:", len(matches))
         await browser.close()
 
     maintenant = datetime.now(FUSEAU)
     auj = maintenant.strftime("%d/%m")
     print("Dates vues:", sorted({m['date'] for m in matches}))
     matches = [m for m in matches if m['date'] in ("", auj)]
+    print("Matchs gardes pour aujourd'hui:", len(matches))
 
     if not matches:
         send_ntfy("😕 Aucun match trouve pour le moment.", "Cotes betPawa")
