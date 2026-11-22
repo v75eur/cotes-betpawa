@@ -4,6 +4,7 @@ import urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright
+from proba import proba
 
 URL = "https://www.betpawa.bj/events?categoryId=2&marketId=Double%20Chance&day=today&competitions=11965,12097,12039,12127,12110"
 NTFY_TOPIC = os.environ["NTFY_TOPIC"]
@@ -56,7 +57,14 @@ def bloc_ligue(ligue, matchs):
     txt = f"{drapeau} {(nom or ligue).upper()}\n"
     for m in matchs:
         txt += f"🕒 {m['heure']} · {m['equipe1']} 🆚 {m['equipe2']}\n"
-        txt += f"   {cote('1X', m['c1X'])} │ {cote('X2', m['cX2'])} │ {cote('12', m['c12'])}\n\n"
+        txt += f"   {cote('1X', m['c1X'])} │ {cote('X2', m['cX2'])} │ {cote('12', m['c12'])}\n"
+        try:
+            p = proba(m['ligue'], m['equipe1'], m['equipe2'])
+        except Exception:
+            p = None
+        if p:
+            txt += f"   🤖 modele: 1X {p['1X']:.0%} │ X2 {p['X2']:.0%} │ 12 {p['12']:.0%}\n"
+        txt += "\n"
     return txt
 
 def construire_messages(matches, maintenant):
