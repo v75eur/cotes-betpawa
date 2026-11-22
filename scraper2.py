@@ -77,41 +77,55 @@ def calcul(o1, o2, gain):
     g = min(m1 * o1 - tot, m2 * o2 - tot)
     return m1, m2, tot, g, faible
 
+MISE_MIN = 150
+MISE_MAX = 200
+GAIN_MIN = 20
+
+def repartir(o1, o2):
+    S = 1 / o1 + 1 / o2
+    if S >= 1:
+        return None
+    for T in range(MISE_MIN, MISE_MAX + 1):
+        R = T / S
+        m1, m2 = arrondi(R / o1), arrondi(R / o2)
+        if m1 < 1 or m2 < 1:
+            continue
+        tot = m1 + m2
+        if tot < MISE_MIN or tot > MISE_MAX:
+            continue
+        g = min(m1 * o1 - tot, m2 * o2 - tot)
+        if g >= GAIN_MIN:
+            return m1, m2, tot, g
+    return None
+
 def bloc_match(m):
     try:
         c = {"1": float(m["c1"]), "X": float(m["cX"]), "2": float(m["c2"])}
     except ValueError:
         return ""
-    txt = f"🕒 {m['heure']} · {m['equipe1']} 🆚 {m['equipe2']}\n"
-    txt += f"   1 {c['1']} │ X {c['X']} │ 2 {c['2']}\n"
     try:
         p = proba(m["ligue"], m["equipe1"], m["equipe2"])
     except Exception:
         p = None
-    for a, b, nom in PAIRES:
-        parts = []
-        for g in GAINS:
-            r = calcul(c[a], c[b], g)
-            if r is None:
-                parts = None
-                break
-            m1, m2, tot, gr, faible = r
-            if faible:
-                parts.append(f"⚠️ mini {m1}+{m2} F → +{gr:.0f} F")
-            else:
-                parts.append(f"+{g} F → {m1}+{m2} F")
-        if parts is None:
-            txt += f"   ❌ {nom}: ne passe pas\n"
+    lignes = ""
+    for x, y, nom in PAIRES:
+        r = repartir(c[x], c[y])
+        if r is None:
             continue
-        ligne = f"   ✅ {nom}: " + " │ ".join(parts)
+        m1, m2, tot, g = r
+        lignes += f"   ✅ {nom}: {m1} + {m2} F (total {tot}) → gain +{g:.0f} F"
         if p:
-            ligne += f" │ 🤖 {calibrer(p[nom]):.0%}"
-        txt += ligne + "\n"
-    return txt + "\n"
+            lignes += f" │ 🤖 {calibrer(p[nom]):.0%}"
+        lignes += "\n"
+    if not lignes:
+        return ""
+    txt = f"🕒 {m['heure']} · {m['equipe1']} 🆚 {m['equipe2']}\n"
+    txt += f"   1 {c['1']} │ X {c['X']} │ 2 {c['2']}\n"
+    return txt + lignes + "\n"
 
 def construire(matches, maintenant):
     entete = (f"⚽ COTES 1X2\n📅 {JOURS[maintenant.weekday()]} {maintenant:%d/%m/%Y}"
-              f" · 🏟️ {len(matches)} matchs · gains {GAINS[0]} / {GAINS[1]} F\n"
+              f" · mise {MISE_MIN}-{MISE_MAX} F · gain min {GAIN_MIN} F\n"
               f"━━━━━━━━━━━━━━━━━━\n\n")
     groupes = {}
     for m in sorted(matches, key=lambda x: x["heure"]):
@@ -120,8 +134,13 @@ def construire(matches, maintenant):
     for ligue, ms in groupes.items():
         pays, _, nom = ligue.partition(" / ")
         t = f"{PAYS.get(pays, '🌍')} {(nom or ligue).upper()}\n"
-        t += "".join(bloc_match(m) for m in ms)
+        textes = [x for x in (bloc_match(m) for m in ms) if x]
+        if not textes:
+            continue
+        t += "".join(textes)
         blocs.append(t)
+    if not blocs:
+        blocs = ["Aucune paire a petite mise pour le moment.\n\n"]
     messages, courant = [], entete
     for b in blocs:
         if len((courant + b).encode()) > TAILLE_MAX and courant.strip():
