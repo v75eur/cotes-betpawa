@@ -1,10 +1,18 @@
 import asyncio
 import os
 import urllib.request
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright
 
 URL = "https://www.betpawa.bj/events?categoryId=2&marketId=Double%20Chance&day=all&competitions=11965,12097,12039,12127,12110"
 NTFY_TOPIC = os.environ["NTFY_TOPIC"]
+SEUIL = 1.20          # cotes <= SEUIL marquees avec 🔥
+TAILLE_MAX = 3500     # octets max par notification ntfy
+
+PAYS = {"Spain": "🇪🇸", "England": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "Italy": "🇮🇹",
+        "France": "🇫🇷", "Germany": "🇩🇪"}
+JOURS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 
 JS = """() => {
   const results = [];
@@ -32,6 +40,43 @@ JS = """() => {
   return results;
 }"""
 
+def cote(label, valeur):
+    try:
+        flamme = "🔥" if float(valeur) <= SEUIL else ""
+    except ValueError:
+        flamme = ""
+    return f"{label} {flamme}{valeur}"
+
+def bloc_ligue(ligue, matchs):
+    pays, _, nom = ligue.partition(" / ")
+    drapeau = PAYS.get(pays, "🌍")
+    txt = f"{drapeau} {(nom or ligue).upper()}\n"
+    for m in matchs:
+        txt += f"🕒 {m['heure']} · {m['equipe1']} 🆚 {m['equipe2']}\n"
+        txt += f"   {cote('1X', m['c1X'])} │ {cote('X2', m['cX2'])} │ {cote('12', m['c12'])}\n\n"
+    return txt
+
+def construire_messages(matches):
+    now = datetime.now(ZoneInfo("Africa/Porto-Novo"))
+    entete = (f"⚽ COTES DOUBLE CHANCE\n"
+              f"📅 {JOURS[now.weekday()]} {now:%d/%m/%Y} · 🏟️ {len(matches)} matchs\n"
+              f"━━━━━━━━━━━━━━━━━━\n\n")
+    groupes = {}
+    for m in sorted(matches, key=lambda x: x['heure']):
+        groupes.setdefault(m['ligue'], []).append(m)
+    blocs = [bloc_ligue(l, ms) for l, ms in groupes.items()]
+
+    messages, courant = [], entete
+    for b in blocs:
+        if len((courant + b).encode()) > TAILLE_MAX and courant.strip():
+            messages.append(courant)
+            courant = ""
+        courant += b
+    messages.append(courant)
+    pied = f"🔥 = cote ≤ {SEUIL}\n🔞 Jouez avec moderation"
+    messages[-1] += pied
+    return messages
+
 async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
@@ -41,22 +86,18 @@ async def main():
         matches = await page.evaluate(JS)
         await browser.close()
 
-    matches.sort(key=lambda x: x['heure'])
     if not matches:
-        send_ntfy("Aucun match trouve.")
+        send_ntfy("😕 Aucun match trouve pour le moment.", "Cotes betPawa")
         return
-    for i in range(0, len(matches), 15):
-        msg = ""
-        for m in matches[i:i+15]:
-            msg += f"{m['heure']} | {m['ligue']}\n"
-            msg += f"  {m['equipe1']} vs {m['equipe2']}\n"
-            msg += f"  1X: {m['c1X']} | X2: {m['cX2']} | 12: {m['c12']}\n\n"
-        send_ntfy(msg)
+    messages = construire_messages(matches)
+    for i, msg in enumerate(messages, 1):
+        titre = "Cotes betPawa" + (f" ({i}/{len(messages)})" if len(messages) > 1 else "")
+        send_ntfy(msg, titre)
 
-def send_ntfy(message):
+def send_ntfy(message, titre):
     req = urllib.request.Request(f"https://ntfy.sh/{NTFY_TOPIC}",
                                  data=message.encode('utf-8'), method='POST')
-    req.add_header('Title', 'Cotes betPawa')
+    req.add_header('Title', titre)   # titre ASCII uniquement (limite des en-tetes HTTP)
     req.add_header('Tags', 'soccer')
     try:
         urllib.request.urlopen(req)
