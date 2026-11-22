@@ -4,7 +4,7 @@ import urllib.request
 from playwright.async_api import async_playwright
 
 URL = "https://www.betpawa.bj/events?categoryId=2&marketId=Double Chance&day=all&competitions=11965,12097,12039,12127,12110"
-NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "ton-topic-ici")
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "rick-bet")
 
 async def main():
     async with async_playwright() as p:
@@ -12,8 +12,7 @@ async def main():
         page = await browser.new_page()
         print(f"Ouverture de {URL}...")
         await page.goto(URL, wait_until="networkidle", timeout=60000)
-        await page.wait_for_timeout(5000) # Attendre le chargement JS
-        
+        await page.wait_for_timeout(5000)
         matches = await page.evaluate("""() => {
             const results = [];
             const allDivs = document.querySelectorAll('div');
@@ -45,33 +44,26 @@ async def main():
             return uniqueResults;
         }""")
         await browser.close()
-        
-        # Trier par heure
         matches.sort(key=lambda x: x['heure'])
-        
         if not matches:
-            send_ntfy("Aucun match trouvé pour le moment.")
+            send_ntfy("Aucun match trouve.")
             return
-            
-        # Formater le message pour ntfy (texte brut, structuré)
-        message = "⚽ *Cotes Double Chance* ⚽\n\n"
+        message = "Cotes Double Chance\n\n"
         for m in matches:
-            message += f"🕒 {m['heure']} | {m['ligue']}\n"
-            message += f"   {m['equipe1']} vs {m['equipe2']}\n"
-            message += f"   1X: {m['cote1X']} | X2: {m['coteX2']} | 12: {m['cote12']}\n\n"
-            
+            message += f"{m['heure']} | {m['ligue']}\n"
+            message += f"  {m['equipe1']} vs {m['equipe2']}\n"
+            message += f"  1X: {m['cote1X']} | X2: {m['coteX2']} | 12: {m['cote12']}\n\n"
         send_ntfy(message)
 
 def send_ntfy(message):
-    print(f"Envoi sur ntfy ({len(message)} caractères)...")
+    print(f"Envoi sur ntfy ({len(message)} caracteres)...")
     data = message.encode('utf-8')
     req = urllib.request.Request(f"https://ntfy.sh/{NTFY_TOPIC}", data=data, method='POST')
-    req.add_header('Title', 'Rapport Cotes betPawa')
+    req.add_header('Title', 'Cotes betPawa')
     req.add_header('Tags', 'soccer')
-    req.add_header('Priority', 'default')
     try:
         urllib.request.urlopen(req)
-        print("Notification ntfy envoyée avec succès.")
+        print("Notification envoyee.")
     except Exception as e:
         print(f"Erreur ntfy: {e}")
 
