@@ -1,7 +1,7 @@
 {
  "source": "betPawa Bénin",
  "jour": "Lundi 23/11/2026",
- "maj": "2026-11-23T16:03+01:00",
+ "maj": "2026-11-23T17:02+01:00",
  "mise": [
   150,
   200
@@ -17,26 +17,26 @@
    "equipe1": "AC Monza",
    "equipe2": "ACF Fiorentina",
    "cotes_1x2": {
-    "1": 3.72,
-    "X": 3.86,
-    "2": 1.92
+    "1": 3.79,
+    "X": 3.72,
+    "2": 1.93
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.84",
+     "cote": "1.82",
      "feu": false,
      "modele": 57
     },
     {
      "pari": "X2",
-     "cote": "1.29",
+     "cote": "1.28",
      "feu": false,
      "modele": 65
     },
     {
      "pari": "12",
-     "cote": "1.28",
+     "cote": "1.29",
      "feu": false,
      "modele": 79
     }
@@ -45,23 +45,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 132.7,
+     "gain_min": 130.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 76,
+       "mise": 74,
        "sur": "AC Monza",
-       "cote": 3.72,
-       "recu": 282.7,
-       "gain": 132.7
+       "cote": 3.79,
+       "recu": 280.5,
+       "gain": 130.5
       },
       {
        "compte": 2,
-       "mise": 74,
+       "mise": 76,
        "sur": "Nul",
-       "cote": 3.86,
-       "recu": 285.6,
-       "gain": 135.6
+       "cote": 3.72,
+       "recu": 282.7,
+       "gain": 132.7
       }
      ],
      "perte_si": "ACF Fiorentina",
@@ -71,23 +71,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 42.0,
+     "gain_min": 39.7,
      "comptes": [
       {
        "compte": 1,
-       "mise": 50,
+       "mise": 51,
        "sur": "Nul",
-       "cote": 3.86,
-       "recu": 193.0,
-       "gain": 43.0
+       "cote": 3.72,
+       "recu": 189.7,
+       "gain": 39.7
       },
       {
        "compte": 2,
-       "mise": 100,
+       "mise": 99,
        "sur": "ACF Fiorentina",
-       "cote": 1.92,
-       "recu": 192.0,
-       "gain": 42.0
+       "cote": 1.93,
+       "recu": 191.1,
+       "gain": 41.1
       }
      ],
      "perte_si": "AC Monza",
@@ -97,23 +97,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 39.7,
+     "gain_min": 41.1,
      "comptes": [
       {
        "compte": 1,
        "mise": 51,
        "sur": "AC Monza",
-       "cote": 3.72,
-       "recu": 189.7,
-       "gain": 39.7
+       "cote": 3.79,
+       "recu": 193.3,
+       "gain": 43.3
       },
       {
        "compte": 2,
        "mise": 99,
        "sur": "ACF Fiorentina",
-       "cote": 1.92,
-       "recu": 190.1,
-       "gain": 40.1
+       "cote": 1.93,
+       "recu": 191.1,
+       "gain": 41.1
       }
      ],
      "perte_si": "Nul",
@@ -463,20 +463,20 @@
    "equipe1": "Levante UD",
    "equipe2": "Elche CF",
    "cotes_1x2": {
-    "1": 2.17,
-    "X": 3.64,
-    "2": 3.17
+    "1": 2.15,
+    "X": 3.61,
+    "2": 3.25
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.36",
+     "cote": "1.35",
      "feu": false,
      "modele": 72
     },
     {
      "pari": "X2",
-     "cote": "1.67",
+     "cote": "1.68",
      "feu": false,
      "modele": 52
     },
@@ -491,23 +491,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 53.8,
+     "gain_min": 52.1,
      "comptes": [
       {
        "compte": 1,
        "mise": 94,
        "sur": "Levante UD",
-       "cote": 2.17,
-       "recu": 204.0,
-       "gain": 54.0
+       "cote": 2.15,
+       "recu": 202.1,
+       "gain": 52.1
       },
       {
        "compte": 2,
        "mise": 56,
        "sur": "Nul",
-       "cote": 3.64,
-       "recu": 203.8,
-       "gain": 53.8
+       "cote": 3.61,
+       "recu": 202.2,
+       "gain": 52.2
       }
      ],
      "perte_si": "Elche CF",
@@ -517,23 +517,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 103.6,
+     "gain_min": 106.3,
      "comptes": [
       {
        "compte": 1,
-       "mise": 70,
+       "mise": 71,
        "sur": "Nul",
-       "cote": 3.64,
-       "recu": 254.8,
-       "gain": 104.8
+       "cote": 3.61,
+       "recu": 256.3,
+       "gain": 106.3
       },
       {
        "compte": 2,
-       "mise": 80,
+       "mise": 79,
        "sur": "Elche CF",
-       "cote": 3.17,
-       "recu": 253.6,
-       "gain": 103.6
+       "cote": 3.25,
+       "recu": 256.8,
+       "gain": 106.8
       }
      ],
      "perte_si": "Levante UD",
@@ -543,23 +543,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 43.1,
+     "gain_min": 43.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 89,
+       "mise": 90,
        "sur": "Levante UD",
-       "cote": 2.17,
-       "recu": 193.1,
-       "gain": 43.1
+       "cote": 2.15,
+       "recu": 193.5,
+       "gain": 43.5
       },
       {
        "compte": 2,
-       "mise": 61,
+       "mise": 60,
        "sur": "Elche CF",
-       "cote": 3.17,
-       "recu": 193.4,
-       "gain": 43.4
+       "cote": 3.25,
+       "recu": 195.0,
+       "gain": 45.0
       }
      ],
      "perte_si": "Nul",
