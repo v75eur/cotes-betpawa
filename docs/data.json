@@ -1,7 +1,7 @@
 {
  "source": "betPawa Bénin",
  "jour": "Lundi 23/11/2026",
- "maj": "2026-11-23T15:01+01:00",
+ "maj": "2026-11-23T16:03+01:00",
  "mise": [
   150,
   200
@@ -239,9 +239,9 @@
    "equipe1": "Brentford FC",
    "equipe2": "Everton FC",
    "cotes_1x2": {
-    "1": 2.3,
-    "X": 3.48,
-    "2": 3.05
+    "1": 2.32,
+    "X": 3.46,
+    "2": 3.03
    },
    "double_chance": [
     {
@@ -252,7 +252,7 @@
     },
     {
      "pari": "X2",
-     "cote": "1.60",
+     "cote": "1.59",
      "feu": false,
      "modele": 50
     },
@@ -267,23 +267,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 57.0,
+     "gain_min": 57.6,
      "comptes": [
       {
        "compte": 1,
        "mise": 90,
        "sur": "Brentford FC",
-       "cote": 2.3,
-       "recu": 207.0,
-       "gain": 57.0
+       "cote": 2.32,
+       "recu": 208.8,
+       "gain": 58.8
       },
       {
        "compte": 2,
        "mise": 60,
        "sur": "Nul",
-       "cote": 3.48,
-       "recu": 208.8,
-       "gain": 58.8
+       "cote": 3.46,
+       "recu": 207.6,
+       "gain": 57.6
       }
      ],
      "perte_si": "Everton FC",
@@ -293,23 +293,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 93.6,
+     "gain_min": 92.2,
      "comptes": [
       {
        "compte": 1,
        "mise": 70,
        "sur": "Nul",
-       "cote": 3.48,
-       "recu": 243.6,
-       "gain": 93.6
+       "cote": 3.46,
+       "recu": 242.2,
+       "gain": 92.2
       },
       {
        "compte": 2,
        "mise": 80,
        "sur": "Everton FC",
-       "cote": 3.05,
-       "recu": 244.0,
-       "gain": 94.0
+       "cote": 3.03,
+       "recu": 242.4,
+       "gain": 92.4
       }
      ],
      "perte_si": "Brentford FC",
@@ -319,23 +319,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 45.2,
+     "gain_min": 46.9,
      "comptes": [
       {
        "compte": 1,
-       "mise": 86,
+       "mise": 85,
        "sur": "Brentford FC",
-       "cote": 2.3,
-       "recu": 197.8,
-       "gain": 47.8
+       "cote": 2.32,
+       "recu": 197.2,
+       "gain": 47.2
       },
       {
        "compte": 2,
-       "mise": 64,
+       "mise": 65,
        "sur": "Everton FC",
-       "cote": 3.05,
-       "recu": 195.2,
-       "gain": 45.2
+       "cote": 3.03,
+       "recu": 196.9,
+       "gain": 46.9
       }
      ],
      "perte_si": "Nul",
@@ -463,20 +463,20 @@
    "equipe1": "Levante UD",
    "equipe2": "Elche CF",
    "cotes_1x2": {
-    "1": 2.18,
-    "X": 3.63,
-    "2": 3.16
+    "1": 2.17,
+    "X": 3.64,
+    "2": 3.17
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.37",
+     "cote": "1.36",
      "feu": false,
      "modele": 72
     },
     {
      "pari": "X2",
-     "cote": "1.66",
+     "cote": "1.67",
      "feu": false,
      "modele": 52
     },
@@ -491,23 +491,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 53.3,
+     "gain_min": 53.8,
      "comptes": [
       {
        "compte": 1,
        "mise": 94,
        "sur": "Levante UD",
-       "cote": 2.18,
-       "recu": 204.9,
-       "gain": 54.9
+       "cote": 2.17,
+       "recu": 204.0,
+       "gain": 54.0
       },
       {
        "compte": 2,
        "mise": 56,
        "sur": "Nul",
-       "cote": 3.63,
-       "recu": 203.3,
-       "gain": 53.3
+       "cote": 3.64,
+       "recu": 203.8,
+       "gain": 53.8
       }
      ],
      "perte_si": "Elche CF",
@@ -517,23 +517,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 102.8,
+     "gain_min": 103.6,
      "comptes": [
       {
        "compte": 1,
        "mise": 70,
        "sur": "Nul",
-       "cote": 3.63,
-       "recu": 254.1,
-       "gain": 104.1
+       "cote": 3.64,
+       "recu": 254.8,
+       "gain": 104.8
       },
       {
        "compte": 2,
        "mise": 80,
        "sur": "Elche CF",
-       "cote": 3.16,
-       "recu": 252.8,
-       "gain": 102.8
+       "cote": 3.17,
+       "recu": 253.6,
+       "gain": 103.6
       }
      ],
      "perte_si": "Levante UD",
@@ -543,23 +543,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 42.8,
+     "gain_min": 43.1,
      "comptes": [
       {
        "compte": 1,
        "mise": 89,
        "sur": "Levante UD",
-       "cote": 2.18,
-       "recu": 194.0,
-       "gain": 44.0
+       "cote": 2.17,
+       "recu": 193.1,
+       "gain": 43.1
       },
       {
        "compte": 2,
        "mise": 61,
        "sur": "Elche CF",
-       "cote": 3.16,
-       "recu": 192.8,
-       "gain": 42.8
+       "cote": 3.17,
+       "recu": 193.4,
+       "gain": 43.4
       }
      ],
      "perte_si": "Nul",
