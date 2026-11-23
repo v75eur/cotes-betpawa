@@ -1,7 +1,7 @@
 {
  "source": "betPawa Bénin",
  "jour": "Lundi 23/11/2026",
- "maj": "2026-11-23T13:02+01:00",
+ "maj": "2026-11-23T14:03+01:00",
  "mise": [
   150,
   200
@@ -239,20 +239,20 @@
    "equipe1": "Brentford FC",
    "equipe2": "Everton FC",
    "cotes_1x2": {
-    "1": 2.24,
-    "X": 3.49,
-    "2": 3.15
+    "1": 2.27,
+    "X": 3.48,
+    "2": 3.11
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.37",
+     "cote": "1.38",
      "feu": false,
      "modele": 75
     },
     {
      "pari": "X2",
-     "cote": "1.63",
+     "cote": "1.62",
      "feu": false,
      "modele": 50
     },
@@ -267,23 +267,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 53.8,
+     "gain_min": 55.3,
      "comptes": [
       {
        "compte": 1,
        "mise": 91,
        "sur": "Brentford FC",
-       "cote": 2.24,
-       "recu": 203.8,
-       "gain": 53.8
+       "cote": 2.27,
+       "recu": 206.6,
+       "gain": 56.6
       },
       {
        "compte": 2,
        "mise": 59,
        "sur": "Nul",
-       "cote": 3.49,
-       "recu": 205.9,
-       "gain": 55.9
+       "cote": 3.48,
+       "recu": 205.3,
+       "gain": 55.3
       }
      ],
      "perte_si": "Everton FC",
@@ -293,23 +293,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 97.8,
+     "gain_min": 95.7,
      "comptes": [
       {
        "compte": 1,
        "mise": 71,
        "sur": "Nul",
-       "cote": 3.49,
-       "recu": 247.8,
-       "gain": 97.8
+       "cote": 3.48,
+       "recu": 247.1,
+       "gain": 97.1
       },
       {
        "compte": 2,
        "mise": 79,
        "sur": "Everton FC",
-       "cote": 3.15,
-       "recu": 248.8,
-       "gain": 98.8
+       "cote": 3.11,
+       "recu": 245.7,
+       "gain": 95.7
       }
      ],
      "perte_si": "Brentford FC",
@@ -319,23 +319,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 45.3,
+     "gain_min": 45.9,
      "comptes": [
       {
        "compte": 1,
-       "mise": 88,
+       "mise": 87,
        "sur": "Brentford FC",
-       "cote": 2.24,
-       "recu": 197.1,
-       "gain": 47.1
+       "cote": 2.27,
+       "recu": 197.5,
+       "gain": 47.5
       },
       {
        "compte": 2,
-       "mise": 62,
+       "mise": 63,
        "sur": "Everton FC",
-       "cote": 3.15,
-       "recu": 195.3,
-       "gain": 45.3
+       "cote": 3.11,
+       "recu": 195.9,
+       "gain": 45.9
       }
      ],
      "perte_si": "Nul",
@@ -464,8 +464,8 @@
    "equipe2": "Elche CF",
    "cotes_1x2": {
     "1": 2.17,
-    "X": 3.62,
-    "2": 3.21
+    "X": 3.63,
+    "2": 3.18
    },
    "double_chance": [
     {
@@ -476,7 +476,7 @@
     },
     {
      "pari": "X2",
-     "cote": "1.67",
+     "cote": "1.66",
      "feu": false,
      "modele": 52
     },
@@ -491,7 +491,7 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 52.7,
+     "gain_min": 53.3,
      "comptes": [
       {
        "compte": 1,
@@ -505,9 +505,9 @@
        "compte": 2,
        "mise": 56,
        "sur": "Nul",
-       "cote": 3.62,
-       "recu": 202.7,
-       "gain": 52.7
+       "cote": 3.63,
+       "recu": 203.3,
+       "gain": 53.3
       }
      ],
      "perte_si": "Elche CF",
@@ -517,23 +517,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 103.4,
+     "gain_min": 104.1,
      "comptes": [
       {
        "compte": 1,
        "mise": 70,
        "sur": "Nul",
-       "cote": 3.62,
-       "recu": 253.4,
-       "gain": 103.4
+       "cote": 3.63,
+       "recu": 254.1,
+       "gain": 104.1
       },
       {
        "compte": 2,
        "mise": 80,
        "sur": "Elche CF",
-       "cote": 3.21,
-       "recu": 256.8,
-       "gain": 106.8
+       "cote": 3.18,
+       "recu": 254.4,
+       "gain": 104.4
       }
      ],
      "perte_si": "Levante UD",
@@ -557,9 +557,9 @@
        "compte": 2,
        "mise": 61,
        "sur": "Elche CF",
-       "cote": 3.21,
-       "recu": 195.8,
-       "gain": 45.8
+       "cote": 3.18,
+       "recu": 194.0,
+       "gain": 44.0
       }
      ],
      "perte_si": "Nul",
