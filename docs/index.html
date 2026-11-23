@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar BetPawa</title>
+<meta name="description" content="Cotes betPawa Bénin, double chance, répartition de mise et analyse de chaque match, mis à jour toutes les heures.">
+<style>
+:root{
+  --bg:#f3f6fb; --card:#ffffff; --card2:#eef2f9; --line:#dde4f0;
+  --text:#14203a; --muted:#5d6b86; --accent:#13a54a; --accent-soft:#dff5e7;
+  --amber:#b7791f; --amber-soft:#fdf1d8; --red:#c53030; --red-soft:#fde4e4;
+  --shadow:0 1px 2px rgba(20,32,58,.06),0 6px 18px rgba(20,32,58,.06);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0a1120; --card:#121b2e; --card2:#18243b; --line:#243251;
+    --text:#e9eef9; --muted:#93a3c0; --accent:#2fd267; --accent-soft:#12331f;
+    --amber:#f6b93b; --amber-soft:#3a2d0f; --red:#ff7b7b; --red-soft:#3b1717;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.3);
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);
+  font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.top{background:var(--accent);color:#04210f;text-align:center;font-size:13px;font-weight:600;padding:8px 12px;letter-spacing:.2px}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{padding:22px 0 10px}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:44px;height:44px;border-radius:12px;background:var(--accent);display:grid;place-items:center;font-size:24px;flex:none}
+h1{margin:0;font-size:24px;line-height:1.15;letter-spacing:-.3px}
+.sub{margin:2px 0 0;color:var(--muted);font-size:13.5px}
+.pill{display:inline-block;background:var(--accent-soft);color:var(--accent);font-weight:700;border-radius:999px;padding:2px 10px;font-size:12px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;color:var(--muted)}
+.chip b{color:var(--text)}
+.filters{display:flex;gap:8px;overflow-x:auto;padding:10px 0 12px;scrollbar-width:none}
+.filters::-webkit-scrollbar{display:none}
+.filters button{flex:none;border:1px solid var(--line);background:var(--card);color:var(--text);
+  border-radius:999px;padding:7px 14px;font:inherit;font-size:13.5px;cursor:pointer}
+.filters button.on{background:var(--accent);border-color:var(--accent);color:#04210f;font-weight:700}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);margin:0 0 14px;overflow:hidden}
+.mh{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 16px 0;color:var(--muted);font-size:13px}
+.time{font-weight:700;color:var(--text);background:var(--card2);border-radius:8px;padding:2px 9px}
+.teams{padding:8px 16px 4px;display:flex;flex-direction:column;gap:2px;font-size:18px;font-weight:700;letter-spacing:-.2px}
+.teams .vs{font-size:12px;color:var(--muted);font-weight:600}
+.odds{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:10px 16px 12px}
+.odd{background:var(--card2);border-radius:10px;text-align:center;padding:6px 4px}
+.odd small{display:block;color:var(--muted);font-size:11.5px}
+.odd b{font-size:16px}
+.tabs{display:flex;border-top:1px solid var(--line);background:var(--card2)}
+.tabs button{flex:1;border:0;background:none;color:var(--muted);font:inherit;font-size:13.5px;font-weight:600;padding:11px 4px;cursor:pointer;border-bottom:3px solid transparent}
+.tabs button.on{color:var(--accent);border-bottom-color:var(--accent);background:var(--card)}
+.panel{padding:14px 16px 16px;display:none}
+.panel.on{display:block}
+.panel.on.dc{display:grid;gap:10px}
+.dcrow{display:grid;grid-template-columns:54px 1fr;gap:12px;align-items:center;background:var(--card2);border-radius:12px;padding:10px 12px}
+.dcname{font-weight:800;font-size:17px}
+.dcmain{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.cote{font-size:20px;font-weight:800}
+.fire{background:var(--amber-soft);color:var(--amber);font-size:12px;font-weight:700;border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:middle}
+.bar{height:7px;background:var(--line);border-radius:99px;margin-top:6px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent);border-radius:99px}
+.lbl{font-size:12.5px;color:var(--muted)}
+.pair{border:1px solid var(--line);border-radius:12px;margin-bottom:12px;overflow:hidden}
+.pair:last-child{margin-bottom:0}
+.ph{display:flex;justify-content:space-between;align-items:center;background:var(--accent-soft);padding:9px 12px;gap:8px}
+.ph b{font-size:16px;color:var(--accent)}
+.ph span{font-size:13px;color:var(--text)}
+.acc{padding:10px 12px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;align-items:center}
+.acc .who{font-size:13.5px}
+.acc .who small{display:block;color:var(--muted);font-size:12px}
+.acc .amt{font-weight:800;font-size:17px;white-space:nowrap}
+.pos{color:var(--accent);font-weight:700}
+.loss{padding:9px 12px;border-top:1px solid var(--line);background:var(--red-soft);color:var(--red);font-size:13px;font-weight:600}
+.proba{padding:9px 12px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+details{border:1px solid var(--line);border-radius:12px;margin-bottom:8px;background:var(--card2)}
+summary{cursor:pointer;list-style:none;padding:11px 14px;font-weight:700;font-size:14.5px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";float:right;color:var(--muted)}
+details[open] summary:after{content:"－"}
+details .body{padding:0 14px 12px;font-size:13.5px}
+details .body div{padding:3px 0;border-top:1px dashed var(--line)}
+details .body div:first-child{border-top:0}
+.empty{text-align:center;color:var(--muted);padding:44px 16px;background:var(--card);border:1px dashed var(--line);border-radius:16px}
+.empty big{display:block;font-size:34px;margin-bottom:6px}
+.note{color:var(--muted);font-size:13px;margin:0}
+footer{padding:18px 0 40px;color:var(--muted);font-size:12.5px;text-align:center}
+footer b{color:var(--text)}
+@media (min-width:640px){.teams{flex-direction:row;align-items:baseline;gap:10px}.teams .vs{order:0}}
+</style>
+</head>
+<body>
+<div class="top">⚽ Toutes les cotes proviennent de <b>betPawa Bénin</b> · 🔞 Réservé aux +18 ans</div>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo">⚽</div>
+      <div>
+        <h1>Radar BetPawa</h1>
+        <p class="sub">Double chance, répartition des mises et analyse de chaque match · <span class="pill">betPawa</span></p>
+      </div>
+    </div>
+    <div class="meta" id="meta"></div>
+  </header>
+  <div class="filters" id="filters"></div>
+  <main id="liste"><div class="empty"><big>⏳</big>Chargement des matchs…</div></main>
+  <footer>
+    <p>Données de <b>betPawa Bénin</b> et résultats de football-data.co.uk. Mise à jour automatique toutes les heures.</p>
+    <p>Les pourcentages sont des estimations statistiques (modèle de Poisson), pas des certitudes. Le modèle ignore blessures, compositions et enjeu du match. Les paris comportent des risques : ne misez que ce que vous pouvez perdre. 🔞</p>
+  </footer>
+</div>
+<script>
+(function(){
+  var data = null, filtre = "Tous";
+
+  function el(tag, cls, text){
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined && text !== null) e.textContent = text;
+    return e;
+  }
+  function fmt(n){ return Number(n).toFixed(1).replace(/\.0$/, ""); }
+
+  function meta(){
+    var m = document.getElementById("meta");
+    m.textContent = "";
+    var c1 = el("span", "chip"); c1.appendChild(document.createTextNode("📅 ")); c1.appendChild(el("b", null, data.jour));
+    var c2 = el("span", "chip"); c2.appendChild(document.createTextNode("🏟️ ")); c2.appendChild(el("b", null, String(data.matchs.length))); c2.appendChild(document.createTextNode(" match" + (data.matchs.length > 1 ? "s" : "")));
+    var heure = data.maj ? data.maj.replace("T", " à ").slice(0, 18) : "—";
+    var c3 = el("span", "chip"); c3.appendChild(document.createTextNode("🔄 Mis à jour : ")); c3.appendChild(el("b", null, heure));
+    m.appendChild(c1); m.appendChild(c2); m.appendChild(c3);
+  }
+
+  function filtres(){
+    var box = document.getElementById("filters");
+    box.textContent = "";
+    var ligues = ["Tous"];
+    data.matchs.forEach(function(m){
+      var n = m.drapeau + " " + m.ligue;
+      if (ligues.indexOf(n) < 0) ligues.push(n);
+    });
+    if (ligues.indexOf(filtre) < 0) filtre = "Tous";
+    if (ligues.length < 3) { return; }
+    ligues.forEach(function(n){
+      var b = el("button", n === filtre ? "on" : "", n);
+      b.onclick = function(){ filtre = n; render(); };
+      box.appendChild(b);
+    });
+  }
+
+  function panelDC(m){
+    var p = el("div", "panel dc");
+    if (!m.double_chance){ p.appendChild(el("p", "note", "Cotes double chance indisponibles pour ce match.")); return p; }
+    var noms = {"1X":"Domicile ou nul","X2":"Nul ou extérieur","12":"Pas de nul"};
+    m.double_chance.forEach(function(d){
+      var row = el("div", "dcrow");
+      row.appendChild(el("div", "dcname", d.pari));
+      var r = el("div");
+      var top = el("div", "dcmain");
+      var left = el("div");
+      var cote = el("span", "cote", isNaN(Number(d.cote)) ? d.cote : Number(d.cote).toFixed(2));
+      left.appendChild(cote);
+      if (d.feu) left.appendChild(el("span", "fire", "🔥 cote basse"));
+      top.appendChild(left);
+      top.appendChild(el("span", "lbl", noms[d.pari] || ""));
+      r.appendChild(top);
+      if (d.modele !== null && d.modele !== undefined){
+        var bar = el("div", "bar"); var i = el("i"); i.style.width = Math.max(0, Math.min(100, d.modele)) + "%"; bar.appendChild(i);
+        r.appendChild(bar);
+        r.appendChild(el("div", "lbl", "🤖 Modèle : " + d.modele + " %"));
+      }
+      row.appendChild(r);
+      p.appendChild(row);
+    });
+    return p;
+  }
+
+  function panelMises(m){
+    var p = el("div", "panel");
+    if (!m.paires || !m.paires.length){
+      p.appendChild(el("p", "note", "Aucune répartition entre " + data.mise[0] + " et " + data.mise[1] + " F avec un gain d'au moins " + data.gain_min + " F pour ce match."));
+      return p;
+    }
+    p.appendChild(el("p", "note", "Mise totale " + data.mise[0] + "–" + data.mise[1] + " F · gain minimum " + data.gain_min + " F. Jouez chaque mise sur un compte différent."));
+    p.lastChild.style.marginBottom = "12px";
+    m.paires.forEach(function(x){
+      var box = el("div", "pair");
+      var h = el("div", "ph");
+      h.appendChild(el("b", null, "✅ " + x.paire));
+      h.appendChild(el("span", null, "Total " + x.total + " F · gain min +" + fmt(x.gain_min) + " F"));
+      box.appendChild(h);
+      x.comptes.forEach(function(c){
+        var a = el("div", "acc");
+        var w = el("div", "who");
+        w.appendChild(document.createTextNode("Compte " + c.compte + " : " + c.sur));
+        w.appendChild(el("small", null, "cote " + c.cote + " · reçu " + fmt(c.recu) + " F si ça passe"));
+        a.appendChild(w);
+        var amt = el("div", "amt", c.mise + " F");
+        var g = el("div", "pos", "+" + fmt(c.gain) + " F"); g.style.fontSize = "12.5px"; g.style.textAlign = "right";
+        var col = el("div"); col.appendChild(amt); col.appendChild(g);
+        a.appendChild(col);
+        box.appendChild(a);
+      });
+      box.appendChild(el("div", "loss", "Si " + x.perte_si + " : perte de −" + x.perte + " F"));
+      if (x.proba !== null && x.proba !== undefined)
+        box.appendChild(el("div", "proba", "🤖 Chance que ça passe (modèle) : " + x.proba + " %"));
+      p.appendChild(box);
+    });
+    return p;
+  }
+
+  function panelAnalyse(m){
+    var p = el("div", "panel");
+    if (!m.analyse || !m.analyse.length){ p.appendChild(el("p", "note", "Analyse indisponible pour ce match.")); return p; }
+    m.analyse.forEach(function(s, i){
+      var d = el("details");
+      if (i < 2) d.open = true;
+      d.appendChild(el("summary", null, s.titre));
+      var b = el("div", "body");
+      s.lignes.forEach(function(l){ b.appendChild(el("div", null, l)); });
+      d.appendChild(b);
+      p.appendChild(d);
+    });
+    return p;
+  }
+
+  function carte(m){
+    var c = el("article", "card");
+    var h = el("div", "mh");
+    h.appendChild(el("span", null, m.drapeau + " " + m.ligue));
+    h.appendChild(el("span", "time", "🕒 " + m.heure));
+    c.appendChild(h);
+    var t = el("div", "teams");
+    t.appendChild(el("span", null, m.equipe1));
+    t.appendChild(el("span", "vs", "contre"));
+    t.appendChild(el("span", null, m.equipe2));
+    c.appendChild(t);
+    if (m.cotes_1x2){
+      var o = el("div", "odds");
+      [["1", m.cotes_1x2["1"]], ["X", m.cotes_1x2["X"]], ["2", m.cotes_1x2["2"]]].forEach(function(x){
+        var d = el("div", "odd"); d.appendChild(el("small", null, x[0])); d.appendChild(el("b", null, Number(x[1]).toFixed(2)));
+        o.appendChild(d);
+      });
+      c.appendChild(o);
+    }
+    var panels = [panelDC(m), panelMises(m), panelAnalyse(m)];
+    var noms = ["Double chance", "Mises", "Analyse"];
+    var tabs = el("div", "tabs");
+    panels.forEach(function(pn, i){
+      var b = el("button", i === 0 ? "on" : "", noms[i]);
+      b.onclick = function(){
+        Array.prototype.forEach.call(tabs.children, function(x, j){ x.classList.toggle("on", j === i); panels[j].classList.toggle("on", j === i); });
+      };
+      tabs.appendChild(b);
+    });
+    panels[0].classList.add("on");
+    c.appendChild(tabs);
+    panels.forEach(function(pn){ c.appendChild(pn); });
+    return c;
+  }
+
+  function render(){
+    meta(); filtres();
+    var liste = document.getElementById("liste");
+    liste.textContent = "";
+    var ms = data.matchs.filter(function(m){ return filtre === "Tous" || (m.drapeau + " " + m.ligue) === filtre; });
+    if (!ms.length){
+      var e = el("div", "empty");
+      e.appendChild(el("big", null, "😴"));
+      e.appendChild(document.createTextNode("Aucun match betPawa à afficher pour le moment."));
+      liste.appendChild(e);
+      return;
+    }
+    ms.forEach(function(m){ liste.appendChild(carte(m)); });
+  }
+
+  function charger(){
+    fetch("data.json?t=" + Date.now(), {cache: "no-store"})
+      .then(function(r){ return r.json(); })
+      .then(function(d){ data = d; render(); })
+      .catch(function(){
+        if (!data) {
+          var l = document.getElementById("liste"); l.textContent = "";
+          var e = el("div", "empty"); e.appendChild(el("big", null, "⚠️")); e.appendChild(document.createTextNode("Impossible de charger les données. Réessayez dans un instant."));
+          l.appendChild(e);
+        }
+      });
+  }
+  charger();
+  setInterval(charger, 5 * 60 * 1000);
+})();
+</script>
+</body>
+</html>
