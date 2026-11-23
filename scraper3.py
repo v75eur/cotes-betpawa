@@ -163,7 +163,7 @@ def communs(rows, a, b, auj):
             if d >= depuis:
                 dic.setdefault(vue(r, t)[3], []).append((d, r))
     com = [o for o in oa if o in ob and o not in (a, b)]
-    com.sort(key=lambda o: -max(oa[o][-1][0], ob[o][-1][0]))
+    com.sort(key=lambda o: max(oa[o][-1][0], ob[o][-1][0]), reverse=True)
     return com, oa, ob
 
 def diff_moy(dic, t, com):
