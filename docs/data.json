@@ -1,7 +1,7 @@
 {
  "source": "betPawa Bénin",
  "jour": "Lundi 23/11/2026",
- "maj": "2026-11-23T11:02+01:00",
+ "maj": "2026-11-23T12:01+01:00",
  "mise": [
   150,
   200
@@ -17,26 +17,26 @@
    "equipe1": "AC Monza",
    "equipe2": "ACF Fiorentina",
    "cotes_1x2": {
-    "1": 3.59,
-    "X": 3.81,
-    "2": 1.96
+    "1": 3.66,
+    "X": 3.85,
+    "2": 1.93
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.79",
+     "cote": "1.82",
      "feu": false,
      "modele": 57
     },
     {
      "pari": "X2",
-     "cote": "1.31",
+     "cote": "1.30",
      "feu": false,
      "modele": 65
     },
     {
      "pari": "12",
-     "cote": "1.29",
+     "cote": "1.28",
      "feu": false,
      "modele": 79
     }
@@ -45,23 +45,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 126.4,
+     "gain_min": 131.1,
      "comptes": [
       {
        "compte": 1,
        "mise": 77,
        "sur": "AC Monza",
-       "cote": 3.59,
-       "recu": 276.4,
-       "gain": 126.4
+       "cote": 3.66,
+       "recu": 281.8,
+       "gain": 131.8
       },
       {
        "compte": 2,
        "mise": 73,
        "sur": "Nul",
-       "cote": 3.81,
-       "recu": 278.1,
-       "gain": 128.1
+       "cote": 3.85,
+       "recu": 281.1,
+       "gain": 131.1
       }
      ],
      "perte_si": "ACF Fiorentina",
@@ -71,23 +71,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 44.0,
+     "gain_min": 42.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 51,
+       "mise": 50,
        "sur": "Nul",
-       "cote": 3.81,
-       "recu": 194.3,
-       "gain": 44.3
+       "cote": 3.85,
+       "recu": 192.5,
+       "gain": 42.5
       },
       {
        "compte": 2,
-       "mise": 99,
+       "mise": 100,
        "sur": "ACF Fiorentina",
-       "cote": 1.96,
-       "recu": 194.0,
-       "gain": 44.0
+       "cote": 1.93,
+       "recu": 193.0,
+       "gain": 43.0
       }
      ],
      "perte_si": "AC Monza",
@@ -97,23 +97,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 40.1,
+     "gain_min": 39.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 53,
+       "mise": 52,
        "sur": "AC Monza",
-       "cote": 3.59,
+       "cote": 3.66,
        "recu": 190.3,
        "gain": 40.3
       },
       {
        "compte": 2,
-       "mise": 97,
+       "mise": 98,
        "sur": "ACF Fiorentina",
-       "cote": 1.96,
-       "recu": 190.1,
-       "gain": 40.1
+       "cote": 1.93,
+       "recu": 189.1,
+       "gain": 39.1
       }
      ],
      "perte_si": "Nul",
