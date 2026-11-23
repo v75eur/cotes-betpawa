@@ -1,7 +1,7 @@
 {
  "source": "betPawa Bénin",
  "jour": "Lundi 23/11/2026",
- "maj": "2026-11-23T17:02+01:00",
+ "maj": "2026-11-23T18:01+01:00",
  "mise": [
   150,
   200
@@ -17,14 +17,14 @@
    "equipe1": "AC Monza",
    "equipe2": "ACF Fiorentina",
    "cotes_1x2": {
-    "1": 3.79,
-    "X": 3.72,
-    "2": 1.93
+    "1": 3.8,
+    "X": 3.75,
+    "2": 1.92
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.82",
+     "cote": "1.83",
      "feu": false,
      "modele": 57
     },
@@ -32,7 +32,7 @@
      "pari": "X2",
      "cote": "1.28",
      "feu": false,
-     "modele": 65
+     "modele": 64
     },
     {
      "pari": "12",
@@ -45,49 +45,49 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 130.5,
+     "gain_min": 131.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 74,
+       "mise": 75,
        "sur": "AC Monza",
-       "cote": 3.79,
-       "recu": 280.5,
-       "gain": 130.5
+       "cote": 3.8,
+       "recu": 285.0,
+       "gain": 135.0
       },
       {
        "compte": 2,
-       "mise": 76,
+       "mise": 75,
        "sur": "Nul",
-       "cote": 3.72,
-       "recu": 282.7,
-       "gain": 132.7
+       "cote": 3.75,
+       "recu": 281.2,
+       "gain": 131.2
       }
      ],
      "perte_si": "ACF Fiorentina",
      "perte": 150,
-     "proba": 54
+     "proba": 55
     },
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 39.7,
+     "gain_min": 40.1,
      "comptes": [
       {
        "compte": 1,
        "mise": 51,
        "sur": "Nul",
-       "cote": 3.72,
-       "recu": 189.7,
-       "gain": 39.7
+       "cote": 3.75,
+       "recu": 191.2,
+       "gain": 41.2
       },
       {
        "compte": 2,
        "mise": 99,
        "sur": "ACF Fiorentina",
-       "cote": 1.93,
-       "recu": 191.1,
-       "gain": 41.1
+       "cote": 1.92,
+       "recu": 190.1,
+       "gain": 40.1
       }
      ],
      "perte_si": "AC Monza",
@@ -97,23 +97,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 41.1,
+     "gain_min": 40.0,
      "comptes": [
       {
        "compte": 1,
-       "mise": 51,
+       "mise": 50,
        "sur": "AC Monza",
-       "cote": 3.79,
-       "recu": 193.3,
-       "gain": 43.3
+       "cote": 3.8,
+       "recu": 190.0,
+       "gain": 40.0
       },
       {
        "compte": 2,
-       "mise": 99,
+       "mise": 100,
        "sur": "ACF Fiorentina",
-       "cote": 1.93,
-       "recu": 191.1,
-       "gain": 41.1
+       "cote": 1.92,
+       "recu": 192.0,
+       "gain": 42.0
       }
      ],
      "perte_si": "Nul",
@@ -132,26 +132,26 @@
     {
      "titre": "🎯 PREVISION DU MODELE",
      "lignes": [
-      "Buts attendus: 1.78 - 1.98",
-      "1 35% │ X 21% │ 2 43%",
-      "1X 57% │ X2 65% │ 12 79%",
-      "+1.5 buts 89% │ +2.5 72% │ +3.5 52%",
-      "Les 2 equipes marquent: 72%",
+      "Buts attendus: 1.77 - 1.94",
+      "1 36% │ X 21% │ 2 43%",
+      "1X 57% │ X2 64% │ 12 79%",
+      "+1.5 buts 89% │ +2.5 72% │ +3.5 51%",
+      "Les 2 equipes marquent: 71%",
       "Scores probables: 1-1 (8%), 1-2 (8%), 2-1 (7%)"
      ]
     },
     {
      "titre": "⚔️ ATTAQUE",
      "lignes": [
-      "Monza: force x1.11 · 1.5 buts/m · 12.5 tirs (5.2 cadres) · dom: 1.8 buts/m",
-      "Fiorentina: force x1.00 · 1.8 buts/m · 15.0 tirs (4.7 cadres) · ext: 2.0 buts/m"
+      "Monza: force x1.10 · 1.5 buts/m · 12.5 tirs (5.2 cadres) · dom: 1.8 buts/m",
+      "Fiorentina: force x0.99 · 1.8 buts/m · 15.0 tirs (4.7 cadres) · ext: 2.0 buts/m"
      ]
     },
     {
      "titre": "🛡️ DEFENSE (sous x1.00 = solide)",
      "lignes": [
-      "Monza: force x1.50 · 2.2 enc./m · 6.3 cadres subis · 1 clean sheet(s)/6 · dom: 1.8 enc./m",
-      "Fiorentina: force x1.13 · 2.2 enc./m · 6.0 cadres subis · 0 clean sheet(s)/6 · ext: 2.4 enc./m"
+      "Monza: force x1.49 · 2.2 enc./m · 6.3 cadres subis · 1 clean sheet(s)/6 · dom: 1.8 enc./m",
+      "Fiorentina: force x1.11 · 2.2 enc./m · 6.0 cadres subis · 0 clean sheet(s)/6 · ext: 2.4 enc./m"
      ]
     },
     {
@@ -248,7 +248,7 @@
      "pari": "1X",
      "cote": "1.39",
      "feu": false,
-     "modele": 75
+     "modele": 76
     },
     {
      "pari": "X2",
@@ -314,7 +314,7 @@
      ],
      "perte_si": "Brentford FC",
      "perte": 150,
-     "proba": 52
+     "proba": 51
     },
     {
      "paire": "12",
@@ -347,26 +347,26 @@
     {
      "titre": "📍 CONTEXTE",
      "lignes": [
-      "Brentford: 8e/20 · 14 pts en 10 m · diff +5 · repos 15 j",
-      "Everton: 6e/20 · 16 pts en 10 m · diff +2 · repos 17 j"
+      "Brentford: 10e/20 · 14 pts en 10 m · diff +5 · repos 15 j",
+      "Everton: 7e/20 · 16 pts en 10 m · diff +2 · repos 17 j"
      ]
     },
     {
      "titre": "🎯 PREVISION DU MODELE",
      "lignes": [
-      "Buts attendus: 1.51 - 0.98",
-      "1 50% │ X 26% │ 2 25%",
-      "1X 75% │ X2 50% │ 12 74%",
-      "+1.5 buts 71% │ +2.5 46% │ +3.5 24%",
-      "Les 2 equipes marquent: 49%",
-      "Scores probables: 1-0 (12%), 1-1 (12%), 2-0 (9%)"
+      "Buts attendus: 1.52 - 0.96",
+      "1 50% │ X 26% │ 2 24%",
+      "1X 76% │ X2 50% │ 12 74%",
+      "+1.5 buts 71% │ +2.5 45% │ +3.5 24%",
+      "Les 2 equipes marquent: 48%",
+      "Scores probables: 1-0 (13%), 1-1 (12%), 2-0 (10%)"
      ]
     },
     {
      "titre": "⚔️ ATTAQUE",
      "lignes": [
       "Brentford: force x1.11 · 1.5 buts/m · 10.5 tirs (3.2 cadres) · dom: 2.0 buts/m",
-      "Everton: force x0.90 · 1.2 buts/m · 13.5 tirs (4.8 cadres) · ext: 0.8 buts/m"
+      "Everton: force x0.89 · 1.2 buts/m · 13.5 tirs (4.8 cadres) · ext: 0.8 buts/m"
      ]
     },
     {
@@ -393,25 +393,25 @@
     {
      "titre": "📈 FORME Brentford (6 derniers, niveau de l'adversaire)",
      "lignes": [
-      "V 3-0 dom vs Chelsea (fort)",
+      "V 3-0 dom vs Chelsea (moyen)",
       "N 2-2 ext vs Aston Villa (moyen)",
       "D 1-2 dom vs Liverpool (fort)",
-      "N 1-1 ext vs Hull (moyen)",
+      "N 1-1 ext vs Hull (fort)",
       "V 2-0 dom vs Nott'm Forest (moyen)",
       "D 0-2 ext vs Brighton (fort)",
-      "Bilan: forts: 3 pts/3 m · moyens: 5 pts/3 m"
+      "Bilan: forts: 1 pts/3 m · moyens: 7 pts/3 m"
      ]
     },
     {
      "titre": "📈 FORME Everton (6 derniers, niveau de l'adversaire)",
      "lignes": [
       "V 1-0 dom vs Ipswich (faible)",
-      "N 2-2 ext vs Hull (moyen)",
-      "D 0-2 dom vs Chelsea (fort)",
+      "N 2-2 ext vs Hull (fort)",
+      "D 0-2 dom vs Chelsea (moyen)",
       "D 0-2 ext vs Arsenal (fort)",
       "V 1-0 ext vs Newcastle (moyen)",
       "V 3-1 dom vs Coventry (faible)",
-      "Bilan: forts: 0 pts/2 m · moyens: 4 pts/2 m · faibles: 6 pts/2 m"
+      "Bilan: forts: 1 pts/2 m · moyens: 3 pts/2 m · faibles: 6 pts/2 m"
      ]
     },
     {
@@ -446,7 +446,7 @@
     {
      "titre": "🧠 LECTURE",
      "lignes": [
-      "• Pas de favori net",
+      "• Le modele voit Brentford favori",
       "• Meilleure attaque: Brentford",
       "• Everton domine le jeu (tirs et corners)",
       "• Nombre de buts moyen attendu",
@@ -464,25 +464,25 @@
    "equipe2": "Elche CF",
    "cotes_1x2": {
     "1": 2.15,
-    "X": 3.61,
-    "2": 3.25
+    "X": 3.65,
+    "2": 3.22
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.35",
+     "cote": "1.36",
      "feu": false,
-     "modele": 72
+     "modele": 71
     },
     {
      "pari": "X2",
      "cote": "1.68",
      "feu": false,
-     "modele": 52
+     "modele": 53
     },
     {
      "pari": "12",
-     "cote": "1.31",
+     "cote": "1.30",
      "feu": false,
      "modele": 76
     }
@@ -505,9 +505,9 @@
        "compte": 2,
        "mise": 56,
        "sur": "Nul",
-       "cote": 3.61,
-       "recu": 202.2,
-       "gain": 52.2
+       "cote": 3.65,
+       "recu": 204.4,
+       "gain": 54.4
       }
      ],
      "perte_si": "Elche CF",
@@ -517,23 +517,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 106.3,
+     "gain_min": 105.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 71,
+       "mise": 70,
        "sur": "Nul",
-       "cote": 3.61,
-       "recu": 256.3,
-       "gain": 106.3
+       "cote": 3.65,
+       "recu": 255.5,
+       "gain": 105.5
       },
       {
        "compte": 2,
-       "mise": 79,
+       "mise": 80,
        "sur": "Elche CF",
-       "cote": 3.25,
-       "recu": 256.8,
-       "gain": 106.8
+       "cote": 3.22,
+       "recu": 257.6,
+       "gain": 107.6
       }
      ],
      "perte_si": "Levante UD",
@@ -543,7 +543,7 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 43.5,
+     "gain_min": 43.2,
      "comptes": [
       {
        "compte": 1,
@@ -557,9 +557,9 @@
        "compte": 2,
        "mise": 60,
        "sur": "Elche CF",
-       "cote": 3.25,
-       "recu": 195.0,
-       "gain": 45.0
+       "cote": 3.22,
+       "recu": 193.2,
+       "gain": 43.2
       }
      ],
      "perte_si": "Nul",
@@ -571,18 +571,18 @@
     {
      "titre": "📍 CONTEXTE",
      "lignes": [
-      "Levante: 17e/20 · 11 pts en 12 m · diff -5 · repos 15 j",
-      "Elche: 18e/20 · 10 pts en 12 m · diff -6 · repos 15 j"
+      "Levante: 18e/20 · 11 pts en 12 m · diff -5 · repos 15 j",
+      "Elche: 19e/20 · 10 pts en 12 m · diff -6 · repos 15 j"
      ]
     },
     {
      "titre": "🎯 PREVISION DU MODELE",
      "lignes": [
-      "Buts attendus: 1.67 - 1.23",
-      "1 48% │ X 24% │ 2 28%",
-      "1X 72% │ X2 52% │ 12 76%",
+      "Buts attendus: 1.66 - 1.24",
+      "1 47% │ X 24% │ 2 29%",
+      "1X 71% │ X2 53% │ 12 76%",
       "+1.5 buts 79% │ +2.5 55% │ +3.5 33%",
-      "Les 2 equipes marquent: 57%",
+      "Les 2 equipes marquent: 58%",
       "Scores probables: 1-1 (11%), 2-1 (9%), 1-0 (9%)"
      ]
     },
@@ -629,13 +629,13 @@
     {
      "titre": "📈 FORME Elche (6 derniers, niveau de l'adversaire)",
      "lignes": [
-      "V 3-1 ext vs Espanol (faible)",
+      "V 3-1 ext vs Espanol (moyen)",
       "N 0-0 dom vs Celta (fort)",
       "N 0-0 ext vs Villarreal (fort)",
       "V 3-0 ext vs Vallecano (moyen)",
       "D 0-1 dom vs Valencia (faible)",
       "D 0-2 dom vs Betis (fort)",
-      "Bilan: forts: 2 pts/3 m · moyens: 3 pts/1 m · faibles: 3 pts/2 m"
+      "Bilan: forts: 2 pts/3 m · moyens: 6 pts/2 m · faibles: 0 pts/1 m"
      ]
     },
     {
