@@ -1,12 +1,2499 @@
 {
  "source": "betPawa Bénin",
  "jour": "Mercredi 25/11/2026",
- "maj": "2026-11-25T18:02+01:00",
+ "maj": "2026-11-25T18:43+01:00",
  "mise": [
   150,
   200
  ],
  "gain_min": 20,
  "seuil_feu": 1.2,
- "matchs": []
+ "matchs": [
+  {
+   "date": "25/11",
+   "heure": "18:45",
+   "pays": "International",
+   "drapeau": "🌍",
+   "ligue": "UEFA Champions League",
+   "equipe1": "Slavia Prague",
+   "equipe2": "Villarreal CF",
+   "cotes_1x2": {
+    "1": 2.74,
+    "X": 3.59,
+    "2": 2.46
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.54",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.45",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.31",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 82.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 85,
+       "sur": "Slavia Prague",
+       "cote": 2.74,
+       "recu": 232.9,
+       "gain": 82.9
+      },
+      {
+       "compte": 2,
+       "mise": 65,
+       "sur": "Nul",
+       "cote": 3.59,
+       "recu": 233.3,
+       "gain": 83.3
+      }
+     ],
+     "perte_si": "Villarreal CF",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 68.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 61,
+       "sur": "Nul",
+       "cote": 3.59,
+       "recu": 219.0,
+       "gain": 69.0
+      },
+      {
+       "compte": 2,
+       "mise": 89,
+       "sur": "Villarreal CF",
+       "cote": 2.46,
+       "recu": 218.9,
+       "gain": 68.9
+      }
+     ],
+     "perte_si": "Slavia Prague",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 44.3,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 71,
+       "sur": "Slavia Prague",
+       "cote": 2.74,
+       "recu": 194.5,
+       "gain": 44.5
+      },
+      {
+       "compte": 2,
+       "mise": 79,
+       "sur": "Villarreal CF",
+       "cote": 2.46,
+       "recu": 194.3,
+       "gain": 44.3
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "18:45",
+   "pays": "International",
+   "drapeau": "🌍",
+   "ligue": "UEFA Champions League",
+   "equipe1": "Sabah Masazir",
+   "equipe2": "FC Barcelona",
+   "cotes_1x2": {
+    "1": 33.79,
+    "X": 16.71,
+    "2": 1.04
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "6.85",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.02",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.03",
+     "feu": true,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 1521.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 50,
+       "sur": "Sabah Masazir",
+       "cote": 33.79,
+       "recu": 1689.5,
+       "gain": 1539.5
+      },
+      {
+       "compte": 2,
+       "mise": 100,
+       "sur": "Nul",
+       "cote": 16.71,
+       "recu": 1671.0,
+       "gain": 1521.0
+      }
+     ],
+     "perte_si": "FC Barcelona",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "19:00",
+   "pays": "Brazil",
+   "drapeau": "🌍",
+   "ligue": "U20 Carioca, Serie A2",
+   "equipe1": "Olaria AC RJ U20",
+   "equipe2": "Resende FC RJ U20",
+   "cotes_1x2": {
+    "1": 2.33,
+    "X": 3.0,
+    "2": 2.8
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.34",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.46",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.30",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 45.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 84,
+       "sur": "Olaria AC RJ U20",
+       "cote": 2.33,
+       "recu": 195.7,
+       "gain": 45.7
+      },
+      {
+       "compte": 2,
+       "mise": 66,
+       "sur": "Nul",
+       "cote": 3.0,
+       "recu": 198.0,
+       "gain": 48.0
+      }
+     ],
+     "perte_si": "Resende FC RJ U20",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 66.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 72,
+       "sur": "Nul",
+       "cote": 3.0,
+       "recu": 216.0,
+       "gain": 66.0
+      },
+      {
+       "compte": 2,
+       "mise": 78,
+       "sur": "Resende FC RJ U20",
+       "cote": 2.8,
+       "recu": 218.4,
+       "gain": 68.4
+      }
+     ],
+     "perte_si": "Olaria AC RJ U20",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 40.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 82,
+       "sur": "Olaria AC RJ U20",
+       "cote": 2.33,
+       "recu": 191.1,
+       "gain": 41.1
+      },
+      {
+       "compte": 2,
+       "mise": 68,
+       "sur": "Resende FC RJ U20",
+       "cote": 2.8,
+       "recu": 190.4,
+       "gain": 40.4
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "19:00",
+   "pays": "Brazil",
+   "drapeau": "🌍",
+   "ligue": "U20 Carioca, Serie A2",
+   "equipe1": "Americano RJ U20",
+   "equipe2": "America FC RJ U20",
+   "cotes_1x2": {
+    "1": 2.18,
+    "X": 3.29,
+    "2": 2.8
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.34",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.51",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.26",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 46.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 90,
+       "sur": "Americano RJ U20",
+       "cote": 2.18,
+       "recu": 196.2,
+       "gain": 46.2
+      },
+      {
+       "compte": 2,
+       "mise": 60,
+       "sur": "Nul",
+       "cote": 3.29,
+       "recu": 197.4,
+       "gain": 47.4
+      }
+     ],
+     "perte_si": "America FC RJ U20",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 76.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 69,
+       "sur": "Nul",
+       "cote": 3.29,
+       "recu": 227.0,
+       "gain": 77.0
+      },
+      {
+       "compte": 2,
+       "mise": 81,
+       "sur": "America FC RJ U20",
+       "cote": 2.8,
+       "recu": 226.8,
+       "gain": 76.8
+      }
+     ],
+     "perte_si": "Americano RJ U20",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 33.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 84,
+       "sur": "Americano RJ U20",
+       "cote": 2.18,
+       "recu": 183.1,
+       "gain": 33.1
+      },
+      {
+       "compte": 2,
+       "mise": 66,
+       "sur": "America FC RJ U20",
+       "cote": 2.8,
+       "recu": 184.8,
+       "gain": 34.8
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "19:00",
+   "pays": "Egypt",
+   "drapeau": "🌍",
+   "ligue": "Premier League",
+   "equipe1": "Al Sharqiya Enppi",
+   "equipe2": "Ceramica Cleopatra",
+   "cotes_1x2": {
+    "1": 3.51,
+    "X": 3.08,
+    "2": 2.13
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.61",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.28",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.34",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 95.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 70,
+       "sur": "Al Sharqiya Enppi",
+       "cote": 3.51,
+       "recu": 245.7,
+       "gain": 95.7
+      },
+      {
+       "compte": 2,
+       "mise": 80,
+       "sur": "Nul",
+       "cote": 3.08,
+       "recu": 246.4,
+       "gain": 96.4
+      }
+     ],
+     "perte_si": "Ceramica Cleopatra",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 37.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 61,
+       "sur": "Nul",
+       "cote": 3.08,
+       "recu": 187.9,
+       "gain": 37.9
+      },
+      {
+       "compte": 2,
+       "mise": 89,
+       "sur": "Ceramica Cleopatra",
+       "cote": 2.13,
+       "recu": 189.6,
+       "gain": 39.6
+      }
+     ],
+     "perte_si": "Al Sharqiya Enppi",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 48.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 57,
+       "sur": "Al Sharqiya Enppi",
+       "cote": 3.51,
+       "recu": 200.1,
+       "gain": 50.1
+      },
+      {
+       "compte": 2,
+       "mise": 93,
+       "sur": "Ceramica Cleopatra",
+       "cote": 2.13,
+       "recu": 198.1,
+       "gain": 48.1
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "19:00",
+   "pays": "Egypt",
+   "drapeau": "🌍",
+   "ligue": "Premier League",
+   "equipe1": "Ghazl El Mahallah",
+   "equipe2": "Suez Petrojet",
+   "cotes_1x2": {
+    "1": 3.04,
+    "X": 2.84,
+    "2": 2.51
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.46",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.35",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.38",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 68.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 72,
+       "sur": "Ghazl El Mahallah",
+       "cote": 3.04,
+       "recu": 218.9,
+       "gain": 68.9
+      },
+      {
+       "compte": 2,
+       "mise": 78,
+       "sur": "Nul",
+       "cote": 2.84,
+       "recu": 221.5,
+       "gain": 71.5
+      }
+     ],
+     "perte_si": "Suez Petrojet",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 48.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 70,
+       "sur": "Nul",
+       "cote": 2.84,
+       "recu": 198.8,
+       "gain": 48.8
+      },
+      {
+       "compte": 2,
+       "mise": 80,
+       "sur": "Suez Petrojet",
+       "cote": 2.51,
+       "recu": 200.8,
+       "gain": 50.8
+      }
+     ],
+     "perte_si": "Ghazl El Mahallah",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 55.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 68,
+       "sur": "Ghazl El Mahallah",
+       "cote": 3.04,
+       "recu": 206.7,
+       "gain": 56.7
+      },
+      {
+       "compte": 2,
+       "mise": 82,
+       "sur": "Suez Petrojet",
+       "cote": 2.51,
+       "recu": 205.8,
+       "gain": 55.8
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "19:00",
+   "pays": "Italy",
+   "drapeau": "🇮🇹",
+   "ligue": "Serie B",
+   "equipe1": "US Cremonese",
+   "equipe2": "US Avellino",
+   "cotes_1x2": {
+    "1": 1.89,
+    "X": 3.38,
+    "2": 4.24
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.24",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.84",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.33",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 31.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 96,
+       "sur": "US Cremonese",
+       "cote": 1.89,
+       "recu": 181.4,
+       "gain": 31.4
+      },
+      {
+       "compte": 2,
+       "mise": 54,
+       "sur": "Nul",
+       "cote": 3.38,
+       "recu": 182.5,
+       "gain": 32.5
+      }
+     ],
+     "perte_si": "US Avellino",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 130.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 83,
+       "sur": "Nul",
+       "cote": 3.38,
+       "recu": 280.5,
+       "gain": 130.5
+      },
+      {
+       "compte": 2,
+       "mise": 67,
+       "sur": "US Avellino",
+       "cote": 4.24,
+       "recu": 284.1,
+       "gain": 134.1
+      }
+     ],
+     "perte_si": "US Cremonese",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 45.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 104,
+       "sur": "US Cremonese",
+       "cote": 1.89,
+       "recu": 196.6,
+       "gain": 46.6
+      },
+      {
+       "compte": 2,
+       "mise": 46,
+       "sur": "US Avellino",
+       "cote": 4.24,
+       "recu": 195.0,
+       "gain": 45.0
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Equipe non reconnue par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "19:00",
+   "pays": "Spain",
+   "drapeau": "🇪🇸",
+   "ligue": "Copa de SM La Reina",
+   "equipe1": "Sporting de Huelva Women",
+   "equipe2": "FC Badalona Women",
+   "cotes_1x2": {
+    "1": 5.74,
+    "X": 4.68,
+    "2": 1.42
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "2.39",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.13",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.18",
+     "feu": true,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 234.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 67,
+       "sur": "Sporting de Huelva Women",
+       "cote": 5.74,
+       "recu": 384.6,
+       "gain": 234.6
+      },
+      {
+       "compte": 2,
+       "mise": 83,
+       "sur": "Nul",
+       "cote": 4.68,
+       "recu": 388.4,
+       "gain": 238.4
+      }
+     ],
+     "perte_si": "FC Badalona Women",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 20.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 30,
+       "sur": "Sporting de Huelva Women",
+       "cote": 5.74,
+       "recu": 172.2,
+       "gain": 22.2
+      },
+      {
+       "compte": 2,
+       "mise": 120,
+       "sur": "FC Badalona Women",
+       "cote": 1.42,
+       "recu": 170.4,
+       "gain": 20.4
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Equipe non reconnue par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "19:15",
+   "pays": "International",
+   "drapeau": "🌍",
+   "ligue": "AFC Cup",
+   "equipe1": "Al-Taawoun FC",
+   "equipe2": "Al Nahda",
+   "cotes_1x2": {
+    "1": 1.58,
+    "X": 3.92,
+    "2": 4.97
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.17",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "2.08",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.23",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 160,
+     "gain_min": 20.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 114,
+       "sur": "Al-Taawoun FC",
+       "cote": 1.58,
+       "recu": 180.1,
+       "gain": 20.1
+      },
+      {
+       "compte": 2,
+       "mise": 46,
+       "sur": "Nul",
+       "cote": 3.92,
+       "recu": 180.3,
+       "gain": 20.3
+      }
+     ],
+     "perte_si": "Al Nahda",
+     "perte": 160,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 178.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 84,
+       "sur": "Nul",
+       "cote": 3.92,
+       "recu": 329.3,
+       "gain": 179.3
+      },
+      {
+       "compte": 2,
+       "mise": 66,
+       "sur": "Al Nahda",
+       "cote": 4.97,
+       "recu": 328.0,
+       "gain": 178.0
+      }
+     ],
+     "perte_si": "Al-Taawoun FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 28.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 114,
+       "sur": "Al-Taawoun FC",
+       "cote": 1.58,
+       "recu": 180.1,
+       "gain": 30.1
+      },
+      {
+       "compte": 2,
+       "mise": 36,
+       "sur": "Al Nahda",
+       "cote": 4.97,
+       "recu": 178.9,
+       "gain": 28.9
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "19:30",
+   "pays": "Spain",
+   "drapeau": "🇪🇸",
+   "ligue": "Segunda Federacion",
+   "equipe1": "CF Talavera de La Reina",
+   "equipe2": "UB Conquense",
+   "cotes_1x2": {
+    "1": 2.2,
+    "X": 3.07,
+    "2": 3.12
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.31",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.54",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.32",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 41.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 87,
+       "sur": "CF Talavera de La Reina",
+       "cote": 2.2,
+       "recu": 191.4,
+       "gain": 41.4
+      },
+      {
+       "compte": 2,
+       "mise": 63,
+       "sur": "Nul",
+       "cote": 3.07,
+       "recu": 193.4,
+       "gain": 43.4
+      }
+     ],
+     "perte_si": "UB Conquense",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 80.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 76,
+       "sur": "Nul",
+       "cote": 3.07,
+       "recu": 233.3,
+       "gain": 83.3
+      },
+      {
+       "compte": 2,
+       "mise": 74,
+       "sur": "UB Conquense",
+       "cote": 3.12,
+       "recu": 230.9,
+       "gain": 80.9
+      }
+     ],
+     "perte_si": "CF Talavera de La Reina",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 43.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 88,
+       "sur": "CF Talavera de La Reina",
+       "cote": 2.2,
+       "recu": 193.6,
+       "gain": 43.6
+      },
+      {
+       "compte": 2,
+       "mise": 62,
+       "sur": "UB Conquense",
+       "cote": 3.12,
+       "recu": 193.4,
+       "gain": 43.4
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Equipe non reconnue par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "20:00",
+   "pays": "Argentina",
+   "drapeau": "🌍",
+   "ligue": "Liga Profesional, Reserves",
+   "equipe1": "CA Lanus",
+   "equipe2": "CA River Plate (Arg) Reserve",
+   "cotes_1x2": {
+    "1": 2.2,
+    "X": 3.37,
+    "2": 2.71
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.35",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.54",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.23",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 48.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 91,
+       "sur": "CA Lanus",
+       "cote": 2.2,
+       "recu": 200.2,
+       "gain": 50.2
+      },
+      {
+       "compte": 2,
+       "mise": 59,
+       "sur": "Nul",
+       "cote": 3.37,
+       "recu": 198.8,
+       "gain": 48.8
+      }
+     ],
+     "perte_si": "CA River Plate (Arg) Reserve",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 74.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 67,
+       "sur": "Nul",
+       "cote": 3.37,
+       "recu": 225.8,
+       "gain": 75.8
+      },
+      {
+       "compte": 2,
+       "mise": 83,
+       "sur": "CA River Plate (Arg) Reserve",
+       "cote": 2.71,
+       "recu": 224.9,
+       "gain": 74.9
+      }
+     ],
+     "perte_si": "CA Lanus",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 31.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 83,
+       "sur": "CA Lanus",
+       "cote": 2.2,
+       "recu": 182.6,
+       "gain": 32.6
+      },
+      {
+       "compte": 2,
+       "mise": 67,
+       "sur": "CA River Plate (Arg) Reserve",
+       "cote": 2.71,
+       "recu": 181.6,
+       "gain": 31.6
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "20:00",
+   "pays": "El Salvador",
+   "drapeau": "🌍",
+   "ligue": "Primera Division, Reserves, Apertura",
+   "equipe1": "AD Isidro Metapan U20",
+   "equipe2": "CD Fas U20",
+   "cotes_1x2": {
+    "1": 2.43,
+    "X": 3.59,
+    "2": 2.43
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.46",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.46",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.26",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 66.3,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 89,
+       "sur": "AD Isidro Metapan U20",
+       "cote": 2.43,
+       "recu": 216.3,
+       "gain": 66.3
+      },
+      {
+       "compte": 2,
+       "mise": 61,
+       "sur": "Nul",
+       "cote": 3.59,
+       "recu": 219.0,
+       "gain": 69.0
+      }
+     ],
+     "perte_si": "CD Fas U20",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 66.3,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 61,
+       "sur": "Nul",
+       "cote": 3.59,
+       "recu": 219.0,
+       "gain": 69.0
+      },
+      {
+       "compte": 2,
+       "mise": 89,
+       "sur": "CD Fas U20",
+       "cote": 2.43,
+       "recu": 216.3,
+       "gain": 66.3
+      }
+     ],
+     "perte_si": "AD Isidro Metapan U20",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 32.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 75,
+       "sur": "AD Isidro Metapan U20",
+       "cote": 2.43,
+       "recu": 182.2,
+       "gain": 32.2
+      },
+      {
+       "compte": 2,
+       "mise": 75,
+       "sur": "CD Fas U20",
+       "cote": 2.43,
+       "recu": 182.2,
+       "gain": 32.2
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "20:00",
+   "pays": "England",
+   "drapeau": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "ligue": "EFL Trophy",
+   "equipe1": "Fleetwood Town",
+   "equipe2": "Leeds United U21",
+   "cotes_1x2": {
+    "1": 1.51,
+    "X": 4.82,
+    "2": 4.72
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.18",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "2.22",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.18",
+     "feu": true,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 22.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 114,
+       "sur": "Fleetwood Town",
+       "cote": 1.51,
+       "recu": 172.1,
+       "gain": 22.1
+      },
+      {
+       "compte": 2,
+       "mise": 36,
+       "sur": "Nul",
+       "cote": 4.82,
+       "recu": 173.5,
+       "gain": 23.5
+      }
+     ],
+     "perte_si": "Leeds United U21",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 206.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 74,
+       "sur": "Nul",
+       "cote": 4.82,
+       "recu": 356.7,
+       "gain": 206.7
+      },
+      {
+       "compte": 2,
+       "mise": 76,
+       "sur": "Leeds United U21",
+       "cote": 4.72,
+       "recu": 358.7,
+       "gain": 208.7
+      }
+     ],
+     "perte_si": "Fleetwood Town",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 151,
+     "gain_min": 21.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 114,
+       "sur": "Fleetwood Town",
+       "cote": 1.51,
+       "recu": 172.1,
+       "gain": 21.1
+      },
+      {
+       "compte": 2,
+       "mise": 37,
+       "sur": "Leeds United U21",
+       "cote": 4.72,
+       "recu": 174.6,
+       "gain": 23.6
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 151,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Equipe non reconnue par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "20:00",
+   "pays": "England",
+   "drapeau": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "ligue": "National League",
+   "equipe1": "Boreham Wood FC",
+   "equipe2": "Aldershot Town FC",
+   "cotes_1x2": {
+    "1": 1.18,
+    "X": 6.99,
+    "2": 11.57
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.06",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "4.60",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.12",
+     "feu": true,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 497.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 94,
+       "sur": "Nul",
+       "cote": 6.99,
+       "recu": 657.1,
+       "gain": 507.1
+      },
+      {
+       "compte": 2,
+       "mise": 56,
+       "sur": "Aldershot Town FC",
+       "cote": 11.57,
+       "recu": 647.9,
+       "gain": 497.9
+      }
+     ],
+     "perte_si": "Boreham Wood FC",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Equipe non reconnue par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "20:00",
+   "pays": "International",
+   "drapeau": "🌍",
+   "ligue": "UEFA Youth League",
+   "equipe1": "Glasgow Rangers U19",
+   "equipe2": "AZ Alkmaar U19",
+   "cotes_1x2": {
+    "1": 3.08,
+    "X": 3.71,
+    "2": 2.06
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.65",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.33",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.26",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 102.3,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 82,
+       "sur": "Glasgow Rangers U19",
+       "cote": 3.08,
+       "recu": 252.6,
+       "gain": 102.6
+      },
+      {
+       "compte": 2,
+       "mise": 68,
+       "sur": "Nul",
+       "cote": 3.71,
+       "recu": 252.3,
+       "gain": 102.3
+      }
+     ],
+     "perte_si": "AZ Alkmaar U19",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 47.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 54,
+       "sur": "Nul",
+       "cote": 3.71,
+       "recu": 200.3,
+       "gain": 50.3
+      },
+      {
+       "compte": 2,
+       "mise": 96,
+       "sur": "AZ Alkmaar U19",
+       "cote": 2.06,
+       "recu": 197.8,
+       "gain": 47.8
+      }
+     ],
+     "perte_si": "Glasgow Rangers U19",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 34.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 60,
+       "sur": "Glasgow Rangers U19",
+       "cote": 3.08,
+       "recu": 184.8,
+       "gain": 34.8
+      },
+      {
+       "compte": 2,
+       "mise": 90,
+       "sur": "AZ Alkmaar U19",
+       "cote": 2.06,
+       "recu": 185.4,
+       "gain": 35.4
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "20:00",
+   "pays": "Italy",
+   "drapeau": "🇮🇹",
+   "ligue": "Serie B",
+   "equipe1": "Calcio Padova",
+   "equipe2": "Sampdoria Genoa",
+   "cotes_1x2": {
+    "1": 3.24,
+    "X": 3.16,
+    "2": 2.3
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.57",
+     "feu": false,
+     "modele": 59
+    },
+    {
+     "pari": "X2",
+     "cote": "1.36",
+     "feu": false,
+     "modele": 72
+    },
+    {
+     "pari": "12",
+     "cote": "1.37",
+     "feu": false,
+     "modele": 69
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 89.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 74,
+       "sur": "Calcio Padova",
+       "cote": 3.24,
+       "recu": 239.8,
+       "gain": 89.8
+      },
+      {
+       "compte": 2,
+       "mise": 76,
+       "sur": "Nul",
+       "cote": 3.16,
+       "recu": 240.2,
+       "gain": 90.2
+      }
+     ],
+     "perte_si": "Sampdoria Genoa",
+     "perte": 150,
+     "proba": 58
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 49.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 63,
+       "sur": "Nul",
+       "cote": 3.16,
+       "recu": 199.1,
+       "gain": 49.1
+      },
+      {
+       "compte": 2,
+       "mise": 87,
+       "sur": "Sampdoria Genoa",
+       "cote": 2.3,
+       "recu": 200.1,
+       "gain": 50.1
+      }
+     ],
+     "perte_si": "Calcio Padova",
+     "perte": 150,
+     "proba": 73
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 50.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 62,
+       "sur": "Calcio Padova",
+       "cote": 3.24,
+       "recu": 200.9,
+       "gain": 50.9
+      },
+      {
+       "compte": 2,
+       "mise": 88,
+       "sur": "Sampdoria Genoa",
+       "cote": 2.3,
+       "recu": 202.4,
+       "gain": 52.4
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": 70
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "📍 CONTEXTE",
+     "lignes": [
+      "Parma: 17e/20 · 8 pts en 12 m · diff -12 · repos 4 j",
+      "Genoa: 10e/20 · 16 pts en 12 m · diff -3 · repos 3 j"
+     ]
+    },
+    {
+     "titre": "🎯 PREVISION DU MODELE",
+     "lignes": [
+      "Buts attendus: 0.85 - 1.09",
+      "1 28% │ X 31% │ 2 41%",
+      "1X 59% │ X2 72% │ 12 69%",
+      "+1.5 buts 58% │ +2.5 31% │ +3.5 13%",
+      "Les 2 equipes marquent: 38%",
+      "Scores probables: 0-1 (16%), 0-0 (14%), 1-1 (13%)"
+     ]
+    },
+    {
+     "titre": "⚔️ ATTAQUE",
+     "lignes": [
+      "Parma: force x0.64 · 1.0 buts/m · 12.8 tirs (4.2 cadres) · dom: 0.8 buts/m",
+      "Genoa: force x0.83 · 1.3 buts/m · 11.8 tirs (3.3 cadres) · ext: 1.0 buts/m"
+     ]
+    },
+    {
+     "titre": "🛡️ DEFENSE (sous x1.00 = solide)",
+     "lignes": [
+      "Parma: force x1.00 · 2.0 enc./m · 6.3 cadres subis · 2 clean sheet(s)/6 · dom: 2.2 enc./m",
+      "Genoa: force x0.90 · 0.8 enc./m · 5.0 cadres subis · 3 clean sheet(s)/6 · ext: 1.2 enc./m"
+     ]
+    },
+    {
+     "titre": "🎛️ MILIEU / CONTROLE (estime: tirs + corners)",
+     "lignes": [
+      "Parma: 36% du jeu · 3.3 corners/m · -7.5 tirs de plus que l'adversaire",
+      "Genoa: 40% du jeu · 3.3 corners/m · -4.8 tirs de plus que l'adversaire"
+     ]
+    },
+    {
+     "titre": "⚠️ DISCIPLINE (par match)",
+     "lignes": [
+      "Parma: 9.7 fautes · 1.0 jaunes · 0.00 rouges",
+      "Genoa: 9.3 fautes · 1.2 jaunes · 0.00 rouges"
+     ]
+    },
+    {
+     "titre": "📈 FORME Parma (6 derniers, niveau de l'adversaire)",
+     "lignes": [
+      "D 0-3 dom vs Torino (moyen)",
+      "D 1-2 ext vs Lazio (fort)",
+      "N 0-0 dom vs Udinese (moyen)",
+      "V 3-0 ext vs Atalanta (moyen)",
+      "D 1-2 dom vs Bologna (moyen)",
+      "D 1-5 dom vs Roma (fort)",
+      "Bilan: forts: 0 pts/2 m · moyens: 4 pts/4 m"
+     ]
+    },
+    {
+     "titre": "📈 FORME Genoa (6 derniers, niveau de l'adversaire)",
+     "lignes": [
+      "D 0-2 ext vs Roma (fort)",
+      "V 1-0 dom vs Venezia (faible)",
+      "V 2-0 dom vs Juventus (fort)",
+      "V 2-1 ext vs Lecce (faible)",
+      "D 1-2 dom vs Milan (fort)",
+      "V 2-0 ext vs Sassuolo (faible)",
+      "Bilan: forts: 3 pts/3 m · faibles: 9 pts/3 m"
+     ]
+    },
+    {
+     "titre": "🔗 ADVERSAIRES COMMUNS (400 derniers jours)",
+     "lignes": [
+      "vs Sassuolo: Parma V 1-0 dom │ Genoa V 2-0 ext",
+      "vs Roma: Parma D 1-5 dom │ Genoa D 0-2 ext",
+      "vs Milan: Parma V 1-0 ext │ Genoa D 1-2 dom",
+      "vs Bologna: Parma D 1-2 dom │ Genoa V 3-2 dom",
+      "vs Atalanta: Parma V 3-0 ext │ Genoa N 0-0 ext",
+      "Diff. de buts/match vs ces 18 equipes: Parma -0.68 (40 m) │ Genoa -0.18 (39 m)"
+     ]
+    },
+    {
+     "titre": "📊 TENDANCES (8 derniers matchs)",
+     "lignes": [
+      "Parma: +2.5 buts 88% · 2 marquent 50% · clean sheet 25% · sans marquer 38% · buts 1re MT 0.2 / 2e MT 0.8",
+      "Genoa: +2.5 buts 50% · 2 marquent 50% · clean sheet 38% · sans marquer 12% · buts 1re MT 1.1 / 2e MT 0.2"
+     ]
+    },
+    {
+     "titre": "🤝 CONFRONTATIONS DIRECTES",
+     "lignes": [
+      "04/11/24 Parma 0-1 Genoa",
+      "12/01/25 Genoa 1-0 Parma",
+      "19/10/25 Genoa 0-0 Parma",
+      "18/01/26 Parma 0-0 Genoa",
+      "20/09/26 Parma 2-1 Genoa",
+      "Bilan: Parma 1 V │ 2 N │ Genoa 2 V"
+     ]
+    },
+    {
+     "titre": "🧠 LECTURE",
+     "lignes": [
+      "• Pas de favori net",
+      "• Meilleure attaque: Genoa",
+      "• Meilleure forme: Genoa",
+      "• Match ferme (peu de buts attendus)",
+      "• Ignore blessures, compositions et enjeu du match"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "20:00",
+   "pays": "Italy",
+   "drapeau": "🇮🇹",
+   "ligue": "Serie B",
+   "equipe1": "Mantova 1911",
+   "equipe2": "SS Arezzo",
+   "cotes_1x2": {
+    "1": 1.56,
+    "X": 4.12,
+    "2": 5.63
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.17",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "2.26",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.25",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 153,
+     "gain_min": 20.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 111,
+       "sur": "Mantova 1911",
+       "cote": 1.56,
+       "recu": 173.2,
+       "gain": 20.2
+      },
+      {
+       "compte": 2,
+       "mise": 42,
+       "sur": "Nul",
+       "cote": 4.12,
+       "recu": 173.0,
+       "gain": 20.0
+      }
+     ],
+     "perte_si": "SS Arezzo",
+     "perte": 153,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 204.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 87,
+       "sur": "Nul",
+       "cote": 4.12,
+       "recu": 358.4,
+       "gain": 208.4
+      },
+      {
+       "compte": 2,
+       "mise": 63,
+       "sur": "SS Arezzo",
+       "cote": 5.63,
+       "recu": 354.7,
+       "gain": 204.7
+      }
+     ],
+     "perte_si": "Mantova 1911",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 32.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 117,
+       "sur": "Mantova 1911",
+       "cote": 1.56,
+       "recu": 182.5,
+       "gain": 32.5
+      },
+      {
+       "compte": 2,
+       "mise": 33,
+       "sur": "SS Arezzo",
+       "cote": 5.63,
+       "recu": 185.8,
+       "gain": 35.8
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Equipe non reconnue par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "20:00",
+   "pays": "Italy",
+   "drapeau": "🇮🇹",
+   "ligue": "Serie B",
+   "equipe1": "Pisa SC",
+   "equipe2": "Modena FC",
+   "cotes_1x2": {
+    "1": 2.28,
+    "X": 3.39,
+    "2": 3.06
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.38",
+     "feu": false,
+     "modele": 42
+    },
+    {
+     "pari": "X2",
+     "cote": "1.60",
+     "feu": false,
+     "modele": 79
+    },
+    {
+     "pari": "12",
+     "cote": "1.33",
+     "feu": false,
+     "modele": 79
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 53.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 90,
+       "sur": "Pisa SC",
+       "cote": 2.28,
+       "recu": 205.2,
+       "gain": 55.2
+      },
+      {
+       "compte": 2,
+       "mise": 60,
+       "sur": "Nul",
+       "cote": 3.39,
+       "recu": 203.4,
+       "gain": 53.4
+      }
+     ],
+     "perte_si": "Modena FC",
+     "perte": 150,
+     "proba": 45
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 90.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 71,
+       "sur": "Nul",
+       "cote": 3.39,
+       "recu": 240.7,
+       "gain": 90.7
+      },
+      {
+       "compte": 2,
+       "mise": 79,
+       "sur": "Modena FC",
+       "cote": 3.06,
+       "recu": 241.7,
+       "gain": 91.7
+      }
+     ],
+     "perte_si": "Pisa SC",
+     "perte": 150,
+     "proba": 78
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 45.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 86,
+       "sur": "Pisa SC",
+       "cote": 2.28,
+       "recu": 196.1,
+       "gain": 46.1
+      },
+      {
+       "compte": 2,
+       "mise": 64,
+       "sur": "Modena FC",
+       "cote": 3.06,
+       "recu": 195.8,
+       "gain": 45.8
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": 78
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "📍 CONTEXTE",
+     "lignes": [
+      "Pisa: classement indisponible · repos 186 j",
+      "Monza: 14e/20 · 10 pts en 12 m · diff -5 · repos 2 j"
+     ]
+    },
+    {
+     "titre": "🎯 PREVISION DU MODELE",
+     "lignes": [
+      "Buts attendus: 1.17 - 2.06",
+      "1 21% │ X 21% │ 2 58%",
+      "1X 42% │ X2 79% │ 12 79%",
+      "+1.5 buts 83% │ +2.5 63% │ +3.5 40%",
+      "Les 2 equipes marquent: 60%",
+      "Scores probables: 1-2 (10%), 1-1 (10%), 0-2 (8%)"
+     ]
+    },
+    {
+     "titre": "⚔️ ATTAQUE",
+     "lignes": [
+      "Pisa: force x0.58 · 0.5 buts/m · 8.8 tirs (3.0 cadres) · dom: 1.0 buts/m",
+      "Monza: force x1.16 · 1.8 buts/m · 12.3 tirs (5.0 cadres) · ext: 1.4 buts/m"
+     ]
+    },
+    {
+     "titre": "🛡️ DEFENSE (sous x1.00 = solide)",
+     "lignes": [
+      "Pisa: force x1.34 · 2.2 enc./m · 5.7 cadres subis · 0 clean sheet(s)/6 · dom: 1.8 enc./m",
+      "Monza: force x1.38 · 1.7 enc./m · 6.5 cadres subis · 2 clean sheet(s)/6 · ext: 2.4 enc./m"
+     ]
+    },
+    {
+     "titre": "🎛️ MILIEU / CONTROLE (estime: tirs + corners)",
+     "lignes": [
+      "Pisa: 41% du jeu · 3.0 corners/m · -2.8 tirs de plus que l'adversaire",
+      "Monza: 45% du jeu · 3.3 corners/m · -2.5 tirs de plus que l'adversaire"
+     ]
+    },
+    {
+     "titre": "⚠️ DISCIPLINE (par match)",
+     "lignes": [
+      "Pisa: 14.7 fautes · 2.7 jaunes · 0.33 rouges",
+      "Monza: 11.0 fautes · 1.8 jaunes · 0.00 rouges"
+     ]
+    },
+    {
+     "titre": "📈 FORME Pisa (6 derniers, niveau de l'adversaire)",
+     "lignes": [
+      "D 1-2 dom vs Genoa (moyen)",
+      "D 0-1 ext vs Parma (faible)",
+      "D 1-2 dom vs Lecce (faible)",
+      "D 0-3 ext vs Cremonese (faible)",
+      "D 0-3 dom vs Napoli (fort)",
+      "D 1-2 ext vs Lazio (fort)",
+      "Bilan: forts: 0 pts/2 m · moyens: 0 pts/1 m · faibles: 0 pts/3 m"
+     ]
+    },
+    {
+     "titre": "📈 FORME Monza (6 derniers, niveau de l'adversaire)",
+     "lignes": [
+      "V 4-0 dom vs Cagliari (moyen)",
+      "D 2-3 ext vs Torino (moyen)",
+      "D 1-4 dom vs Napoli (fort)",
+      "D 1-2 ext vs Bologna (moyen)",
+      "D 0-1 dom vs Atalanta (moyen)",
+      "V 3-0 dom vs Fiorentina (moyen)",
+      "Bilan: forts: 0 pts/1 m · moyens: 6 pts/5 m"
+     ]
+    },
+    {
+     "titre": "🔗 ADVERSAIRES COMMUNS (400 derniers jours)",
+     "lignes": [
+      "vs Fiorentina: Pisa D 0-1 ext │ Monza V 3-0 dom",
+      "vs Atalanta: Pisa N 1-1 dom │ Monza D 0-1 dom",
+      "vs Bologna: Pisa D 0-1 dom │ Monza D 1-2 ext",
+      "vs Napoli: Pisa D 0-3 dom │ Monza D 1-4 dom",
+      "vs Torino: Pisa D 0-1 dom │ Monza D 2-3 ext",
+      "Diff. de buts/match vs ces 12 equipes: Pisa -0.89 (19 m) │ Monza -0.42 (12 m)"
+     ]
+    },
+    {
+     "titre": "📊 TENDANCES (8 derniers matchs)",
+     "lignes": [
+      "Pisa: +2.5 buts 75% · 2 marquent 38% · clean sheet 0% · sans marquer 62% · buts 1re MT 0.2 / 2e MT 0.1",
+      "Monza: +2.5 buts 88% · 2 marquent 62% · clean sheet 25% · sans marquer 12% · buts 1re MT 0.5 / 2e MT 1.2"
+     ]
+    },
+    {
+     "titre": "🤝 CONFRONTATIONS DIRECTES",
+     "lignes": [
+      "Aucune rencontre recente dans les donnees"
+     ]
+    },
+    {
+     "titre": "🧠 LECTURE",
+     "lignes": [
+      "• Le modele voit Monza favori",
+      "• Meilleure attaque: Monza",
+      "• Meilleure forme: Monza",
+      "• Moins repose: Monza",
+      "• Match ouvert (beaucoup de buts attendus)",
+      "• Ignore blessures, compositions et enjeu du match"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "20:00",
+   "pays": "Netherlands",
+   "drapeau": "🌍",
+   "ligue": "Derde Divisie",
+   "equipe1": "RBC Roosendaal",
+   "equipe2": "VV Gemert",
+   "cotes_1x2": {
+    "1": 2.55,
+    "X": 3.6,
+    "2": 2.33
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.50",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.43",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.25",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 73.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 88,
+       "sur": "RBC Roosendaal",
+       "cote": 2.55,
+       "recu": 224.4,
+       "gain": 74.4
+      },
+      {
+       "compte": 2,
+       "mise": 62,
+       "sur": "Nul",
+       "cote": 3.6,
+       "recu": 223.2,
+       "gain": 73.2
+      }
+     ],
+     "perte_si": "VV Gemert",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 62.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 59,
+       "sur": "Nul",
+       "cote": 3.6,
+       "recu": 212.4,
+       "gain": 62.4
+      },
+      {
+       "compte": 2,
+       "mise": 91,
+       "sur": "VV Gemert",
+       "cote": 2.33,
+       "recu": 212.0,
+       "gain": 62.0
+      }
+     ],
+     "perte_si": "RBC Roosendaal",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 31.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 72,
+       "sur": "RBC Roosendaal",
+       "cote": 2.55,
+       "recu": 183.6,
+       "gain": 33.6
+      },
+      {
+       "compte": 2,
+       "mise": 78,
+       "sur": "VV Gemert",
+       "cote": 2.33,
+       "recu": 181.7,
+       "gain": 31.7
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "20:00",
+   "pays": "Spain",
+   "drapeau": "🇪🇸",
+   "ligue": "Segunda Federacion",
+   "equipe1": "CF Intercity",
+   "equipe2": "Real Murcia Imperial FC",
+   "cotes_1x2": {
+    "1": 1.46,
+    "X": 4.06,
+    "2": 5.86
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.12",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "2.24",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.20",
+     "feu": true,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 207.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 89,
+       "sur": "Nul",
+       "cote": 4.06,
+       "recu": 361.3,
+       "gain": 211.3
+      },
+      {
+       "compte": 2,
+       "mise": 61,
+       "sur": "Real Murcia Imperial FC",
+       "cote": 5.86,
+       "recu": 357.5,
+       "gain": 207.5
+      }
+     ],
+     "perte_si": "CF Intercity",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 25.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 120,
+       "sur": "CF Intercity",
+       "cote": 1.46,
+       "recu": 175.2,
+       "gain": 25.2
+      },
+      {
+       "compte": 2,
+       "mise": 30,
+       "sur": "Real Murcia Imperial FC",
+       "cote": 5.86,
+       "recu": 175.8,
+       "gain": 25.8
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Equipe non reconnue par le modele."
+     ]
+    }
+   ]
+  }
+ ]
 }
