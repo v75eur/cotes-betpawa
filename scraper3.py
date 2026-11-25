@@ -6,9 +6,7 @@ from data import recuperer
 from model import parse_date, charger, ajuster, predire, trouver, poisson
 from proba import CODES
 
-URL = ("https://www.betpawa.bj/events?categoryId=2&marketId=1X2&day=all"
-       "&competitions=11965,12097,12039,12127,12110")
-NTFY_TOPIC = os.environ["NTFY_TOPIC_3"]
+URL = "https://www.betpawa.bj/events?categoryId=2&marketId=1X2&day=all"
 FUSEAU = ZoneInfo("Africa/Porto-Novo")
 HEURES = None
 SAISON_DEBUT = date(2026, 7, 1)
@@ -306,63 +304,3 @@ def sections(m, auj):
     L.append("Ignore blessures, compositions et enjeu du match")
     S.append("🧠 LECTURE\n" + "\n".join(f"   • {x}" for x in L))
     return S
-
-def messages_match(m, S):
-    pays, _, nom = m["ligue"].partition(" / ")
-    tete = (f"{PAYS.get(pays, '🌍')} {(nom or m['ligue']).upper()}\n"
-            f"🔎 {m['equipe1']} 🆚 {m['equipe2']} · 🕒 {m['heure']}\n━━━━━━━━━━━━━━━━━━\n\n")
-    msgs, cur = [], tete
-    for sec in S:
-        if len((cur + sec).encode()) > TAILLE_MAX and cur != tete:
-            msgs.append(cur)
-            cur = tete.split("\n")[1] + " (suite)\n\n"
-        cur += sec + "\n\n"
-    msgs.append(cur)
-    return msgs
-
-def send_ntfy(message, titre):
-    req = urllib.request.Request(f"https://ntfy.sh/{NTFY_TOPIC}",
-                                 data=message.encode("utf-8"), method="POST")
-    req.add_header("Title", titre)
-    req.add_header("Tags", "mag")
-    try:
-        urllib.request.urlopen(req)
-        print("Notification envoyee.")
-    except Exception as ex:
-        print(f"Erreur ntfy: {ex}")
-
-async def main():
-    maintenant = datetime.now(FUSEAU)
-    if HEURES and maintenant.hour not in HEURES and not os.environ.get("FORCER"):
-        print("Hors heure d'envoi, rien a faire.")
-        return
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page()
-        await page.goto(URL, wait_until="networkidle", timeout=60000)
-        await page.wait_for_timeout(5000)
-        for _ in range(10):
-            await page.mouse.wheel(0, 4000)
-            await page.wait_for_timeout(1000)
-        matches = await page.evaluate(JS)
-        await browser.close()
-    auj = maintenant.strftime("%d/%m")
-    print("Matchs lus:", len(matches))
-    matches = [m for m in matches if m["date"] in ("", auj)]
-    print("Matchs gardes pour aujourd'hui:", len(matches))
-    if not matches:
-        send_ntfy("😕 Aucun match a analyser pour le moment.", "Analyse matchs")
-        return
-    matches.sort(key=lambda x: x["heure"])
-    for i, m in enumerate(matches, 1):
-        try:
-            msgs = messages_match(m, sections(m, maintenant.date()))
-        except Exception as ex:
-            print("Erreur analyse:", m["equipe1"], m["equipe2"], ex)
-            continue
-        for k, msg in enumerate(msgs, 1):
-            send_ntfy(msg, f"Analyse {m['heure']} ({i}/{len(matches)})" + (f" p{k}" if len(msgs) > 1 else ""))
-            time.sleep(1)
-
-if __name__ == "__main__":
-    asyncio.run(main())

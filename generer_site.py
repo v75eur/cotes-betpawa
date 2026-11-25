@@ -2,9 +2,6 @@ import asyncio, json, os
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-# Les scrapers lisent leurs topics ntfy a l'import: on met des valeurs bidon (rien n'est envoye ici).
-for k in ("NTFY_TOPIC", "NTFY_TOPIC_2", "NTFY_TOPIC_3"):
-    os.environ.setdefault(k, "site")
 
 from playwright.async_api import async_playwright
 import scraper as S1      # double chance
@@ -16,8 +13,13 @@ FUSEAU = ZoneInfo("Africa/Porto-Novo")
 SORTIE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "data.json")
 
 
+def iso(jm, ref):
+    j, mo = map(int, jm.split("/"))
+    return (ref.year + (1 if mo < ref.month - 6 else 0), mo, j)
+
+
 def cle(m):
-    return (m["heure"], m["equipe1"], m["equipe2"])
+    return (m["date"], m["heure"], m["equipe1"], m["equipe2"])
 
 
 def paires(m, c, p):
@@ -73,34 +75,32 @@ def analyse(m, jour):
 
 def construire(dc_list, x12_list, maintenant):
     auj = maintenant.strftime("%d/%m")
+    for m in dc_list + x12_list:
+        m["date"] = m["date"] or auj
     base = {}
 
     def noeud(m):
-        return base.setdefault(cle(m), {"heure": m["heure"], "ligue": m["ligue"],
+        return base.setdefault(cle(m), {"date": m["date"], "heure": m["heure"], "ligue": m["ligue"],
                                         "equipe1": m["equipe1"], "equipe2": m["equipe2"]})
 
     for m in x12_list:
-        if m["date"] not in ("", auj):
-            continue
         d = noeud(m)
         try:
             d["c"] = {"1": float(m["c1"]), "X": float(m["cX"]), "2": float(m["c2"])}
         except ValueError:
             pass
     for m in dc_list:
-        if m["date"] not in ("", auj):
-            continue
         noeud(m)["dc"] = {"1X": m["c1X"], "X2": m["cX2"], "12": m["c12"]}
 
     matchs = []
-    for d in sorted(base.values(), key=lambda d: (d["heure"], d["ligue"])):
+    for d in sorted(base.values(), key=lambda d: (iso(d["date"], maintenant), d["heure"], d["ligue"])):
         try:
             p = proba(d["ligue"], d["equipe1"], d["equipe2"])
         except Exception:
             p = None
         pays, _, nom = d["ligue"].partition(" / ")
         matchs.append({
-            "heure": d["heure"], "pays": pays, "drapeau": S1.PAYS.get(pays, "🌍"),
+            "date": d["date"], "heure": d["heure"], "pays": pays, "drapeau": S1.PAYS.get(pays, "🌍"),
             "ligue": nom or d["ligue"], "equipe1": d["equipe1"], "equipe2": d["equipe2"],
             "cotes_1x2": d.get("c"),
             "double_chance": double_chance(d["dc"], p) if "dc" in d else None,
@@ -129,8 +129,8 @@ async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         try:
-            dc = await lire(await browser.new_page(), S1.URL, S1.JS, 15)
-            x12 = await lire(await browser.new_page(), S2.URL, S2.JS, 10)
+            dc = await lire(await browser.new_page(), S1.URL, S1.JS, 40)
+            x12 = await lire(await browser.new_page(), S2.URL, S2.JS, 40)
         finally:
             await browser.close()
     print("Double chance lus:", len(dc), "| 1X2 lus:", len(x12))

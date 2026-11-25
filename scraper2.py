@@ -7,9 +7,7 @@ from playwright.async_api import async_playwright
 from proba import proba
 from valeur import calibrer
 
-URL = ("https://www.betpawa.bj/events?categoryId=2&marketId=1X2&day=all"
-       "&competitions=11965,12097,12039,12127,12110")
-NTFY_TOPIC = os.environ["NTFY_TOPIC_2"]
+URL = "https://www.betpawa.bj/events?categoryId=2&marketId=1X2&day=all"
 FUSEAU = ZoneInfo("Africa/Porto-Novo")
 GAINS = (50, 100)
 TAILLE_MAX = 3500
@@ -100,102 +98,3 @@ def repartir(o1, o2):
 
 def nom_res(m, k):
     return {"1": m['equipe1'], "X": "Nul", "2": m['equipe2']}[k]
-
-def bloc_match(m):
-    try:
-        c = {"1": float(m["c1"]), "X": float(m["cX"]), "2": float(m["c2"])}
-    except ValueError:
-        return ""
-    try:
-        p = proba(m["ligue"], m["equipe1"], m["equipe2"])
-    except Exception:
-        p = None
-    lignes = ""
-    for x, y, nom in PAIRES:
-        r = repartir(c[x], c[y])
-        if r is None:
-            continue
-        m1, m2, tot, g = r
-        z = [k for k in "1X2" if k not in (x, y)][0]
-        r1, r2 = m1 * c[x], m2 * c[y]
-        lignes += f"   ✅ {nom} · total {tot} F · gain minimum +{g:.1f} F\n"
-        lignes += f"   Compte 1: {m1} F sur {nom_res(m, x)} (cote {c[x]})\n"
-        lignes += f"   Compte 2: {m2} F sur {nom_res(m, y)} (cote {c[y]})\n"
-        lignes += f"   Si {nom_res(m, x)}: recu {r1:.1f} F → gain +{r1 - tot:.1f} F\n"
-        lignes += f"   Si {nom_res(m, y)}: recu {r2:.1f} F → gain +{r2 - tot:.1f} F\n"
-        lignes += f"   Si {nom_res(m, z)}: perte -{tot} F\n"
-        if p:
-            lignes += f"   🤖 chance que ca passe: {calibrer(p[nom]):.0%}\n"
-        lignes += "\n"
-    if not lignes:
-        return ""
-    txt = f"🕒 {m['heure']} · {m['equipe1']} 🆚 {m['equipe2']}\n"
-    txt += f"   1 {c['1']} │ X {c['X']} │ 2 {c['2']}\n"
-    return txt + lignes
-
-def construire(matches, maintenant):
-    entete = (f"⚽ COTES 1X2\n📅 {JOURS[maintenant.weekday()]} {maintenant:%d/%m/%Y}"
-              f" · mise {MISE_MIN}-{MISE_MAX} F · gain min {GAIN_MIN} F\n"
-              f"━━━━━━━━━━━━━━━━━━\n\n")
-    groupes = {}
-    for m in sorted(matches, key=lambda x: x["heure"]):
-        groupes.setdefault(m["ligue"], []).append(m)
-    blocs = []
-    for ligue, ms in groupes.items():
-        pays, _, nom = ligue.partition(" / ")
-        t = f"{PAYS.get(pays, '🌍')} {(nom or ligue).upper()}\n"
-        textes = [x for x in (bloc_match(m) for m in ms) if x]
-        if not textes:
-            continue
-        t += "".join(textes)
-        blocs.append(t)
-    if not blocs:
-        blocs = ["Aucune paire a petite mise pour le moment.\n\n"]
-    messages, courant = [], entete
-    for b in blocs:
-        if len((courant + b).encode()) > TAILLE_MAX and courant.strip():
-            messages.append(courant)
-            courant = ""
-        courant += b
-    messages.append(courant)
-    messages[-1] += "✅ gain garanti → mise compte 1 + compte 2\n🤖 = proba du modele pour la paire\n🔞 Jouez avec moderation"
-    return messages
-
-def send_ntfy(message, titre):
-    req = urllib.request.Request(f"https://ntfy.sh/{NTFY_TOPIC}",
-                                 data=message.encode("utf-8"), method="POST")
-    req.add_header("Title", titre)
-    req.add_header("Tags", "soccer")
-    try:
-        urllib.request.urlopen(req)
-        print("Notification envoyee.")
-    except Exception as e:
-        print(f"Erreur ntfy: {e}")
-
-async def main():
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page()
-        await page.goto(URL, wait_until="networkidle", timeout=60000)
-        await page.wait_for_timeout(5000)
-        for _ in range(10):
-            await page.mouse.wheel(0, 4000)
-            await page.wait_for_timeout(1000)
-        matches = await page.evaluate(JS)
-        brut = await page.evaluate("() => document.body.innerText")
-        await browser.close()
-    maintenant = datetime.now(FUSEAU)
-    auj = maintenant.strftime("%d/%m")
-    print("Matchs lus:", len(matches), "| Dates vues:", sorted({m["date"] for m in matches}))
-    matches = [m for m in matches if m["date"] in ("", auj)]
-    print("Matchs gardes pour aujourd'hui:", len(matches))
-    if not matches:
-        print("Extrait de la page:", brut[:600].replace("\n", " | "))
-        send_ntfy("😕 Aucun match 1X2 trouve pour le moment.", "Cotes 1X2")
-        return
-    msgs = construire(matches, maintenant)
-    for i, msg in enumerate(msgs, 1):
-        send_ntfy(msg, "Cotes 1X2" + (f" ({i}/{len(msgs)})" if len(msgs) > 1 else ""))
-
-if __name__ == "__main__":
-    asyncio.run(main())

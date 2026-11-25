@@ -113,7 +113,7 @@ footer b{color:var(--text)}
 </div>
 <script>
 (function(){
-  var data = null, filtre = "Tous";
+  var data = null, filtre = "Tous", jour = "Tous";
 
   function el(tag, cls, text){
     var e = document.createElement(tag);
@@ -136,6 +136,18 @@ footer b{color:var(--text)}
   function filtres(){
     var box = document.getElementById("filters");
     box.textContent = "";
+    var jours = [];
+    data.matchs.forEach(function(m){ if (jours.indexOf(m.date) < 0) jours.push(m.date); });
+    if (jours.indexOf(jour) < 0) jour = "Tous";
+    if (jours.length > 1) {
+      var sel = el("select");
+      sel.style.cssText = "flex:none;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:7px 12px;font:inherit;font-size:13.5px";
+      [["Tous", "📅 Tous les jours"]].concat(jours.map(function(j){ return [j, "📅 " + j]; })).forEach(function(x){
+        var o = el("option", null, x[1]); o.value = x[0]; if (x[0] === jour) o.selected = true; sel.appendChild(o);
+      });
+      sel.onchange = function(){ jour = sel.value; render(); };
+      box.appendChild(sel);
+    }
     var ligues = ["Tous"];
     data.matchs.forEach(function(m){
       var n = m.drapeau + " " + m.ligue;
@@ -230,7 +242,7 @@ footer b{color:var(--text)}
     var c = el("article", "card");
     var h = el("div", "mh");
     h.appendChild(el("span", null, m.drapeau + " " + m.ligue));
-    h.appendChild(el("span", "time", "🕒 " + m.heure));
+    h.appendChild(el("span", "time", "🕒 " + (m.date ? m.date + " · " : "") + m.heure));
     c.appendChild(h);
     var t = el("div", "teams");
     t.appendChild(el("span", null, m.equipe1));
@@ -265,7 +277,7 @@ footer b{color:var(--text)}
     meta(); filtres();
     var liste = document.getElementById("liste");
     liste.textContent = "";
-    var ms = data.matchs.filter(function(m){ return filtre === "Tous" || (m.drapeau + " " + m.ligue) === filtre; });
+    var ms = data.matchs.filter(function(m){ return (filtre === "Tous" || (m.drapeau + " " + m.ligue) === filtre) && (jour === "Tous" || m.date === jour); });
     if (!ms.length){
       var e = el("div", "empty");
       e.appendChild(el("big", null, "😴"));
