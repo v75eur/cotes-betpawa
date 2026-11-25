@@ -119,16 +119,30 @@ def construire(dc_list, x12_list, maintenant):
 async def lire(page, url, js, defilements):
     await page.goto(url, wait_until="networkidle", timeout=60000)
     await page.wait_for_timeout(5000)
+    await page.mouse.move(400, 500)
     stable, dernier = 0, -1
+    liens = page.locator('a[href*="/event/"]')
     for _ in range(defilements):
-        await page.mouse.wheel(0, 6000)
-        await page.wait_for_timeout(1000)
-        n = await page.locator('a[href*="/event/"]').count()
+        if await liens.count():
+            await liens.last.scroll_into_view_if_needed()
+        await page.keyboard.press("End")
+        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        await page.mouse.wheel(0, 3000)
+        plus = page.locator("button:has-text('Show more'), button:has-text('Load more'), button:has-text('Voir plus')")
+        if await plus.count():
+            try:
+                await plus.first.click(timeout=3000)
+            except Exception:
+                pass
+        await page.wait_for_timeout(1500)
+        n = await liens.count()
         stable = stable + 1 if n == dernier else 0
         dernier = n
-        if stable >= 5:
+        if stable >= 6:
             break
     print("Cartes chargees:", dernier)
+    print("Hauteur page:", await page.evaluate("document.body.scrollHeight"))
+    print("Boutons:", await page.evaluate("[...document.querySelectorAll('button')].map(b => b.innerText.trim()).filter(Boolean).slice(0, 40)"))
     return await page.evaluate(js)
 
 
