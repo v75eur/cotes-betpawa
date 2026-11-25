@@ -1,7 +1,7 @@
 {
  "source": "betPawa Bénin",
  "jour": "Mercredi 25/11/2026",
- "maj": "2026-11-25T23:02+01:00",
+ "maj": "2026-11-25T23:19+01:00",
  "mise": [
   150,
   200
@@ -140,20 +140,20 @@
    "equipe1": "Real Potosi",
    "equipe2": "Always Ready",
    "cotes_1x2": {
-    "1": 2.22,
-    "X": 3.4,
-    "2": 2.82
+    "1": 2.3,
+    "X": 3.41,
+    "2": 2.68
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.36",
+     "cote": "1.39",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.54",
+     "cote": "1.51",
      "feu": false,
      "modele": null
     },
@@ -168,23 +168,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 50.6,
+     "gain_min": 54.6,
      "comptes": [
       {
        "compte": 1,
-       "mise": 91,
+       "mise": 90,
        "sur": "Real Potosi",
-       "cote": 2.22,
-       "recu": 202.0,
-       "gain": 52.0
+       "cote": 2.3,
+       "recu": 207.0,
+       "gain": 57.0
       },
       {
        "compte": 2,
-       "mise": 59,
+       "mise": 60,
        "sur": "Nul",
-       "cote": 3.4,
-       "recu": 200.6,
-       "gain": 50.6
+       "cote": 3.41,
+       "recu": 204.6,
+       "gain": 54.6
       }
      ],
      "perte_si": "Always Ready",
@@ -194,23 +194,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 81.2,
+     "gain_min": 75.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 68,
+       "mise": 66,
        "sur": "Nul",
-       "cote": 3.4,
-       "recu": 231.2,
-       "gain": 81.2
+       "cote": 3.41,
+       "recu": 225.1,
+       "gain": 75.1
       },
       {
        "compte": 2,
-       "mise": 82,
+       "mise": 84,
        "sur": "Always Ready",
-       "cote": 2.82,
-       "recu": 231.2,
-       "gain": 81.2
+       "cote": 2.68,
+       "recu": 225.1,
+       "gain": 75.1
       }
      ],
      "perte_si": "Real Potosi",
@@ -220,23 +220,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 36.1,
+     "gain_min": 34.9,
      "comptes": [
       {
        "compte": 1,
-       "mise": 84,
+       "mise": 81,
        "sur": "Real Potosi",
-       "cote": 2.22,
-       "recu": 186.5,
-       "gain": 36.5
+       "cote": 2.3,
+       "recu": 186.3,
+       "gain": 36.3
       },
       {
        "compte": 2,
-       "mise": 66,
+       "mise": 69,
        "sur": "Always Ready",
-       "cote": 2.82,
-       "recu": 186.1,
-       "gain": 36.1
+       "cote": 2.68,
+       "recu": 184.9,
+       "gain": 34.9
       }
      ],
      "perte_si": "Nul",
@@ -262,9 +262,9 @@
    "equipe1": "Atletico Mineiro MG",
    "equipe2": "SC Corinthians SP",
    "cotes_1x2": {
-    "1": 2.58,
-    "X": 3.29,
-    "2": 2.71
+    "1": 2.6,
+    "X": 3.23,
+    "2": 2.73
    },
    "double_chance": [
     {
@@ -281,7 +281,7 @@
     },
     {
      "pari": "12",
-     "cote": "1.35",
+     "cote": "1.36",
      "feu": false,
      "modele": null
     }
@@ -290,23 +290,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 66.7,
+     "gain_min": 65.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 84,
+       "mise": 83,
        "sur": "Atletico Mineiro MG",
-       "cote": 2.58,
-       "recu": 216.7,
-       "gain": 66.7
+       "cote": 2.6,
+       "recu": 215.8,
+       "gain": 65.8
       },
       {
        "compte": 2,
-       "mise": 66,
+       "mise": 67,
        "sur": "Nul",
-       "cote": 3.29,
-       "recu": 217.1,
-       "gain": 67.1
+       "cote": 3.23,
+       "recu": 216.4,
+       "gain": 66.4
       }
      ],
      "perte_si": "SC Corinthians SP",
@@ -316,23 +316,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 72.2,
+     "gain_min": 71.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 68,
+       "mise": 69,
        "sur": "Nul",
-       "cote": 3.29,
-       "recu": 223.7,
-       "gain": 73.7
+       "cote": 3.23,
+       "recu": 222.9,
+       "gain": 72.9
       },
       {
        "compte": 2,
-       "mise": 82,
+       "mise": 81,
        "sur": "SC Corinthians SP",
-       "cote": 2.71,
-       "recu": 222.2,
-       "gain": 72.2
+       "cote": 2.73,
+       "recu": 221.1,
+       "gain": 71.1
       }
      ],
      "perte_si": "Atletico Mineiro MG",
@@ -342,23 +342,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 47.8,
+     "gain_min": 49.3,
      "comptes": [
       {
        "compte": 1,
        "mise": 77,
        "sur": "Atletico Mineiro MG",
-       "cote": 2.58,
-       "recu": 198.7,
-       "gain": 48.7
+       "cote": 2.6,
+       "recu": 200.2,
+       "gain": 50.2
       },
       {
        "compte": 2,
        "mise": 73,
        "sur": "SC Corinthians SP",
-       "cote": 2.71,
-       "recu": 197.8,
-       "gain": 47.8
+       "cote": 2.73,
+       "recu": 199.3,
+       "gain": 49.3
       }
      ],
      "perte_si": "Nul",
@@ -628,9 +628,9 @@
    "equipe1": "Boca Juniors",
    "equipe2": "Independiente Rivadavia",
    "cotes_1x2": {
-    "1": 1.49,
-    "X": 4.13,
-    "2": 6.89
+    "1": 1.46,
+    "X": 4.21,
+    "2": 7.25
    },
    "double_chance": [
     {
@@ -641,13 +641,13 @@
     },
     {
      "pari": "X2",
-     "cote": "2.33",
+     "cote": "2.38",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.22",
+     "cote": "1.21",
      "feu": false,
      "modele": null
     }
@@ -656,23 +656,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 235.8,
+     "gain_min": 248.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 94,
+       "mise": 95,
        "sur": "Nul",
-       "cote": 4.13,
-       "recu": 388.2,
-       "gain": 238.2
+       "cote": 4.21,
+       "recu": 399.9,
+       "gain": 249.9
       },
       {
        "compte": 2,
-       "mise": 56,
+       "mise": 55,
        "sur": "Independiente Rivadavia",
-       "cote": 6.89,
-       "recu": 385.8,
-       "gain": 235.8
+       "cote": 7.25,
+       "recu": 398.8,
+       "gain": 248.8
       }
      ],
      "perte_si": "Boca Juniors",
@@ -682,23 +682,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 33.3,
+     "gain_min": 31.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 123,
+       "mise": 125,
        "sur": "Boca Juniors",
-       "cote": 1.49,
-       "recu": 183.3,
-       "gain": 33.3
+       "cote": 1.46,
+       "recu": 182.5,
+       "gain": 32.5
       },
       {
        "compte": 2,
-       "mise": 27,
+       "mise": 25,
        "sur": "Independiente Rivadavia",
-       "cote": 6.89,
-       "recu": 186.0,
-       "gain": 36.0
+       "cote": 7.25,
+       "recu": 181.2,
+       "gain": 31.2
       }
      ],
      "perte_si": "Nul",
