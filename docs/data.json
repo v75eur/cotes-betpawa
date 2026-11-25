@@ -1,7 +1,7 @@
 {
  "source": "betPawa Bénin",
  "jour": "Mercredi 25/11/2026",
- "maj": "2026-11-25T20:02+01:00",
+ "maj": "2026-11-25T21:02+01:00",
  "mise": [
   150,
   200
@@ -9,2087 +9,6 @@
  "gain_min": 20,
  "seuil_feu": 1.2,
  "matchs": [
-  {
-   "date": "25/11",
-   "heure": "20:30",
-   "pays": "Lebanon",
-   "drapeau": "🌍",
-   "ligue": "Premier League",
-   "equipe1": "Safa SC",
-   "equipe2": "Nejmeh SC",
-   "cotes_1x2": {
-    "1": 3.79,
-    "X": 3.22,
-    "2": 1.9
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.71",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.23",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.30",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 110.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 69,
-       "sur": "Safa SC",
-       "cote": 3.79,
-       "recu": 261.5,
-       "gain": 111.5
-      },
-      {
-       "compte": 2,
-       "mise": 81,
-       "sur": "Nul",
-       "cote": 3.22,
-       "recu": 260.8,
-       "gain": 110.8
-      }
-     ],
-     "perte_si": "Nejmeh SC",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 28.6,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 56,
-       "sur": "Nul",
-       "cote": 3.22,
-       "recu": 180.3,
-       "gain": 30.3
-      },
-      {
-       "compte": 2,
-       "mise": 94,
-       "sur": "Nejmeh SC",
-       "cote": 1.9,
-       "recu": 178.6,
-       "gain": 28.6
-      }
-     ],
-     "perte_si": "Safa SC",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 39.5,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 50,
-       "sur": "Safa SC",
-       "cote": 3.79,
-       "recu": 189.5,
-       "gain": 39.5
-      },
-      {
-       "compte": 2,
-       "mise": 100,
-       "sur": "Nejmeh SC",
-       "cote": 1.9,
-       "recu": 190.0,
-       "gain": 40.0
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "20:45",
-   "pays": "England",
-   "drapeau": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "ligue": "Championship",
-   "equipe1": "Watford FC",
-   "equipe2": "Blackburn Rovers",
-   "cotes_1x2": {
-    "1": 2.56,
-    "X": 3.3,
-    "2": 2.81
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.44",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.51",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.35",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 65.0,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 84,
-       "sur": "Watford FC",
-       "cote": 2.56,
-       "recu": 215.0,
-       "gain": 65.0
-      },
-      {
-       "compte": 2,
-       "mise": 66,
-       "sur": "Nul",
-       "cote": 3.3,
-       "recu": 217.8,
-       "gain": 67.8
-      }
-     ],
-     "perte_si": "Blackburn Rovers",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 77.6,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 69,
-       "sur": "Nul",
-       "cote": 3.3,
-       "recu": 227.7,
-       "gain": 77.7
-      },
-      {
-       "compte": 2,
-       "mise": 81,
-       "sur": "Blackburn Rovers",
-       "cote": 2.81,
-       "recu": 227.6,
-       "gain": 77.6
-      }
-     ],
-     "perte_si": "Watford FC",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 49.7,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 78,
-       "sur": "Watford FC",
-       "cote": 2.56,
-       "recu": 199.7,
-       "gain": 49.7
-      },
-      {
-       "compte": 2,
-       "mise": 72,
-       "sur": "Blackburn Rovers",
-       "cote": 2.81,
-       "recu": 202.3,
-       "gain": 52.3
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Equipe non reconnue par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "20:45",
-   "pays": "England",
-   "drapeau": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "ligue": "Championship",
-   "equipe1": "Bolton Wanderers",
-   "equipe2": "West Bromwich Albion",
-   "cotes_1x2": {
-    "1": 3.74,
-    "X": 3.69,
-    "2": 1.95
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.81",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.29",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.30",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 126.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 74,
-       "sur": "Bolton Wanderers",
-       "cote": 3.74,
-       "recu": 276.8,
-       "gain": 126.8
-      },
-      {
-       "compte": 2,
-       "mise": 76,
-       "sur": "Nul",
-       "cote": 3.69,
-       "recu": 280.4,
-       "gain": 130.4
-      }
-     ],
-     "perte_si": "West Bromwich Albion",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 41.1,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 52,
-       "sur": "Nul",
-       "cote": 3.69,
-       "recu": 191.9,
-       "gain": 41.9
-      },
-      {
-       "compte": 2,
-       "mise": 98,
-       "sur": "West Bromwich Albion",
-       "cote": 1.95,
-       "recu": 191.1,
-       "gain": 41.1
-      }
-     ],
-     "perte_si": "Bolton Wanderers",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 40.7,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 51,
-       "sur": "Bolton Wanderers",
-       "cote": 3.74,
-       "recu": 190.7,
-       "gain": 40.7
-      },
-      {
-       "compte": 2,
-       "mise": 99,
-       "sur": "West Bromwich Albion",
-       "cote": 1.95,
-       "recu": 193.0,
-       "gain": 43.0
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Equipe non reconnue par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "20:45",
-   "pays": "England",
-   "drapeau": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "ligue": "Championship",
-   "equipe1": "Burnley FC",
-   "equipe2": "Birmingham City",
-   "cotes_1x2": {
-    "1": 2.76,
-    "X": 3.48,
-    "2": 2.5
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.53",
-     "feu": false,
-     "modele": 35
-    },
-    {
-     "pari": "X2",
-     "cote": "1.45",
-     "feu": false,
-     "modele": 84
-    },
-    {
-     "pari": "12",
-     "cote": "1.33",
-     "feu": false,
-     "modele": 81
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 79.7,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 84,
-       "sur": "Burnley FC",
-       "cote": 2.76,
-       "recu": 231.8,
-       "gain": 81.8
-      },
-      {
-       "compte": 2,
-       "mise": 66,
-       "sur": "Nul",
-       "cote": 3.48,
-       "recu": 229.7,
-       "gain": 79.7
-      }
-     ],
-     "perte_si": "Birmingham City",
-     "perte": 150,
-     "proba": 35
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 67.5,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 63,
-       "sur": "Nul",
-       "cote": 3.48,
-       "recu": 219.2,
-       "gain": 69.2
-      },
-      {
-       "compte": 2,
-       "mise": 87,
-       "sur": "Birmingham City",
-       "cote": 2.5,
-       "recu": 217.5,
-       "gain": 67.5
-      }
-     ],
-     "perte_si": "Burnley FC",
-     "perte": 150,
-     "proba": 84
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 46.0,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 71,
-       "sur": "Burnley FC",
-       "cote": 2.76,
-       "recu": 196.0,
-       "gain": 46.0
-      },
-      {
-       "compte": 2,
-       "mise": 79,
-       "sur": "Birmingham City",
-       "cote": 2.5,
-       "recu": 197.5,
-       "gain": 47.5
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": 79
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "📍 CONTEXTE",
-     "lignes": [
-      "Burnley: classement indisponible · repos 185 j",
-      "Man City: 3e/20 · 22 pts en 11 m · diff +8 · repos 4 j"
-     ]
-    },
-    {
-     "titre": "🎯 PREVISION DU MODELE",
-     "lignes": [
-      "Buts attendus: 0.97 - 2.18",
-      "1 16% │ X 19% │ 2 65%",
-      "1X 35% │ X2 84% │ 12 81%",
-      "+1.5 buts 82% │ +2.5 61% │ +3.5 39%",
-      "Les 2 equipes marquent: 55%",
-      "Scores probables: 0-2 (10%), 1-2 (10%), 0-1 (9%)"
-     ]
-    },
-    {
-     "titre": "⚔️ ATTAQUE",
-     "lignes": [
-      "Burnley: force x0.77 · 0.8 buts/m · 9.7 tirs (3.5 cadres) · dom: 0.6 buts/m",
-      "Man City: force x1.37 · 1.5 buts/m · 16.2 tirs (5.0 cadres) · ext: 2.0 buts/m"
-     ]
-    },
-    {
-     "titre": "🛡️ DEFENSE (sous x1.00 = solide)",
-     "lignes": [
-      "Burnley: force x1.34 · 2.0 enc./m · 5.8 cadres subis · 0 clean sheet(s)/6 · dom: 1.2 enc./m",
-      "Man City: force x0.81 · 1.5 enc./m · 3.8 cadres subis · 1 clean sheet(s)/6 · ext: 1.2 enc./m"
-     ]
-    },
-    {
-     "titre": "🎛️ MILIEU / CONTROLE (estime: tirs + corners)",
-     "lignes": [
-      "Burnley: 35% du jeu · 3.2 corners/m · -7.5 tirs de plus que l'adversaire",
-      "Man City: 64% du jeu · 6.3 corners/m · +7.5 tirs de plus que l'adversaire"
-     ]
-    },
-    {
-     "titre": "⚠️ DISCIPLINE (par match)",
-     "lignes": [
-      "Burnley: 12.8 fautes · 1.8 jaunes · 0.00 rouges",
-      "Man City: 10.5 fautes · 1.7 jaunes · 0.00 rouges"
-     ]
-    },
-    {
-     "titre": "📈 FORME Burnley (6 derniers, niveau de l'adversaire)",
-     "lignes": [
-      "D 1-4 ext vs Nott'm Forest (moyen)",
-      "D 0-1 dom vs Man City (fort)",
-      "D 1-3 ext vs Leeds (fort)",
-      "N 2-2 dom vs Aston Villa (moyen)",
-      "D 0-1 ext vs Arsenal (fort)",
-      "N 1-1 dom vs Wolves (faible)",
-      "Bilan: forts: 0 pts/3 m · moyens: 1 pts/2 m · faibles: 1 pts/1 m"
-     ]
-    },
-    {
-     "titre": "📈 FORME Man City (6 derniers, niveau de l'adversaire)",
-     "lignes": [
-      "V 3-0 ext vs Liverpool (fort)",
-      "V 3-2 dom vs Ipswich (faible)",
-      "D 1-2 ext vs Aston Villa (moyen)",
-      "D 0-1 dom vs Brighton (fort)",
-      "D 1-3 ext vs Nott'm Forest (moyen)",
-      "N 1-1 dom vs Fulham (moyen)",
-      "Bilan: forts: 3 pts/2 m · moyens: 1 pts/3 m · faibles: 3 pts/1 m"
-     ]
-    },
-    {
-     "titre": "🔗 ADVERSAIRES COMMUNS (400 derniers jours)",
-     "lignes": [
-      "vs Fulham: Burnley D 1-3 ext │ Man City N 1-1 dom",
-      "vs Nott'm Forest: Burnley D 1-4 ext │ Man City D 1-3 ext",
-      "vs Brighton: Burnley D 0-2 dom │ Man City D 0-1 dom",
-      "vs Aston Villa: Burnley N 2-2 dom │ Man City D 1-2 ext",
-      "vs Liverpool: Burnley N 1-1 ext │ Man City V 3-0 ext",
-      "Diff. de buts/match vs ces 18 equipes: Burnley -1.03 (29 m) │ Man City +0.95 (38 m)"
-     ]
-    },
-    {
-     "titre": "📊 TENDANCES (8 derniers matchs)",
-     "lignes": [
-      "Burnley: +2.5 buts 50% · 2 marquent 62% · clean sheet 0% · sans marquer 38% · buts 1re MT 0.2 / 2e MT 0.5",
-      "Man City: +2.5 buts 62% · 2 marquent 62% · clean sheet 25% · sans marquer 12% · buts 1re MT 0.6 / 2e MT 1.2"
-     ]
-    },
-    {
-     "titre": "🤝 CONFRONTATIONS DIRECTES",
-     "lignes": [
-      "11/08/23 Burnley 0-3 Man City",
-      "31/01/24 Man City 3-1 Burnley",
-      "27/09/25 Man City 5-1 Burnley",
-      "22/04/26 Burnley 0-1 Man City",
-      "Bilan: Burnley 0 V │ 0 N │ Man City 4 V"
-     ]
-    },
-    {
-     "titre": "🧠 LECTURE",
-     "lignes": [
-      "• Le modele voit Man City favori",
-      "• Meilleure attaque: Man City",
-      "• Meilleure defense: Man City",
-      "• Man City domine le jeu (tirs et corners)",
-      "• Meilleure forme: Man City",
-      "• Mieux contre les adversaires communs: Man City",
-      "• Moins repose: Man City",
-      "• Match ouvert (beaucoup de buts attendus)",
-      "• Ignore blessures, compositions et enjeu du match"
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "20:45",
-   "pays": "England",
-   "drapeau": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "ligue": "National League",
-   "equipe1": "Harrogate Town",
-   "equipe2": "Kidderminster Harriers FC",
-   "cotes_1x2": {
-    "1": 1.53,
-    "X": 4.06,
-    "2": 5.56
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.17",
-     "feu": true,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "2.50",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.25",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 185,
-     "gain_min": 20.0,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 134,
-       "sur": "Harrogate Town",
-       "cote": 1.53,
-       "recu": 205.0,
-       "gain": 20.0
-      },
-      {
-       "compte": 2,
-       "mise": 51,
-       "sur": "Nul",
-       "cote": 4.06,
-       "recu": 207.1,
-       "gain": 22.1
-      }
-     ],
-     "perte_si": "Kidderminster Harriers FC",
-     "perte": 185,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 200.3,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 87,
-       "sur": "Nul",
-       "cote": 4.06,
-       "recu": 353.2,
-       "gain": 203.2
-      },
-      {
-       "compte": 2,
-       "mise": 63,
-       "sur": "Kidderminster Harriers FC",
-       "cote": 5.56,
-       "recu": 350.3,
-       "gain": 200.3
-      }
-     ],
-     "perte_si": "Harrogate Town",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 27.9,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 118,
-       "sur": "Harrogate Town",
-       "cote": 1.53,
-       "recu": 180.5,
-       "gain": 30.5
-      },
-      {
-       "compte": 2,
-       "mise": 32,
-       "sur": "Kidderminster Harriers FC",
-       "cote": 5.56,
-       "recu": 177.9,
-       "gain": 27.9
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Equipe non reconnue par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "20:45",
-   "pays": "England",
-   "drapeau": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "ligue": "National League",
-   "equipe1": "Hartlepool United",
-   "equipe2": "Solihull Moors FC",
-   "cotes_1x2": {
-    "1": 1.99,
-    "X": 3.64,
-    "2": 3.3
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.35",
-     "feu": false,
-     "modele": 67
-    },
-    {
-     "pari": "X2",
-     "cote": "1.82",
-     "feu": false,
-     "modele": 60
-    },
-    {
-     "pari": "12",
-     "cote": "1.32",
-     "feu": false,
-     "modele": 73
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 42.9,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 97,
-       "sur": "Hartlepool United",
-       "cote": 1.99,
-       "recu": 193.0,
-       "gain": 43.0
-      },
-      {
-       "compte": 2,
-       "mise": 53,
-       "sur": "Nul",
-       "cote": 3.64,
-       "recu": 192.9,
-       "gain": 42.9
-      }
-     ],
-     "perte_si": "Solihull Moors FC",
-     "perte": 150,
-     "proba": 68
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 108.4,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 71,
-       "sur": "Nul",
-       "cote": 3.64,
-       "recu": 258.4,
-       "gain": 108.4
-      },
-      {
-       "compte": 2,
-       "mise": 79,
-       "sur": "Solihull Moors FC",
-       "cote": 3.3,
-       "recu": 260.7,
-       "gain": 110.7
-      }
-     ],
-     "perte_si": "Hartlepool United",
-     "perte": 150,
-     "proba": 59
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 34.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 94,
-       "sur": "Hartlepool United",
-       "cote": 1.99,
-       "recu": 187.1,
-       "gain": 37.1
-      },
-      {
-       "compte": 2,
-       "mise": 56,
-       "sur": "Solihull Moors FC",
-       "cote": 3.3,
-       "recu": 184.8,
-       "gain": 34.8
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": 74
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "📍 CONTEXTE",
-     "lignes": [
-      "Man United: 19e/20 · 8 pts en 11 m · diff -9 · repos 3 j",
-      "Hull: 11e/20 · 14 pts en 11 m · diff +2 · repos 3 j"
-     ]
-    },
-    {
-     "titre": "🎯 PREVISION DU MODELE",
-     "lignes": [
-      "Buts attendus: 1.35 - 1.19",
-      "1 40% │ X 27% │ 2 33%",
-      "1X 67% │ X2 60% │ 12 73%",
-      "+1.5 buts 72% │ +2.5 47% │ +3.5 25%",
-      "Les 2 equipes marquent: 52%",
-      "Scores probables: 1-1 (13%), 1-0 (11%), 0-1 (9%)"
-     ]
-    },
-    {
-     "titre": "⚔️ ATTAQUE",
-     "lignes": [
-      "Man United: force x1.18 · 1.0 buts/m · 15.0 tirs (4.8 cadres) · dom: 2.0 buts/m",
-      "Hull: force x0.87 · 1.2 buts/m · 8.8 tirs (2.8 cadres) · ext: 0.8 buts/m"
-     ]
-    },
-    {
-     "titre": "🛡️ DEFENSE (sous x1.00 = solide)",
-     "lignes": [
-      "Man United: force x1.15 · 2.5 enc./m · 6.5 cadres subis · 0 clean sheet(s)/6 · dom: 2.2 enc./m",
-      "Hull: force x0.74 · 1.2 enc./m · 6.7 cadres subis · 1 clean sheet(s)/6 · ext: 1.2 enc./m"
-     ]
-    },
-    {
-     "titre": "🎛️ MILIEU / CONTROLE (estime: tirs + corners)",
-     "lignes": [
-      "Man United: 49% du jeu · 5.3 corners/m · -0.5 tirs de plus que l'adversaire",
-      "Hull: 37% du jeu · 4.5 corners/m · -7.5 tirs de plus que l'adversaire"
-     ]
-    },
-    {
-     "titre": "⚠️ DISCIPLINE (par match)",
-     "lignes": [
-      "Man United: 12.7 fautes · 2.8 jaunes · 0.33 rouges",
-      "Hull: 11.8 fautes · 2.0 jaunes · 0.00 rouges"
-     ]
-    },
-    {
-     "titre": "📈 FORME Man United (6 derniers, niveau de l'adversaire)",
-     "lignes": [
-      "N 1-1 dom vs Tottenham (moyen)",
-      "N 1-1 ext vs Leeds (fort)",
-      "D 0-3 dom vs Bournemouth (fort)",
-      "D 0-2 ext vs Chelsea (moyen)",
-      "N 4-4 dom vs Aston Villa (moyen)",
-      "D 0-4 ext vs Liverpool (fort)",
-      "Bilan: forts: 1 pts/3 m · moyens: 2 pts/3 m"
-     ]
-    },
-    {
-     "titre": "📈 FORME Hull (6 derniers, niveau de l'adversaire)",
-     "lignes": [
-      "N 2-2 dom vs Everton (moyen)",
-      "D 0-1 ext vs Fulham (moyen)",
-      "N 1-1 dom vs Brentford (fort)",
-      "N 2-2 dom vs Ipswich (faible)",
-      "D 0-1 ext vs Arsenal (fort)",
-      "V 2-0 dom vs Brighton (fort)",
-      "Bilan: forts: 4 pts/3 m · moyens: 1 pts/2 m · faibles: 1 pts/1 m"
-     ]
-    },
-    {
-     "titre": "🔗 ADVERSAIRES COMMUNS (400 derniers jours)",
-     "lignes": [
-      "vs Brighton: Man United V 3-0 ext │ Hull V 2-0 dom",
-      "vs Aston Villa: Man United N 4-4 dom │ Hull N 0-0 dom",
-      "vs Arsenal: Man United V 3-2 ext │ Hull D 0-1 ext",
-      "vs Chelsea: Man United D 0-2 ext │ Hull N 2-2 ext",
-      "vs Ipswich: Man United V 5-2 dom │ Hull N 2-2 dom",
-      "Diff. de buts/match vs ces 9 equipes: Man United +0.65 (17 m) │ Hull -0.11 (9 m)"
-     ]
-    },
-    {
-     "titre": "📊 TENDANCES (8 derniers matchs)",
-     "lignes": [
-      "Man United: +2.5 buts 38% · 2 marquent 50% · clean sheet 0% · sans marquer 50% · buts 1re MT 0.4 / 2e MT 0.5",
-      "Hull: +2.5 buts 50% · 2 marquent 62% · clean sheet 12% · sans marquer 25% · buts 1re MT 0.4 / 2e MT 0.9"
-     ]
-    },
-    {
-     "titre": "🤝 CONFRONTATIONS DIRECTES",
-     "lignes": [
-      "22/08/26 Hull 2-0 Man United",
-      "Bilan: Man United 0 V │ 0 N │ Hull 1 V"
-     ]
-    },
-    {
-     "titre": "🧠 LECTURE",
-     "lignes": [
-      "• Pas de favori net",
-      "• Meilleure attaque: Man United",
-      "• Meilleure defense: Hull",
-      "• Man United domine le jeu (tirs et corners)",
-      "• Mieux contre les adversaires communs: Man United",
-      "• Nombre de buts moyen attendu",
-      "• Ignore blessures, compositions et enjeu du match"
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "20:45",
-   "pays": "Ireland",
-   "drapeau": "🌍",
-   "ligue": "Ireland Leinster Senior League",
-   "equipe1": "Malahide United",
-   "equipe2": "Bangor Celtic",
-   "cotes_1x2": {
-    "1": 1.44,
-    "X": 4.66,
-    "2": 5.58
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.12",
-     "feu": true,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "2.51",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.16",
-     "feu": true,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 229.4,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 82,
-       "sur": "Nul",
-       "cote": 4.66,
-       "recu": 382.1,
-       "gain": 232.1
-      },
-      {
-       "compte": 2,
-       "mise": 68,
-       "sur": "Bangor Celtic",
-       "cote": 5.58,
-       "recu": 379.4,
-       "gain": 229.4
-      }
-     ],
-     "perte_si": "Malahide United",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 21.4,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 119,
-       "sur": "Malahide United",
-       "cote": 1.44,
-       "recu": 171.4,
-       "gain": 21.4
-      },
-      {
-       "compte": 2,
-       "mise": 31,
-       "sur": "Bangor Celtic",
-       "cote": 5.58,
-       "recu": 173.0,
-       "gain": 23.0
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "20:45",
-   "pays": "San Marino",
-   "drapeau": "🌍",
-   "ligue": "Coppa Titano",
-   "equipe1": "SP La Fiorita",
-   "equipe2": "Cosmos Serravalle",
-   "cotes_1x2": {
-    "1": 1.78,
-    "X": 3.29,
-    "2": 4.29
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.19",
-     "feu": true,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.82",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.28",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 22.7,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 97,
-       "sur": "SP La Fiorita",
-       "cote": 1.78,
-       "recu": 172.7,
-       "gain": 22.7
-      },
-      {
-       "compte": 2,
-       "mise": 53,
-       "sur": "Nul",
-       "cote": 3.29,
-       "recu": 174.4,
-       "gain": 24.4
-      }
-     ],
-     "perte_si": "Cosmos Serravalle",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 128.9,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 85,
-       "sur": "Nul",
-       "cote": 3.29,
-       "recu": 279.6,
-       "gain": 129.6
-      },
-      {
-       "compte": 2,
-       "mise": 65,
-       "sur": "Cosmos Serravalle",
-       "cote": 4.29,
-       "recu": 278.9,
-       "gain": 128.9
-      }
-     ],
-     "perte_si": "SP La Fiorita",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 38.7,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 106,
-       "sur": "SP La Fiorita",
-       "cote": 1.78,
-       "recu": 188.7,
-       "gain": 38.7
-      },
-      {
-       "compte": 2,
-       "mise": 44,
-       "sur": "Cosmos Serravalle",
-       "cote": 4.29,
-       "recu": 188.8,
-       "gain": 38.8
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "21:00",
-   "pays": "England",
-   "drapeau": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "ligue": "Championship",
-   "equipe1": "Stoke City",
-   "equipe2": "Millwall FC",
-   "cotes_1x2": {
-    "1": 2.12,
-    "X": 3.36,
-    "2": 3.58
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.31",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.70",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.34",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 44.9,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 92,
-       "sur": "Stoke City",
-       "cote": 2.12,
-       "recu": 195.0,
-       "gain": 45.0
-      },
-      {
-       "compte": 2,
-       "mise": 58,
-       "sur": "Nul",
-       "cote": 3.36,
-       "recu": 194.9,
-       "gain": 44.9
-      }
-     ],
-     "perte_si": "Millwall FC",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 108.7,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 77,
-       "sur": "Nul",
-       "cote": 3.36,
-       "recu": 258.7,
-       "gain": 108.7
-      },
-      {
-       "compte": 2,
-       "mise": 73,
-       "sur": "Millwall FC",
-       "cote": 3.58,
-       "recu": 261.3,
-       "gain": 111.3
-      }
-     ],
-     "perte_si": "Stoke City",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 49.3,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 94,
-       "sur": "Stoke City",
-       "cote": 2.12,
-       "recu": 199.3,
-       "gain": 49.3
-      },
-      {
-       "compte": 2,
-       "mise": 56,
-       "sur": "Millwall FC",
-       "cote": 3.58,
-       "recu": 200.5,
-       "gain": 50.5
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Equipe non reconnue par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "21:00",
-   "pays": "International",
-   "drapeau": "🌍",
-   "ligue": "UEFA Champions League",
-   "equipe1": "FC Shakhtar Donetsk",
-   "equipe2": "Fenerbahce Istanbul",
-   "cotes_1x2": {
-    "1": 2.6,
-    "X": 3.46,
-    "2": 2.66
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.48",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.49",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.33",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 71.4,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 86,
-       "sur": "FC Shakhtar Donetsk",
-       "cote": 2.6,
-       "recu": 223.6,
-       "gain": 73.6
-      },
-      {
-       "compte": 2,
-       "mise": 64,
-       "sur": "Nul",
-       "cote": 3.46,
-       "recu": 221.4,
-       "gain": 71.4
-      }
-     ],
-     "perte_si": "Fenerbahce Istanbul",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 74.9,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 65,
-       "sur": "Nul",
-       "cote": 3.46,
-       "recu": 224.9,
-       "gain": 74.9
-      },
-      {
-       "compte": 2,
-       "mise": 85,
-       "sur": "Fenerbahce Istanbul",
-       "cote": 2.66,
-       "recu": 226.1,
-       "gain": 76.1
-      }
-     ],
-     "perte_si": "FC Shakhtar Donetsk",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 46.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 76,
-       "sur": "FC Shakhtar Donetsk",
-       "cote": 2.6,
-       "recu": 197.6,
-       "gain": 47.6
-      },
-      {
-       "compte": 2,
-       "mise": 74,
-       "sur": "Fenerbahce Istanbul",
-       "cote": 2.66,
-       "recu": 196.8,
-       "gain": 46.8
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "21:00",
-   "pays": "International",
-   "drapeau": "🌍",
-   "ligue": "UEFA Champions League",
-   "equipe1": "Atletico Madrid",
-   "equipe2": "Viking FK",
-   "cotes_1x2": {
-    "1": 1.09,
-    "X": 11.51,
-    "2": 23.5
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.03",
-     "feu": true,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "5.56",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.06",
-     "feu": true,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 1001.5,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 101,
-       "sur": "Nul",
-       "cote": 11.51,
-       "recu": 1162.5,
-       "gain": 1012.5
-      },
-      {
-       "compte": 2,
-       "mise": 49,
-       "sur": "Viking FK",
-       "cote": 23.5,
-       "recu": 1151.5,
-       "gain": 1001.5
-      }
-     ],
-     "perte_si": "Atletico Madrid",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "21:00",
-   "pays": "International",
-   "drapeau": "🌍",
-   "ligue": "UEFA Champions League",
-   "equipe1": "Sporting CP",
-   "equipe2": "Manchester United",
-   "cotes_1x2": {
-    "1": 2.54,
-    "X": 3.74,
-    "2": 2.57
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.50",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.51",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.29",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 76.1,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 89,
-       "sur": "Sporting CP",
-       "cote": 2.54,
-       "recu": 226.1,
-       "gain": 76.1
-      },
-      {
-       "compte": 2,
-       "mise": 61,
-       "sur": "Nul",
-       "cote": 3.74,
-       "recu": 228.1,
-       "gain": 78.1
-      }
-     ],
-     "perte_si": "Manchester United",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 78.1,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 61,
-       "sur": "Nul",
-       "cote": 3.74,
-       "recu": 228.1,
-       "gain": 78.1
-      },
-      {
-       "compte": 2,
-       "mise": 89,
-       "sur": "Manchester United",
-       "cote": 2.57,
-       "recu": 228.7,
-       "gain": 78.7
-      }
-     ],
-     "perte_si": "Sporting CP",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 40.5,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 75,
-       "sur": "Sporting CP",
-       "cote": 2.54,
-       "recu": 190.5,
-       "gain": 40.5
-      },
-      {
-       "compte": 2,
-       "mise": 75,
-       "sur": "Manchester United",
-       "cote": 2.57,
-       "recu": 192.8,
-       "gain": 42.8
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "21:00",
-   "pays": "International",
-   "drapeau": "🌍",
-   "ligue": "UEFA Champions League",
-   "equipe1": "Lille OSC",
-   "equipe2": "Bayern Munich",
-   "cotes_1x2": {
-    "1": 5.6,
-    "X": 4.26,
-    "2": 1.57
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "2.28",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.17",
-     "feu": true,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.24",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 212.1,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 65,
-       "sur": "Lille OSC",
-       "cote": 5.6,
-       "recu": 364.0,
-       "gain": 214.0
-      },
-      {
-       "compte": 2,
-       "mise": 85,
-       "sur": "Nul",
-       "cote": 4.26,
-       "recu": 362.1,
-       "gain": 212.1
-      }
-     ],
-     "perte_si": "Bayern Munich",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 20.4,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 40,
-       "sur": "Nul",
-       "cote": 4.26,
-       "recu": 170.4,
-       "gain": 20.4
-      },
-      {
-       "compte": 2,
-       "mise": 110,
-       "sur": "Bayern Munich",
-       "cote": 1.57,
-       "recu": 172.7,
-       "gain": 22.7
-      }
-     ],
-     "perte_si": "Lille OSC",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 33.7,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 33,
-       "sur": "Lille OSC",
-       "cote": 5.6,
-       "recu": 184.8,
-       "gain": 34.8
-      },
-      {
-       "compte": 2,
-       "mise": 117,
-       "sur": "Bayern Munich",
-       "cote": 1.57,
-       "recu": 183.7,
-       "gain": 33.7
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "21:00",
-   "pays": "International",
-   "drapeau": "🌍",
-   "ligue": "UEFA Champions League",
-   "equipe1": "Club Brugge",
-   "equipe2": "Liverpool FC",
-   "cotes_1x2": {
-    "1": 4.28,
-    "X": 4.65,
-    "2": 1.66
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "2.12",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.24",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.22",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 183.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 78,
-       "sur": "Club Brugge",
-       "cote": 4.28,
-       "recu": 333.8,
-       "gain": 183.8
-      },
-      {
-       "compte": 2,
-       "mise": 72,
-       "sur": "Nul",
-       "cote": 4.65,
-       "recu": 334.8,
-       "gain": 184.8
-      }
-     ],
-     "perte_si": "Liverpool FC",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 31.4,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 39,
-       "sur": "Nul",
-       "cote": 4.65,
-       "recu": 181.4,
-       "gain": 31.4
-      },
-      {
-       "compte": 2,
-       "mise": 111,
-       "sur": "Liverpool FC",
-       "cote": 1.66,
-       "recu": 184.3,
-       "gain": 34.3
-      }
-     ],
-     "perte_si": "Club Brugge",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 29.3,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 42,
-       "sur": "Club Brugge",
-       "cote": 4.28,
-       "recu": 179.8,
-       "gain": 29.8
-      },
-      {
-       "compte": 2,
-       "mise": 108,
-       "sur": "Liverpool FC",
-       "cote": 1.66,
-       "recu": 179.3,
-       "gain": 29.3
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "21:00",
-   "pays": "International",
-   "drapeau": "🌍",
-   "ligue": "UEFA Champions League",
-   "equipe1": "Paris Saint-Germain",
-   "equipe2": "AS Roma",
-   "cotes_1x2": {
-    "1": 1.49,
-    "X": 5.05,
-    "2": 5.53
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.17",
-     "feu": true,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "2.46",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.19",
-     "feu": true,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 21.7,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 116,
-       "sur": "Paris Saint-Germain",
-       "cote": 1.49,
-       "recu": 172.8,
-       "gain": 22.8
-      },
-      {
-       "compte": 2,
-       "mise": 34,
-       "sur": "Nul",
-       "cote": 5.05,
-       "recu": 171.7,
-       "gain": 21.7
-      }
-     ],
-     "perte_si": "AS Roma",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 243.9,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 78,
-       "sur": "Nul",
-       "cote": 5.05,
-       "recu": 393.9,
-       "gain": 243.9
-      },
-      {
-       "compte": 2,
-       "mise": 72,
-       "sur": "AS Roma",
-       "cote": 5.53,
-       "recu": 398.2,
-       "gain": 248.2
-      }
-     ],
-     "perte_si": "Paris Saint-Germain",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 25.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 118,
-       "sur": "Paris Saint-Germain",
-       "cote": 1.49,
-       "recu": 175.8,
-       "gain": 25.8
-      },
-      {
-       "compte": 2,
-       "mise": 32,
-       "sur": "AS Roma",
-       "cote": 5.53,
-       "recu": 177.0,
-       "gain": 27.0
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "21:00",
-   "pays": "International",
-   "drapeau": "🌍",
-   "ligue": "UEFA Champions League",
-   "equipe1": "Inter Milano",
-   "equipe2": "VfB Stuttgart",
-   "cotes_1x2": {
-    "1": 1.38,
-    "X": 5.76,
-    "2": 6.64
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.13",
-     "feu": true,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "2.80",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.16",
-     "feu": true,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 180,
-     "gain_min": 20.1,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 145,
-       "sur": "Inter Milano",
-       "cote": 1.38,
-       "recu": 200.1,
-       "gain": 20.1
-      },
-      {
-       "compte": 2,
-       "mise": 35,
-       "sur": "Nul",
-       "cote": 5.76,
-       "recu": 201.6,
-       "gain": 21.6
-      }
-     ],
-     "perte_si": "VfB Stuttgart",
-     "perte": 180,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 310.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 80,
-       "sur": "Nul",
-       "cote": 5.76,
-       "recu": 460.8,
-       "gain": 310.8
-      },
-      {
-       "compte": 2,
-       "mise": 70,
-       "sur": "VfB Stuttgart",
-       "cote": 6.64,
-       "recu": 464.8,
-       "gain": 314.8
-      }
-     ],
-     "perte_si": "Inter Milano",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 21.1,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 124,
-       "sur": "Inter Milano",
-       "cote": 1.38,
-       "recu": 171.1,
-       "gain": 21.1
-      },
-      {
-       "compte": 2,
-       "mise": 26,
-       "sur": "VfB Stuttgart",
-       "cote": 6.64,
-       "recu": 172.6,
-       "gain": 22.6
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
   {
    "date": "25/11",
    "heure": "22:00",
@@ -2221,9 +140,9 @@
    "equipe1": "Colon FC",
    "equipe2": "CA Atenas de San Carlos",
    "cotes_1x2": {
-    "1": 2.39,
-    "X": 2.82,
-    "2": 3.15
+    "1": 2.42,
+    "X": 2.75,
+    "2": 3.18
    },
    "double_chance": [
     {
@@ -2234,13 +153,13 @@
     },
     {
      "pari": "X2",
-     "cote": "1.49",
+     "cote": "1.48",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.38",
+     "cote": "1.40",
      "feu": false,
      "modele": null
     }
@@ -2249,23 +168,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 43.6,
+     "gain_min": 42.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 81,
+       "mise": 80,
        "sur": "Colon FC",
-       "cote": 2.39,
+       "cote": 2.42,
        "recu": 193.6,
        "gain": 43.6
       },
       {
        "compte": 2,
-       "mise": 69,
+       "mise": 70,
        "sur": "Nul",
-       "cote": 2.82,
-       "recu": 194.6,
-       "gain": 44.6
+       "cote": 2.75,
+       "recu": 192.5,
+       "gain": 42.5
       }
      ],
      "perte_si": "CA Atenas de San Carlos",
@@ -2275,23 +194,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 72.8,
+     "gain_min": 70.0,
      "comptes": [
       {
        "compte": 1,
-       "mise": 79,
+       "mise": 80,
        "sur": "Nul",
-       "cote": 2.82,
-       "recu": 222.8,
-       "gain": 72.8
+       "cote": 2.75,
+       "recu": 220.0,
+       "gain": 70.0
       },
       {
        "compte": 2,
-       "mise": 71,
+       "mise": 70,
        "sur": "CA Atenas de San Carlos",
-       "cote": 3.15,
-       "recu": 223.7,
-       "gain": 73.7
+       "cote": 3.18,
+       "recu": 222.6,
+       "gain": 72.6
       }
      ],
      "perte_si": "Colon FC",
@@ -2301,23 +220,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 53.2,
+     "gain_min": 55.7,
      "comptes": [
       {
        "compte": 1,
        "mise": 85,
        "sur": "Colon FC",
-       "cote": 2.39,
-       "recu": 203.2,
-       "gain": 53.2
+       "cote": 2.42,
+       "recu": 205.7,
+       "gain": 55.7
       },
       {
        "compte": 2,
        "mise": 65,
        "sur": "CA Atenas de San Carlos",
-       "cote": 3.15,
-       "recu": 204.8,
-       "gain": 54.8
+       "cote": 3.18,
+       "recu": 206.7,
+       "gain": 56.7
       }
      ],
      "perte_si": "Nul",
@@ -2562,6 +481,1880 @@
        "cote": 3.24,
        "recu": 200.9,
        "gain": 50.9
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "23:00",
+   "pays": "Nicaragua",
+   "drapeau": "🌍",
+   "ligue": "Primera Division",
+   "equipe1": "Unan Managua",
+   "equipe2": "HYH Sebaco FC",
+   "cotes_1x2": {
+    "1": 3.24,
+    "X": 3.44,
+    "2": 2.0
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.65",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.29",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.27",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 99.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 77,
+       "sur": "Unan Managua",
+       "cote": 3.24,
+       "recu": 249.5,
+       "gain": 99.5
+      },
+      {
+       "compte": 2,
+       "mise": 73,
+       "sur": "Nul",
+       "cote": 3.44,
+       "recu": 251.1,
+       "gain": 101.1
+      }
+     ],
+     "perte_si": "HYH Sebaco FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 39.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 55,
+       "sur": "Nul",
+       "cote": 3.44,
+       "recu": 189.2,
+       "gain": 39.2
+      },
+      {
+       "compte": 2,
+       "mise": 95,
+       "sur": "HYH Sebaco FC",
+       "cote": 2.0,
+       "recu": 190.0,
+       "gain": 40.0
+      }
+     ],
+     "perte_si": "Unan Managua",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 34.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 57,
+       "sur": "Unan Managua",
+       "cote": 3.24,
+       "recu": 184.7,
+       "gain": 34.7
+      },
+      {
+       "compte": 2,
+       "mise": 93,
+       "sur": "HYH Sebaco FC",
+       "cote": 2.0,
+       "recu": 186.0,
+       "gain": 36.0
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "25/11",
+   "heure": "23:30",
+   "pays": "Venezuela",
+   "drapeau": "🌍",
+   "ligue": "Copa Venezuela",
+   "equipe1": "Deportivo Tachira",
+   "equipe2": "Carabobo FC",
+   "cotes_1x2": {
+    "1": 2.01,
+    "X": 3.1,
+    "2": 3.55
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.26",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.66",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.32",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 32.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 91,
+       "sur": "Deportivo Tachira",
+       "cote": 2.01,
+       "recu": 182.9,
+       "gain": 32.9
+      },
+      {
+       "compte": 2,
+       "mise": 59,
+       "sur": "Nul",
+       "cote": 3.1,
+       "recu": 182.9,
+       "gain": 32.9
+      }
+     ],
+     "perte_si": "Carabobo FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 98.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 80,
+       "sur": "Nul",
+       "cote": 3.1,
+       "recu": 248.0,
+       "gain": 98.0
+      },
+      {
+       "compte": 2,
+       "mise": 70,
+       "sur": "Carabobo FC",
+       "cote": 3.55,
+       "recu": 248.5,
+       "gain": 98.5
+      }
+     ],
+     "perte_si": "Deportivo Tachira",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 41.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 96,
+       "sur": "Deportivo Tachira",
+       "cote": 2.01,
+       "recu": 193.0,
+       "gain": 43.0
+      },
+      {
+       "compte": 2,
+       "mise": 54,
+       "sur": "Carabobo FC",
+       "cote": 3.55,
+       "recu": 191.7,
+       "gain": 41.7
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "00:00",
+   "pays": "Bolivia",
+   "drapeau": "🌍",
+   "ligue": "Copa Division Profesional",
+   "equipe1": "Real Potosi",
+   "equipe2": "Always Ready",
+   "cotes_1x2": {
+    "1": 2.22,
+    "X": 3.4,
+    "2": 2.82
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.36",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.54",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.27",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 50.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 91,
+       "sur": "Real Potosi",
+       "cote": 2.22,
+       "recu": 202.0,
+       "gain": 52.0
+      },
+      {
+       "compte": 2,
+       "mise": 59,
+       "sur": "Nul",
+       "cote": 3.4,
+       "recu": 200.6,
+       "gain": 50.6
+      }
+     ],
+     "perte_si": "Always Ready",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 81.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 68,
+       "sur": "Nul",
+       "cote": 3.4,
+       "recu": 231.2,
+       "gain": 81.2
+      },
+      {
+       "compte": 2,
+       "mise": 82,
+       "sur": "Always Ready",
+       "cote": 2.82,
+       "recu": 231.2,
+       "gain": 81.2
+      }
+     ],
+     "perte_si": "Real Potosi",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 36.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 84,
+       "sur": "Real Potosi",
+       "cote": 2.22,
+       "recu": 186.5,
+       "gain": 36.5
+      },
+      {
+       "compte": 2,
+       "mise": 66,
+       "sur": "Always Ready",
+       "cote": 2.82,
+       "recu": 186.1,
+       "gain": 36.1
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "00:00",
+   "pays": "Brazil",
+   "drapeau": "🌍",
+   "ligue": "Brasileiro Serie A",
+   "equipe1": "Atletico Mineiro MG",
+   "equipe2": "SC Corinthians SP",
+   "cotes_1x2": {
+    "1": 2.58,
+    "X": 3.29,
+    "2": 2.71
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.45",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.49",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.35",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 66.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 84,
+       "sur": "Atletico Mineiro MG",
+       "cote": 2.58,
+       "recu": 216.7,
+       "gain": 66.7
+      },
+      {
+       "compte": 2,
+       "mise": 66,
+       "sur": "Nul",
+       "cote": 3.29,
+       "recu": 217.1,
+       "gain": 67.1
+      }
+     ],
+     "perte_si": "SC Corinthians SP",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 72.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 68,
+       "sur": "Nul",
+       "cote": 3.29,
+       "recu": 223.7,
+       "gain": 73.7
+      },
+      {
+       "compte": 2,
+       "mise": 82,
+       "sur": "SC Corinthians SP",
+       "cote": 2.71,
+       "recu": 222.2,
+       "gain": 72.2
+      }
+     ],
+     "perte_si": "Atletico Mineiro MG",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 47.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 77,
+       "sur": "Atletico Mineiro MG",
+       "cote": 2.58,
+       "recu": 198.7,
+       "gain": 48.7
+      },
+      {
+       "compte": 2,
+       "mise": 73,
+       "sur": "SC Corinthians SP",
+       "cote": 2.71,
+       "recu": 197.8,
+       "gain": 47.8
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "00:00",
+   "pays": "El Salvador",
+   "drapeau": "🌍",
+   "ligue": "Segunda Division",
+   "equipe1": "Universidad de El Salvador",
+   "equipe2": "CD Olimpico Litoral",
+   "cotes_1x2": {
+    "1": 2.27,
+    "X": 3.48,
+    "2": 2.55
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.39",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.48",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.24",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 55.3,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 91,
+       "sur": "Universidad de El Salvador",
+       "cote": 2.27,
+       "recu": 206.6,
+       "gain": 56.6
+      },
+      {
+       "compte": 2,
+       "mise": 59,
+       "sur": "Nul",
+       "cote": 3.48,
+       "recu": 205.3,
+       "gain": 55.3
+      }
+     ],
+     "perte_si": "CD Olimpico Litoral",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 69.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 63,
+       "sur": "Nul",
+       "cote": 3.48,
+       "recu": 219.2,
+       "gain": 69.2
+      },
+      {
+       "compte": 2,
+       "mise": 87,
+       "sur": "CD Olimpico Litoral",
+       "cote": 2.55,
+       "recu": 221.8,
+       "gain": 71.8
+      }
+     ],
+     "perte_si": "Universidad de El Salvador",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 29.3,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 79,
+       "sur": "Universidad de El Salvador",
+       "cote": 2.27,
+       "recu": 179.3,
+       "gain": 29.3
+      },
+      {
+       "compte": 2,
+       "mise": 71,
+       "sur": "CD Olimpico Litoral",
+       "cote": 2.55,
+       "recu": 181.0,
+       "gain": 31.0
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "00:20",
+   "pays": "Colombia",
+   "drapeau": "🌍",
+   "ligue": "Primera A, Apertura",
+   "equipe1": "Independiente Santa Fe",
+   "equipe2": "CD Once Caldas",
+   "cotes_1x2": {
+    "1": 2.14,
+    "X": 3.18,
+    "2": 3.37
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.30",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.60",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.33",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 40.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 90,
+       "sur": "Independiente Santa Fe",
+       "cote": 2.14,
+       "recu": 192.6,
+       "gain": 42.6
+      },
+      {
+       "compte": 2,
+       "mise": 60,
+       "sur": "Nul",
+       "cote": 3.18,
+       "recu": 190.8,
+       "gain": 40.8
+      }
+     ],
+     "perte_si": "CD Once Caldas",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 94.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 77,
+       "sur": "Nul",
+       "cote": 3.18,
+       "recu": 244.9,
+       "gain": 94.9
+      },
+      {
+       "compte": 2,
+       "mise": 73,
+       "sur": "CD Once Caldas",
+       "cote": 3.37,
+       "recu": 246.0,
+       "gain": 96.0
+      }
+     ],
+     "perte_si": "Independiente Santa Fe",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 45.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 92,
+       "sur": "Independiente Santa Fe",
+       "cote": 2.14,
+       "recu": 196.9,
+       "gain": 46.9
+      },
+      {
+       "compte": 2,
+       "mise": 58,
+       "sur": "CD Once Caldas",
+       "cote": 3.37,
+       "recu": 195.5,
+       "gain": 45.5
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "01:00",
+   "pays": "Argentina",
+   "drapeau": "🌍",
+   "ligue": "Liga Profesional",
+   "equipe1": "Boca Juniors",
+   "equipe2": "Independiente Rivadavia",
+   "cotes_1x2": {
+    "1": 1.5,
+    "X": 4.12,
+    "2": 6.66
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.12",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "2.28",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.22",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 229.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 93,
+       "sur": "Nul",
+       "cote": 4.12,
+       "recu": 383.2,
+       "gain": 233.2
+      },
+      {
+       "compte": 2,
+       "mise": 57,
+       "sur": "Independiente Rivadavia",
+       "cote": 6.66,
+       "recu": 379.6,
+       "gain": 229.6
+      }
+     ],
+     "perte_si": "Boca Juniors",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 33.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 122,
+       "sur": "Boca Juniors",
+       "cote": 1.5,
+       "recu": 183.0,
+       "gain": 33.0
+      },
+      {
+       "compte": 2,
+       "mise": 28,
+       "sur": "Independiente Rivadavia",
+       "cote": 6.66,
+       "recu": 186.5,
+       "gain": 36.5
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "01:00",
+   "pays": "Ecuador",
+   "drapeau": "🌍",
+   "ligue": "LigaPro Primera A",
+   "equipe1": "Barcelona SC",
+   "equipe2": "CSD Independiente del Valle",
+   "cotes_1x2": {
+    "1": 2.8,
+    "X": 3.24,
+    "2": 2.42
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.49",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.39",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.32",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 74.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 80,
+       "sur": "Barcelona SC",
+       "cote": 2.8,
+       "recu": 224.0,
+       "gain": 74.0
+      },
+      {
+       "compte": 2,
+       "mise": 70,
+       "sur": "Nul",
+       "cote": 3.24,
+       "recu": 226.8,
+       "gain": 76.8
+      }
+     ],
+     "perte_si": "CSD Independiente del Valle",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 57.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 64,
+       "sur": "Nul",
+       "cote": 3.24,
+       "recu": 207.4,
+       "gain": 57.4
+      },
+      {
+       "compte": 2,
+       "mise": 86,
+       "sur": "CSD Independiente del Valle",
+       "cote": 2.42,
+       "recu": 208.1,
+       "gain": 58.1
+      }
+     ],
+     "perte_si": "Barcelona SC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 43.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 70,
+       "sur": "Barcelona SC",
+       "cote": 2.8,
+       "recu": 196.0,
+       "gain": 46.0
+      },
+      {
+       "compte": 2,
+       "mise": 80,
+       "sur": "CSD Independiente del Valle",
+       "cote": 2.42,
+       "recu": 193.6,
+       "gain": 43.6
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "02:00",
+   "pays": "El Salvador",
+   "drapeau": "🌍",
+   "ligue": "Primera Division, Apertura",
+   "equipe1": "CD Platense Municipal Zacatecoluca",
+   "equipe2": "CD FAS Santa Ana",
+   "cotes_1x2": {
+    "1": 4.01,
+    "X": 3.24,
+    "2": 1.88
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.75",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.23",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.31",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 118.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 67,
+       "sur": "CD Platense Municipal Zacatecoluca",
+       "cote": 4.01,
+       "recu": 268.7,
+       "gain": 118.7
+      },
+      {
+       "compte": 2,
+       "mise": 83,
+       "sur": "Nul",
+       "cote": 3.24,
+       "recu": 268.9,
+       "gain": 118.9
+      }
+     ],
+     "perte_si": "CD FAS Santa Ana",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 28.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 55,
+       "sur": "Nul",
+       "cote": 3.24,
+       "recu": 178.2,
+       "gain": 28.2
+      },
+      {
+       "compte": 2,
+       "mise": 95,
+       "sur": "CD FAS Santa Ana",
+       "cote": 1.88,
+       "recu": 178.6,
+       "gain": 28.6
+      }
+     ],
+     "perte_si": "CD Platense Municipal Zacatecoluca",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 41.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 48,
+       "sur": "CD Platense Municipal Zacatecoluca",
+       "cote": 4.01,
+       "recu": 192.5,
+       "gain": 42.5
+      },
+      {
+       "compte": 2,
+       "mise": 102,
+       "sur": "CD FAS Santa Ana",
+       "cote": 1.88,
+       "recu": 191.8,
+       "gain": 41.8
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "02:00",
+   "pays": "Mexico",
+   "drapeau": "🌍",
+   "ligue": "Liga MX, Apertura",
+   "equipe1": "Deportivo Toluca FC",
+   "equipe2": "Atlas FC",
+   "cotes_1x2": {
+    "1": 1.41,
+    "X": 5.09,
+    "2": 6.48
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.14",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "2.65",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.19",
+     "feu": true,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 197,
+     "gain_min": 20.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 154,
+       "sur": "Deportivo Toluca FC",
+       "cote": 1.41,
+       "recu": 217.1,
+       "gain": 20.1
+      },
+      {
+       "compte": 2,
+       "mise": 43,
+       "sur": "Nul",
+       "cote": 5.09,
+       "recu": 218.9,
+       "gain": 21.9
+      }
+     ],
+     "perte_si": "Atlas FC",
+     "perte": 197,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 277.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 84,
+       "sur": "Nul",
+       "cote": 5.09,
+       "recu": 427.6,
+       "gain": 277.6
+      },
+      {
+       "compte": 2,
+       "mise": 66,
+       "sur": "Atlas FC",
+       "cote": 6.48,
+       "recu": 427.7,
+       "gain": 277.7
+      }
+     ],
+     "perte_si": "Deportivo Toluca FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 23.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 123,
+       "sur": "Deportivo Toluca FC",
+       "cote": 1.41,
+       "recu": 173.4,
+       "gain": 23.4
+      },
+      {
+       "compte": 2,
+       "mise": 27,
+       "sur": "Atlas FC",
+       "cote": 6.48,
+       "recu": 175.0,
+       "gain": 25.0
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "02:00",
+   "pays": "Nicaragua",
+   "drapeau": "🌍",
+   "ligue": "Primera Division",
+   "equipe1": "Managua FC",
+   "equipe2": "CD Walter Ferretti",
+   "cotes_1x2": {
+    "1": 1.75,
+    "X": 3.7,
+    "2": 3.85
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.22",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.85",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.24",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 27.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 102,
+       "sur": "Managua FC",
+       "cote": 1.75,
+       "recu": 178.5,
+       "gain": 28.5
+      },
+      {
+       "compte": 2,
+       "mise": 48,
+       "sur": "Nul",
+       "cote": 3.7,
+       "recu": 177.6,
+       "gain": 27.6
+      }
+     ],
+     "perte_si": "CD Walter Ferretti",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 131.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 76,
+       "sur": "Nul",
+       "cote": 3.7,
+       "recu": 281.2,
+       "gain": 131.2
+      },
+      {
+       "compte": 2,
+       "mise": 74,
+       "sur": "CD Walter Ferretti",
+       "cote": 3.85,
+       "recu": 284.9,
+       "gain": 134.9
+      }
+     ],
+     "perte_si": "Managua FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 30.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 103,
+       "sur": "Managua FC",
+       "cote": 1.75,
+       "recu": 180.2,
+       "gain": 30.2
+      },
+      {
+       "compte": 2,
+       "mise": 47,
+       "sur": "CD Walter Ferretti",
+       "cote": 3.85,
+       "recu": 181.0,
+       "gain": 31.0
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "02:30",
+   "pays": "Colombia",
+   "drapeau": "🌍",
+   "ligue": "Primera A, Apertura",
+   "equipe1": "Atletico Nacional",
+   "equipe2": "Independiente Medellin",
+   "cotes_1x2": {
+    "1": 1.76,
+    "X": 3.51,
+    "2": 4.42
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.20",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.87",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.27",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 25.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 100,
+       "sur": "Atletico Nacional",
+       "cote": 1.76,
+       "recu": 176.0,
+       "gain": 26.0
+      },
+      {
+       "compte": 2,
+       "mise": 50,
+       "sur": "Nul",
+       "cote": 3.51,
+       "recu": 175.5,
+       "gain": 25.5
+      }
+     ],
+     "perte_si": "Independiente Medellin",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 141.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 84,
+       "sur": "Nul",
+       "cote": 3.51,
+       "recu": 294.8,
+       "gain": 144.8
+      },
+      {
+       "compte": 2,
+       "mise": 66,
+       "sur": "Independiente Medellin",
+       "cote": 4.42,
+       "recu": 291.7,
+       "gain": 141.7
+      }
+     ],
+     "perte_si": "Atletico Nacional",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 38.3,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 107,
+       "sur": "Atletico Nacional",
+       "cote": 1.76,
+       "recu": 188.3,
+       "gain": 38.3
+      },
+      {
+       "compte": 2,
+       "mise": 43,
+       "sur": "Independiente Medellin",
+       "cote": 4.42,
+       "recu": 190.1,
+       "gain": 40.1
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "03:00",
+   "pays": "El Salvador",
+   "drapeau": "🌍",
+   "ligue": "Primera Division, Apertura",
+   "equipe1": "Inter Santa Tecla",
+   "equipe2": "CD Aguila San Miguel",
+   "cotes_1x2": {
+    "1": 2.44,
+    "X": 3.11,
+    "2": 2.78
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.39",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.47",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.33",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 55.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 84,
+       "sur": "Inter Santa Tecla",
+       "cote": 2.44,
+       "recu": 205.0,
+       "gain": 55.0
+      },
+      {
+       "compte": 2,
+       "mise": 66,
+       "sur": "Nul",
+       "cote": 3.11,
+       "recu": 205.3,
+       "gain": 55.3
+      }
+     ],
+     "perte_si": "CD Aguila San Miguel",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 69.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 71,
+       "sur": "Nul",
+       "cote": 3.11,
+       "recu": 220.8,
+       "gain": 70.8
+      },
+      {
+       "compte": 2,
+       "mise": 79,
+       "sur": "CD Aguila San Miguel",
+       "cote": 2.78,
+       "recu": 219.6,
+       "gain": 69.6
+      }
+     ],
+     "perte_si": "Inter Santa Tecla",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 44.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 80,
+       "sur": "Inter Santa Tecla",
+       "cote": 2.44,
+       "recu": 195.2,
+       "gain": 45.2
+      },
+      {
+       "compte": 2,
+       "mise": 70,
+       "sur": "CD Aguila San Miguel",
+       "cote": 2.78,
+       "recu": 194.6,
+       "gain": 44.6
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "03:00",
+   "pays": "Guatemala",
+   "drapeau": "🌍",
+   "ligue": "Liga Nacional. Apertura",
+   "equipe1": "CSD Municipal",
+   "equipe2": "Aurora FC",
+   "cotes_1x2": {
+    "1": 1.26,
+    "X": 5.29,
+    "2": 8.69
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.08",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "2.90",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.14",
+     "feu": true,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 342.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 93,
+       "sur": "Nul",
+       "cote": 5.29,
+       "recu": 492.0,
+       "gain": 342.0
+      },
+      {
+       "compte": 2,
+       "mise": 57,
+       "sur": "Aurora FC",
+       "cote": 8.69,
+       "recu": 495.3,
+       "gain": 345.3
+      }
+     ],
+     "perte_si": "CSD Municipal",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "04:10",
+   "pays": "Mexico",
+   "drapeau": "🌍",
+   "ligue": "Liga MX, Apertura",
+   "equipe1": "CF Monterrey",
+   "equipe2": "CF America",
+   "cotes_1x2": {
+    "1": 2.25,
+    "X": 3.4,
+    "2": 3.11
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.37",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.62",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.33",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 52.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 90,
+       "sur": "CF Monterrey",
+       "cote": 2.25,
+       "recu": 202.5,
+       "gain": 52.5
+      },
+      {
+       "compte": 2,
+       "mise": 60,
+       "sur": "Nul",
+       "cote": 3.4,
+       "recu": 204.0,
+       "gain": 54.0
+      }
+     ],
+     "perte_si": "CF America",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 92.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 72,
+       "sur": "Nul",
+       "cote": 3.4,
+       "recu": 244.8,
+       "gain": 94.8
+      },
+      {
+       "compte": 2,
+       "mise": 78,
+       "sur": "CF America",
+       "cote": 3.11,
+       "recu": 242.6,
+       "gain": 92.6
+      }
+     ],
+     "perte_si": "CF Monterrey",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 45.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 87,
+       "sur": "CF Monterrey",
+       "cote": 2.25,
+       "recu": 195.8,
+       "gain": 45.8
+      },
+      {
+       "compte": 2,
+       "mise": 63,
+       "sur": "CF America",
+       "cote": 3.11,
+       "recu": 195.9,
+       "gain": 45.9
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "08:00",
+   "pays": "Chinese Taipei",
+   "drapeau": "🌍",
+   "ligue": "Taiwan Football Premier League",
+   "equipe1": "AC Taipei",
+   "equipe2": "New Taipei Hang Yuan",
+   "cotes_1x2": {
+    "1": 3.45,
+    "X": 3.4,
+    "2": 1.94
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.71",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.27",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.28",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 105.3,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 74,
+       "sur": "AC Taipei",
+       "cote": 3.45,
+       "recu": 255.3,
+       "gain": 105.3
+      },
+      {
+       "compte": 2,
+       "mise": 76,
+       "sur": "Nul",
+       "cote": 3.4,
+       "recu": 258.4,
+       "gain": 108.4
+      }
+     ],
+     "perte_si": "New Taipei Hang Yuan",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 33.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 54,
+       "sur": "Nul",
+       "cote": 3.4,
+       "recu": 183.6,
+       "gain": 33.6
+      },
+      {
+       "compte": 2,
+       "mise": 96,
+       "sur": "New Taipei Hang Yuan",
+       "cote": 1.94,
+       "recu": 186.2,
+       "gain": 36.2
+      }
+     ],
+     "perte_si": "AC Taipei",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 36.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 54,
+       "sur": "AC Taipei",
+       "cote": 3.45,
+       "recu": 186.3,
+       "gain": 36.3
+      },
+      {
+       "compte": 2,
+       "mise": 96,
+       "sur": "New Taipei Hang Yuan",
+       "cote": 1.94,
+       "recu": 186.2,
+       "gain": 36.2
       }
      ],
      "perte_si": "Nul",
