@@ -138,6 +138,7 @@ footer b{color:var(--text)}
     box.textContent = "";
     var jours = [];
     data.matchs.forEach(function(m){ if (jours.indexOf(m.date) < 0) jours.push(m.date); });
+    if (!window._j0 && jours.length) { jour = jours[0]; window._j0 = 1; }
     if (jours.indexOf(jour) < 0) jour = "Tous";
     if (jours.length > 1) {
       var sel = el("select");

@@ -119,9 +119,16 @@ def construire(dc_list, x12_list, maintenant):
 async def lire(page, url, js, defilements):
     await page.goto(url, wait_until="networkidle", timeout=60000)
     await page.wait_for_timeout(5000)
+    stable, dernier = 0, -1
     for _ in range(defilements):
-        await page.mouse.wheel(0, 4000)
+        await page.mouse.wheel(0, 6000)
         await page.wait_for_timeout(1000)
+        n = await page.locator('a[href*="/event/"]').count()
+        stable = stable + 1 if n == dernier else 0
+        dernier = n
+        if stable >= 5:
+            break
+    print("Cartes chargees:", dernier)
     return await page.evaluate(js)
 
 
@@ -129,8 +136,8 @@ async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         try:
-            dc = await lire(await browser.new_page(), S1.URL, S1.JS, 40)
-            x12 = await lire(await browser.new_page(), S2.URL, S2.JS, 40)
+            dc = await lire(await browser.new_page(), S1.URL, S1.JS, 250)
+            x12 = await lire(await browser.new_page(), S2.URL, S2.JS, 250)
         finally:
             await browser.close()
     print("Double chance lus:", len(dc), "| 1X2 lus:", len(x12))
