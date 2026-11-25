@@ -1,7 +1,7 @@
 {
  "source": "betPawa Bénin",
  "jour": "Mercredi 25/11/2026",
- "maj": "2026-11-25T21:02+01:00",
+ "maj": "2026-11-25T22:02+01:00",
  "mise": [
   150,
   200
@@ -9,250 +9,6 @@
  "gain_min": 20,
  "seuil_feu": 1.2,
  "matchs": [
-  {
-   "date": "25/11",
-   "heure": "22:00",
-   "pays": "El Salvador",
-   "drapeau": "🌍",
-   "ligue": "Segunda Division",
-   "equipe1": "CD Sal Y Mar",
-   "equipe2": "CD Once Municipal",
-   "cotes_1x2": {
-    "1": 2.37,
-    "X": 3.2,
-    "2": 2.6
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.38",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.45",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.28",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 53.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 86,
-       "sur": "CD Sal Y Mar",
-       "cote": 2.37,
-       "recu": 203.8,
-       "gain": 53.8
-      },
-      {
-       "compte": 2,
-       "mise": 64,
-       "sur": "Nul",
-       "cote": 3.2,
-       "recu": 204.8,
-       "gain": 54.8
-      }
-     ],
-     "perte_si": "CD Once Municipal",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 64.4,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 67,
-       "sur": "Nul",
-       "cote": 3.2,
-       "recu": 214.4,
-       "gain": 64.4
-      },
-      {
-       "compte": 2,
-       "mise": 83,
-       "sur": "CD Once Municipal",
-       "cote": 2.6,
-       "recu": 215.8,
-       "gain": 65.8
-      }
-     ],
-     "perte_si": "CD Sal Y Mar",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 34.9,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 78,
-       "sur": "CD Sal Y Mar",
-       "cote": 2.37,
-       "recu": 184.9,
-       "gain": 34.9
-      },
-      {
-       "compte": 2,
-       "mise": 72,
-       "sur": "CD Once Municipal",
-       "cote": 2.6,
-       "recu": 187.2,
-       "gain": 37.2
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "25/11",
-   "heure": "22:00",
-   "pays": "Uruguay",
-   "drapeau": "🌍",
-   "ligue": "Segunda Division",
-   "equipe1": "Colon FC",
-   "equipe2": "CA Atenas de San Carlos",
-   "cotes_1x2": {
-    "1": 2.42,
-    "X": 2.75,
-    "2": 3.18
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.32",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.48",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.40",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 42.5,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 80,
-       "sur": "Colon FC",
-       "cote": 2.42,
-       "recu": 193.6,
-       "gain": 43.6
-      },
-      {
-       "compte": 2,
-       "mise": 70,
-       "sur": "Nul",
-       "cote": 2.75,
-       "recu": 192.5,
-       "gain": 42.5
-      }
-     ],
-     "perte_si": "CA Atenas de San Carlos",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 70.0,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 80,
-       "sur": "Nul",
-       "cote": 2.75,
-       "recu": 220.0,
-       "gain": 70.0
-      },
-      {
-       "compte": 2,
-       "mise": 70,
-       "sur": "CA Atenas de San Carlos",
-       "cote": 3.18,
-       "recu": 222.6,
-       "gain": 72.6
-      }
-     ],
-     "perte_si": "Colon FC",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 55.7,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 85,
-       "sur": "Colon FC",
-       "cote": 2.42,
-       "recu": 205.7,
-       "gain": 55.7
-      },
-      {
-       "compte": 2,
-       "mise": 65,
-       "sur": "CA Atenas de San Carlos",
-       "cote": 3.18,
-       "recu": 206.7,
-       "gain": 56.7
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
   {
    "date": "25/11",
    "heure": "22:30",
@@ -506,26 +262,26 @@
    "equipe1": "Unan Managua",
    "equipe2": "HYH Sebaco FC",
    "cotes_1x2": {
-    "1": 3.24,
-    "X": 3.44,
-    "2": 2.0
+    "1": 3.45,
+    "X": 3.5,
+    "2": 1.9
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.65",
+     "cote": "1.72",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.29",
+     "cote": "1.26",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.27",
+     "cote": "1.26",
      "feu": false,
      "modele": null
     }
@@ -534,23 +290,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 99.5,
+     "gain_min": 109.0,
      "comptes": [
       {
        "compte": 1,
-       "mise": 77,
+       "mise": 76,
        "sur": "Unan Managua",
-       "cote": 3.24,
-       "recu": 249.5,
-       "gain": 99.5
+       "cote": 3.45,
+       "recu": 262.2,
+       "gain": 112.2
       },
       {
        "compte": 2,
-       "mise": 73,
+       "mise": 74,
        "sur": "Nul",
-       "cote": 3.44,
-       "recu": 251.1,
-       "gain": 101.1
+       "cote": 3.5,
+       "recu": 259.0,
+       "gain": 109.0
       }
      ],
      "perte_si": "HYH Sebaco FC",
@@ -560,23 +316,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 39.2,
+     "gain_min": 34.3,
      "comptes": [
       {
        "compte": 1,
-       "mise": 55,
+       "mise": 53,
        "sur": "Nul",
-       "cote": 3.44,
-       "recu": 189.2,
-       "gain": 39.2
+       "cote": 3.5,
+       "recu": 185.5,
+       "gain": 35.5
       },
       {
        "compte": 2,
-       "mise": 95,
+       "mise": 97,
        "sur": "HYH Sebaco FC",
-       "cote": 2.0,
-       "recu": 190.0,
-       "gain": 40.0
+       "cote": 1.9,
+       "recu": 184.3,
+       "gain": 34.3
       }
      ],
      "perte_si": "Unan Managua",
@@ -586,23 +342,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 34.7,
+     "gain_min": 32.9,
      "comptes": [
       {
        "compte": 1,
-       "mise": 57,
+       "mise": 53,
        "sur": "Unan Managua",
-       "cote": 3.24,
-       "recu": 184.7,
-       "gain": 34.7
+       "cote": 3.45,
+       "recu": 182.9,
+       "gain": 32.9
       },
       {
        "compte": 2,
-       "mise": 93,
+       "mise": 97,
        "sur": "HYH Sebaco FC",
-       "cote": 2.0,
-       "recu": 186.0,
-       "gain": 36.0
+       "cote": 1.9,
+       "recu": 184.3,
+       "gain": 34.3
       }
      ],
      "perte_si": "Nul",
@@ -628,26 +384,26 @@
    "equipe1": "Deportivo Tachira",
    "equipe2": "Carabobo FC",
    "cotes_1x2": {
-    "1": 2.01,
-    "X": 3.1,
-    "2": 3.55
+    "1": 2.07,
+    "X": 3.05,
+    "2": 3.45
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.26",
+     "cote": "1.27",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.66",
+     "cote": "1.63",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.32",
+     "cote": "1.33",
      "feu": false,
      "modele": null
     }
@@ -656,23 +412,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 32.9,
+     "gain_min": 34.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 91,
+       "mise": 89,
        "sur": "Deportivo Tachira",
-       "cote": 2.01,
-       "recu": 182.9,
-       "gain": 32.9
+       "cote": 2.07,
+       "recu": 184.2,
+       "gain": 34.2
       },
       {
        "compte": 2,
-       "mise": 59,
+       "mise": 61,
        "sur": "Nul",
-       "cote": 3.1,
-       "recu": 182.9,
-       "gain": 32.9
+       "cote": 3.05,
+       "recu": 186.0,
+       "gain": 36.0
       }
      ],
      "perte_si": "Carabobo FC",
@@ -682,23 +438,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 98.0,
+     "gain_min": 91.5,
      "comptes": [
       {
        "compte": 1,
        "mise": 80,
        "sur": "Nul",
-       "cote": 3.1,
-       "recu": 248.0,
-       "gain": 98.0
+       "cote": 3.05,
+       "recu": 244.0,
+       "gain": 94.0
       },
       {
        "compte": 2,
        "mise": 70,
        "sur": "Carabobo FC",
-       "cote": 3.55,
-       "recu": 248.5,
-       "gain": 98.5
+       "cote": 3.45,
+       "recu": 241.5,
+       "gain": 91.5
       }
      ],
      "perte_si": "Deportivo Tachira",
@@ -708,23 +464,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 41.7,
+     "gain_min": 43.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 96,
+       "mise": 94,
        "sur": "Deportivo Tachira",
-       "cote": 2.01,
-       "recu": 193.0,
-       "gain": 43.0
+       "cote": 2.07,
+       "recu": 194.6,
+       "gain": 44.6
       },
       {
        "compte": 2,
-       "mise": 54,
+       "mise": 56,
        "sur": "Carabobo FC",
-       "cote": 3.55,
-       "recu": 191.7,
-       "gain": 41.7
+       "cote": 3.45,
+       "recu": 193.2,
+       "gain": 43.2
       }
      ],
      "perte_si": "Nul",
@@ -1700,20 +1456,20 @@
    "equipe1": "Managua FC",
    "equipe2": "CD Walter Ferretti",
    "cotes_1x2": {
-    "1": 1.75,
+    "1": 1.79,
     "X": 3.7,
-    "2": 3.85
+    "2": 3.7
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.22",
+     "cote": "1.23",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.85",
+     "cote": "1.82",
      "feu": false,
      "modele": null
     },
@@ -1728,23 +1484,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 27.6,
+     "gain_min": 30.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 102,
+       "mise": 101,
        "sur": "Managua FC",
-       "cote": 1.75,
-       "recu": 178.5,
-       "gain": 28.5
+       "cote": 1.79,
+       "recu": 180.8,
+       "gain": 30.8
       },
       {
        "compte": 2,
-       "mise": 48,
+       "mise": 49,
        "sur": "Nul",
        "cote": 3.7,
-       "recu": 177.6,
-       "gain": 27.6
+       "recu": 181.3,
+       "gain": 31.3
       }
      ],
      "perte_si": "CD Walter Ferretti",
@@ -1754,23 +1510,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 131.2,
+     "gain_min": 127.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 76,
+       "mise": 75,
        "sur": "Nul",
        "cote": 3.7,
-       "recu": 281.2,
-       "gain": 131.2
+       "recu": 277.5,
+       "gain": 127.5
       },
       {
        "compte": 2,
-       "mise": 74,
+       "mise": 75,
        "sur": "CD Walter Ferretti",
-       "cote": 3.85,
-       "recu": 284.9,
-       "gain": 134.9
+       "cote": 3.7,
+       "recu": 277.5,
+       "gain": 127.5
       }
      ],
      "perte_si": "Managua FC",
@@ -1780,23 +1536,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 30.2,
+     "gain_min": 30.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 103,
+       "mise": 101,
        "sur": "Managua FC",
-       "cote": 1.75,
-       "recu": 180.2,
-       "gain": 30.2
+       "cote": 1.79,
+       "recu": 180.8,
+       "gain": 30.8
       },
       {
        "compte": 2,
-       "mise": 47,
+       "mise": 49,
        "sur": "CD Walter Ferretti",
-       "cote": 3.85,
-       "recu": 181.0,
-       "gain": 31.0
+       "cote": 3.7,
+       "recu": 181.3,
+       "gain": 31.3
       }
      ],
      "perte_si": "Nul",
@@ -2355,6 +2111,250 @@
        "cote": 1.94,
        "recu": 186.2,
        "gain": 36.2
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "09:30",
+   "pays": "Australia",
+   "drapeau": "🌍",
+   "ligue": "Australian Championship",
+   "equipe1": "South Melbourne FC",
+   "equipe2": "Oakleigh Cannons",
+   "cotes_1x2": {
+    "1": 1.99,
+    "X": 3.58,
+    "2": 3.24
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.31",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.67",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.27",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 41.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 96,
+       "sur": "South Melbourne FC",
+       "cote": 1.99,
+       "recu": 191.0,
+       "gain": 41.0
+      },
+      {
+       "compte": 2,
+       "mise": 54,
+       "sur": "Nul",
+       "cote": 3.58,
+       "recu": 193.3,
+       "gain": 43.3
+      }
+     ],
+     "perte_si": "Oakleigh Cannons",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 104.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 71,
+       "sur": "Nul",
+       "cote": 3.58,
+       "recu": 254.2,
+       "gain": 104.2
+      },
+      {
+       "compte": 2,
+       "mise": 79,
+       "sur": "Oakleigh Cannons",
+       "cote": 3.24,
+       "recu": 256.0,
+       "gain": 106.0
+      }
+     ],
+     "perte_si": "South Melbourne FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 34.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 93,
+       "sur": "South Melbourne FC",
+       "cote": 1.99,
+       "recu": 185.1,
+       "gain": 35.1
+      },
+      {
+       "compte": 2,
+       "mise": 57,
+       "sur": "Oakleigh Cannons",
+       "cote": 3.24,
+       "recu": 184.7,
+       "gain": 34.7
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "09:30",
+   "pays": "Indonesia",
+   "drapeau": "🌍",
+   "ligue": "Liga 1",
+   "equipe1": "Borneo Samarinda",
+   "equipe2": "Persita Tangerang",
+   "cotes_1x2": {
+    "1": 1.99,
+    "X": 3.42,
+    "2": 3.52
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.28",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.69",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.29",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 38.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 95,
+       "sur": "Borneo Samarinda",
+       "cote": 1.99,
+       "recu": 189.1,
+       "gain": 39.1
+      },
+      {
+       "compte": 2,
+       "mise": 55,
+       "sur": "Nul",
+       "cote": 3.42,
+       "recu": 188.1,
+       "gain": 38.1
+      }
+     ],
+     "perte_si": "Persita Tangerang",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 109.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 76,
+       "sur": "Nul",
+       "cote": 3.42,
+       "recu": 259.9,
+       "gain": 109.9
+      },
+      {
+       "compte": 2,
+       "mise": 74,
+       "sur": "Persita Tangerang",
+       "cote": 3.52,
+       "recu": 260.5,
+       "gain": 110.5
+      }
+     ],
+     "perte_si": "Borneo Samarinda",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 40.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 96,
+       "sur": "Borneo Samarinda",
+       "cote": 1.99,
+       "recu": 191.0,
+       "gain": 41.0
+      },
+      {
+       "compte": 2,
+       "mise": 54,
+       "sur": "Persita Tangerang",
+       "cote": 3.52,
+       "recu": 190.1,
+       "gain": 40.1
       }
      ],
      "perte_si": "Nul",
