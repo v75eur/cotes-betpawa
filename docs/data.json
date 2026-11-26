@@ -1,7 +1,7 @@
 {
  "source": "betPawa Bénin",
  "jour": "Jeudi 26/11/2026",
- "maj": "2026-11-26T02:04+01:00",
+ "maj": "2026-11-26T03:04+01:00",
  "mise": [
   150,
   200
@@ -9,320 +9,6 @@
  "gain_min": 20,
  "seuil_feu": 1.2,
  "matchs": [
-  {
-   "date": "26/11",
-   "heure": "02:30",
-   "pays": "Colombia",
-   "drapeau": "🌍",
-   "ligue": "Primera A, Apertura",
-   "equipe1": "Atletico Nacional",
-   "equipe2": "Independiente Medellin",
-   "cotes_1x2": {
-    "1": 1.67,
-    "X": 3.7,
-    "2": 4.71
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.20",
-     "feu": true,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.88",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.27",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 22.0,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 103,
-       "sur": "Atletico Nacional",
-       "cote": 1.67,
-       "recu": 172.0,
-       "gain": 22.0
-      },
-      {
-       "compte": 2,
-       "mise": 47,
-       "sur": "Nul",
-       "cote": 3.7,
-       "recu": 173.9,
-       "gain": 23.9
-      }
-     ],
-     "perte_si": "Independiente Medellin",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 160.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 84,
-       "sur": "Nul",
-       "cote": 3.7,
-       "recu": 310.8,
-       "gain": 160.8
-      },
-      {
-       "compte": 2,
-       "mise": 66,
-       "sur": "Independiente Medellin",
-       "cote": 4.71,
-       "recu": 310.9,
-       "gain": 160.9
-      }
-     ],
-     "perte_si": "Atletico Nacional",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 33.7,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 111,
-       "sur": "Atletico Nacional",
-       "cote": 1.67,
-       "recu": 185.4,
-       "gain": 35.4
-      },
-      {
-       "compte": 2,
-       "mise": 39,
-       "sur": "Independiente Medellin",
-       "cote": 4.71,
-       "recu": 183.7,
-       "gain": 33.7
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "26/11",
-   "heure": "03:00",
-   "pays": "El Salvador",
-   "drapeau": "🌍",
-   "ligue": "Primera Division, Apertura",
-   "equipe1": "Inter Santa Tecla",
-   "equipe2": "CD Aguila San Miguel",
-   "cotes_1x2": {
-    "1": 2.53,
-    "X": 2.95,
-    "2": 2.81
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.38",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.45",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.36",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 53.6,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 81,
-       "sur": "Inter Santa Tecla",
-       "cote": 2.53,
-       "recu": 204.9,
-       "gain": 54.9
-      },
-      {
-       "compte": 2,
-       "mise": 69,
-       "sur": "Nul",
-       "cote": 2.95,
-       "recu": 203.6,
-       "gain": 53.6
-      }
-     ],
-     "perte_si": "CD Aguila San Miguel",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 65.4,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 73,
-       "sur": "Nul",
-       "cote": 2.95,
-       "recu": 215.4,
-       "gain": 65.4
-      },
-      {
-       "compte": 2,
-       "mise": 77,
-       "sur": "CD Aguila San Miguel",
-       "cote": 2.81,
-       "recu": 216.4,
-       "gain": 66.4
-      }
-     ],
-     "perte_si": "Inter Santa Tecla",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 49.5,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 79,
-       "sur": "Inter Santa Tecla",
-       "cote": 2.53,
-       "recu": 199.9,
-       "gain": 49.9
-      },
-      {
-       "compte": 2,
-       "mise": 71,
-       "sur": "CD Aguila San Miguel",
-       "cote": 2.81,
-       "recu": 199.5,
-       "gain": 49.5
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "26/11",
-   "heure": "03:00",
-   "pays": "Guatemala",
-   "drapeau": "🌍",
-   "ligue": "Liga Nacional. Apertura",
-   "equipe1": "CSD Municipal",
-   "equipe2": "Aurora FC",
-   "cotes_1x2": {
-    "1": 1.21,
-    "X": 5.7,
-    "2": 10.45
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.06",
-     "feu": true,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "3.20",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.12",
-     "feu": true,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 402.9,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 97,
-       "sur": "Nul",
-       "cote": 5.7,
-       "recu": 552.9,
-       "gain": 402.9
-      },
-      {
-       "compte": 2,
-       "mise": 53,
-       "sur": "Aurora FC",
-       "cote": 10.45,
-       "recu": 553.8,
-       "gain": 403.8
-      }
-     ],
-     "perte_si": "CSD Municipal",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
   {
    "date": "26/11",
    "heure": "04:10",
@@ -576,26 +262,26 @@
    "equipe1": "South Melbourne FC",
    "equipe2": "Oakleigh Cannons",
    "cotes_1x2": {
-    "1": 1.99,
-    "X": 3.58,
-    "2": 3.24
+    "1": 2.04,
+    "X": 3.53,
+    "2": 3.15
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.31",
+     "cote": "1.32",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.67",
+     "cote": "1.65",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.27",
+     "cote": "1.28",
      "feu": false,
      "modele": null
     }
@@ -604,23 +290,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 41.0,
+     "gain_min": 43.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 96,
+       "mise": 95,
        "sur": "South Melbourne FC",
-       "cote": 1.99,
-       "recu": 191.0,
-       "gain": 41.0
+       "cote": 2.04,
+       "recu": 193.8,
+       "gain": 43.8
       },
       {
        "compte": 2,
-       "mise": 54,
+       "mise": 55,
        "sur": "Nul",
-       "cote": 3.58,
-       "recu": 193.3,
-       "gain": 43.3
+       "cote": 3.53,
+       "recu": 194.1,
+       "gain": 44.1
       }
      ],
      "perte_si": "Oakleigh Cannons",
@@ -630,23 +316,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 104.2,
+     "gain_min": 98.8,
      "comptes": [
       {
        "compte": 1,
        "mise": 71,
        "sur": "Nul",
-       "cote": 3.58,
-       "recu": 254.2,
-       "gain": 104.2
+       "cote": 3.53,
+       "recu": 250.6,
+       "gain": 100.6
       },
       {
        "compte": 2,
        "mise": 79,
        "sur": "Oakleigh Cannons",
-       "cote": 3.24,
-       "recu": 256.0,
-       "gain": 106.0
+       "cote": 3.15,
+       "recu": 248.8,
+       "gain": 98.8
       }
      ],
      "perte_si": "South Melbourne FC",
@@ -656,23 +342,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 34.7,
+     "gain_min": 35.6,
      "comptes": [
       {
        "compte": 1,
-       "mise": 93,
+       "mise": 91,
        "sur": "South Melbourne FC",
-       "cote": 1.99,
-       "recu": 185.1,
-       "gain": 35.1
+       "cote": 2.04,
+       "recu": 185.6,
+       "gain": 35.6
       },
       {
        "compte": 2,
-       "mise": 57,
+       "mise": 59,
        "sur": "Oakleigh Cannons",
-       "cote": 3.24,
-       "recu": 184.7,
-       "gain": 34.7
+       "cote": 3.15,
+       "recu": 185.8,
+       "gain": 35.8
       }
      ],
      "perte_si": "Nul",
@@ -698,26 +384,26 @@
    "equipe1": "Borneo Samarinda",
    "equipe2": "Persita Tangerang",
    "cotes_1x2": {
-    "1": 1.99,
-    "X": 3.42,
-    "2": 3.52
+    "1": 2.03,
+    "X": 3.37,
+    "2": 3.42
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.28",
+     "cote": "1.29",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.69",
+     "cote": "1.66",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.29",
+     "cote": "1.30",
      "feu": false,
      "modele": null
     }
@@ -726,23 +412,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 38.1,
+     "gain_min": 38.7,
      "comptes": [
       {
        "compte": 1,
-       "mise": 95,
+       "mise": 94,
        "sur": "Borneo Samarinda",
-       "cote": 1.99,
-       "recu": 189.1,
-       "gain": 39.1
+       "cote": 2.03,
+       "recu": 190.8,
+       "gain": 40.8
       },
       {
        "compte": 2,
-       "mise": 55,
+       "mise": 56,
        "sur": "Nul",
-       "cote": 3.42,
-       "recu": 188.1,
-       "gain": 38.1
+       "cote": 3.37,
+       "recu": 188.7,
+       "gain": 38.7
       }
      ],
      "perte_si": "Persita Tangerang",
@@ -752,23 +438,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 109.9,
+     "gain_min": 103.1,
      "comptes": [
       {
        "compte": 1,
        "mise": 76,
        "sur": "Nul",
-       "cote": 3.42,
-       "recu": 259.9,
-       "gain": 109.9
+       "cote": 3.37,
+       "recu": 256.1,
+       "gain": 106.1
       },
       {
        "compte": 2,
        "mise": 74,
        "sur": "Persita Tangerang",
-       "cote": 3.52,
-       "recu": 260.5,
-       "gain": 110.5
+       "cote": 3.42,
+       "recu": 253.1,
+       "gain": 103.1
       }
      ],
      "perte_si": "Borneo Samarinda",
@@ -778,23 +464,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 40.1,
+     "gain_min": 40.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 96,
+       "mise": 94,
        "sur": "Borneo Samarinda",
-       "cote": 1.99,
-       "recu": 191.0,
-       "gain": 41.0
+       "cote": 2.03,
+       "recu": 190.8,
+       "gain": 40.8
       },
       {
        "compte": 2,
-       "mise": 54,
+       "mise": 56,
        "sur": "Persita Tangerang",
-       "cote": 3.52,
-       "recu": 190.1,
-       "gain": 40.1
+       "cote": 3.42,
+       "recu": 191.5,
+       "gain": 41.5
       }
      ],
      "perte_si": "Nul",
@@ -820,14 +506,14 @@
    "equipe1": "BG Tampines Rovers",
    "equipe2": "Shanghai Shenhua FC",
    "cotes_1x2": {
-    "1": 7.25,
-    "X": 5.34,
-    "2": 1.31
+    "1": 7.06,
+    "X": 5.15,
+    "2": 1.33
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "2.75",
+     "cote": "2.70",
      "feu": false,
      "modele": null
     },
@@ -839,7 +525,7 @@
     },
     {
      "pari": "12",
-     "cote": "1.14",
+     "cote": "1.15",
      "feu": true,
      "modele": null
     }
@@ -848,23 +534,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 309.2,
+     "gain_min": 294.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 64,
+       "mise": 63,
        "sur": "BG Tampines Rovers",
-       "cote": 7.25,
-       "recu": 464.0,
-       "gain": 314.0
+       "cote": 7.06,
+       "recu": 444.8,
+       "gain": 294.8
       },
       {
        "compte": 2,
-       "mise": 86,
+       "mise": 87,
        "sur": "Nul",
-       "cote": 5.34,
-       "recu": 459.2,
-       "gain": 309.2
+       "cote": 5.15,
+       "recu": 448.1,
+       "gain": 298.1
       }
      ],
      "perte_si": "Shanghai Shenhua FC",
@@ -873,28 +559,28 @@
     },
     {
      "paire": "12",
-     "total": 183,
-     "gain_min": 20.0,
+     "total": 170,
+     "gain_min": 20.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 28,
+       "mise": 27,
        "sur": "BG Tampines Rovers",
-       "cote": 7.25,
-       "recu": 203.0,
-       "gain": 20.0
+       "cote": 7.06,
+       "recu": 190.6,
+       "gain": 20.6
       },
       {
        "compte": 2,
-       "mise": 155,
+       "mise": 143,
        "sur": "Shanghai Shenhua FC",
-       "cote": 1.31,
-       "recu": 203.1,
-       "gain": 20.1
+       "cote": 1.33,
+       "recu": 190.2,
+       "gain": 20.2
       }
      ],
      "perte_si": "Nul",
-     "perte": 183,
+     "perte": 170,
      "proba": null
     }
    ],
@@ -916,9 +602,9 @@
    "equipe1": "Gangwon FC",
    "equipe2": "Kitchee",
    "cotes_1x2": {
-    "1": 1.49,
-    "X": 4.1,
-    "2": 5.73
+    "1": 1.5,
+    "X": 4.09,
+    "2": 5.52
    },
    "double_chance": [
     {
@@ -929,13 +615,13 @@
     },
     {
      "pari": "X2",
-     "cote": "2.24",
+     "cote": "2.20",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.21",
+     "cote": "1.22",
      "feu": false,
      "modele": null
     }
@@ -944,23 +630,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 206.7,
+     "gain_min": 201.7,
      "comptes": [
       {
        "compte": 1,
-       "mise": 87,
+       "mise": 86,
        "sur": "Nul",
-       "cote": 4.1,
-       "recu": 356.7,
-       "gain": 206.7
+       "cote": 4.09,
+       "recu": 351.7,
+       "gain": 201.7
       },
       {
        "compte": 2,
-       "mise": 63,
+       "mise": 64,
        "sur": "Kitchee",
-       "cote": 5.73,
-       "recu": 361.0,
-       "gain": 211.0
+       "cote": 5.52,
+       "recu": 353.3,
+       "gain": 203.3
       }
      ],
      "perte_si": "Gangwon FC",
@@ -970,23 +656,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 27.3,
+     "gain_min": 26.6,
      "comptes": [
       {
        "compte": 1,
-       "mise": 119,
+       "mise": 118,
        "sur": "Gangwon FC",
-       "cote": 1.49,
-       "recu": 177.3,
-       "gain": 27.3
+       "cote": 1.5,
+       "recu": 177.0,
+       "gain": 27.0
       },
       {
        "compte": 2,
-       "mise": 31,
+       "mise": 32,
        "sur": "Kitchee",
-       "cote": 5.73,
-       "recu": 177.6,
-       "gain": 27.6
+       "cote": 5.52,
+       "recu": 176.6,
+       "gain": 26.6
       }
      ],
      "perte_si": "Nul",
@@ -1012,20 +698,20 @@
    "equipe1": "Kuching City FC",
    "equipe2": "Phnom Penh Crown FC",
    "cotes_1x2": {
-    "1": 1.51,
-    "X": 4.08,
-    "2": 5.5
+    "1": 1.55,
+    "X": 4.11,
+    "2": 4.97
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.15",
+     "cote": "1.16",
      "feu": true,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "2.19",
+     "cote": "2.12",
      "feu": false,
      "modele": null
     },
@@ -1039,50 +725,50 @@
    "paires": [
     {
      "paire": "1X",
-     "total": 200,
-     "gain_min": 20.3,
+     "total": 164,
+     "gain_min": 20.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 146,
+       "mise": 119,
        "sur": "Kuching City FC",
-       "cote": 1.51,
-       "recu": 220.5,
+       "cote": 1.55,
+       "recu": 184.5,
        "gain": 20.5
       },
       {
        "compte": 2,
-       "mise": 54,
+       "mise": 45,
        "sur": "Nul",
-       "cote": 4.08,
-       "recu": 220.3,
-       "gain": 20.3
+       "cote": 4.11,
+       "recu": 185.0,
+       "gain": 21.0
       }
      ],
      "perte_si": "Phnom Penh Crown FC",
-     "perte": 200,
+     "perte": 164,
      "proba": null
     },
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 200.9,
+     "gain_min": 187.0,
      "comptes": [
       {
        "compte": 1,
-       "mise": 86,
+       "mise": 82,
        "sur": "Nul",
-       "cote": 4.08,
-       "recu": 350.9,
-       "gain": 200.9
+       "cote": 4.11,
+       "recu": 337.0,
+       "gain": 187.0
       },
       {
        "compte": 2,
-       "mise": 64,
+       "mise": 68,
        "sur": "Phnom Penh Crown FC",
-       "cote": 5.5,
-       "recu": 352.0,
-       "gain": 202.0
+       "cote": 4.97,
+       "recu": 338.0,
+       "gain": 188.0
       }
      ],
      "perte_si": "Kuching City FC",
@@ -1092,23 +778,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 26.0,
+     "gain_min": 26.7,
      "comptes": [
       {
        "compte": 1,
-       "mise": 118,
+       "mise": 114,
        "sur": "Kuching City FC",
-       "cote": 1.51,
-       "recu": 178.2,
-       "gain": 28.2
+       "cote": 1.55,
+       "recu": 176.7,
+       "gain": 26.7
       },
       {
        "compte": 2,
-       "mise": 32,
+       "mise": 36,
        "sur": "Phnom Penh Crown FC",
-       "cote": 5.5,
-       "recu": 176.0,
-       "gain": 26.0
+       "cote": 4.97,
+       "recu": 178.9,
+       "gain": 28.9
       }
      ],
      "perte_si": "Nul",
@@ -2013,9 +1699,9 @@
    "equipe1": "No In-Play Cashout",
    "equipe2": "AL Sareeh",
    "cotes_1x2": {
-    "1": 1.21,
-    "X": 5.77,
-    "2": 9.75
+    "1": 1.22,
+    "X": 5.4,
+    "2": 10.0
    },
    "double_chance": [
     {
@@ -2041,23 +1727,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 392.4,
+     "gain_min": 373.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 94,
+       "mise": 97,
        "sur": "Nul",
-       "cote": 5.77,
-       "recu": 542.4,
-       "gain": 392.4
+       "cote": 5.4,
+       "recu": 523.8,
+       "gain": 373.8
       },
       {
        "compte": 2,
-       "mise": 56,
+       "mise": 53,
        "sur": "AL Sareeh",
-       "cote": 9.75,
-       "recu": 546.0,
-       "gain": 396.0
+       "cote": 10.0,
+       "recu": 530.0,
+       "gain": 380.0
       }
      ],
      "perte_si": "No In-Play Cashout",
@@ -2738,32 +2424,32 @@
   {
    "date": "26/11",
    "heure": "13:30",
-   "pays": "Jordan",
+   "pays": "Ittihad AL Ramtha",
    "drapeau": "🌍",
-   "ligue": "Jordan 1st Division",
-   "equipe1": "Sahl Horan SC",
-   "equipe2": "Al Hashemehya",
+   "ligue": "Ittihad AL Ramtha",
+   "equipe1": "No In-Play Cashout",
+   "equipe2": "Hay AL Amir Hassan",
    "cotes_1x2": {
-    "1": 1.53,
-    "X": 3.95,
-    "2": 5.2
+    "1": 4.0,
+    "X": 3.3,
+    "2": 1.83
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.14",
-     "feu": true,
+     "cote": "1.78",
+     "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "2.17",
+     "cote": "1.21",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.21",
+     "cote": "1.28",
      "feu": false,
      "modele": null
     }
@@ -2771,50 +2457,172 @@
    "paires": [
     {
      "paire": "1X",
-     "total": 197,
-     "gain_min": 20.2,
+     "total": 150,
+     "gain_min": 120.6,
      "comptes": [
       {
        "compte": 1,
-       "mise": 142,
-       "sur": "Sahl Horan SC",
-       "cote": 1.53,
-       "recu": 217.3,
-       "gain": 20.3
+       "mise": 68,
+       "sur": "No In-Play Cashout",
+       "cote": 4.0,
+       "recu": 272.0,
+       "gain": 122.0
       },
       {
        "compte": 2,
-       "mise": 55,
+       "mise": 82,
        "sur": "Nul",
-       "cote": 3.95,
-       "recu": 217.2,
-       "gain": 20.2
+       "cote": 3.3,
+       "recu": 270.6,
+       "gain": 120.6
       }
      ],
-     "perte_si": "Al Hashemehya",
-     "perte": 197,
+     "perte_si": "Hay AL Amir Hassan",
+     "perte": 150,
      "proba": null
     },
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 185.8,
+     "gain_min": 25.7,
      "comptes": [
       {
        "compte": 1,
-       "mise": 85,
+       "mise": 54,
        "sur": "Nul",
-       "cote": 3.95,
-       "recu": 335.8,
-       "gain": 185.8
+       "cote": 3.3,
+       "recu": 178.2,
+       "gain": 28.2
       },
       {
        "compte": 2,
-       "mise": 65,
+       "mise": 96,
+       "sur": "Hay AL Amir Hassan",
+       "cote": 1.83,
+       "recu": 175.7,
+       "gain": 25.7
+      }
+     ],
+     "perte_si": "No In-Play Cashout",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 38.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 47,
+       "sur": "No In-Play Cashout",
+       "cote": 4.0,
+       "recu": 188.0,
+       "gain": 38.0
+      },
+      {
+       "compte": 2,
+       "mise": 103,
+       "sur": "Hay AL Amir Hassan",
+       "cote": 1.83,
+       "recu": 188.5,
+       "gain": 38.5
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "13:30",
+   "pays": "Jordan",
+   "drapeau": "🌍",
+   "ligue": "Jordan 1st Division",
+   "equipe1": "Sahl Horan SC",
+   "equipe2": "Al Hashemehya",
+   "cotes_1x2": {
+    "1": 1.59,
+    "X": 3.65,
+    "2": 5.0
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.15",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "2.05",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.23",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 188,
+     "gain_min": 20.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 131,
+       "sur": "Sahl Horan SC",
+       "cote": 1.59,
+       "recu": 208.3,
+       "gain": 20.3
+      },
+      {
+       "compte": 2,
+       "mise": 57,
+       "sur": "Nul",
+       "cote": 3.65,
+       "recu": 208.0,
+       "gain": 20.0
+      }
+     ],
+     "perte_si": "Al Hashemehya",
+     "perte": 188,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 165.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 87,
+       "sur": "Nul",
+       "cote": 3.65,
+       "recu": 317.6,
+       "gain": 167.6
+      },
+      {
+       "compte": 2,
+       "mise": 63,
        "sur": "Al Hashemehya",
-       "cote": 5.2,
-       "recu": 338.0,
-       "gain": 188.0
+       "cote": 5.0,
+       "recu": 315.0,
+       "gain": 165.0
       }
      ],
      "perte_si": "Sahl Horan SC",
@@ -2824,23 +2632,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 26.8,
+     "gain_min": 30.0,
      "comptes": [
       {
        "compte": 1,
-       "mise": 116,
+       "mise": 114,
        "sur": "Sahl Horan SC",
-       "cote": 1.53,
-       "recu": 177.5,
-       "gain": 27.5
+       "cote": 1.59,
+       "recu": 181.3,
+       "gain": 31.3
       },
       {
        "compte": 2,
-       "mise": 34,
+       "mise": 36,
        "sur": "Al Hashemehya",
-       "cote": 5.2,
-       "recu": 176.8,
-       "gain": 26.8
+       "cote": 5.0,
+       "recu": 180.0,
+       "gain": 30.0
       }
      ],
      "perte_si": "Nul",
@@ -2866,26 +2674,26 @@
    "equipe1": "Sama AL Sarhan SC",
    "equipe2": "Al-Ahly Amman",
    "cotes_1x2": {
-    "1": 2.65,
-    "X": 3.1,
-    "2": 2.49
+    "1": 2.9,
+    "X": 3.15,
+    "2": 2.29
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.44",
+     "cote": "1.52",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.40",
+     "cote": "1.34",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.32",
+     "cote": "1.31",
      "feu": false,
      "modele": null
     }
@@ -2894,23 +2702,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 63.9,
+     "gain_min": 76.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 81,
+       "mise": 78,
        "sur": "Sama AL Sarhan SC",
-       "cote": 2.65,
-       "recu": 214.7,
-       "gain": 64.7
+       "cote": 2.9,
+       "recu": 226.2,
+       "gain": 76.2
       },
       {
        "compte": 2,
-       "mise": 69,
+       "mise": 72,
        "sur": "Nul",
-       "cote": 3.1,
-       "recu": 213.9,
-       "gain": 63.9
+       "cote": 3.15,
+       "recu": 226.8,
+       "gain": 76.8
       }
      ],
      "perte_si": "Al-Ahly Amman",
@@ -2920,23 +2728,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 56.7,
+     "gain_min": 48.4,
      "comptes": [
       {
        "compte": 1,
-       "mise": 67,
+       "mise": 63,
        "sur": "Nul",
-       "cote": 3.1,
-       "recu": 207.7,
-       "gain": 57.7
+       "cote": 3.15,
+       "recu": 198.4,
+       "gain": 48.4
       },
       {
        "compte": 2,
-       "mise": 83,
+       "mise": 87,
        "sur": "Al-Ahly Amman",
-       "cote": 2.49,
-       "recu": 206.7,
-       "gain": 56.7
+       "cote": 2.29,
+       "recu": 199.2,
+       "gain": 49.2
       }
      ],
      "perte_si": "Sama AL Sarhan SC",
@@ -2946,23 +2754,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 41.7,
+     "gain_min": 41.4,
      "comptes": [
       {
        "compte": 1,
-       "mise": 73,
+       "mise": 66,
        "sur": "Sama AL Sarhan SC",
-       "cote": 2.65,
-       "recu": 193.4,
-       "gain": 43.4
+       "cote": 2.9,
+       "recu": 191.4,
+       "gain": 41.4
       },
       {
        "compte": 2,
-       "mise": 77,
+       "mise": 84,
        "sur": "Al-Ahly Amman",
-       "cote": 2.49,
-       "recu": 191.7,
-       "gain": 41.7
+       "cote": 2.29,
+       "recu": 192.4,
+       "gain": 42.4
       }
      ],
      "perte_si": "Nul",
@@ -3085,6 +2893,128 @@
        "cote": 2.6,
        "recu": 192.4,
        "gain": 42.4
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "26/11",
+   "heure": "13:30",
+   "pays": "Maan SC",
+   "drapeau": "🌍",
+   "ligue": "Maan SC",
+   "equipe1": "No In-Play Cashout",
+   "equipe2": "Amman FC",
+   "cotes_1x2": {
+    "1": 1.71,
+    "X": 3.49,
+    "2": 4.39
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.18",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.89",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.26",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 21.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 101,
+       "sur": "No In-Play Cashout",
+       "cote": 1.71,
+       "recu": 172.7,
+       "gain": 22.7
+      },
+      {
+       "compte": 2,
+       "mise": 49,
+       "sur": "Nul",
+       "cote": 3.49,
+       "recu": 171.0,
+       "gain": 21.0
+      }
+     ],
+     "perte_si": "Amman FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 139.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 84,
+       "sur": "Nul",
+       "cote": 3.49,
+       "recu": 293.2,
+       "gain": 143.2
+      },
+      {
+       "compte": 2,
+       "mise": 66,
+       "sur": "Amman FC",
+       "cote": 4.39,
+       "recu": 289.7,
+       "gain": 139.7
+      }
+     ],
+     "perte_si": "No In-Play Cashout",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 34.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 108,
+       "sur": "No In-Play Cashout",
+       "cote": 1.71,
+       "recu": 184.7,
+       "gain": 34.7
+      },
+      {
+       "compte": 2,
+       "mise": 42,
+       "sur": "Amman FC",
+       "cote": 4.39,
+       "recu": 184.4,
+       "gain": 34.4
       }
      ],
      "perte_si": "Nul",
@@ -3232,61 +3162,35 @@
    "equipe1": "Costa Do Sol",
    "equipe2": "Baia de Pemba FC",
    "cotes_1x2": {
-    "1": 1.46,
-    "X": 3.34,
-    "2": 7.27
+    "1": 1.27,
+    "X": 4.81,
+    "2": 8.24
    },
    "double_chance": null,
    "paires": [
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 191.7,
+     "gain_min": 303.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 103,
+       "mise": 95,
        "sur": "Nul",
-       "cote": 3.34,
-       "recu": 344.0,
-       "gain": 194.0
+       "cote": 4.81,
+       "recu": 456.9,
+       "gain": 306.9
       },
       {
        "compte": 2,
-       "mise": 47,
+       "mise": 55,
        "sur": "Baia de Pemba FC",
-       "cote": 7.27,
-       "recu": 341.7,
-       "gain": 191.7
+       "cote": 8.24,
+       "recu": 453.2,
+       "gain": 303.2
       }
      ],
      "perte_si": "Costa Do Sol",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 31.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 125,
-       "sur": "Costa Do Sol",
-       "cote": 1.46,
-       "recu": 182.5,
-       "gain": 32.5
-      },
-      {
-       "compte": 2,
-       "mise": 25,
-       "sur": "Baia de Pemba FC",
-       "cote": 7.27,
-       "recu": 181.8,
-       "gain": 31.8
-      }
-     ],
-     "perte_si": "Nul",
      "perte": 150,
      "proba": null
     }
@@ -3309,20 +3213,20 @@
    "equipe1": "Kampala Capital City Authority FC",
    "equipe2": "Bul FC",
    "cotes_1x2": {
-    "1": 1.92,
-    "X": 3.05,
-    "2": 3.69
+    "1": 1.84,
+    "X": 3.04,
+    "2": 4.02
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.21",
-     "feu": false,
+     "cote": "1.19",
+     "feu": true,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.66",
+     "cote": "1.71",
      "feu": false,
      "modele": null
     },
@@ -3337,23 +3241,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 26.6,
+     "gain_min": 21.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 92,
+       "mise": 93,
        "sur": "Kampala Capital City Authority FC",
-       "cote": 1.92,
-       "recu": 176.6,
-       "gain": 26.6
+       "cote": 1.84,
+       "recu": 171.1,
+       "gain": 21.1
       },
       {
        "compte": 2,
-       "mise": 58,
+       "mise": 57,
        "sur": "Nul",
-       "cote": 3.05,
-       "recu": 176.9,
-       "gain": 26.9
+       "cote": 3.04,
+       "recu": 173.3,
+       "gain": 23.3
       }
      ],
      "perte_si": "Bul FC",
@@ -3363,23 +3267,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 100.1,
+     "gain_min": 108.4,
      "comptes": [
       {
        "compte": 1,
-       "mise": 82,
+       "mise": 85,
        "sur": "Nul",
-       "cote": 3.05,
-       "recu": 250.1,
-       "gain": 100.1
+       "cote": 3.04,
+       "recu": 258.4,
+       "gain": 108.4
       },
       {
        "compte": 2,
-       "mise": 68,
+       "mise": 65,
        "sur": "Bul FC",
-       "cote": 3.69,
-       "recu": 250.9,
-       "gain": 100.9
+       "cote": 4.02,
+       "recu": 261.3,
+       "gain": 111.3
       }
      ],
      "perte_si": "Kampala Capital City Authority FC",
@@ -3389,23 +3293,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 38.2,
+     "gain_min": 38.9,
      "comptes": [
       {
        "compte": 1,
-       "mise": 99,
+       "mise": 103,
        "sur": "Kampala Capital City Authority FC",
-       "cote": 1.92,
-       "recu": 190.1,
-       "gain": 40.1
+       "cote": 1.84,
+       "recu": 189.5,
+       "gain": 39.5
       },
       {
        "compte": 2,
-       "mise": 51,
+       "mise": 47,
        "sur": "Bul FC",
-       "cote": 3.69,
-       "recu": 188.2,
-       "gain": 38.2
+       "cote": 4.02,
+       "recu": 188.9,
+       "gain": 38.9
       }
      ],
      "perte_si": "Nul",
@@ -7195,9 +7099,9 @@
    "equipe1": "Hapoel Mahane Yehuda",
    "equipe2": "Hapoel Marmorek",
    "cotes_1x2": {
-    "1": 3.14,
-    "X": 3.47,
-    "2": 2.03
+    "1": 3.08,
+    "X": 3.56,
+    "2": 2.02
    },
    "double_chance": [
     {
@@ -7227,19 +7131,19 @@
      "comptes": [
       {
        "compte": 1,
-       "mise": 79,
+       "mise": 80,
        "sur": "Hapoel Mahane Yehuda",
-       "cote": 3.14,
-       "recu": 248.1,
-       "gain": 98.1
+       "cote": 3.08,
+       "recu": 246.4,
+       "gain": 96.4
       },
       {
        "compte": 2,
-       "mise": 71,
+       "mise": 70,
        "sur": "Nul",
-       "cote": 3.47,
-       "recu": 246.4,
-       "gain": 96.4
+       "cote": 3.56,
+       "recu": 249.2,
+       "gain": 99.2
       }
      ],
      "perte_si": "Hapoel Marmorek",
@@ -7249,23 +7153,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 40.9,
+     "gain_min": 42.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 55,
+       "mise": 54,
        "sur": "Nul",
-       "cote": 3.47,
-       "recu": 190.9,
-       "gain": 40.9
+       "cote": 3.56,
+       "recu": 192.2,
+       "gain": 42.2
       },
       {
        "compte": 2,
-       "mise": 95,
+       "mise": 96,
        "sur": "Hapoel Marmorek",
-       "cote": 2.03,
-       "recu": 192.8,
-       "gain": 42.8
+       "cote": 2.02,
+       "recu": 193.9,
+       "gain": 43.9
       }
      ],
      "perte_si": "Hapoel Mahane Yehuda",
@@ -7275,23 +7179,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 34.7,
+     "gain_min": 31.7,
      "comptes": [
       {
        "compte": 1,
        "mise": 59,
        "sur": "Hapoel Mahane Yehuda",
-       "cote": 3.14,
-       "recu": 185.3,
-       "gain": 35.3
+       "cote": 3.08,
+       "recu": 181.7,
+       "gain": 31.7
       },
       {
        "compte": 2,
        "mise": 91,
        "sur": "Hapoel Marmorek",
-       "cote": 2.03,
-       "recu": 184.7,
-       "gain": 34.7
+       "cote": 2.02,
+       "recu": 183.8,
+       "gain": 33.8
       }
      ],
      "perte_si": "Nul",
@@ -10421,26 +10325,26 @@
    "equipe1": "Sao Paulo FC SP",
    "equipe2": "Clube do Remo PA",
    "cotes_1x2": {
-    "1": 1.33,
-    "X": 5.19,
-    "2": 8.58
+    "1": 1.32,
+    "X": 5.33,
+    "2": 8.87
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.10",
+     "cote": "1.09",
      "feu": true,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "2.94",
+     "cote": "3.01",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.18",
+     "cote": "1.17",
      "feu": true,
      "modele": null
     }
@@ -10449,23 +10353,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 332.7,
+     "gain_min": 346.7,
      "comptes": [
       {
        "compte": 1,
-       "mise": 93,
+       "mise": 94,
        "sur": "Nul",
-       "cote": 5.19,
-       "recu": 482.7,
-       "gain": 332.7
+       "cote": 5.33,
+       "recu": 501.0,
+       "gain": 351.0
       },
       {
        "compte": 2,
-       "mise": 57,
+       "mise": 56,
        "sur": "Clube do Remo PA",
-       "cote": 8.58,
-       "recu": 489.1,
-       "gain": 339.1
+       "cote": 8.87,
+       "recu": 496.7,
+       "gain": 346.7
       }
      ],
      "perte_si": "Sao Paulo FC SP",
@@ -10474,28 +10378,28 @@
     },
     {
      "paire": "12",
-     "total": 150,
-     "gain_min": 21.6,
+     "total": 151,
+     "gain_min": 21.9,
      "comptes": [
       {
        "compte": 1,
-       "mise": 130,
+       "mise": 131,
        "sur": "Sao Paulo FC SP",
-       "cote": 1.33,
+       "cote": 1.32,
        "recu": 172.9,
-       "gain": 22.9
+       "gain": 21.9
       },
       {
        "compte": 2,
        "mise": 20,
        "sur": "Clube do Remo PA",
-       "cote": 8.58,
-       "recu": 171.6,
-       "gain": 21.6
+       "cote": 8.87,
+       "recu": 177.4,
+       "gain": 26.4
       }
      ],
      "perte_si": "Nul",
-     "perte": 150,
+     "perte": 151,
      "proba": null
     }
    ],
@@ -10568,32 +10472,51 @@
    "equipe1": "Diriangen FC Diriamba",
    "equipe2": "Indigenas de Matagalpa FC",
    "cotes_1x2": {
-    "1": 1.23,
+    "1": 1.24,
     "X": 5.6,
-    "2": 9.0
+    "2": 8.6
    },
-   "double_chance": null,
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.06",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "3.11",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.11",
+     "feu": true,
+     "modele": null
+    }
+   ],
    "paires": [
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 365.2,
+     "gain_min": 357.4,
      "comptes": [
       {
        "compte": 1,
-       "mise": 92,
+       "mise": 91,
        "sur": "Nul",
        "cote": 5.6,
-       "recu": 515.2,
-       "gain": 365.2
+       "recu": 509.6,
+       "gain": 359.6
       },
       {
        "compte": 2,
-       "mise": 58,
+       "mise": 59,
        "sur": "Indigenas de Matagalpa FC",
-       "cote": 9.0,
-       "recu": 522.0,
-       "gain": 372.0
+       "cote": 8.6,
+       "recu": 507.4,
+       "gain": 357.4
       }
      ],
      "perte_si": "Diriangen FC Diriamba",
@@ -10741,26 +10664,26 @@
    "equipe1": "CF Pachuca",
    "equipe2": "CD Guadalajara",
    "cotes_1x2": {
-    "1": 2.61,
-    "X": 3.55,
-    "2": 2.53
+    "1": 2.66,
+    "X": 3.44,
+    "2": 2.54
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.51",
+     "cote": "1.50",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.48",
+     "cote": "1.47",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.31",
+     "cote": "1.33",
      "feu": false,
      "modele": null
     }
@@ -10769,23 +10692,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 74.5,
+     "gain_min": 73.6,
      "comptes": [
       {
        "compte": 1,
-       "mise": 86,
+       "mise": 85,
        "sur": "CF Pachuca",
-       "cote": 2.61,
-       "recu": 224.5,
-       "gain": 74.5
+       "cote": 2.66,
+       "recu": 226.1,
+       "gain": 76.1
       },
       {
        "compte": 2,
-       "mise": 64,
+       "mise": 65,
        "sur": "Nul",
-       "cote": 3.55,
-       "recu": 227.2,
-       "gain": 77.2
+       "cote": 3.44,
+       "recu": 223.6,
+       "gain": 73.6
       }
      ],
      "perte_si": "CD Guadalajara",
@@ -10795,23 +10718,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 70.1,
+     "gain_min": 68.4,
      "comptes": [
       {
        "compte": 1,
-       "mise": 62,
+       "mise": 64,
        "sur": "Nul",
-       "cote": 3.55,
-       "recu": 220.1,
-       "gain": 70.1
+       "cote": 3.44,
+       "recu": 220.2,
+       "gain": 70.2
       },
       {
        "compte": 2,
-       "mise": 88,
+       "mise": 86,
        "sur": "CD Guadalajara",
-       "cote": 2.53,
-       "recu": 222.6,
-       "gain": 72.6
+       "cote": 2.54,
+       "recu": 218.4,
+       "gain": 68.4
       }
      ],
      "perte_si": "CF Pachuca",
@@ -10821,23 +10744,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 42.3,
+     "gain_min": 44.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 74,
+       "mise": 73,
        "sur": "CF Pachuca",
-       "cote": 2.61,
-       "recu": 193.1,
-       "gain": 43.1
+       "cote": 2.66,
+       "recu": 194.2,
+       "gain": 44.2
       },
       {
        "compte": 2,
-       "mise": 76,
+       "mise": 77,
        "sur": "CD Guadalajara",
-       "cote": 2.53,
-       "recu": 192.3,
-       "gain": 42.3
+       "cote": 2.54,
+       "recu": 195.6,
+       "gain": 45.6
       }
      ],
      "perte_si": "Nul",
@@ -11229,32 +11152,32 @@
    "equipe1": "Zaqatala FK",
    "equipe2": "Khankendi FK",
    "cotes_1x2": {
-    "1": 8.91,
-    "X": 5.57,
-    "2": 1.21
+    "1": 8.75,
+    "X": 5.4,
+    "2": 1.22
    },
    "double_chance": null,
    "paires": [
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 362.4,
+     "gain_min": 348.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 58,
+       "mise": 57,
        "sur": "Zaqatala FK",
-       "cote": 8.91,
-       "recu": 516.8,
-       "gain": 366.8
+       "cote": 8.75,
+       "recu": 498.8,
+       "gain": 348.8
       },
       {
        "compte": 2,
-       "mise": 92,
+       "mise": 93,
        "sur": "Nul",
-       "cote": 5.57,
-       "recu": 512.4,
-       "gain": 362.4
+       "cote": 5.4,
+       "recu": 502.2,
+       "gain": 352.2
       }
      ],
      "perte_si": "Khankendi FK",
@@ -11402,26 +11325,26 @@
    "equipe1": "FC Syunik",
    "equipe2": "FC Van Charentsavan",
    "cotes_1x2": {
-    "1": 2.18,
-    "X": 3.48,
-    "2": 2.91
+    "1": 2.3,
+    "X": 3.39,
+    "2": 2.77
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.36",
+     "cote": "1.38",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.58",
+     "cote": "1.53",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.28",
+     "cote": "1.29",
      "feu": false,
      "modele": null
     }
@@ -11430,23 +11353,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 50.6,
+     "gain_min": 54.7,
      "comptes": [
       {
        "compte": 1,
-       "mise": 92,
+       "mise": 89,
        "sur": "FC Syunik",
-       "cote": 2.18,
-       "recu": 200.6,
-       "gain": 50.6
+       "cote": 2.3,
+       "recu": 204.7,
+       "gain": 54.7
       },
       {
        "compte": 2,
-       "mise": 58,
+       "mise": 61,
        "sur": "Nul",
-       "cote": 3.48,
-       "recu": 201.8,
-       "gain": 51.8
+       "cote": 3.39,
+       "recu": 206.8,
+       "gain": 56.8
       }
      ],
      "perte_si": "FC Van Charentsavan",
@@ -11456,23 +11379,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 86.6,
+     "gain_min": 77.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 68,
+       "mise": 67,
        "sur": "Nul",
-       "cote": 3.48,
-       "recu": 236.6,
-       "gain": 86.6
+       "cote": 3.39,
+       "recu": 227.1,
+       "gain": 77.1
       },
       {
        "compte": 2,
-       "mise": 82,
+       "mise": 83,
        "sur": "FC Van Charentsavan",
-       "cote": 2.91,
-       "recu": 238.6,
-       "gain": 88.6
+       "cote": 2.77,
+       "recu": 229.9,
+       "gain": 79.9
       }
      ],
      "perte_si": "FC Syunik",
@@ -11482,23 +11405,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 36.2,
+     "gain_min": 38.4,
      "comptes": [
       {
        "compte": 1,
-       "mise": 86,
+       "mise": 82,
        "sur": "FC Syunik",
-       "cote": 2.18,
-       "recu": 187.5,
-       "gain": 37.5
+       "cote": 2.3,
+       "recu": 188.6,
+       "gain": 38.6
       },
       {
        "compte": 2,
-       "mise": 64,
+       "mise": 68,
        "sur": "FC Van Charentsavan",
-       "cote": 2.91,
-       "recu": 186.2,
-       "gain": 36.2
+       "cote": 2.77,
+       "recu": 188.4,
+       "gain": 38.4
       }
      ],
      "perte_si": "Nul",
@@ -13302,9 +13225,9 @@
    "equipe1": "Emirates Club U21",
    "equipe2": "Bani Yas FC U21",
    "cotes_1x2": {
-    "1": 1.63,
-    "X": 4.27,
-    "2": 4.12
+    "1": 1.67,
+    "X": 4.17,
+    "2": 3.98
    },
    "double_chance": [
     {
@@ -13315,7 +13238,7 @@
     },
     {
      "pari": "X2",
-     "cote": "2.08",
+     "cote": "2.04",
      "feu": false,
      "modele": null
     },
@@ -13330,23 +13253,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 25.1,
+     "gain_min": 28.7,
      "comptes": [
       {
        "compte": 1,
-       "mise": 109,
+       "mise": 107,
        "sur": "Emirates Club U21",
-       "cote": 1.63,
-       "recu": 177.7,
-       "gain": 27.7
+       "cote": 1.67,
+       "recu": 178.7,
+       "gain": 28.7
       },
       {
        "compte": 2,
-       "mise": 41,
+       "mise": 43,
        "sur": "Nul",
-       "cote": 4.27,
-       "recu": 175.1,
-       "gain": 25.1
+       "cote": 4.17,
+       "recu": 179.3,
+       "gain": 29.3
       }
      ],
      "perte_si": "Bani Yas FC U21",
@@ -13356,23 +13279,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 163.1,
+     "gain_min": 154.4,
      "comptes": [
       {
        "compte": 1,
-       "mise": 74,
+       "mise": 73,
        "sur": "Nul",
-       "cote": 4.27,
-       "recu": 316.0,
-       "gain": 166.0
+       "cote": 4.17,
+       "recu": 304.4,
+       "gain": 154.4
       },
       {
        "compte": 2,
-       "mise": 76,
+       "mise": 77,
        "sur": "Bani Yas FC U21",
-       "cote": 4.12,
-       "recu": 313.1,
-       "gain": 163.1
+       "cote": 3.98,
+       "recu": 306.5,
+       "gain": 156.5
       }
      ],
      "perte_si": "Emirates Club U21",
@@ -13382,23 +13305,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 24.4,
+     "gain_min": 25.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 107,
+       "mise": 106,
        "sur": "Emirates Club U21",
-       "cote": 1.63,
-       "recu": 174.4,
-       "gain": 24.4
+       "cote": 1.67,
+       "recu": 177.0,
+       "gain": 27.0
       },
       {
        "compte": 2,
-       "mise": 43,
+       "mise": 44,
        "sur": "Bani Yas FC U21",
-       "cote": 4.12,
-       "recu": 177.2,
-       "gain": 27.2
+       "cote": 3.98,
+       "recu": 175.1,
+       "gain": 25.1
       }
      ],
      "perte_si": "Nul",
@@ -13504,6 +13427,616 @@
       }
      ],
      "perte_si": "Al-Jazira Club U21",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "27/11",
+   "heure": "14:00",
+   "pays": "Israel",
+   "drapeau": "🌍",
+   "ligue": "National League",
+   "equipe1": "Hapoel Acre FC",
+   "equipe2": "Maccabi Herzliya",
+   "cotes_1x2": {
+    "1": 4.38,
+    "X": 3.72,
+    "2": 1.69
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.93",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.20",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.25",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 151.3,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 69,
+       "sur": "Hapoel Acre FC",
+       "cote": 4.38,
+       "recu": 302.2,
+       "gain": 152.2
+      },
+      {
+       "compte": 2,
+       "mise": 81,
+       "sur": "Nul",
+       "cote": 3.72,
+       "recu": 301.3,
+       "gain": 151.3
+      }
+     ],
+     "perte_si": "Maccabi Herzliya",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 24.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 47,
+       "sur": "Nul",
+       "cote": 3.72,
+       "recu": 174.8,
+       "gain": 24.8
+      },
+      {
+       "compte": 2,
+       "mise": 103,
+       "sur": "Maccabi Herzliya",
+       "cote": 1.69,
+       "recu": 174.1,
+       "gain": 24.1
+      }
+     ],
+     "perte_si": "Hapoel Acre FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 32.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 42,
+       "sur": "Hapoel Acre FC",
+       "cote": 4.38,
+       "recu": 184.0,
+       "gain": 34.0
+      },
+      {
+       "compte": 2,
+       "mise": 108,
+       "sur": "Maccabi Herzliya",
+       "cote": 1.69,
+       "recu": 182.5,
+       "gain": 32.5
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "27/11",
+   "heure": "14:00",
+   "pays": "Israel",
+   "drapeau": "🌍",
+   "ligue": "National League",
+   "equipe1": "Maccabi Kabilio Jaffa",
+   "equipe2": "FC Kafr Qasim",
+   "cotes_1x2": {
+    "1": 2.72,
+    "X": 3.39,
+    "2": 2.34
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.51",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.40",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.30",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 75.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 83,
+       "sur": "Maccabi Kabilio Jaffa",
+       "cote": 2.72,
+       "recu": 225.8,
+       "gain": 75.8
+      },
+      {
+       "compte": 2,
+       "mise": 67,
+       "sur": "Nul",
+       "cote": 3.39,
+       "recu": 227.1,
+       "gain": 77.1
+      }
+     ],
+     "perte_si": "FC Kafr Qasim",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 56.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 61,
+       "sur": "Nul",
+       "cote": 3.39,
+       "recu": 206.8,
+       "gain": 56.8
+      },
+      {
+       "compte": 2,
+       "mise": 89,
+       "sur": "FC Kafr Qasim",
+       "cote": 2.34,
+       "recu": 208.3,
+       "gain": 58.3
+      }
+     ],
+     "perte_si": "Maccabi Kabilio Jaffa",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 37.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 69,
+       "sur": "Maccabi Kabilio Jaffa",
+       "cote": 2.72,
+       "recu": 187.7,
+       "gain": 37.7
+      },
+      {
+       "compte": 2,
+       "mise": 81,
+       "sur": "FC Kafr Qasim",
+       "cote": 2.34,
+       "recu": 189.5,
+       "gain": 39.5
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "27/11",
+   "heure": "14:00",
+   "pays": "Israel",
+   "drapeau": "🌍",
+   "ligue": "National League",
+   "equipe1": "Maccabi Achi Nazareth FC",
+   "equipe2": "MS Football Hapoel Kiryat Yam",
+   "cotes_1x2": {
+    "1": 3.82,
+    "X": 3.82,
+    "2": 1.77
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.85",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.24",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.24",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 136.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 75,
+       "sur": "Maccabi Achi Nazareth FC",
+       "cote": 3.82,
+       "recu": 286.5,
+       "gain": 136.5
+      },
+      {
+       "compte": 2,
+       "mise": 75,
+       "sur": "Nul",
+       "cote": 3.82,
+       "recu": 286.5,
+       "gain": 136.5
+      }
+     ],
+     "perte_si": "MS Football Hapoel Kiryat Yam",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 29.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 47,
+       "sur": "Nul",
+       "cote": 3.82,
+       "recu": 179.5,
+       "gain": 29.5
+      },
+      {
+       "compte": 2,
+       "mise": 103,
+       "sur": "MS Football Hapoel Kiryat Yam",
+       "cote": 1.77,
+       "recu": 182.3,
+       "gain": 32.3
+      }
+     ],
+     "perte_si": "Maccabi Achi Nazareth FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 29.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 47,
+       "sur": "Maccabi Achi Nazareth FC",
+       "cote": 3.82,
+       "recu": 179.5,
+       "gain": 29.5
+      },
+      {
+       "compte": 2,
+       "mise": 103,
+       "sur": "MS Football Hapoel Kiryat Yam",
+       "cote": 1.77,
+       "recu": 182.3,
+       "gain": 32.3
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "27/11",
+   "heure": "14:00",
+   "pays": "Israel",
+   "drapeau": "🌍",
+   "ligue": "National League",
+   "equipe1": "Hapoel Kfar Shalem FC",
+   "equipe2": "Hapoel Kfar Saba FC",
+   "cotes_1x2": {
+    "1": 1.89,
+    "X": 3.9,
+    "2": 3.28
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.30",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.74",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.24",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 40.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 101,
+       "sur": "Hapoel Kfar Shalem FC",
+       "cote": 1.89,
+       "recu": 190.9,
+       "gain": 40.9
+      },
+      {
+       "compte": 2,
+       "mise": 49,
+       "sur": "Nul",
+       "cote": 3.9,
+       "recu": 191.1,
+       "gain": 41.1
+      }
+     ],
+     "perte_si": "Hapoel Kfar Saba FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 115.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 69,
+       "sur": "Nul",
+       "cote": 3.9,
+       "recu": 269.1,
+       "gain": 119.1
+      },
+      {
+       "compte": 2,
+       "mise": 81,
+       "sur": "Hapoel Kfar Saba FC",
+       "cote": 3.28,
+       "recu": 265.7,
+       "gain": 115.7
+      }
+     ],
+     "perte_si": "Hapoel Kfar Shalem FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 29.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 95,
+       "sur": "Hapoel Kfar Shalem FC",
+       "cote": 1.89,
+       "recu": 179.5,
+       "gain": 29.5
+      },
+      {
+       "compte": 2,
+       "mise": 55,
+       "sur": "Hapoel Kfar Saba FC",
+       "cote": 3.28,
+       "recu": 180.4,
+       "gain": 30.4
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "27/11",
+   "heure": "14:00",
+   "pays": "Israel",
+   "drapeau": "🌍",
+   "ligue": "National League",
+   "equipe1": "Maccabi Bney Reine",
+   "equipe2": "Maccabi Ironi Kiryat Gat",
+   "cotes_1x2": {
+    "1": 1.75,
+    "X": 3.71,
+    "2": 4.0
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.23",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.86",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.25",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 28.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 102,
+       "sur": "Maccabi Bney Reine",
+       "cote": 1.75,
+       "recu": 178.5,
+       "gain": 28.5
+      },
+      {
+       "compte": 2,
+       "mise": 48,
+       "sur": "Nul",
+       "cote": 3.71,
+       "recu": 178.1,
+       "gain": 28.1
+      }
+     ],
+     "perte_si": "Maccabi Ironi Kiryat Gat",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 138.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 78,
+       "sur": "Nul",
+       "cote": 3.71,
+       "recu": 289.4,
+       "gain": 139.4
+      },
+      {
+       "compte": 2,
+       "mise": 72,
+       "sur": "Maccabi Ironi Kiryat Gat",
+       "cote": 4.0,
+       "recu": 288.0,
+       "gain": 138.0
+      }
+     ],
+     "perte_si": "Maccabi Bney Reine",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 32.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 104,
+       "sur": "Maccabi Bney Reine",
+       "cote": 1.75,
+       "recu": 182.0,
+       "gain": 32.0
+      },
+      {
+       "compte": 2,
+       "mise": 46,
+       "sur": "Maccabi Ironi Kiryat Gat",
+       "cote": 4.0,
+       "recu": 184.0,
+       "gain": 34.0
+      }
+     ],
+     "perte_si": "Nul",
      "perte": 150,
      "proba": null
     }
@@ -13962,20 +14495,20 @@
    "equipe1": "Neftchi Baku PFC",
    "equipe2": "Zira FK",
    "cotes_1x2": {
-    "1": 1.61,
-    "X": 3.84,
-    "2": 5.0
+    "1": 1.64,
+    "X": 3.81,
+    "2": 4.82
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.17",
+     "cote": "1.18",
      "feu": true,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "2.05",
+     "cote": "2.01",
      "feu": false,
      "modele": null
     },
@@ -13989,50 +14522,50 @@
    "paires": [
     {
      "paire": "1X",
-     "total": 152,
-     "gain_min": 20.3,
+     "total": 150,
+     "gain_min": 21.4,
      "comptes": [
       {
        "compte": 1,
-       "mise": 107,
+       "mise": 105,
        "sur": "Neftchi Baku PFC",
-       "cote": 1.61,
-       "recu": 172.3,
-       "gain": 20.3
+       "cote": 1.64,
+       "recu": 172.2,
+       "gain": 22.2
       },
       {
        "compte": 2,
        "mise": 45,
        "sur": "Nul",
-       "cote": 3.84,
-       "recu": 172.8,
-       "gain": 20.8
+       "cote": 3.81,
+       "recu": 171.4,
+       "gain": 21.4
       }
      ],
      "perte_si": "Zira FK",
-     "perte": 152,
+     "perte": 150,
      "proba": null
     },
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 175.0,
+     "gain_min": 168.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 85,
+       "mise": 84,
        "sur": "Nul",
-       "cote": 3.84,
-       "recu": 326.4,
-       "gain": 176.4
+       "cote": 3.81,
+       "recu": 320.0,
+       "gain": 170.0
       },
       {
        "compte": 2,
-       "mise": 65,
+       "mise": 66,
        "sur": "Zira FK",
-       "cote": 5.0,
-       "recu": 325.0,
-       "gain": 175.0
+       "cote": 4.82,
+       "recu": 318.1,
+       "gain": 168.1
       }
      ],
      "perte_si": "Neftchi Baku PFC",
@@ -14042,23 +14575,248 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 31.9,
+     "gain_min": 33.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 113,
+       "mise": 112,
        "sur": "Neftchi Baku PFC",
-       "cote": 1.61,
-       "recu": 181.9,
-       "gain": 31.9
+       "cote": 1.64,
+       "recu": 183.7,
+       "gain": 33.7
       },
       {
        "compte": 2,
-       "mise": 37,
+       "mise": 38,
        "sur": "Zira FK",
-       "cote": 5.0,
-       "recu": 185.0,
-       "gain": 35.0
+       "cote": 4.82,
+       "recu": 183.2,
+       "gain": 33.2
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "27/11",
+   "heure": "16:00",
+   "pays": "Bahrain",
+   "drapeau": "🌍",
+   "ligue": "Premier League",
+   "equipe1": "East Riffa",
+   "equipe2": "Al Ittifaq BHR",
+   "cotes_1x2": {
+    "1": 3.86,
+    "X": 3.09,
+    "2": 2.01
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.68",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.24",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.34",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 106.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 67,
+       "sur": "East Riffa",
+       "cote": 3.86,
+       "recu": 258.6,
+       "gain": 108.6
+      },
+      {
+       "compte": 2,
+       "mise": 83,
+       "sur": "Nul",
+       "cote": 3.09,
+       "recu": 256.5,
+       "gain": 106.5
+      }
+     ],
+     "perte_si": "Al Ittifaq BHR",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 32.3,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 59,
+       "sur": "Nul",
+       "cote": 3.09,
+       "recu": 182.3,
+       "gain": 32.3
+      },
+      {
+       "compte": 2,
+       "mise": 91,
+       "sur": "Al Ittifaq BHR",
+       "cote": 2.01,
+       "recu": 182.9,
+       "gain": 32.9
+      }
+     ],
+     "perte_si": "East Riffa",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 46.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 51,
+       "sur": "East Riffa",
+       "cote": 3.86,
+       "recu": 196.9,
+       "gain": 46.9
+      },
+      {
+       "compte": 2,
+       "mise": 99,
+       "sur": "Al Ittifaq BHR",
+       "cote": 2.01,
+       "recu": 199.0,
+       "gain": 49.0
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "27/11",
+   "heure": "16:00",
+   "pays": "Bahrain",
+   "drapeau": "🌍",
+   "ligue": "Premier League",
+   "equipe1": "Malkiya Club",
+   "equipe2": "Manama Club",
+   "cotes_1x2": {
+    "1": 2.79,
+    "X": 3.37,
+    "2": 2.36
+   },
+   "double_chance": null,
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 78.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 82,
+       "sur": "Malkiya Club",
+       "cote": 2.79,
+       "recu": 228.8,
+       "gain": 78.8
+      },
+      {
+       "compte": 2,
+       "mise": 68,
+       "sur": "Nul",
+       "cote": 3.37,
+       "recu": 229.2,
+       "gain": 79.2
+      }
+     ],
+     "perte_si": "Manama Club",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 57.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 62,
+       "sur": "Nul",
+       "cote": 3.37,
+       "recu": 208.9,
+       "gain": 58.9
+      },
+      {
+       "compte": 2,
+       "mise": 88,
+       "sur": "Manama Club",
+       "cote": 2.36,
+       "recu": 207.7,
+       "gain": 57.7
+      }
+     ],
+     "perte_si": "Malkiya Club",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 41.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 69,
+       "sur": "Malkiya Club",
+       "cote": 2.79,
+       "recu": 192.5,
+       "gain": 42.5
+      },
+      {
+       "compte": 2,
+       "mise": 81,
+       "sur": "Manama Club",
+       "cote": 2.36,
+       "recu": 191.2,
+       "gain": 41.2
       }
      ],
      "perte_si": "Nul",
@@ -14572,27 +15330,27 @@
    "equipe1": "Pyramids FC",
    "equipe2": "Maghreb AS de Fes",
    "cotes_1x2": {
-    "1": 1.39,
-    "X": 4.01,
-    "2": 8.41
+    "1": 1.37,
+    "X": 4.11,
+    "2": 8.61
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.09",
+     "cote": "1.08",
      "feu": true,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "2.47",
+     "cote": "2.55",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.21",
-     "feu": false,
+     "cote": "1.20",
+     "feu": true,
      "modele": null
     }
    ],
@@ -14600,23 +15358,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 253.7,
+     "gain_min": 263.3,
      "comptes": [
       {
        "compte": 1,
        "mise": 102,
        "sur": "Nul",
-       "cote": 4.01,
-       "recu": 409.0,
-       "gain": 259.0
+       "cote": 4.11,
+       "recu": 419.2,
+       "gain": 269.2
       },
       {
        "compte": 2,
        "mise": 48,
        "sur": "Maghreb AS de Fes",
-       "cote": 8.41,
-       "recu": 403.7,
-       "gain": 253.7
+       "cote": 8.61,
+       "recu": 413.3,
+       "gain": 263.3
       }
      ],
      "perte_si": "Pyramids FC",
@@ -14626,23 +15384,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 26.6,
+     "gain_min": 26.7,
      "comptes": [
       {
        "compte": 1,
        "mise": 129,
        "sur": "Pyramids FC",
-       "cote": 1.39,
-       "recu": 179.3,
-       "gain": 29.3
+       "cote": 1.37,
+       "recu": 176.7,
+       "gain": 26.7
       },
       {
        "compte": 2,
        "mise": 21,
        "sur": "Maghreb AS de Fes",
-       "cote": 8.41,
-       "recu": 176.6,
-       "gain": 26.6
+       "cote": 8.61,
+       "recu": 180.8,
+       "gain": 30.8
       }
      ],
      "perte_si": "Nul",
@@ -15179,6 +15937,224 @@
      ],
      "perte_si": "Nul",
      "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "27/11",
+   "heure": "18:00",
+   "pays": "Austria",
+   "drapeau": "🌍",
+   "ligue": "Wien, Wiener Stadtliga",
+   "equipe1": "Simmeringer SC",
+   "equipe2": "LAC Inter",
+   "cotes_1x2": {
+    "1": 5.2,
+    "X": 4.7,
+    "2": 1.44
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "2.39",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.14",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.17",
+     "feu": true,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 219.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 71,
+       "sur": "Simmeringer SC",
+       "cote": 5.2,
+       "recu": 369.2,
+       "gain": 219.2
+      },
+      {
+       "compte": 2,
+       "mise": 79,
+       "sur": "Nul",
+       "cote": 4.7,
+       "recu": 371.3,
+       "gain": 221.3
+      }
+     ],
+     "perte_si": "LAC Inter",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 196,
+     "gain_min": 20.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 46,
+       "sur": "Nul",
+       "cote": 4.7,
+       "recu": 216.2,
+       "gain": 20.2
+      },
+      {
+       "compte": 2,
+       "mise": 150,
+       "sur": "LAC Inter",
+       "cote": 1.44,
+       "recu": 216.0,
+       "gain": 20.0
+      }
+     ],
+     "perte_si": "Simmeringer SC",
+     "perte": 196,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 160,
+     "gain_min": 20.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 35,
+       "sur": "Simmeringer SC",
+       "cote": 5.2,
+       "recu": 182.0,
+       "gain": 22.0
+      },
+      {
+       "compte": 2,
+       "mise": 125,
+       "sur": "LAC Inter",
+       "cote": 1.44,
+       "recu": 180.0,
+       "gain": 20.0
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 160,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "27/11",
+   "heure": "18:00",
+   "pays": "Austria",
+   "drapeau": "🌍",
+   "ligue": "Wien, Wiener Stadtliga",
+   "equipe1": "Gerasd. Stammersd.",
+   "equipe2": "SC Red Star Penzing",
+   "cotes_1x2": {
+    "1": 7.0,
+    "X": 5.0,
+    "2": 1.32
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "2.75",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.09",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.15",
+     "feu": true,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 151,
+     "gain_min": 289.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 63,
+       "sur": "Gerasd. Stammersd.",
+       "cote": 7.0,
+       "recu": 441.0,
+       "gain": 290.0
+      },
+      {
+       "compte": 2,
+       "mise": 88,
+       "sur": "Nul",
+       "cote": 5.0,
+       "recu": 440.0,
+       "gain": 289.0
+      }
+     ],
+     "perte_si": "SC Red Star Penzing",
+     "perte": 151,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 183,
+     "gain_min": 20.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 29,
+       "sur": "Gerasd. Stammersd.",
+       "cote": 7.0,
+       "recu": 203.0,
+       "gain": 20.0
+      },
+      {
+       "compte": 2,
+       "mise": 154,
+       "sur": "SC Red Star Penzing",
+       "cote": 1.32,
+       "recu": 203.3,
+       "gain": 20.3
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 183,
      "proba": null
     }
    ],
@@ -19281,6 +20257,109 @@
        "cote": 2.66,
        "recu": 183.5,
        "gain": 33.5
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "27/11",
+   "heure": "20:00",
+   "pays": "Belgium",
+   "drapeau": "🌍",
+   "ligue": "U21 Pro League",
+   "equipe1": "Jeugd RWDM Brussels U21",
+   "equipe2": "RAAL La Louviere U21",
+   "cotes_1x2": {
+    "1": 2.15,
+    "X": 3.9,
+    "2": 2.71
+   },
+   "double_chance": null,
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 56.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 97,
+       "sur": "Jeugd RWDM Brussels U21",
+       "cote": 2.15,
+       "recu": 208.5,
+       "gain": 58.5
+      },
+      {
+       "compte": 2,
+       "mise": 53,
+       "sur": "Nul",
+       "cote": 3.9,
+       "recu": 206.7,
+       "gain": 56.7
+      }
+     ],
+     "perte_si": "RAAL La Louviere U21",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 87.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 61,
+       "sur": "Nul",
+       "cote": 3.9,
+       "recu": 237.9,
+       "gain": 87.9
+      },
+      {
+       "compte": 2,
+       "mise": 89,
+       "sur": "RAAL La Louviere U21",
+       "cote": 2.71,
+       "recu": 241.2,
+       "gain": 91.2
+      }
+     ],
+     "perte_si": "Jeugd RWDM Brussels U21",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 28.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 84,
+       "sur": "Jeugd RWDM Brussels U21",
+       "cote": 2.15,
+       "recu": 180.6,
+       "gain": 30.6
+      },
+      {
+       "compte": 2,
+       "mise": 66,
+       "sur": "RAAL La Louviere U21",
+       "cote": 2.71,
+       "recu": 178.9,
+       "gain": 28.9
       }
      ],
      "perte_si": "Nul",
@@ -23676,9 +24755,9 @@
    "equipe1": "Nottingham Forest",
    "equipe2": "Chelsea FC",
    "cotes_1x2": {
-    "1": 2.55,
+    "1": 2.52,
     "X": 3.47,
-    "2": 2.71
+    "2": 2.74
    },
    "double_chance": [
     {
@@ -23689,7 +24768,7 @@
     },
     {
      "pari": "X2",
-     "cote": "1.51",
+     "cote": "1.52",
      "feu": false,
      "modele": 57
     },
@@ -23704,23 +24783,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 69.3,
+     "gain_min": 68.6,
      "comptes": [
       {
        "compte": 1,
-       "mise": 86,
+       "mise": 87,
        "sur": "Nottingham Forest",
-       "cote": 2.55,
-       "recu": 219.3,
-       "gain": 69.3
+       "cote": 2.52,
+       "recu": 219.2,
+       "gain": 69.2
       },
       {
        "compte": 2,
-       "mise": 64,
+       "mise": 63,
        "sur": "Nul",
        "cote": 3.47,
-       "recu": 222.1,
-       "gain": 72.1
+       "recu": 218.6,
+       "gain": 68.6
       }
      ],
      "perte_si": "Chelsea FC",
@@ -23730,7 +24809,7 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 77.6,
+     "gain_min": 79.0,
      "comptes": [
       {
        "compte": 1,
@@ -23744,9 +24823,9 @@
        "compte": 2,
        "mise": 84,
        "sur": "Chelsea FC",
-       "cote": 2.71,
-       "recu": 227.6,
-       "gain": 77.6
+       "cote": 2.74,
+       "recu": 230.2,
+       "gain": 80.2
       }
      ],
      "perte_si": "Nottingham Forest",
@@ -23756,23 +24835,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 46.3,
+     "gain_min": 46.6,
      "comptes": [
       {
        "compte": 1,
-       "mise": 77,
+       "mise": 78,
        "sur": "Nottingham Forest",
-       "cote": 2.55,
-       "recu": 196.3,
-       "gain": 46.3
+       "cote": 2.52,
+       "recu": 196.6,
+       "gain": 46.6
       },
       {
        "compte": 2,
-       "mise": 73,
+       "mise": 72,
        "sur": "Chelsea FC",
-       "cote": 2.71,
-       "recu": 197.8,
-       "gain": 47.8
+       "cote": 2.74,
+       "recu": 197.3,
+       "gain": 47.3
       }
      ],
      "perte_si": "Nul",
@@ -24745,13 +25824,13 @@
     },
     {
      "pari": "X2",
-     "cote": "2.23",
+     "cote": "2.28",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.19",
+     "cote": "1.18",
      "feu": true,
      "modele": null
     }
@@ -25105,19 +26184,19 @@
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.12",
+     "cote": "1.11",
      "feu": true,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "2.40",
+     "cote": "2.47",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.19",
+     "cote": "1.18",
      "feu": true,
      "modele": null
     }
@@ -25557,6 +26636,128 @@
    "pays": "Argentina",
    "drapeau": "🌍",
    "ligue": "Primera Nacional",
+   "equipe1": "CSD Tristan Suarez",
+   "equipe2": "Gimnasia Y Tiro de Salta",
+   "cotes_1x2": {
+    "1": 1.85,
+    "X": 3.11,
+    "2": 4.56
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.20",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.81",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.34",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 23.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 94,
+       "sur": "CSD Tristan Suarez",
+       "cote": 1.85,
+       "recu": 173.9,
+       "gain": 23.9
+      },
+      {
+       "compte": 2,
+       "mise": 56,
+       "sur": "Nul",
+       "cote": 3.11,
+       "recu": 174.2,
+       "gain": 24.2
+      }
+     ],
+     "perte_si": "Gimnasia Y Tiro de Salta",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 126.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 89,
+       "sur": "Nul",
+       "cote": 3.11,
+       "recu": 276.8,
+       "gain": 126.8
+      },
+      {
+       "compte": 2,
+       "mise": 61,
+       "sur": "Gimnasia Y Tiro de Salta",
+       "cote": 4.56,
+       "recu": 278.2,
+       "gain": 128.2
+      }
+     ],
+     "perte_si": "CSD Tristan Suarez",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 46.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 107,
+       "sur": "CSD Tristan Suarez",
+       "cote": 1.85,
+       "recu": 198.0,
+       "gain": 48.0
+      },
+      {
+       "compte": 2,
+       "mise": 43,
+       "sur": "Gimnasia Y Tiro de Salta",
+       "cote": 4.56,
+       "recu": 196.1,
+       "gain": 46.1
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "28/11",
+   "heure": "01:00",
+   "pays": "Argentina",
+   "drapeau": "🌍",
+   "ligue": "Primera Nacional",
    "equipe1": "Deportivo Moron",
    "equipe2": "Colon de Santa Fe",
    "cotes_1x2": {
@@ -25804,26 +27005,26 @@
    "equipe1": "San Francisco FC",
    "equipe2": "CD Arabe Unido",
    "cotes_1x2": {
-    "1": 2.63,
-    "X": 3.11,
-    "2": 2.58
+    "1": 2.53,
+    "X": 3.06,
+    "2": 2.72
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.44",
+     "cote": "1.40",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.42",
+     "cote": "1.45",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.33",
+     "cote": "1.34",
      "feu": false,
      "modele": null
     }
@@ -25832,23 +27033,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 63.0,
+     "gain_min": 57.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 81,
+       "mise": 82,
        "sur": "San Francisco FC",
-       "cote": 2.63,
-       "recu": 213.0,
-       "gain": 63.0
+       "cote": 2.53,
+       "recu": 207.5,
+       "gain": 57.5
       },
       {
        "compte": 2,
-       "mise": 69,
+       "mise": 68,
        "sur": "Nul",
-       "cote": 3.11,
-       "recu": 214.6,
-       "gain": 64.6
+       "cote": 3.06,
+       "recu": 208.1,
+       "gain": 58.1
       }
      ],
      "perte_si": "CD Arabe Unido",
@@ -25858,23 +27059,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 61.5,
+     "gain_min": 64.9,
      "comptes": [
       {
        "compte": 1,
-       "mise": 68,
+       "mise": 71,
        "sur": "Nul",
-       "cote": 3.11,
-       "recu": 211.5,
-       "gain": 61.5
+       "cote": 3.06,
+       "recu": 217.3,
+       "gain": 67.3
       },
       {
        "compte": 2,
-       "mise": 82,
+       "mise": 79,
        "sur": "CD Arabe Unido",
-       "cote": 2.58,
-       "recu": 211.6,
-       "gain": 61.6
+       "cote": 2.72,
+       "recu": 214.9,
+       "gain": 64.9
       }
      ],
      "perte_si": "San Francisco FC",
@@ -25884,23 +27085,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 44.6,
+     "gain_min": 45.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 74,
+       "mise": 78,
        "sur": "San Francisco FC",
-       "cote": 2.63,
-       "recu": 194.6,
-       "gain": 44.6
+       "cote": 2.53,
+       "recu": 197.3,
+       "gain": 47.3
       },
       {
        "compte": 2,
-       "mise": 76,
+       "mise": 72,
        "sur": "CD Arabe Unido",
-       "cote": 2.58,
-       "recu": 196.1,
-       "gain": 46.1
+       "cote": 2.72,
+       "recu": 195.8,
+       "gain": 45.8
       }
      ],
      "perte_si": "Nul",
@@ -25927,13 +27128,13 @@
    "equipe2": "America de Cali",
    "cotes_1x2": {
     "1": 2.02,
-    "X": 3.32,
-    "2": 3.51
+    "X": 3.23,
+    "2": 3.62
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.28",
+     "cote": "1.27",
      "feu": false,
      "modele": null
     },
@@ -25945,7 +27146,7 @@
     },
     {
      "pari": "12",
-     "cote": "1.30",
+     "cote": "1.31",
      "feu": false,
      "modele": null
     }
@@ -25954,23 +27155,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 37.9,
+     "gain_min": 35.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 93,
+       "mise": 92,
        "sur": "Millonarios FC",
        "cote": 2.02,
-       "recu": 187.9,
-       "gain": 37.9
+       "recu": 185.8,
+       "gain": 35.8
       },
       {
        "compte": 2,
-       "mise": 57,
+       "mise": 58,
        "sur": "Nul",
-       "cote": 3.32,
-       "recu": 189.2,
-       "gain": 39.2
+       "cote": 3.23,
+       "recu": 187.3,
+       "gain": 37.3
       }
      ],
      "perte_si": "America de Cali",
@@ -25980,23 +27181,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 105.6,
+     "gain_min": 105.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 77,
+       "mise": 79,
        "sur": "Nul",
-       "cote": 3.32,
-       "recu": 255.6,
-       "gain": 105.6
+       "cote": 3.23,
+       "recu": 255.2,
+       "gain": 105.2
       },
       {
        "compte": 2,
-       "mise": 73,
+       "mise": 71,
        "sur": "America de Cali",
-       "cote": 3.51,
-       "recu": 256.2,
-       "gain": 106.2
+       "cote": 3.62,
+       "recu": 257.0,
+       "gain": 107.0
       }
      ],
      "perte_si": "Millonarios FC",
@@ -26006,23 +27207,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 41.9,
+     "gain_min": 43.9,
      "comptes": [
       {
        "compte": 1,
-       "mise": 95,
+       "mise": 96,
        "sur": "Millonarios FC",
        "cote": 2.02,
-       "recu": 191.9,
-       "gain": 41.9
+       "recu": 193.9,
+       "gain": 43.9
       },
       {
        "compte": 2,
-       "mise": 55,
+       "mise": 54,
        "sur": "America de Cali",
-       "cote": 3.51,
-       "recu": 193.0,
-       "gain": 43.0
+       "cote": 3.62,
+       "recu": 195.5,
+       "gain": 45.5
       }
      ],
      "perte_si": "Nul",
@@ -33636,6 +34837,128 @@
    "heure": "13:00",
    "pays": "Sweden",
    "drapeau": "🌍",
+   "ligue": "Allsvenskan",
+   "equipe1": "Varbergs BoIS",
+   "equipe2": "Ostersunds FK",
+   "cotes_1x2": {
+    "1": 2.54,
+    "X": 3.32,
+    "2": 2.73
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.45",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.50",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.34",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 65.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 85,
+       "sur": "Varbergs BoIS",
+       "cote": 2.54,
+       "recu": 215.9,
+       "gain": 65.9
+      },
+      {
+       "compte": 2,
+       "mise": 65,
+       "sur": "Nul",
+       "cote": 3.32,
+       "recu": 215.8,
+       "gain": 65.8
+      }
+     ],
+     "perte_si": "Ostersunds FK",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 73.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 68,
+       "sur": "Nul",
+       "cote": 3.32,
+       "recu": 225.8,
+       "gain": 75.8
+      },
+      {
+       "compte": 2,
+       "mise": 82,
+       "sur": "Ostersunds FK",
+       "cote": 2.73,
+       "recu": 223.9,
+       "gain": 73.9
+      }
+     ],
+     "perte_si": "Varbergs BoIS",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 46.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 78,
+       "sur": "Varbergs BoIS",
+       "cote": 2.54,
+       "recu": 198.1,
+       "gain": 48.1
+      },
+      {
+       "compte": 2,
+       "mise": 72,
+       "sur": "Ostersunds FK",
+       "cote": 2.73,
+       "recu": 196.6,
+       "gain": 46.6
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "28/11",
+   "heure": "13:00",
+   "pays": "Sweden",
+   "drapeau": "🌍",
    "ligue": "Superettan",
    "equipe1": "Orebro SK",
    "equipe2": "Enkopings SK",
@@ -34826,20 +36149,20 @@
    "equipe1": "Lincoln City",
    "equipe2": "Wolverhampton Wanderers",
    "cotes_1x2": {
-    "1": 5.57,
-    "X": 4.19,
-    "2": 1.58
+    "1": 5.79,
+    "X": 4.21,
+    "2": 1.56
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "2.27",
+     "cote": "2.31",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.17",
+     "cote": "1.16",
      "feu": true,
      "modele": null
     },
@@ -34854,23 +36177,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 206.5,
+     "gain_min": 214.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 64,
+       "mise": 63,
        "sur": "Lincoln City",
-       "cote": 5.57,
-       "recu": 356.5,
-       "gain": 206.5
+       "cote": 5.79,
+       "recu": 364.8,
+       "gain": 214.8
       },
       {
        "compte": 2,
-       "mise": 86,
+       "mise": 87,
        "sur": "Nul",
-       "cote": 4.19,
-       "recu": 360.3,
-       "gain": 210.3
+       "cote": 4.21,
+       "recu": 366.3,
+       "gain": 216.3
       }
      ],
      "perte_si": "Wolverhampton Wanderers",
@@ -34880,23 +36203,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 21.8,
+     "gain_min": 20.0,
      "comptes": [
       {
        "compte": 1,
        "mise": 41,
        "sur": "Nul",
-       "cote": 4.19,
-       "recu": 171.8,
-       "gain": 21.8
+       "cote": 4.21,
+       "recu": 172.6,
+       "gain": 22.6
       },
       {
        "compte": 2,
        "mise": 109,
        "sur": "Wolverhampton Wanderers",
-       "cote": 1.58,
-       "recu": 172.2,
-       "gain": 22.2
+       "cote": 1.56,
+       "recu": 170.0,
+       "gain": 20.0
       }
      ],
      "perte_si": "Lincoln City",
@@ -34906,23 +36229,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 33.8,
+     "gain_min": 34.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 33,
+       "mise": 32,
        "sur": "Lincoln City",
-       "cote": 5.57,
-       "recu": 183.8,
-       "gain": 33.8
+       "cote": 5.79,
+       "recu": 185.3,
+       "gain": 35.3
       },
       {
        "compte": 2,
-       "mise": 117,
+       "mise": 118,
        "sur": "Wolverhampton Wanderers",
-       "cote": 1.58,
-       "recu": 184.9,
-       "gain": 34.9
+       "cote": 1.56,
+       "recu": 184.1,
+       "gain": 34.1
       }
      ],
      "perte_si": "Nul",
@@ -38301,128 +39624,6 @@
   {
    "date": "28/11",
    "heure": "14:00",
-   "pays": "Sweden",
-   "drapeau": "🌍",
-   "ligue": "Allsvenskan",
-   "equipe1": "Varbergs BoIS",
-   "equipe2": "Ostersunds FK",
-   "cotes_1x2": {
-    "1": 2.54,
-    "X": 3.32,
-    "2": 2.73
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.45",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.50",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.34",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 65.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 85,
-       "sur": "Varbergs BoIS",
-       "cote": 2.54,
-       "recu": 215.9,
-       "gain": 65.9
-      },
-      {
-       "compte": 2,
-       "mise": 65,
-       "sur": "Nul",
-       "cote": 3.32,
-       "recu": 215.8,
-       "gain": 65.8
-      }
-     ],
-     "perte_si": "Ostersunds FK",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 73.9,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 68,
-       "sur": "Nul",
-       "cote": 3.32,
-       "recu": 225.8,
-       "gain": 75.8
-      },
-      {
-       "compte": 2,
-       "mise": 82,
-       "sur": "Ostersunds FK",
-       "cote": 2.73,
-       "recu": 223.9,
-       "gain": 73.9
-      }
-     ],
-     "perte_si": "Varbergs BoIS",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 46.6,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 78,
-       "sur": "Varbergs BoIS",
-       "cote": 2.54,
-       "recu": 198.1,
-       "gain": 48.1
-      },
-      {
-       "compte": 2,
-       "mise": 72,
-       "sur": "Ostersunds FK",
-       "cote": 2.73,
-       "recu": 196.6,
-       "gain": 46.6
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "28/11",
-   "heure": "14:00",
    "pays": "Turkey",
    "drapeau": "🌍",
    "ligue": "1. Lig",
@@ -38673,14 +39874,14 @@
    "equipe1": "POFC Botev Vratsa",
    "equipe2": "PFC Ludogorets 1945 Razgrad",
    "cotes_1x2": {
-    "1": 6.94,
-    "X": 4.34,
+    "1": 6.91,
+    "X": 4.32,
     "2": 1.42
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "2.43",
+     "cote": "2.42",
      "feu": false,
      "modele": null
     },
@@ -38701,23 +39902,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 249.3,
+     "gain_min": 247.4,
      "comptes": [
       {
        "compte": 1,
        "mise": 58,
        "sur": "POFC Botev Vratsa",
-       "cote": 6.94,
-       "recu": 402.5,
-       "gain": 252.5
+       "cote": 6.91,
+       "recu": 400.8,
+       "gain": 250.8
       },
       {
        "compte": 2,
        "mise": 92,
        "sur": "Nul",
-       "cote": 4.34,
-       "recu": 399.3,
-       "gain": 249.3
+       "cote": 4.32,
+       "recu": 397.4,
+       "gain": 247.4
       }
      ],
      "perte_si": "PFC Ludogorets 1945 Razgrad",
@@ -38727,23 +39928,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 23.5,
+     "gain_min": 26.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 25,
+       "mise": 26,
        "sur": "POFC Botev Vratsa",
-       "cote": 6.94,
-       "recu": 173.5,
-       "gain": 23.5
+       "cote": 6.91,
+       "recu": 179.7,
+       "gain": 29.7
       },
       {
        "compte": 2,
-       "mise": 125,
+       "mise": 124,
        "sur": "PFC Ludogorets 1945 Razgrad",
        "cote": 1.42,
-       "recu": 177.5,
-       "gain": 27.5
+       "recu": 176.1,
+       "gain": 26.1
       }
      ],
      "perte_si": "Nul",
@@ -39683,8 +40884,8 @@
    "equipe1": "CSKA Moscow",
    "equipe2": "FK Zenit Saint Petersburg",
    "cotes_1x2": {
-    "1": 3.2,
-    "X": 3.61,
+    "1": 3.19,
+    "X": 3.62,
     "2": 2.13
    },
    "double_chance": [
@@ -39711,23 +40912,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 102.7,
+     "gain_min": 103.4,
      "comptes": [
       {
        "compte": 1,
        "mise": 80,
        "sur": "CSKA Moscow",
-       "cote": 3.2,
-       "recu": 256.0,
-       "gain": 106.0
+       "cote": 3.19,
+       "recu": 255.2,
+       "gain": 105.2
       },
       {
        "compte": 2,
        "mise": 70,
        "sur": "Nul",
-       "cote": 3.61,
-       "recu": 252.7,
-       "gain": 102.7
+       "cote": 3.62,
+       "recu": 253.4,
+       "gain": 103.4
       }
      ],
      "perte_si": "FK Zenit Saint Petersburg",
@@ -39743,9 +40944,9 @@
        "compte": 1,
        "mise": 56,
        "sur": "Nul",
-       "cote": 3.61,
-       "recu": 202.2,
-       "gain": 52.2
+       "cote": 3.62,
+       "recu": 202.7,
+       "gain": 52.7
       },
       {
        "compte": 2,
@@ -39763,15 +40964,15 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 41.7,
+     "gain_min": 41.4,
      "comptes": [
       {
        "compte": 1,
        "mise": 60,
        "sur": "CSKA Moscow",
-       "cote": 3.2,
-       "recu": 192.0,
-       "gain": 42.0
+       "cote": 3.19,
+       "recu": 191.4,
+       "gain": 41.4
       },
       {
        "compte": 2,
@@ -39927,9 +41128,9 @@
    "equipe1": "Widzew Lodz",
    "equipe2": "Zaglebie Lubin",
    "cotes_1x2": {
-    "1": 1.87,
-    "X": 3.62,
-    "2": 4.03
+    "1": 1.86,
+    "X": 3.63,
+    "2": 4.05
    },
    "double_chance": [
     {
@@ -39955,23 +41156,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 34.6,
+     "gain_min": 34.1,
      "comptes": [
       {
        "compte": 1,
        "mise": 99,
        "sur": "Widzew Lodz",
-       "cote": 1.87,
-       "recu": 185.1,
-       "gain": 35.1
+       "cote": 1.86,
+       "recu": 184.1,
+       "gain": 34.1
       },
       {
        "compte": 2,
        "mise": 51,
        "sur": "Nul",
-       "cote": 3.62,
-       "recu": 184.6,
-       "gain": 34.6
+       "cote": 3.63,
+       "recu": 185.1,
+       "gain": 35.1
       }
      ],
      "perte_si": "Zaglebie Lubin",
@@ -39981,23 +41182,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 136.0,
+     "gain_min": 136.8,
      "comptes": [
       {
        "compte": 1,
        "mise": 79,
        "sur": "Nul",
-       "cote": 3.62,
-       "recu": 286.0,
-       "gain": 136.0
+       "cote": 3.63,
+       "recu": 286.8,
+       "gain": 136.8
       },
       {
        "compte": 2,
        "mise": 71,
        "sur": "Zaglebie Lubin",
-       "cote": 4.03,
-       "recu": 286.1,
-       "gain": 136.1
+       "cote": 4.05,
+       "recu": 287.6,
+       "gain": 137.6
       }
      ],
      "perte_si": "Widzew Lodz",
@@ -40007,23 +41208,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 40.7,
+     "gain_min": 40.3,
      "comptes": [
       {
        "compte": 1,
-       "mise": 102,
+       "mise": 103,
        "sur": "Widzew Lodz",
-       "cote": 1.87,
-       "recu": 190.7,
-       "gain": 40.7
+       "cote": 1.86,
+       "recu": 191.6,
+       "gain": 41.6
       },
       {
        "compte": 2,
-       "mise": 48,
+       "mise": 47,
        "sur": "Zaglebie Lubin",
-       "cote": 4.03,
-       "recu": 193.4,
-       "gain": 43.4
+       "cote": 4.05,
+       "recu": 190.3,
+       "gain": 40.3
       }
      ],
      "perte_si": "Nul",
@@ -40293,7 +41494,7 @@
    "equipe1": "FK Teplice",
    "equipe2": "FC Slovan Liberec",
    "cotes_1x2": {
-    "1": 3.32,
+    "1": 3.33,
     "X": 3.48,
     "2": 2.12
    },
@@ -40327,9 +41528,9 @@
        "compte": 1,
        "mise": 77,
        "sur": "FK Teplice",
-       "cote": 3.32,
-       "recu": 255.6,
-       "gain": 105.6
+       "cote": 3.33,
+       "recu": 256.4,
+       "gain": 106.4
       },
       {
        "compte": 2,
@@ -40373,15 +41574,15 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 42.6,
+     "gain_min": 43.1,
      "comptes": [
       {
        "compte": 1,
        "mise": 58,
        "sur": "FK Teplice",
-       "cote": 3.32,
-       "recu": 192.6,
-       "gain": 42.6
+       "cote": 3.33,
+       "recu": 193.1,
+       "gain": 43.1
       },
       {
        "compte": 2,
@@ -40415,7 +41616,7 @@
    "equipe1": "FK Mlada Boleslav",
    "equipe2": "SK Sigma Olomouc",
    "cotes_1x2": {
-    "1": 2.34,
+    "1": 2.35,
     "X": 3.57,
     "2": 2.83
    },
@@ -40443,23 +41644,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 60.6,
+     "gain_min": 61.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 91,
+       "mise": 90,
        "sur": "FK Mlada Boleslav",
-       "cote": 2.34,
-       "recu": 212.9,
-       "gain": 62.9
+       "cote": 2.35,
+       "recu": 211.5,
+       "gain": 61.5
       },
       {
        "compte": 2,
-       "mise": 59,
+       "mise": 60,
        "sur": "Nul",
        "cote": 3.57,
-       "recu": 210.6,
-       "gain": 60.6
+       "recu": 214.2,
+       "gain": 64.2
       }
      ],
      "perte_si": "SK Sigma Olomouc",
@@ -40495,15 +41696,15 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 41.9,
+     "gain_min": 42.4,
      "comptes": [
       {
        "compte": 1,
        "mise": 82,
        "sur": "FK Mlada Boleslav",
-       "cote": 2.34,
-       "recu": 191.9,
-       "gain": 41.9
+       "cote": 2.35,
+       "recu": 192.7,
+       "gain": 42.7
       },
       {
        "compte": 2,
@@ -40782,8 +41983,8 @@
    "equipe2": "Parma Calcio",
    "cotes_1x2": {
     "1": 1.45,
-    "X": 5.15,
-    "2": 5.97
+    "X": 5.19,
+    "2": 6.0
    },
    "double_chance": [
     {
@@ -40808,50 +42009,50 @@
    "paires": [
     {
      "paire": "1X",
-     "total": 154,
-     "gain_min": 20.0,
+     "total": 151,
+     "gain_min": 20.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 120,
+       "mise": 118,
        "sur": "Frosinone Calcio",
        "cote": 1.45,
-       "recu": 174.0,
-       "gain": 20.0
+       "recu": 171.1,
+       "gain": 20.1
       },
       {
        "compte": 2,
-       "mise": 34,
+       "mise": 33,
        "sur": "Nul",
-       "cote": 5.15,
-       "recu": 175.1,
-       "gain": 21.1
+       "cote": 5.19,
+       "recu": 171.3,
+       "gain": 20.3
       }
      ],
      "perte_si": "Parma Calcio",
-     "perte": 154,
+     "perte": 151,
      "proba": 80
     },
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 261.9,
+     "gain_min": 265.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 81,
+       "mise": 80,
        "sur": "Nul",
-       "cote": 5.15,
-       "recu": 417.2,
-       "gain": 267.2
+       "cote": 5.19,
+       "recu": 415.2,
+       "gain": 265.2
       },
       {
        "compte": 2,
-       "mise": 69,
+       "mise": 70,
        "sur": "Parma Calcio",
-       "cote": 5.97,
-       "recu": 411.9,
-       "gain": 261.9
+       "cote": 6.0,
+       "recu": 420.0,
+       "gain": 270.0
       }
      ],
      "perte_si": "Frosinone Calcio",
@@ -40861,7 +42062,7 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 23.1,
+     "gain_min": 24.0,
      "comptes": [
       {
        "compte": 1,
@@ -40875,9 +42076,9 @@
        "compte": 2,
        "mise": 29,
        "sur": "Parma Calcio",
-       "cote": 5.97,
-       "recu": 173.1,
-       "gain": 23.1
+       "cote": 6.0,
+       "recu": 174.0,
+       "gain": 24.0
       }
      ],
      "perte_si": "Nul",
@@ -41004,7 +42205,7 @@
    "equipe1": "Empoli FC",
    "equipe2": "Hellas Verona",
    "cotes_1x2": {
-    "1": 4.32,
+    "1": 4.33,
     "X": 3.71,
     "2": 1.79
    },
@@ -41032,15 +42233,15 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 148.1,
+     "gain_min": 148.8,
      "comptes": [
       {
        "compte": 1,
        "mise": 69,
        "sur": "Empoli FC",
-       "cote": 4.32,
-       "recu": 298.1,
-       "gain": 148.1
+       "cote": 4.33,
+       "recu": 298.8,
+       "gain": 148.8
       },
       {
        "compte": 2,
@@ -41090,9 +42291,9 @@
        "compte": 1,
        "mise": 44,
        "sur": "Empoli FC",
-       "cote": 4.32,
-       "recu": 190.1,
-       "gain": 40.1
+       "cote": 4.33,
+       "recu": 190.5,
+       "gain": 40.5
       },
       {
        "compte": 2,
@@ -41235,7 +42436,7 @@
    "cotes_1x2": {
     "1": 1.9,
     "X": 3.48,
-    "2": 4.04
+    "2": 4.05
    },
    "double_chance": [
     {
@@ -41287,7 +42488,7 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 128.8,
+     "gain_min": 129.4,
      "comptes": [
       {
        "compte": 1,
@@ -41301,9 +42502,9 @@
        "compte": 2,
        "mise": 69,
        "sur": "Virtus Entella",
-       "cote": 4.04,
-       "recu": 278.8,
-       "gain": 128.8
+       "cote": 4.05,
+       "recu": 279.4,
+       "gain": 129.4
       }
      ],
      "perte_si": "Ascoli Calcio 1898",
@@ -41327,9 +42528,9 @@
        "compte": 2,
        "mise": 48,
        "sur": "Virtus Entella",
-       "cote": 4.04,
-       "recu": 193.9,
-       "gain": 43.9
+       "cote": 4.05,
+       "recu": 194.4,
+       "gain": 44.4
       }
      ],
      "perte_si": "Nul",
@@ -41357,7 +42558,7 @@
    "cotes_1x2": {
     "1": 2.06,
     "X": 3.42,
-    "2": 3.54
+    "2": 3.55
    },
    "double_chance": [
     {
@@ -41423,9 +42624,9 @@
        "compte": 2,
        "mise": 74,
        "sur": "Juve Stabia",
-       "cote": 3.54,
-       "recu": 262.0,
-       "gain": 112.0
+       "cote": 3.55,
+       "recu": 262.7,
+       "gain": 112.7
       }
      ],
      "perte_si": "Carrarese Calcio",
@@ -41435,7 +42636,7 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 44.7,
+     "gain_min": 45.2,
      "comptes": [
       {
        "compte": 1,
@@ -41449,9 +42650,9 @@
        "compte": 2,
        "mise": 55,
        "sur": "Juve Stabia",
-       "cote": 3.54,
-       "recu": 194.7,
-       "gain": 44.7
+       "cote": 3.55,
+       "recu": 195.2,
+       "gain": 45.2
       }
      ],
      "perte_si": "Nul",
@@ -43081,14 +44282,14 @@
    "equipe1": "Hamburger SV",
    "equipe2": "Bayern Munich",
    "cotes_1x2": {
-    "1": 9.26,
-    "X": 6.91,
+    "1": 9.38,
+    "X": 6.9,
     "2": 1.25
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "3.51",
+     "cote": "3.54",
      "feu": false,
      "modele": 22
     },
@@ -43109,23 +44310,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 442.6,
+     "gain_min": 443.4,
      "comptes": [
       {
        "compte": 1,
        "mise": 64,
        "sur": "Hamburger SV",
-       "cote": 9.26,
-       "recu": 592.6,
-       "gain": 442.6
+       "cote": 9.38,
+       "recu": 600.3,
+       "gain": 450.3
       },
       {
        "compte": 2,
        "mise": 86,
        "sur": "Nul",
-       "cote": 6.91,
-       "recu": 594.3,
-       "gain": 444.3
+       "cote": 6.9,
+       "recu": 593.4,
+       "gain": 443.4
       }
      ],
      "perte_si": "Bayern Munich",
@@ -43134,28 +44335,28 @@
     },
     {
      "paire": "12",
-     "total": 200,
+     "total": 195,
      "gain_min": 20.0,
      "comptes": [
       {
        "compte": 1,
-       "mise": 24,
+       "mise": 23,
        "sur": "Hamburger SV",
-       "cote": 9.26,
-       "recu": 222.2,
-       "gain": 22.2
+       "cote": 9.38,
+       "recu": 215.7,
+       "gain": 20.7
       },
       {
        "compte": 2,
-       "mise": 176,
+       "mise": 172,
        "sur": "Bayern Munich",
        "cote": 1.25,
-       "recu": 220.0,
+       "recu": 215.0,
        "gain": 20.0
       }
      ],
      "perte_si": "Nul",
-     "perte": 200,
+     "perte": 195,
      "proba": 92
     }
    ],
@@ -45511,26 +46712,26 @@
    "equipe1": "Millwall FC",
    "equipe2": "Burnley FC",
    "cotes_1x2": {
-    "1": 2.15,
-    "X": 3.73,
-    "2": 3.17
+    "1": 2.13,
+    "X": 3.6,
+    "2": 3.31
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.36",
+     "cote": "1.34",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.68",
+     "cote": "1.69",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.29",
+     "cote": "1.31",
      "feu": false,
      "modele": null
     }
@@ -45539,23 +46740,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 54.2,
+     "gain_min": 50.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 95,
+       "mise": 94,
        "sur": "Millwall FC",
-       "cote": 2.15,
-       "recu": 204.2,
-       "gain": 54.2
+       "cote": 2.13,
+       "recu": 200.2,
+       "gain": 50.2
       },
       {
        "compte": 2,
-       "mise": 55,
+       "mise": 56,
        "sur": "Nul",
-       "cote": 3.73,
-       "recu": 205.2,
-       "gain": 55.2
+       "cote": 3.6,
+       "recu": 201.6,
+       "gain": 51.6
       }
      ],
      "perte_si": "Burnley FC",
@@ -45565,23 +46766,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 106.8,
+     "gain_min": 108.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 69,
+       "mise": 72,
        "sur": "Nul",
-       "cote": 3.73,
-       "recu": 257.4,
-       "gain": 107.4
+       "cote": 3.6,
+       "recu": 259.2,
+       "gain": 109.2
       },
       {
        "compte": 2,
-       "mise": 81,
+       "mise": 78,
        "sur": "Burnley FC",
-       "cote": 3.17,
-       "recu": 256.8,
-       "gain": 106.8
+       "cote": 3.31,
+       "recu": 258.2,
+       "gain": 108.2
       }
      ],
      "perte_si": "Millwall FC",
@@ -45591,23 +46792,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 41.3,
+     "gain_min": 43.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 89,
+       "mise": 91,
        "sur": "Millwall FC",
-       "cote": 2.15,
-       "recu": 191.3,
-       "gain": 41.3
+       "cote": 2.13,
+       "recu": 193.8,
+       "gain": 43.8
       },
       {
        "compte": 2,
-       "mise": 61,
+       "mise": 59,
        "sur": "Burnley FC",
-       "cote": 3.17,
-       "recu": 193.4,
-       "gain": 43.4
+       "cote": 3.31,
+       "recu": 195.3,
+       "gain": 45.3
       }
      ],
      "perte_si": "Nul",
@@ -53478,8 +54679,8 @@
    "equipe2": "Coventry City",
    "cotes_1x2": {
     "1": 1.46,
-    "X": 4.77,
-    "2": 6.37
+    "X": 4.76,
+    "2": 6.44
    },
    "double_chance": [
     {
@@ -53490,7 +54691,7 @@
     },
     {
      "pari": "X2",
-     "cote": "2.55",
+     "cote": "2.57",
      "feu": false,
      "modele": 38
     },
@@ -53519,9 +54720,9 @@
        "compte": 2,
        "mise": 41,
        "sur": "Nul",
-       "cote": 4.77,
-       "recu": 195.6,
-       "gain": 21.6
+       "cote": 4.76,
+       "recu": 195.2,
+       "gain": 21.2
       }
      ],
      "perte_si": "Coventry City",
@@ -53531,23 +54732,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 257.7,
+     "gain_min": 259.4,
      "comptes": [
       {
        "compte": 1,
        "mise": 86,
        "sur": "Nul",
-       "cote": 4.77,
-       "recu": 410.2,
-       "gain": 260.2
+       "cote": 4.76,
+       "recu": 409.4,
+       "gain": 259.4
       },
       {
        "compte": 2,
        "mise": 64,
        "sur": "Coventry City",
-       "cote": 6.37,
-       "recu": 407.7,
-       "gain": 257.7
+       "cote": 6.44,
+       "recu": 412.2,
+       "gain": 262.2
       }
      ],
      "perte_si": "Leeds United",
@@ -53571,9 +54772,9 @@
        "compte": 2,
        "mise": 28,
        "sur": "Coventry City",
-       "cote": 6.37,
-       "recu": 178.4,
-       "gain": 28.4
+       "cote": 6.44,
+       "recu": 180.3,
+       "gain": 30.3
       }
      ],
      "perte_si": "Nul",
@@ -55148,6 +56349,233 @@
      "titre": "Analyse",
      "lignes": [
       "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "28/11",
+   "heure": "16:00",
+   "pays": "Spain",
+   "drapeau": "🇪🇸",
+   "ligue": "Segunda Federacion",
+   "equipe1": "Real Murcia Imperial FC",
+   "equipe2": "CD Castellon B",
+   "cotes_1x2": {
+    "1": 3.54,
+    "X": 3.88,
+    "2": 1.79
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.80",
+     "feu": false,
+     "modele": 67
+    },
+    {
+     "pari": "X2",
+     "cote": "1.25",
+     "feu": false,
+     "modele": 55
+    },
+    {
+     "pari": "12",
+     "cote": "1.23",
+     "feu": false,
+     "modele": 78
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 126.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 78,
+       "sur": "Real Murcia Imperial FC",
+       "cote": 3.54,
+       "recu": 276.1,
+       "gain": 126.1
+      },
+      {
+       "compte": 2,
+       "mise": 72,
+       "sur": "Nul",
+       "cote": 3.88,
+       "recu": 279.4,
+       "gain": 129.4
+      }
+     ],
+     "perte_si": "CD Castellon B",
+     "perte": 150,
+     "proba": 68
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 32.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 47,
+       "sur": "Nul",
+       "cote": 3.88,
+       "recu": 182.4,
+       "gain": 32.4
+      },
+      {
+       "compte": 2,
+       "mise": 103,
+       "sur": "CD Castellon B",
+       "cote": 1.79,
+       "recu": 184.4,
+       "gain": 34.4
+      }
+     ],
+     "perte_si": "Real Murcia Imperial FC",
+     "perte": 150,
+     "proba": 53
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 27.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 50,
+       "sur": "Real Murcia Imperial FC",
+       "cote": 3.54,
+       "recu": 177.0,
+       "gain": 27.0
+      },
+      {
+       "compte": 2,
+       "mise": 100,
+       "sur": "CD Castellon B",
+       "cote": 1.79,
+       "recu": 179.0,
+       "gain": 29.0
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": 77
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "📍 CONTEXTE",
+     "lignes": [
+      "Real Madrid: 2e/20 · 33 pts en 13 m · diff +22 · repos 5 j",
+      "Barcelona: 1e/20 · 36 pts en 13 m · diff +36 · repos 4 j"
+     ]
+    },
+    {
+     "titre": "🎯 PREVISION DU MODELE",
+     "lignes": [
+      "Buts attendus: 1.96 - 1.65",
+      "1 45% │ X 22% │ 2 33%",
+      "1X 67% │ X2 55% │ 12 78%",
+      "+1.5 buts 88% │ +2.5 70% │ +3.5 49%",
+      "Les 2 equipes marquent: 69%",
+      "Scores probables: 1-1 (9%), 2-1 (9%), 1-2 (7%)"
+     ]
+    },
+    {
+     "titre": "⚔️ ATTAQUE",
+     "lignes": [
+      "Real Madrid: force x1.58 · 2.5 buts/m · 16.8 tirs (7.0 cadres) · dom: 3.0 buts/m",
+      "Barcelona: force x2.17 · 3.3 buts/m · 20.2 tirs (7.3 cadres) · ext: 3.8 buts/m"
+     ]
+    },
+    {
+     "titre": "🛡️ DEFENSE (sous x1.00 = solide)",
+     "lignes": [
+      "Real Madrid: force x0.64 · 0.5 enc./m · 3.7 cadres subis · 3 clean sheet(s)/6 · dom: 0.6 enc./m",
+      "Barcelona: force x0.78 · 1.3 enc./m · 3.3 cadres subis · 1 clean sheet(s)/6 · ext: 1.2 enc./m"
+     ]
+    },
+    {
+     "titre": "🎛️ MILIEU / CONTROLE (estime: tirs + corners)",
+     "lignes": [
+      "Real Madrid: 61% du jeu · 5.8 corners/m · +5.8 tirs de plus que l'adversaire",
+      "Barcelona: 73% du jeu · 5.8 corners/m · +13.5 tirs de plus que l'adversaire"
+     ]
+    },
+    {
+     "titre": "⚠️ DISCIPLINE (par match)",
+     "lignes": [
+      "Real Madrid: 7.8 fautes · 2.3 jaunes · 0.17 rouges",
+      "Barcelona: 12.3 fautes · 2.0 jaunes · 0.17 rouges"
+     ]
+    },
+    {
+     "titre": "📈 FORME Real Madrid (6 derniers, niveau de l'adversaire)",
+     "lignes": [
+      "V 1-0 dom vs Villarreal (fort)",
+      "V 4-1 dom vs Sevilla (moyen)",
+      "V 2-1 ext vs Barcelona (fort)",
+      "V 3-0 ext vs Santander (faible)",
+      "V 3-0 ext vs Valencia (faible)",
+      "V 2-1 dom vs Celta (fort)",
+      "Bilan: forts: 9 pts/3 m · moyens: 3 pts/1 m · faibles: 6 pts/2 m"
+     ]
+    },
+    {
+     "titre": "📈 FORME Barcelona (6 derniers, niveau de l'adversaire)",
+     "lignes": [
+      "V 3-0 dom vs Getafe (faible)",
+      "V 5-2 ext vs Betis (fort)",
+      "D 1-2 dom vs Real Madrid (fort)",
+      "V 6-1 dom vs Alaves (moyen)",
+      "V 2-1 ext vs Ath Madrid (fort)",
+      "V 3-2 dom vs Villarreal (fort)",
+      "Bilan: forts: 9 pts/4 m · moyens: 3 pts/1 m · faibles: 3 pts/1 m"
+     ]
+    },
+    {
+     "titre": "🔗 ADVERSAIRES COMMUNS (400 derniers jours)",
+     "lignes": [
+      "vs Villarreal: Real Madrid V 1-0 dom │ Barcelona V 3-2 dom",
+      "vs Celta: Real Madrid V 2-1 dom │ Barcelona V 1-0 dom",
+      "vs Ath Madrid: Real Madrid D 1-2 ext │ Barcelona V 2-1 ext",
+      "vs Valencia: Real Madrid V 3-0 ext │ Barcelona V 5-0 ext",
+      "vs Santander: Real Madrid V 3-0 ext │ Barcelona V 7-2 dom",
+      "Diff. de buts/match vs ces 19 equipes: Real Madrid +1.29 (38 m) │ Barcelona +2.08 (39 m)"
+     ]
+    },
+    {
+     "titre": "📊 TENDANCES (8 derniers matchs)",
+     "lignes": [
+      "Real Madrid: +2.5 buts 88% · 2 marquent 62% · clean sheet 38% · sans marquer 0% · buts 1re MT 1.2 / 2e MT 1.1",
+      "Barcelona: +2.5 buts 100% · 2 marquent 88% · clean sheet 12% · sans marquer 0% · buts 1re MT 1.8 / 2e MT 2.0"
+     ]
+    },
+    {
+     "titre": "🤝 CONFRONTATIONS DIRECTES",
+     "lignes": [
+      "26/10/24 Real Madrid 0-4 Barcelona",
+      "11/05/25 Barcelona 4-3 Real Madrid",
+      "26/10/25 Real Madrid 2-1 Barcelona",
+      "10/05/26 Barcelona 2-0 Real Madrid",
+      "25/10/26 Barcelona 1-2 Real Madrid",
+      "Bilan: Real Madrid 2 V │ 0 N │ Barcelona 3 V"
+     ]
+    },
+    {
+     "titre": "🧠 LECTURE",
+     "lignes": [
+      "• Pas de favori net",
+      "• Meilleure attaque: Barcelona",
+      "• Meilleure defense: Real Madrid",
+      "• Barcelona domine le jeu (tirs et corners)",
+      "• Mieux contre les adversaires communs: Barcelona",
+      "• Match ouvert (beaucoup de buts attendus)",
+      "• Ignore blessures, compositions et enjeu du match"
      ]
     }
    ]
@@ -59603,20 +61031,20 @@
    "equipe1": "CD Universidad Catolica del Ecuador",
    "equipe2": "CSD Independiente del Valle",
    "cotes_1x2": {
-    "1": 2.69,
-    "X": 3.32,
-    "2": 2.45
+    "1": 2.55,
+    "X": 3.31,
+    "2": 2.59
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.47",
+     "cote": "1.44",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.42",
+     "cote": "1.45",
      "feu": false,
      "modele": null
     },
@@ -59631,23 +61059,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 72.4,
+     "gain_min": 65.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 83,
+       "mise": 85,
        "sur": "CD Universidad Catolica del Ecuador",
-       "cote": 2.69,
-       "recu": 223.3,
-       "gain": 73.3
+       "cote": 2.55,
+       "recu": 216.7,
+       "gain": 66.7
       },
       {
        "compte": 2,
-       "mise": 67,
+       "mise": 65,
        "sur": "Nul",
-       "cote": 3.32,
-       "recu": 222.4,
-       "gain": 72.4
+       "cote": 3.31,
+       "recu": 215.2,
+       "gain": 65.2
       }
      ],
      "perte_si": "CSD Independiente del Valle",
@@ -59657,23 +61085,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 60.7,
+     "gain_min": 67.6,
      "comptes": [
       {
        "compte": 1,
-       "mise": 64,
+       "mise": 66,
        "sur": "Nul",
-       "cote": 3.32,
-       "recu": 212.5,
-       "gain": 62.5
+       "cote": 3.31,
+       "recu": 218.5,
+       "gain": 68.5
       },
       {
        "compte": 2,
-       "mise": 86,
+       "mise": 84,
        "sur": "CSD Independiente del Valle",
-       "cote": 2.45,
-       "recu": 210.7,
-       "gain": 60.7
+       "cote": 2.59,
+       "recu": 217.6,
+       "gain": 67.6
       }
      ],
      "perte_si": "CD Universidad Catolica del Ecuador",
@@ -59683,23 +61111,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 41.0,
+     "gain_min": 41.7,
      "comptes": [
       {
        "compte": 1,
-       "mise": 71,
+       "mise": 76,
        "sur": "CD Universidad Catolica del Ecuador",
-       "cote": 2.69,
-       "recu": 191.0,
-       "gain": 41.0
+       "cote": 2.55,
+       "recu": 193.8,
+       "gain": 43.8
       },
       {
        "compte": 2,
-       "mise": 79,
+       "mise": 74,
        "sur": "CSD Independiente del Valle",
-       "cote": 2.45,
-       "recu": 193.6,
-       "gain": 43.6
+       "cote": 2.59,
+       "recu": 191.7,
+       "gain": 41.7
       }
      ],
      "perte_si": "Nul",
@@ -60431,26 +61859,26 @@
    "equipe1": "WKS Slask Wroclaw",
    "equipe2": "GKS Katowice",
    "cotes_1x2": {
-    "1": 2.89,
+    "1": 2.97,
     "X": 3.69,
-    "2": 2.26
+    "2": 2.21
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.61",
+     "cote": "1.64",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.41",
+     "cote": "1.39",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.30",
+     "cote": "1.29",
      "feu": false,
      "modele": null
     }
@@ -60459,23 +61887,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 92.8,
+     "gain_min": 96.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 84,
+       "mise": 83,
        "sur": "WKS Slask Wroclaw",
-       "cote": 2.89,
-       "recu": 242.8,
-       "gain": 92.8
+       "cote": 2.97,
+       "recu": 246.5,
+       "gain": 96.5
       },
       {
        "compte": 2,
-       "mise": 66,
+       "mise": 67,
        "sur": "Nul",
        "cote": 3.69,
-       "recu": 243.5,
-       "gain": 93.5
+       "recu": 247.2,
+       "gain": 97.2
       }
      ],
      "perte_si": "GKS Katowice",
@@ -60485,23 +61913,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 60.2,
+     "gain_min": 56.6,
      "comptes": [
       {
        "compte": 1,
-       "mise": 57,
+       "mise": 56,
        "sur": "Nul",
        "cote": 3.69,
-       "recu": 210.3,
-       "gain": 60.3
+       "recu": 206.6,
+       "gain": 56.6
       },
       {
        "compte": 2,
-       "mise": 93,
+       "mise": 94,
        "sur": "GKS Katowice",
-       "cote": 2.26,
-       "recu": 210.2,
-       "gain": 60.2
+       "cote": 2.21,
+       "recu": 207.7,
+       "gain": 57.7
       }
      ],
      "perte_si": "WKS Slask Wroclaw",
@@ -60511,23 +61939,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 39.8,
+     "gain_min": 40.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 66,
+       "mise": 64,
        "sur": "WKS Slask Wroclaw",
-       "cote": 2.89,
-       "recu": 190.7,
-       "gain": 40.7
+       "cote": 2.97,
+       "recu": 190.1,
+       "gain": 40.1
       },
       {
        "compte": 2,
-       "mise": 84,
+       "mise": 86,
        "sur": "GKS Katowice",
-       "cote": 2.26,
-       "recu": 189.8,
-       "gain": 39.8
+       "cote": 2.21,
+       "recu": 190.1,
+       "gain": 40.1
       }
      ],
      "perte_si": "Nul",
@@ -60662,6 +62090,128 @@
      "titre": "Analyse",
      "lignes": [
       "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "28/11",
+   "heure": "17:30",
+   "pays": "Spain",
+   "drapeau": "🇪🇸",
+   "ligue": "Segunda Federacion",
+   "equipe1": "Yeclano Deportivo",
+   "equipe2": "CD Cieza",
+   "cotes_1x2": {
+    "1": 1.94,
+    "X": 3.3,
+    "2": 3.54
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.26",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.67",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.29",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 32.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 94,
+       "sur": "Yeclano Deportivo",
+       "cote": 1.94,
+       "recu": 182.4,
+       "gain": 32.4
+      },
+      {
+       "compte": 2,
+       "mise": 56,
+       "sur": "Nul",
+       "cote": 3.3,
+       "recu": 184.8,
+       "gain": 34.8
+      }
+     ],
+     "perte_si": "CD Cieza",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 104.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 78,
+       "sur": "Nul",
+       "cote": 3.3,
+       "recu": 257.4,
+       "gain": 107.4
+      },
+      {
+       "compte": 2,
+       "mise": 72,
+       "sur": "CD Cieza",
+       "cote": 3.54,
+       "recu": 254.9,
+       "gain": 104.9
+      }
+     ],
+     "perte_si": "Yeclano Deportivo",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 37.6,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 97,
+       "sur": "Yeclano Deportivo",
+       "cote": 1.94,
+       "recu": 188.2,
+       "gain": 38.2
+      },
+      {
+       "compte": 2,
+       "mise": 53,
+       "sur": "CD Cieza",
+       "cote": 3.54,
+       "recu": 187.6,
+       "gain": 37.6
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Equipe non reconnue par le modele."
      ]
     }
    ]
@@ -61570,6 +63120,128 @@
      "titre": "Analyse",
      "lignes": [
       "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "28/11",
+   "heure": "18:00",
+   "pays": "Spain",
+   "drapeau": "🇪🇸",
+   "ligue": "Segunda Federacion",
+   "equipe1": "CF La Nucia",
+   "equipe2": "UCAM Murcia",
+   "cotes_1x2": {
+    "1": 2.79,
+    "X": 3.31,
+    "2": 2.27
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.51",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.37",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.29",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 76.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 81,
+       "sur": "CF La Nucia",
+       "cote": 2.79,
+       "recu": 226.0,
+       "gain": 76.0
+      },
+      {
+       "compte": 2,
+       "mise": 69,
+       "sur": "Nul",
+       "cote": 3.31,
+       "recu": 228.4,
+       "gain": 78.4
+      }
+     ],
+     "perte_si": "UCAM Murcia",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 51.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 61,
+       "sur": "Nul",
+       "cote": 3.31,
+       "recu": 201.9,
+       "gain": 51.9
+      },
+      {
+       "compte": 2,
+       "mise": 89,
+       "sur": "UCAM Murcia",
+       "cote": 2.27,
+       "recu": 202.0,
+       "gain": 52.0
+      }
+     ],
+     "perte_si": "CF La Nucia",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 36.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 67,
+       "sur": "CF La Nucia",
+       "cote": 2.79,
+       "recu": 186.9,
+       "gain": 36.9
+      },
+      {
+       "compte": 2,
+       "mise": 83,
+       "sur": "UCAM Murcia",
+       "cote": 2.27,
+       "recu": 188.4,
+       "gain": 38.4
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Equipe non reconnue par le modele."
      ]
     }
    ]
@@ -66131,128 +67803,6 @@
   {
    "date": "28/11",
    "heure": "20:00",
-   "pays": "Argentina",
-   "drapeau": "🌍",
-   "ligue": "Primera Nacional",
-   "equipe1": "CSD Tristan Suarez",
-   "equipe2": "Gimnasia Y Tiro de Salta",
-   "cotes_1x2": {
-    "1": 1.85,
-    "X": 3.11,
-    "2": 4.56
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.20",
-     "feu": true,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "1.81",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.34",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 150,
-     "gain_min": 23.9,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 94,
-       "sur": "CSD Tristan Suarez",
-       "cote": 1.85,
-       "recu": 173.9,
-       "gain": 23.9
-      },
-      {
-       "compte": 2,
-       "mise": 56,
-       "sur": "Nul",
-       "cote": 3.11,
-       "recu": 174.2,
-       "gain": 24.2
-      }
-     ],
-     "perte_si": "Gimnasia Y Tiro de Salta",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 126.8,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 89,
-       "sur": "Nul",
-       "cote": 3.11,
-       "recu": 276.8,
-       "gain": 126.8
-      },
-      {
-       "compte": 2,
-       "mise": 61,
-       "sur": "Gimnasia Y Tiro de Salta",
-       "cote": 4.56,
-       "recu": 278.2,
-       "gain": 128.2
-      }
-     ],
-     "perte_si": "CSD Tristan Suarez",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 46.1,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 107,
-       "sur": "CSD Tristan Suarez",
-       "cote": 1.85,
-       "recu": 198.0,
-       "gain": 48.0
-      },
-      {
-       "compte": 2,
-       "mise": 43,
-       "sur": "Gimnasia Y Tiro de Salta",
-       "cote": 4.56,
-       "recu": 196.1,
-       "gain": 46.1
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "28/11",
-   "heure": "20:00",
    "pays": "Belgium",
    "drapeau": "🌍",
    "ligue": "Challenger Pro League",
@@ -66612,6 +68162,225 @@
      "titre": "Analyse",
      "lignes": [
       "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "28/11",
+   "heure": "20:00",
+   "pays": "Spain",
+   "drapeau": "🇪🇸",
+   "ligue": "Segunda Federacion",
+   "equipe1": "CD Alcoyano",
+   "equipe2": "CF Lorca Deportiva",
+   "cotes_1x2": {
+    "1": 1.93,
+    "X": 3.3,
+    "2": 3.58
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.25",
+     "feu": false,
+     "modele": 71
+    },
+    {
+     "pari": "X2",
+     "cote": "1.69",
+     "feu": false,
+     "modele": 56
+    },
+    {
+     "pari": "12",
+     "cote": "1.29",
+     "feu": false,
+     "modele": 73
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 31.5,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 95,
+       "sur": "CD Alcoyano",
+       "cote": 1.93,
+       "recu": 183.3,
+       "gain": 33.3
+      },
+      {
+       "compte": 2,
+       "mise": 55,
+       "sur": "Nul",
+       "cote": 3.3,
+       "recu": 181.5,
+       "gain": 31.5
+      }
+     ],
+     "perte_si": "CF Lorca Deportiva",
+     "perte": 150,
+     "proba": 73
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 107.4,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 78,
+       "sur": "Nul",
+       "cote": 3.3,
+       "recu": 257.4,
+       "gain": 107.4
+      },
+      {
+       "compte": 2,
+       "mise": 72,
+       "sur": "CF Lorca Deportiva",
+       "cote": 3.58,
+       "recu": 257.8,
+       "gain": 107.8
+      }
+     ],
+     "perte_si": "CD Alcoyano",
+     "perte": 150,
+     "proba": 54
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 37.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 97,
+       "sur": "CD Alcoyano",
+       "cote": 1.93,
+       "recu": 187.2,
+       "gain": 37.2
+      },
+      {
+       "compte": 2,
+       "mise": 53,
+       "sur": "CF Lorca Deportiva",
+       "cote": 3.58,
+       "recu": 189.7,
+       "gain": 39.7
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": 74
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "📍 CONTEXTE",
+     "lignes": [
+      "Vallecano: 16e/20 · 12 pts en 12 m · diff -7 · repos 5 j",
+      "La Coruna: 12e/20 · 15 pts en 13 m · diff -1 · repos 5 j"
+     ]
+    },
+    {
+     "titre": "🎯 PREVISION DU MODELE",
+     "lignes": [
+      "Buts attendus: 1.36 - 1.04",
+      "1 44% │ X 27% │ 2 29%",
+      "1X 71% │ X2 56% │ 12 73%",
+      "+1.5 buts 69% │ +2.5 43% │ +3.5 22%",
+      "Les 2 equipes marquent: 48%",
+      "Scores probables: 1-1 (13%), 1-0 (12%), 0-1 (9%)"
+     ]
+    },
+    {
+     "titre": "⚔️ ATTAQUE",
+     "lignes": [
+      "Vallecano: force x0.87 · 0.8 buts/m · 17.3 tirs (4.7 cadres) · dom: 1.6 buts/m",
+      "La Coruna: force x0.88 · 1.0 buts/m · 13.2 tirs (4.5 cadres) · ext: 0.8 buts/m"
+     ]
+    },
+    {
+     "titre": "🛡️ DEFENSE (sous x1.00 = solide)",
+     "lignes": [
+      "Vallecano: force x0.98 · 1.2 enc./m · 3.5 cadres subis · 1 clean sheet(s)/6 · dom: 1.4 enc./m",
+      "La Coruna: force x0.99 · 1.5 enc./m · 4.3 cadres subis · 1 clean sheet(s)/6 · ext: 1.6 enc./m"
+     ]
+    },
+    {
+     "titre": "🎛️ MILIEU / CONTROLE (estime: tirs + corners)",
+     "lignes": [
+      "Vallecano: 56% du jeu · 5.5 corners/m · +4.5 tirs de plus que l'adversaire",
+      "La Coruna: 48% du jeu · 5.3 corners/m · -1.2 tirs de plus que l'adversaire"
+     ]
+    },
+    {
+     "titre": "⚠️ DISCIPLINE (par match)",
+     "lignes": [
+      "Vallecano: 11.3 fautes · 2.3 jaunes · 0.00 rouges",
+      "La Coruna: 11.0 fautes · 2.3 jaunes · 0.17 rouges"
+     ]
+    },
+    {
+     "titre": "📈 FORME Vallecano (6 derniers, niveau de l'adversaire)",
+     "lignes": [
+      "N 1-1 ext vs Osasuna (faible)",
+      "N 1-1 ext vs Getafe (faible)",
+      "D 0-3 dom vs Elche (moyen)",
+      "V 3-0 dom vs Celta (fort)",
+      "D 0-1 ext vs Sociedad (fort)",
+      "D 0-1 dom vs Valencia (faible)",
+      "Bilan: forts: 3 pts/2 m · moyens: 0 pts/1 m · faibles: 2 pts/3 m"
+     ]
+    },
+    {
+     "titre": "📈 FORME La Coruna (6 derniers, niveau de l'adversaire)",
+     "lignes": [
+      "D 2-3 ext vs Sociedad (fort)",
+      "N 1-1 dom vs Levante (faible)",
+      "D 0-1 ext vs Ath Madrid (fort)",
+      "V 2-1 dom vs Osasuna (faible)",
+      "N 0-0 ext vs Espanol (moyen)",
+      "D 1-3 ext vs Alaves (moyen)",
+      "Bilan: forts: 0 pts/2 m · moyens: 1 pts/2 m · faibles: 4 pts/2 m"
+     ]
+    },
+    {
+     "titre": "🔗 ADVERSAIRES COMMUNS (400 derniers jours)",
+     "lignes": [
+      "vs Alaves: Vallecano N 1-1 dom │ La Coruna D 1-3 ext",
+      "vs Valencia: Vallecano D 0-1 dom │ La Coruna V 3-1 dom",
+      "vs Sociedad: Vallecano D 0-1 ext │ La Coruna D 2-3 ext",
+      "vs Espanol: Vallecano V 2-1 dom │ La Coruna N 0-0 ext",
+      "vs Osasuna: Vallecano N 1-1 ext │ La Coruna V 2-1 dom",
+      "Diff. de buts/match vs ces 12 equipes: Vallecano -0.19 (27 m) │ La Coruna -0.08 (12 m)"
+     ]
+    },
+    {
+     "titre": "📊 TENDANCES (8 derniers matchs)",
+     "lignes": [
+      "Vallecano: +2.5 buts 50% · 2 marquent 50% · clean sheet 12% · sans marquer 38% · buts 1re MT 0.5 / 2e MT 0.5",
+      "La Coruna: +2.5 buts 38% · 2 marquent 62% · clean sheet 12% · sans marquer 38% · buts 1re MT 0.1 / 2e MT 0.8"
+     ]
+    },
+    {
+     "titre": "🤝 CONFRONTATIONS DIRECTES",
+     "lignes": [
+      "Aucune rencontre recente dans les donnees"
+     ]
+    },
+    {
+     "titre": "🧠 LECTURE",
+     "lignes": [
+      "• Pas de favori net",
+      "• Vallecano domine le jeu (tirs et corners)",
+      "• Nombre de buts moyen attendu",
+      "• Ignore blessures, compositions et enjeu du match"
      ]
     }
    ]
@@ -67357,9 +69126,9 @@
    "equipe1": "Le Havre AC",
    "equipe2": "Strasbourg Alsace",
    "cotes_1x2": {
-    "1": 3.16,
+    "1": 3.13,
     "X": 3.65,
-    "2": 2.18
+    "2": 2.19
    },
    "double_chance": [
     {
@@ -67385,23 +69154,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 102.8,
+     "gain_min": 101.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 80,
+       "mise": 81,
        "sur": "Le Havre AC",
-       "cote": 3.16,
-       "recu": 252.8,
-       "gain": 102.8
+       "cote": 3.13,
+       "recu": 253.5,
+       "gain": 103.5
       },
       {
        "compte": 2,
-       "mise": 70,
+       "mise": 69,
        "sur": "Nul",
        "cote": 3.65,
-       "recu": 255.5,
-       "gain": 105.5
+       "recu": 251.8,
+       "gain": 101.8
       }
      ],
      "perte_si": "Strasbourg Alsace",
@@ -67425,9 +69194,9 @@
        "compte": 2,
        "mise": 94,
        "sur": "Strasbourg Alsace",
-       "cote": 2.18,
-       "recu": 204.9,
-       "gain": 54.9
+       "cote": 2.19,
+       "recu": 205.9,
+       "gain": 55.9
       }
      ],
      "perte_si": "Le Havre AC",
@@ -67437,23 +69206,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 42.8,
+     "gain_min": 42.7,
      "comptes": [
       {
        "compte": 1,
-       "mise": 61,
+       "mise": 62,
        "sur": "Le Havre AC",
-       "cote": 3.16,
-       "recu": 192.8,
-       "gain": 42.8
+       "cote": 3.13,
+       "recu": 194.1,
+       "gain": 44.1
       },
       {
        "compte": 2,
-       "mise": 89,
+       "mise": 88,
        "sur": "Strasbourg Alsace",
-       "cote": 2.18,
-       "recu": 194.0,
-       "gain": 44.0
+       "cote": 2.19,
+       "recu": 192.7,
+       "gain": 42.7
       }
      ],
      "perte_si": "Nul",
@@ -68666,8 +70435,8 @@
    "equipe2": "Deportivo Alaves",
    "cotes_1x2": {
     "1": 1.12,
-    "X": 9.6,
-    "2": 19.13
+    "X": 9.51,
+    "2": 18.81
    },
    "double_chance": [
     {
@@ -68678,7 +70447,7 @@
     },
     {
      "pari": "X2",
-     "cote": "5.11",
+     "cote": "5.05",
      "feu": false,
      "modele": 22
     },
@@ -68693,23 +70462,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 806.5,
+     "gain_min": 790.5,
      "comptes": [
       {
        "compte": 1,
        "mise": 100,
        "sur": "Nul",
-       "cote": 9.6,
-       "recu": 960.0,
-       "gain": 810.0
+       "cote": 9.51,
+       "recu": 951.0,
+       "gain": 801.0
       },
       {
        "compte": 2,
        "mise": 50,
        "sur": "Deportivo Alaves",
-       "cote": 19.13,
-       "recu": 956.5,
-       "gain": 806.5
+       "cote": 18.81,
+       "recu": 940.5,
+       "gain": 790.5
       }
      ],
      "perte_si": "Real Madrid",
@@ -70744,6 +72513,128 @@
   {
    "date": "29/11",
    "heure": "00:00",
+   "pays": "Argentina",
+   "drapeau": "🌍",
+   "ligue": "Primera Nacional",
+   "equipe1": "Deportivo Madryn",
+   "equipe2": "Gimnasia y Esgrima de Jujuy",
+   "cotes_1x2": {
+    "1": 1.64,
+    "X": 3.55,
+    "2": 5.25
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.17",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "2.05",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.28",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 168,
+     "gain_min": 20.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 115,
+       "sur": "Deportivo Madryn",
+       "cote": 1.64,
+       "recu": 188.6,
+       "gain": 20.6
+      },
+      {
+       "compte": 2,
+       "mise": 53,
+       "sur": "Nul",
+       "cote": 3.55,
+       "recu": 188.1,
+       "gain": 20.1
+      }
+     ],
+     "perte_si": "Gimnasia y Esgrima de Jujuy",
+     "perte": 168,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 165.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 89,
+       "sur": "Nul",
+       "cote": 3.55,
+       "recu": 315.9,
+       "gain": 165.9
+      },
+      {
+       "compte": 2,
+       "mise": 61,
+       "sur": "Gimnasia y Esgrima de Jujuy",
+       "cote": 5.25,
+       "recu": 320.2,
+       "gain": 170.2
+      }
+     ],
+     "perte_si": "Deportivo Madryn",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 37.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 114,
+       "sur": "Deportivo Madryn",
+       "cote": 1.64,
+       "recu": 187.0,
+       "gain": 37.0
+      },
+      {
+       "compte": 2,
+       "mise": 36,
+       "sur": "Gimnasia y Esgrima de Jujuy",
+       "cote": 5.25,
+       "recu": 189.0,
+       "gain": 39.0
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "29/11",
+   "heure": "00:00",
    "pays": "Brazil",
    "drapeau": "🌍",
    "ligue": "Brasileiro Serie B",
@@ -71790,128 +73681,6 @@
   {
    "date": "29/11",
    "heure": "01:00",
-   "pays": "Argentina",
-   "drapeau": "🌍",
-   "ligue": "Primera Nacional",
-   "equipe1": "Deportivo Madryn",
-   "equipe2": "Gimnasia y Esgrima de Jujuy",
-   "cotes_1x2": {
-    "1": 1.64,
-    "X": 3.55,
-    "2": 5.25
-   },
-   "double_chance": [
-    {
-     "pari": "1X",
-     "cote": "1.17",
-     "feu": true,
-     "modele": null
-    },
-    {
-     "pari": "X2",
-     "cote": "2.05",
-     "feu": false,
-     "modele": null
-    },
-    {
-     "pari": "12",
-     "cote": "1.28",
-     "feu": false,
-     "modele": null
-    }
-   ],
-   "paires": [
-    {
-     "paire": "1X",
-     "total": 168,
-     "gain_min": 20.1,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 115,
-       "sur": "Deportivo Madryn",
-       "cote": 1.64,
-       "recu": 188.6,
-       "gain": 20.6
-      },
-      {
-       "compte": 2,
-       "mise": 53,
-       "sur": "Nul",
-       "cote": 3.55,
-       "recu": 188.1,
-       "gain": 20.1
-      }
-     ],
-     "perte_si": "Gimnasia y Esgrima de Jujuy",
-     "perte": 168,
-     "proba": null
-    },
-    {
-     "paire": "X2",
-     "total": 150,
-     "gain_min": 165.9,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 89,
-       "sur": "Nul",
-       "cote": 3.55,
-       "recu": 315.9,
-       "gain": 165.9
-      },
-      {
-       "compte": 2,
-       "mise": 61,
-       "sur": "Gimnasia y Esgrima de Jujuy",
-       "cote": 5.25,
-       "recu": 320.2,
-       "gain": 170.2
-      }
-     ],
-     "perte_si": "Deportivo Madryn",
-     "perte": 150,
-     "proba": null
-    },
-    {
-     "paire": "12",
-     "total": 150,
-     "gain_min": 37.0,
-     "comptes": [
-      {
-       "compte": 1,
-       "mise": 114,
-       "sur": "Deportivo Madryn",
-       "cote": 1.64,
-       "recu": 187.0,
-       "gain": 37.0
-      },
-      {
-       "compte": 2,
-       "mise": 36,
-       "sur": "Gimnasia y Esgrima de Jujuy",
-       "cote": 5.25,
-       "recu": 189.0,
-       "gain": 39.0
-      }
-     ],
-     "perte_si": "Nul",
-     "perte": 150,
-     "proba": null
-    }
-   ],
-   "analyse": [
-    {
-     "titre": "Analyse",
-     "lignes": [
-      "Ligue non couverte par le modele."
-     ]
-    }
-   ]
-  },
-  {
-   "date": "29/11",
-   "heure": "01:00",
    "pays": "Brazil",
    "drapeau": "🌍",
    "ligue": "Brasileiro Serie A",
@@ -72015,6 +73784,128 @@
        "cote": 3.34,
        "recu": 190.4,
        "gain": 40.4
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "29/11",
+   "heure": "01:30",
+   "pays": "Colombia",
+   "drapeau": "🌍",
+   "ligue": "Primera A, Apertura",
+   "equipe1": "Independiente Santa Fe",
+   "equipe2": "Atletico Nacional",
+   "cotes_1x2": {
+    "1": 2.55,
+    "X": 3.08,
+    "2": 2.75
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.40",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.45",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.34",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 59.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 82,
+       "sur": "Independiente Santa Fe",
+       "cote": 2.55,
+       "recu": 209.1,
+       "gain": 59.1
+      },
+      {
+       "compte": 2,
+       "mise": 68,
+       "sur": "Nul",
+       "cote": 3.08,
+       "recu": 209.4,
+       "gain": 59.4
+      }
+     ],
+     "perte_si": "Atletico Nacional",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 67.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 71,
+       "sur": "Nul",
+       "cote": 3.08,
+       "recu": 218.7,
+       "gain": 68.7
+      },
+      {
+       "compte": 2,
+       "mise": 79,
+       "sur": "Atletico Nacional",
+       "cote": 2.75,
+       "recu": 217.2,
+       "gain": 67.2
+      }
+     ],
+     "perte_si": "Independiente Santa Fe",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 48.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 78,
+       "sur": "Independiente Santa Fe",
+       "cote": 2.55,
+       "recu": 198.9,
+       "gain": 48.9
+      },
+      {
+       "compte": 2,
+       "mise": 72,
+       "sur": "Atletico Nacional",
+       "cote": 2.75,
+       "recu": 198.0,
+       "gain": 48.0
       }
      ],
      "perte_si": "Nul",
@@ -77516,6 +79407,354 @@
   {
    "date": "29/11",
    "heure": "11:30",
+   "pays": "Spain",
+   "drapeau": "🇪🇸",
+   "ligue": "Segunda Federacion",
+   "equipe1": "CD Minera",
+   "equipe2": "Valencia CF Mestalla",
+   "cotes_1x2": {
+    "1": 1.97,
+    "X": 3.5,
+    "2": 3.26
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.29",
+     "feu": false,
+     "modele": 75
+    },
+    {
+     "pari": "X2",
+     "cote": "1.67",
+     "feu": false,
+     "modele": 54
+    },
+    {
+     "pari": "12",
+     "cote": "1.26",
+     "feu": false,
+     "modele": 71
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 39.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 96,
+       "sur": "CD Minera",
+       "cote": 1.97,
+       "recu": 189.1,
+       "gain": 39.1
+      },
+      {
+       "compte": 2,
+       "mise": 54,
+       "sur": "Nul",
+       "cote": 3.5,
+       "recu": 189.0,
+       "gain": 39.0
+      }
+     ],
+     "perte_si": "Valencia CF Mestalla",
+     "perte": 150,
+     "proba": 74
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 102.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 72,
+       "sur": "Nul",
+       "cote": 3.5,
+       "recu": 252.0,
+       "gain": 102.0
+      },
+      {
+       "compte": 2,
+       "mise": 78,
+       "sur": "Valencia CF Mestalla",
+       "cote": 3.26,
+       "recu": 254.3,
+       "gain": 104.3
+      }
+     ],
+     "perte_si": "CD Minera",
+     "perte": 150,
+     "proba": 53
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 33.2,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 93,
+       "sur": "CD Minera",
+       "cote": 1.97,
+       "recu": 183.2,
+       "gain": 33.2
+      },
+      {
+       "compte": 2,
+       "mise": 57,
+       "sur": "Valencia CF Mestalla",
+       "cote": 3.26,
+       "recu": 185.8,
+       "gain": 35.8
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": 73
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "📍 CONTEXTE",
+     "lignes": [
+      "Girona: classement indisponible · repos 187 j",
+      "Valencia: 17e/20 · 12 pts en 13 m · diff -11 · repos 5 j"
+     ]
+    },
+    {
+     "titre": "🎯 PREVISION DU MODELE",
+     "lignes": [
+      "Buts attendus: 1.26 - 0.87",
+      "1 46% │ X 29% │ 2 25%",
+      "1X 75% │ X2 54% │ 12 71%",
+      "+1.5 buts 63% │ +2.5 36% │ +3.5 17%",
+      "Les 2 equipes marquent: 42%",
+      "Scores probables: 1-0 (15%), 1-1 (13%), 0-0 (12%)"
+     ]
+    },
+    {
+     "titre": "⚔️ ATTAQUE",
+     "lignes": [
+      "Girona: force x0.81 · 0.7 buts/m · 15.7 tirs (5.8 cadres) · dom: 1.0 buts/m",
+      "Valencia: force x0.78 · 0.8 buts/m · 9.2 tirs (2.8 cadres) · ext: 1.0 buts/m"
+     ]
+    },
+    {
+     "titre": "🛡️ DEFENSE (sous x1.00 = solide)",
+     "lignes": [
+      "Girona: force x0.93 · 1.2 enc./m · 3.2 cadres subis · 0 clean sheet(s)/6 · dom: 1.2 enc./m",
+      "Valencia: force x0.98 · 1.2 enc./m · 5.8 cadres subis · 3 clean sheet(s)/6 · ext: 0.6 enc./m"
+     ]
+    },
+    {
+     "titre": "🎛️ MILIEU / CONTROLE (estime: tirs + corners)",
+     "lignes": [
+      "Girona: 57% du jeu · 5.0 corners/m · +5.0 tirs de plus que l'adversaire",
+      "Valencia: 34% du jeu · 3.3 corners/m · -8.2 tirs de plus que l'adversaire"
+     ]
+    },
+    {
+     "titre": "⚠️ DISCIPLINE (par match)",
+     "lignes": [
+      "Girona: 11.2 fautes · 2.2 jaunes · 0.00 rouges",
+      "Valencia: 16.7 fautes · 3.0 jaunes · 0.33 rouges"
+     ]
+    },
+    {
+     "titre": "📈 FORME Girona (6 derniers, niveau de l'adversaire)",
+     "lignes": [
+      "D 1-2 ext vs Valencia (faible)",
+      "D 0-1 dom vs Mallorca (moyen)",
+      "N 1-1 ext vs Vallecano (moyen)",
+      "N 1-1 dom vs Sociedad (fort)",
+      "D 0-1 ext vs Ath Madrid (fort)",
+      "N 1-1 dom vs Elche (moyen)",
+      "Bilan: forts: 1 pts/2 m · moyens: 2 pts/3 m · faibles: 0 pts/1 m"
+     ]
+    },
+    {
+     "titre": "📈 FORME Valencia (6 derniers, niveau de l'adversaire)",
+     "lignes": [
+      "N 2-2 ext vs Santander (faible)",
+      "N 0-0 dom vs Ath Bilbao (fort)",
+      "D 1-2 dom vs Villarreal (fort)",
+      "V 1-0 ext vs Elche (moyen)",
+      "D 0-3 dom vs Real Madrid (fort)",
+      "V 1-0 ext vs Vallecano (moyen)",
+      "Bilan: forts: 1 pts/3 m · moyens: 6 pts/2 m · faibles: 1 pts/1 m"
+     ]
+    },
+    {
+     "titre": "🔗 ADVERSAIRES COMMUNS (400 derniers jours)",
+     "lignes": [
+      "vs Vallecano: Girona N 1-1 ext │ Valencia V 1-0 ext",
+      "vs Real Madrid: Girona N 1-1 ext │ Valencia D 0-3 dom",
+      "vs Elche: Girona N 1-1 dom │ Valencia V 1-0 ext",
+      "vs Villarreal: Girona V 1-0 dom │ Valencia D 1-2 dom",
+      "vs Ath Bilbao: Girona V 3-0 dom │ Valencia N 0-0 dom",
+      "Diff. de buts/match vs ces 18 equipes: Girona -0.07 (28 m) │ Valencia -0.38 (39 m)"
+     ]
+    },
+    {
+     "titre": "📊 TENDANCES (8 derniers matchs)",
+     "lignes": [
+      "Girona: +2.5 buts 25% · 2 marquent 75% · clean sheet 0% · sans marquer 25% · buts 1re MT 0.1 / 2e MT 0.8",
+      "Valencia: +2.5 buts 50% · 2 marquent 38% · clean sheet 50% · sans marquer 25% · buts 1re MT 0.4 / 2e MT 0.6"
+     ]
+    },
+    {
+     "titre": "🤝 CONFRONTATIONS DIRECTES",
+     "lignes": [
+      "19/05/24 Valencia 1-3 Girona",
+      "21/09/24 Valencia 2-0 Girona",
+      "15/03/25 Girona 1-1 Valencia",
+      "04/10/25 Girona 2-1 Valencia",
+      "25/04/26 Valencia 2-1 Girona",
+      "Bilan: Girona 2 V │ 1 N │ Valencia 2 V"
+     ]
+    },
+    {
+     "titre": "🧠 LECTURE",
+     "lignes": [
+      "• Pas de favori net",
+      "• Girona domine le jeu (tirs et corners)",
+      "• Meilleure forme: Valencia",
+      "• Moins repose: Valencia",
+      "• Match ferme (peu de buts attendus)",
+      "• Ignore blessures, compositions et enjeu du match"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "29/11",
+   "heure": "11:30",
+   "pays": "Spain",
+   "drapeau": "🇪🇸",
+   "ligue": "Segunda Federacion",
+   "equipe1": "CF Intercity",
+   "equipe2": "SCR Pena Deportiva",
+   "cotes_1x2": {
+    "1": 1.63,
+    "X": 3.74,
+    "2": 4.55
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.18",
+     "feu": true,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.96",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.24",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 151,
+     "gain_min": 20.1,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 105,
+       "sur": "CF Intercity",
+       "cote": 1.63,
+       "recu": 171.1,
+       "gain": 20.1
+      },
+      {
+       "compte": 2,
+       "mise": 46,
+       "sur": "Nul",
+       "cote": 3.74,
+       "recu": 172.0,
+       "gain": 21.0
+      }
+     ],
+     "perte_si": "SCR Pena Deportiva",
+     "perte": 151,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 156.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 82,
+       "sur": "Nul",
+       "cote": 3.74,
+       "recu": 306.7,
+       "gain": 156.7
+      },
+      {
+       "compte": 2,
+       "mise": 68,
+       "sur": "SCR Pena Deportiva",
+       "cote": 4.55,
+       "recu": 309.4,
+       "gain": 159.4
+      }
+     ],
+     "perte_si": "CF Intercity",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 29.3,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 110,
+       "sur": "CF Intercity",
+       "cote": 1.63,
+       "recu": 179.3,
+       "gain": 29.3
+      },
+      {
+       "compte": 2,
+       "mise": 40,
+       "sur": "SCR Pena Deportiva",
+       "cote": 4.55,
+       "recu": 182.0,
+       "gain": 32.0
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Equipe non reconnue par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "29/11",
+   "heure": "11:30",
    "pays": "Turkey",
    "drapeau": "🌍",
    "ligue": "1. Lig",
@@ -77753,6 +79992,128 @@
      "titre": "Analyse",
      "lignes": [
       "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "29/11",
+   "heure": "11:45",
+   "pays": "Spain",
+   "drapeau": "🇪🇸",
+   "ligue": "Segunda Federacion",
+   "equipe1": "UD Castellonense",
+   "equipe2": "Elche Ilicitano CF",
+   "cotes_1x2": {
+    "1": 1.88,
+    "X": 3.74,
+    "2": 3.31
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.28",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.72",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.24",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 37.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 100,
+       "sur": "UD Castellonense",
+       "cote": 1.88,
+       "recu": 188.0,
+       "gain": 38.0
+      },
+      {
+       "compte": 2,
+       "mise": 50,
+       "sur": "Nul",
+       "cote": 3.74,
+       "recu": 187.0,
+       "gain": 37.0
+      }
+     ],
+     "perte_si": "Elche Ilicitano CF",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 111.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 70,
+       "sur": "Nul",
+       "cote": 3.74,
+       "recu": 261.8,
+       "gain": 111.8
+      },
+      {
+       "compte": 2,
+       "mise": 80,
+       "sur": "Elche Ilicitano CF",
+       "cote": 3.31,
+       "recu": 264.8,
+       "gain": 114.8
+      }
+     ],
+     "perte_si": "UD Castellonense",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 28.7,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 96,
+       "sur": "UD Castellonense",
+       "cote": 1.88,
+       "recu": 180.5,
+       "gain": 30.5
+      },
+      {
+       "compte": 2,
+       "mise": 54,
+       "sur": "Elche Ilicitano CF",
+       "cote": 3.31,
+       "recu": 178.7,
+       "gain": 28.7
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Equipe non reconnue par le modele."
      ]
     }
    ]
@@ -79575,20 +81936,20 @@
    "equipe1": "FC Arda Kardzhali",
    "equipe2": "FC CSKA 1948",
    "cotes_1x2": {
-    "1": 2.59,
-    "X": 3.31,
-    "2": 2.55
+    "1": 2.65,
+    "X": 3.28,
+    "2": 2.51
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.45",
+     "cote": "1.47",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.43",
+     "cote": "1.42",
      "feu": false,
      "modele": null
     },
@@ -79603,23 +81964,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 67.6,
+     "gain_min": 69.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 84,
+       "mise": 83,
        "sur": "FC Arda Kardzhali",
-       "cote": 2.59,
-       "recu": 217.6,
-       "gain": 67.6
+       "cote": 2.65,
+       "recu": 219.9,
+       "gain": 69.9
       },
       {
        "compte": 2,
-       "mise": 66,
+       "mise": 67,
        "sur": "Nul",
-       "cote": 3.31,
-       "recu": 218.5,
-       "gain": 68.5
+       "cote": 3.28,
+       "recu": 219.8,
+       "gain": 69.8
       }
      ],
      "perte_si": "FC CSKA 1948",
@@ -79629,23 +81990,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 65.2,
+     "gain_min": 63.2,
      "comptes": [
       {
        "compte": 1,
        "mise": 65,
        "sur": "Nul",
-       "cote": 3.31,
-       "recu": 215.2,
-       "gain": 65.2
+       "cote": 3.28,
+       "recu": 213.2,
+       "gain": 63.2
       },
       {
        "compte": 2,
        "mise": 85,
        "sur": "FC CSKA 1948",
-       "cote": 2.55,
-       "recu": 216.7,
-       "gain": 66.7
+       "cote": 2.51,
+       "recu": 213.3,
+       "gain": 63.3
       }
      ],
      "perte_si": "FC Arda Kardzhali",
@@ -79655,23 +82016,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 41.7,
+     "gain_min": 43.3,
      "comptes": [
       {
        "compte": 1,
-       "mise": 74,
+       "mise": 73,
        "sur": "FC Arda Kardzhali",
-       "cote": 2.59,
-       "recu": 191.7,
-       "gain": 41.7
+       "cote": 2.65,
+       "recu": 193.4,
+       "gain": 43.4
       },
       {
        "compte": 2,
-       "mise": 76,
+       "mise": 77,
        "sur": "FC CSKA 1948",
-       "cote": 2.55,
-       "recu": 193.8,
-       "gain": 43.8
+       "cote": 2.51,
+       "recu": 193.3,
+       "gain": 43.3
       }
      ],
      "perte_si": "Nul",
@@ -81193,26 +83554,26 @@
    "equipe1": "SK Rotor Volgograd",
    "equipe2": "FC Kamaz Naberezhnye Chelny",
    "cotes_1x2": {
-    "1": 1.98,
-    "X": 3.32,
-    "2": 3.41
+    "1": 1.94,
+    "X": 3.36,
+    "2": 3.5
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.27",
+     "cote": "1.26",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.65",
+     "cote": "1.68",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.29",
+     "cote": "1.28",
      "feu": false,
      "modele": null
     }
@@ -81221,23 +83582,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 35.9,
+     "gain_min": 34.3,
      "comptes": [
       {
        "compte": 1,
-       "mise": 94,
+       "mise": 95,
        "sur": "SK Rotor Volgograd",
-       "cote": 1.98,
-       "recu": 186.1,
-       "gain": 36.1
+       "cote": 1.94,
+       "recu": 184.3,
+       "gain": 34.3
       },
       {
        "compte": 2,
-       "mise": 56,
+       "mise": 55,
        "sur": "Nul",
-       "cote": 3.32,
-       "recu": 185.9,
-       "gain": 35.9
+       "cote": 3.36,
+       "recu": 184.8,
+       "gain": 34.8
       }
      ],
      "perte_si": "FC Kamaz Naberezhnye Chelny",
@@ -81247,23 +83608,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 102.3,
+     "gain_min": 105.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 76,
+       "mise": 77,
        "sur": "Nul",
-       "cote": 3.32,
-       "recu": 252.3,
-       "gain": 102.3
+       "cote": 3.36,
+       "recu": 258.7,
+       "gain": 108.7
       },
       {
        "compte": 2,
-       "mise": 74,
+       "mise": 73,
        "sur": "FC Kamaz Naberezhnye Chelny",
-       "cote": 3.41,
-       "recu": 252.3,
-       "gain": 102.3
+       "cote": 3.5,
+       "recu": 255.5,
+       "gain": 105.5
       }
      ],
      "perte_si": "SK Rotor Volgograd",
@@ -81273,23 +83634,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 37.6,
+     "gain_min": 35.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 95,
+       "mise": 97,
        "sur": "SK Rotor Volgograd",
-       "cote": 1.98,
-       "recu": 188.1,
-       "gain": 38.1
+       "cote": 1.94,
+       "recu": 188.2,
+       "gain": 38.2
       },
       {
        "compte": 2,
-       "mise": 55,
+       "mise": 53,
        "sur": "FC Kamaz Naberezhnye Chelny",
-       "cote": 3.41,
-       "recu": 187.6,
-       "gain": 37.6
+       "cote": 3.5,
+       "recu": 185.5,
+       "gain": 35.5
       }
      ],
      "perte_si": "Nul",
@@ -89307,8 +91668,8 @@
    "equipe2": "Newcastle United",
    "cotes_1x2": {
     "1": 1.55,
-    "X": 4.52,
-    "2": 5.42
+    "X": 4.49,
+    "2": 5.48
    },
    "double_chance": [
     {
@@ -89319,7 +91680,7 @@
     },
     {
      "pari": "X2",
-     "cote": "2.33",
+     "cote": "2.34",
      "feu": false,
      "modele": 33
     },
@@ -89334,7 +91695,7 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 21.8,
+     "gain_min": 20.6,
      "comptes": [
       {
        "compte": 1,
@@ -89348,9 +91709,9 @@
        "compte": 2,
        "mise": 38,
        "sur": "Nul",
-       "cote": 4.52,
-       "recu": 171.8,
-       "gain": 21.8
+       "cote": 4.49,
+       "recu": 170.6,
+       "gain": 20.6
       }
      ],
      "perte_si": "Newcastle United",
@@ -89360,23 +91721,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 218.6,
+     "gain_min": 218.2,
      "comptes": [
       {
        "compte": 1,
        "mise": 82,
        "sur": "Nul",
-       "cote": 4.52,
-       "recu": 370.6,
-       "gain": 220.6
+       "cote": 4.49,
+       "recu": 368.2,
+       "gain": 218.2
       },
       {
        "compte": 2,
        "mise": 68,
        "sur": "Newcastle United",
-       "cote": 5.42,
-       "recu": 368.6,
-       "gain": 218.6
+       "cote": 5.48,
+       "recu": 372.6,
+       "gain": 222.6
       }
      ],
      "perte_si": "Brighton & Hove Albion",
@@ -89386,7 +91747,7 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 28.9,
+     "gain_min": 30.8,
      "comptes": [
       {
        "compte": 1,
@@ -89400,9 +91761,9 @@
        "compte": 2,
        "mise": 33,
        "sur": "Newcastle United",
-       "cote": 5.42,
-       "recu": 178.9,
-       "gain": 28.9
+       "cote": 5.48,
+       "recu": 180.8,
+       "gain": 30.8
       }
      ],
      "perte_si": "Nul",
@@ -93549,20 +95910,20 @@
    "equipe1": "FC Salzburg",
    "equipe2": "LASK Linz",
    "cotes_1x2": {
-    "1": 2.38,
-    "X": 3.89,
-    "2": 2.69
+    "1": 2.43,
+    "X": 3.85,
+    "2": 2.64
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.47",
+     "cote": "1.48",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.57",
+     "cote": "1.55",
      "feu": false,
      "modele": null
     },
@@ -93577,23 +95938,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 71.3,
+     "gain_min": 73.3,
      "comptes": [
       {
        "compte": 1,
-       "mise": 93,
+       "mise": 92,
        "sur": "FC Salzburg",
-       "cote": 2.38,
-       "recu": 221.3,
-       "gain": 71.3
+       "cote": 2.43,
+       "recu": 223.6,
+       "gain": 73.6
       },
       {
        "compte": 2,
-       "mise": 57,
+       "mise": 58,
        "sur": "Nul",
-       "cote": 3.89,
-       "recu": 221.7,
-       "gain": 71.7
+       "cote": 3.85,
+       "recu": 223.3,
+       "gain": 73.3
       }
      ],
      "perte_si": "LASK Linz",
@@ -93603,23 +95964,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 87.3,
+     "gain_min": 84.8,
      "comptes": [
       {
        "compte": 1,
        "mise": 61,
        "sur": "Nul",
-       "cote": 3.89,
-       "recu": 237.3,
-       "gain": 87.3
+       "cote": 3.85,
+       "recu": 234.8,
+       "gain": 84.8
       },
       {
        "compte": 2,
        "mise": 89,
        "sur": "LASK Linz",
-       "cote": 2.69,
-       "recu": 239.4,
-       "gain": 89.4
+       "cote": 2.64,
+       "recu": 235.0,
+       "gain": 85.0
       }
      ],
      "perte_si": "FC Salzburg",
@@ -93629,23 +95990,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 38.3,
+     "gain_min": 39.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 80,
+       "mise": 78,
        "sur": "FC Salzburg",
-       "cote": 2.38,
-       "recu": 190.4,
-       "gain": 40.4
+       "cote": 2.43,
+       "recu": 189.5,
+       "gain": 39.5
       },
       {
        "compte": 2,
-       "mise": 70,
+       "mise": 72,
        "sur": "LASK Linz",
-       "cote": 2.69,
-       "recu": 188.3,
-       "gain": 38.3
+       "cote": 2.64,
+       "recu": 190.1,
+       "gain": 40.1
       }
      ],
      "perte_si": "Nul",
@@ -100057,8 +102418,8 @@
    "equipe2": "The Strongest",
    "cotes_1x2": {
     "1": 2.44,
-    "X": 3.51,
-    "2": 2.53
+    "X": 3.61,
+    "2": 2.49
    },
    "double_chance": [
     {
@@ -100084,23 +102445,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 64.7,
+     "gain_min": 66.6,
      "comptes": [
       {
        "compte": 1,
-       "mise": 88,
+       "mise": 90,
        "sur": "Club Aurora",
        "cote": 2.44,
-       "recu": 214.7,
-       "gain": 64.7
+       "recu": 219.6,
+       "gain": 69.6
       },
       {
        "compte": 2,
-       "mise": 62,
+       "mise": 60,
        "sur": "Nul",
-       "cote": 3.51,
-       "recu": 217.6,
-       "gain": 67.6
+       "cote": 3.61,
+       "recu": 216.6,
+       "gain": 66.6
       }
      ],
      "perte_si": "The Strongest",
@@ -100110,23 +102471,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 70.1,
+     "gain_min": 70.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 63,
+       "mise": 61,
        "sur": "Nul",
-       "cote": 3.51,
-       "recu": 221.1,
-       "gain": 71.1
+       "cote": 3.61,
+       "recu": 220.2,
+       "gain": 70.2
       },
       {
        "compte": 2,
-       "mise": 87,
+       "mise": 89,
        "sur": "The Strongest",
-       "cote": 2.53,
-       "recu": 220.1,
-       "gain": 70.1
+       "cote": 2.49,
+       "recu": 221.6,
+       "gain": 71.6
       }
      ],
      "perte_si": "Club Aurora",
@@ -100136,7 +102497,7 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 35.4,
+     "gain_min": 34.3,
      "comptes": [
       {
        "compte": 1,
@@ -100150,9 +102511,9 @@
        "compte": 2,
        "mise": 74,
        "sur": "The Strongest",
-       "cote": 2.53,
-       "recu": 187.2,
-       "gain": 37.2
+       "cote": 2.49,
+       "recu": 184.3,
+       "gain": 34.3
       }
      ],
      "perte_si": "Nul",
@@ -102881,20 +105242,20 @@
    "equipe1": "Club Bolivar",
    "equipe2": "Always Ready",
    "cotes_1x2": {
-    "1": 2.09,
-    "X": 3.59,
-    "2": 3.01
+    "1": 2.19,
+    "X": 3.5,
+    "2": 2.87
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.34",
+     "cote": "1.37",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.64",
+     "cote": "1.59",
      "feu": false,
      "modele": null
     },
@@ -102909,23 +105270,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 47.4,
+     "gain_min": 51.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 95,
+       "mise": 92,
        "sur": "Club Bolivar",
-       "cote": 2.09,
-       "recu": 198.5,
-       "gain": 48.5
+       "cote": 2.19,
+       "recu": 201.5,
+       "gain": 51.5
       },
       {
        "compte": 2,
-       "mise": 55,
+       "mise": 58,
        "sur": "Nul",
-       "cote": 3.59,
-       "recu": 197.4,
-       "gain": 47.4
+       "cote": 3.5,
+       "recu": 203.0,
+       "gain": 53.0
       }
      ],
      "perte_si": "Always Ready",
@@ -102935,23 +105296,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 94.1,
+     "gain_min": 85.3,
      "comptes": [
       {
        "compte": 1,
        "mise": 68,
        "sur": "Nul",
-       "cote": 3.59,
-       "recu": 244.1,
-       "gain": 94.1
+       "cote": 3.5,
+       "recu": 238.0,
+       "gain": 88.0
       },
       {
        "compte": 2,
        "mise": 82,
        "sur": "Always Ready",
-       "cote": 3.01,
-       "recu": 246.8,
-       "gain": 96.8
+       "cote": 2.87,
+       "recu": 235.3,
+       "gain": 85.3
       }
      ],
      "perte_si": "Club Bolivar",
@@ -102961,23 +105322,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 33.6,
+     "gain_min": 36.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 89,
+       "mise": 85,
        "sur": "Club Bolivar",
-       "cote": 2.09,
-       "recu": 186.0,
-       "gain": 36.0
+       "cote": 2.19,
+       "recu": 186.2,
+       "gain": 36.2
       },
       {
        "compte": 2,
-       "mise": 61,
+       "mise": 65,
        "sur": "Always Ready",
-       "cote": 3.01,
-       "recu": 183.6,
-       "gain": 33.6
+       "cote": 2.87,
+       "recu": 186.6,
+       "gain": 36.6
       }
      ],
      "perte_si": "Nul",
@@ -103369,26 +105730,26 @@
    "equipe1": "Barcelona SC",
    "equipe2": "SD Aucas",
    "cotes_1x2": {
-    "1": 2.07,
-    "X": 3.22,
-    "2": 3.51
+    "1": 2.08,
+    "X": 3.26,
+    "2": 3.41
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.28",
+     "cote": "1.29",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.64",
+     "cote": "1.63",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.32",
+     "cote": "1.31",
      "feu": false,
      "modele": null
     }
@@ -103397,23 +105758,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 38.4,
+     "gain_min": 39.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 91,
+       "mise": 92,
        "sur": "Barcelona SC",
-       "cote": 2.07,
-       "recu": 188.4,
-       "gain": 38.4
+       "cote": 2.08,
+       "recu": 191.4,
+       "gain": 41.4
       },
       {
        "compte": 2,
-       "mise": 59,
+       "mise": 58,
        "sur": "Nul",
-       "cote": 3.22,
-       "recu": 190.0,
-       "gain": 40.0
+       "cote": 3.26,
+       "recu": 189.1,
+       "gain": 39.1
       }
      ],
      "perte_si": "SD Aucas",
@@ -103423,23 +105784,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 101.2,
+     "gain_min": 98.9,
      "comptes": [
       {
        "compte": 1,
-       "mise": 78,
+       "mise": 77,
        "sur": "Nul",
-       "cote": 3.22,
-       "recu": 251.2,
-       "gain": 101.2
+       "cote": 3.26,
+       "recu": 251.0,
+       "gain": 101.0
       },
       {
        "compte": 2,
-       "mise": 72,
+       "mise": 73,
        "sur": "SD Aucas",
-       "cote": 3.51,
-       "recu": 252.7,
-       "gain": 102.7
+       "cote": 3.41,
+       "recu": 248.9,
+       "gain": 98.9
       }
      ],
      "perte_si": "Barcelona SC",
@@ -103449,23 +105810,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 44.6,
+     "gain_min": 43.4,
      "comptes": [
       {
        "compte": 1,
-       "mise": 94,
+       "mise": 93,
        "sur": "Barcelona SC",
-       "cote": 2.07,
-       "recu": 194.6,
-       "gain": 44.6
+       "cote": 2.08,
+       "recu": 193.4,
+       "gain": 43.4
       },
       {
        "compte": 2,
-       "mise": 56,
+       "mise": 57,
        "sur": "SD Aucas",
-       "cote": 3.51,
-       "recu": 196.6,
-       "gain": 46.6
+       "cote": 3.41,
+       "recu": 194.4,
+       "gain": 44.4
       }
      ],
      "perte_si": "Nul",
@@ -104852,6 +107213,128 @@
        "cote": 2.87,
        "recu": 189.4,
        "gain": 39.4
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "30/11",
+   "heure": "00:30",
+   "pays": "Colombia",
+   "drapeau": "🌍",
+   "ligue": "Primera A, Apertura",
+   "equipe1": "Independiente Medellin",
+   "equipe2": "CD Once Caldas",
+   "cotes_1x2": {
+    "1": 2.01,
+    "X": 3.28,
+    "2": 3.62
+   },
+   "double_chance": [
+    {
+     "pari": "1X",
+     "cote": "1.27",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "X2",
+     "cote": "1.68",
+     "feu": false,
+     "modele": null
+    },
+    {
+     "pari": "12",
+     "cote": "1.31",
+     "feu": false,
+     "modele": null
+    }
+   ],
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 36.9,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 93,
+       "sur": "Independiente Medellin",
+       "cote": 2.01,
+       "recu": 186.9,
+       "gain": 36.9
+      },
+      {
+       "compte": 2,
+       "mise": 57,
+       "sur": "Nul",
+       "cote": 3.28,
+       "recu": 187.0,
+       "gain": 37.0
+      }
+     ],
+     "perte_si": "CD Once Caldas",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 107.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 79,
+       "sur": "Nul",
+       "cote": 3.28,
+       "recu": 259.1,
+       "gain": 109.1
+      },
+      {
+       "compte": 2,
+       "mise": 71,
+       "sur": "CD Once Caldas",
+       "cote": 3.62,
+       "recu": 257.0,
+       "gain": 107.0
+      }
+     ],
+     "perte_si": "Independiente Medellin",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 43.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 96,
+       "sur": "Independiente Medellin",
+       "cote": 2.01,
+       "recu": 193.0,
+       "gain": 43.0
+      },
+      {
+       "compte": 2,
+       "mise": 54,
+       "sur": "CD Once Caldas",
+       "cote": 3.62,
+       "recu": 195.5,
+       "gain": 45.5
       }
      ],
      "perte_si": "Nul",
@@ -109015,14 +111498,14 @@
    "equipe1": "FC Dunav Ruse",
    "equipe2": "PFC CSKA Sofia",
    "cotes_1x2": {
-    "1": 11.62,
-    "X": 6.2,
+    "1": 11.7,
+    "X": 6.24,
     "2": 1.2
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "3.35",
+     "cote": "3.40",
      "feu": false,
      "modele": null
     },
@@ -109043,23 +111526,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 454.2,
+     "gain_min": 458.4,
      "comptes": [
       {
        "compte": 1,
        "mise": 52,
        "sur": "FC Dunav Ruse",
-       "cote": 11.62,
-       "recu": 604.2,
-       "gain": 454.2
+       "cote": 11.7,
+       "recu": 608.4,
+       "gain": 458.4
       },
       {
        "compte": 2,
        "mise": 98,
        "sur": "Nul",
-       "cote": 6.2,
-       "recu": 607.6,
-       "gain": 457.6
+       "cote": 6.24,
+       "recu": 611.5,
+       "gain": 461.5
       }
      ],
      "perte_si": "PFC CSKA Sofia",
@@ -114074,9 +116557,9 @@
    "equipe1": "Chelsea FC",
    "equipe2": "Crystal Palace",
    "cotes_1x2": {
-    "1": 1.66,
-    "X": 4.33,
-    "2": 4.65
+    "1": 1.65,
+    "X": 4.37,
+    "2": 4.67
    },
    "double_chance": [
     {
@@ -114087,7 +116570,7 @@
     },
     {
      "pari": "X2",
-     "cote": "2.15",
+     "cote": "2.17",
      "feu": false,
      "modele": 34
     },
@@ -114102,23 +116585,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 29.3,
+     "gain_min": 29.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 108,
+       "mise": 109,
        "sur": "Chelsea FC",
-       "cote": 1.66,
-       "recu": 179.3,
-       "gain": 29.3
+       "cote": 1.65,
+       "recu": 179.8,
+       "gain": 29.8
       },
       {
        "compte": 2,
-       "mise": 42,
+       "mise": 41,
        "sur": "Nul",
-       "cote": 4.33,
-       "recu": 181.9,
-       "gain": 31.9
+       "cote": 4.37,
+       "recu": 179.2,
+       "gain": 29.2
       }
      ],
      "perte_si": "Crystal Palace",
@@ -114128,23 +116611,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 184.8,
+     "gain_min": 186.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 78,
+       "mise": 77,
        "sur": "Nul",
-       "cote": 4.33,
-       "recu": 337.7,
-       "gain": 187.7
+       "cote": 4.37,
+       "recu": 336.5,
+       "gain": 186.5
       },
       {
        "compte": 2,
-       "mise": 72,
+       "mise": 73,
        "sur": "Crystal Palace",
-       "cote": 4.65,
-       "recu": 334.8,
-       "gain": 184.8
+       "cote": 4.67,
+       "recu": 340.9,
+       "gain": 190.9
       }
      ],
      "perte_si": "Chelsea FC",
@@ -114154,23 +116637,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 31.4,
+     "gain_min": 32.1,
      "comptes": [
       {
        "compte": 1,
        "mise": 111,
        "sur": "Chelsea FC",
-       "cote": 1.66,
-       "recu": 184.3,
-       "gain": 34.3
+       "cote": 1.65,
+       "recu": 183.1,
+       "gain": 33.1
       },
       {
        "compte": 2,
        "mise": 39,
        "sur": "Crystal Palace",
-       "cote": 4.65,
-       "recu": 181.4,
-       "gain": 31.4
+       "cote": 4.67,
+       "recu": 182.1,
+       "gain": 32.1
       }
      ],
      "perte_si": "Nul",
@@ -120110,9 +122593,9 @@
    "equipe1": "Bayern Munich",
    "equipe2": "SC Paderborn 07",
    "cotes_1x2": {
-    "1": 1.07,
-    "X": 13.68,
-    "2": 21.86
+    "1": 1.08,
+    "X": 12.54,
+    "2": 22.24
    },
    "double_chance": [
     {
@@ -120123,7 +122606,7 @@
     },
     {
      "pari": "X2",
-     "cote": "6.32",
+     "cote": "6.14",
      "feu": false,
      "modele": 10
     },
@@ -120138,23 +122621,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 1108.6,
+     "gain_min": 1051.0,
      "comptes": [
       {
        "compte": 1,
-       "mise": 92,
+       "mise": 96,
        "sur": "Nul",
-       "cote": 13.68,
-       "recu": 1258.6,
-       "gain": 1108.6
+       "cote": 12.54,
+       "recu": 1203.8,
+       "gain": 1053.8
       },
       {
        "compte": 2,
-       "mise": 58,
+       "mise": 54,
        "sur": "SC Paderborn 07",
-       "cote": 21.86,
-       "recu": 1267.9,
-       "gain": 1117.9
+       "cote": 22.24,
+       "recu": 1201.0,
+       "gain": 1051.0
       }
      ],
      "perte_si": "Bayern Munich",
@@ -120750,7 +123233,7 @@
    "equipe1": "Toulouse FC",
    "equipe2": "Paris Saint-Germain",
    "cotes_1x2": {
-    "1": 5.58,
+    "1": 5.59,
     "X": 4.73,
     "2": 1.52
    },
@@ -120784,9 +123267,9 @@
        "compte": 1,
        "mise": 69,
        "sur": "Toulouse FC",
-       "cote": 5.58,
-       "recu": 385.0,
-       "gain": 235.0
+       "cote": 5.59,
+       "recu": 385.7,
+       "gain": 235.7
       },
       {
        "compte": 2,
@@ -120830,15 +123313,15 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 28.6,
+     "gain_min": 28.9,
      "comptes": [
       {
        "compte": 1,
        "mise": 32,
        "sur": "Toulouse FC",
-       "cote": 5.58,
-       "recu": 178.6,
-       "gain": 28.6
+       "cote": 5.59,
+       "recu": 178.9,
+       "gain": 28.9
       },
       {
        "compte": 2,
@@ -131327,6 +133810,109 @@
   },
   {
    "date": "05/12",
+   "heure": "20:30",
+   "pays": "Uruguay",
+   "drapeau": "🌍",
+   "ligue": "Segunda Division",
+   "equipe1": "CA Atenas de San Carlos",
+   "equipe2": "Colon FC",
+   "cotes_1x2": {
+    "1": 1.75,
+    "X": 3.48,
+    "2": 4.35
+   },
+   "double_chance": null,
+   "paires": [
+    {
+     "paire": "1X",
+     "total": 150,
+     "gain_min": 24.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 100,
+       "sur": "CA Atenas de San Carlos",
+       "cote": 1.75,
+       "recu": 175.0,
+       "gain": 25.0
+      },
+      {
+       "compte": 2,
+       "mise": 50,
+       "sur": "Nul",
+       "cote": 3.48,
+       "recu": 174.0,
+       "gain": 24.0
+      }
+     ],
+     "perte_si": "Colon FC",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "X2",
+     "total": 150,
+     "gain_min": 138.8,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 83,
+       "sur": "Nul",
+       "cote": 3.48,
+       "recu": 288.8,
+       "gain": 138.8
+      },
+      {
+       "compte": 2,
+       "mise": 67,
+       "sur": "Colon FC",
+       "cote": 4.35,
+       "recu": 291.4,
+       "gain": 141.4
+      }
+     ],
+     "perte_si": "CA Atenas de San Carlos",
+     "perte": 150,
+     "proba": null
+    },
+    {
+     "paire": "12",
+     "total": 150,
+     "gain_min": 37.0,
+     "comptes": [
+      {
+       "compte": 1,
+       "mise": 107,
+       "sur": "CA Atenas de San Carlos",
+       "cote": 1.75,
+       "recu": 187.2,
+       "gain": 37.2
+      },
+      {
+       "compte": 2,
+       "mise": 43,
+       "sur": "Colon FC",
+       "cote": 4.35,
+       "recu": 187.0,
+       "gain": 37.0
+      }
+     ],
+     "perte_si": "Nul",
+     "perte": 150,
+     "proba": null
+    }
+   ],
+   "analyse": [
+    {
+     "titre": "Analyse",
+     "lignes": [
+      "Ligue non couverte par le modele."
+     ]
+    }
+   ]
+  },
+  {
+   "date": "05/12",
    "heure": "20:45",
    "pays": "France",
    "drapeau": "🇫🇷",
@@ -131560,7 +134146,7 @@
    "equipe1": "AS Monaco",
    "equipe2": "Angers SCO",
    "cotes_1x2": {
-    "1": 1.32,
+    "1": 1.31,
     "X": 5.76,
     "2": 8.62
    },
@@ -131614,15 +134200,15 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 21.6,
+     "gain_min": 20.3,
      "comptes": [
       {
        "compte": 1,
        "mise": 130,
        "sur": "AS Monaco",
-       "cote": 1.32,
-       "recu": 171.6,
-       "gain": 21.6
+       "cote": 1.31,
+       "recu": 170.3,
+       "gain": 20.3
       },
       {
        "compte": 2,
@@ -135119,8 +137705,8 @@
    "equipe1": "ESTAC Troyes",
    "equipe2": "Olympique Lyon",
    "cotes_1x2": {
-    "1": 3.71,
-    "X": 3.66,
+    "1": 3.74,
+    "X": 3.63,
     "2": 1.97
    },
    "double_chance": [
@@ -135147,23 +137733,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 124.5,
+     "gain_min": 125.9,
      "comptes": [
       {
        "compte": 1,
        "mise": 74,
        "sur": "ESTAC Troyes",
-       "cote": 3.71,
-       "recu": 274.5,
-       "gain": 124.5
+       "cote": 3.74,
+       "recu": 276.8,
+       "gain": 126.8
       },
       {
        "compte": 2,
        "mise": 76,
        "sur": "Nul",
-       "cote": 3.66,
-       "recu": 278.2,
-       "gain": 128.2
+       "cote": 3.63,
+       "recu": 275.9,
+       "gain": 125.9
       }
      ],
      "perte_si": "Olympique Lyon",
@@ -135173,23 +137759,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 40.3,
+     "gain_min": 41.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 52,
+       "mise": 53,
        "sur": "Nul",
-       "cote": 3.66,
-       "recu": 190.3,
-       "gain": 40.3
+       "cote": 3.63,
+       "recu": 192.4,
+       "gain": 42.4
       },
       {
        "compte": 2,
-       "mise": 98,
+       "mise": 97,
        "sur": "Olympique Lyon",
        "cote": 1.97,
-       "recu": 193.1,
-       "gain": 43.1
+       "recu": 191.1,
+       "gain": 41.1
       }
      ],
      "perte_si": "ESTAC Troyes",
@@ -135199,15 +137785,15 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 42.9,
+     "gain_min": 43.1,
      "comptes": [
       {
        "compte": 1,
        "mise": 52,
        "sur": "ESTAC Troyes",
-       "cote": 3.71,
-       "recu": 192.9,
-       "gain": 42.9
+       "cote": 3.74,
+       "recu": 194.5,
+       "gain": 44.5
       },
       {
        "compte": 2,
@@ -138004,8 +140590,8 @@
    "equipe2": "Udinese Calcio",
    "cotes_1x2": {
     "1": 1.37,
-    "X": 5.09,
-    "2": 8.06
+    "X": 5.1,
+    "2": 8.16
    },
    "double_chance": [
     {
@@ -138016,7 +140602,7 @@
     },
     {
      "pari": "X2",
-     "cote": "2.89",
+     "cote": "2.91",
      "feu": false,
      "modele": 38
     },
@@ -138031,23 +140617,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 317.5,
+     "gain_min": 319.2,
      "comptes": [
       {
        "compte": 1,
        "mise": 92,
        "sur": "Nul",
-       "cote": 5.09,
-       "recu": 468.3,
-       "gain": 318.3
+       "cote": 5.1,
+       "recu": 469.2,
+       "gain": 319.2
       },
       {
        "compte": 2,
        "mise": 58,
        "sur": "Udinese Calcio",
-       "cote": 8.06,
-       "recu": 467.5,
-       "gain": 317.5
+       "cote": 8.16,
+       "recu": 473.3,
+       "gain": 323.3
       }
      ],
      "perte_si": "Juventus Turin",
@@ -138071,9 +140657,9 @@
        "compte": 2,
        "mise": 22,
        "sur": "Udinese Calcio",
-       "cote": 8.06,
-       "recu": 177.3,
-       "gain": 27.3
+       "cote": 8.16,
+       "recu": 179.5,
+       "gain": 29.5
       }
      ],
      "perte_si": "Nul",
@@ -141608,20 +144194,20 @@
    "equipe1": "Villarreal CF",
    "equipe2": "Sabah Masazir",
    "cotes_1x2": {
-    "1": 1.17,
-    "X": 8.23,
-    "2": 13.89
+    "1": 1.19,
+    "X": 7.97,
+    "2": 12.2
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.05",
+     "cote": "1.06",
      "feu": true,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "4.42",
+     "cote": "4.20",
      "feu": false,
      "modele": null
     },
@@ -141636,23 +144222,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 623.6,
+     "gain_min": 569.8,
      "comptes": [
       {
        "compte": 1,
-       "mise": 94,
+       "mise": 91,
        "sur": "Nul",
-       "cote": 8.23,
-       "recu": 773.6,
-       "gain": 623.6
+       "cote": 7.97,
+       "recu": 725.3,
+       "gain": 575.3
       },
       {
        "compte": 2,
-       "mise": 56,
+       "mise": 59,
        "sur": "Sabah Masazir",
-       "cote": 13.89,
-       "recu": 777.8,
-       "gain": 627.8
+       "cote": 12.2,
+       "recu": 719.8,
+       "gain": 569.8
       }
      ],
      "perte_si": "Villarreal CF",
@@ -142114,26 +144700,26 @@
    "equipe1": "AS Roma",
    "equipe2": "Sporting CP",
    "cotes_1x2": {
-    "1": 1.67,
-    "X": 4.15,
-    "2": 4.72
+    "1": 1.62,
+    "X": 4.43,
+    "2": 4.86
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.19",
+     "cote": "1.20",
      "feu": true,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "2.19",
+     "cote": "2.22",
      "feu": false,
      "modele": null
     },
     {
      "pari": "12",
-     "cote": "1.24",
+     "cote": "1.23",
      "feu": false,
      "modele": null
     }
@@ -142142,23 +144728,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 28.5,
+     "gain_min": 27.2,
      "comptes": [
       {
        "compte": 1,
-       "mise": 107,
+       "mise": 110,
        "sur": "AS Roma",
-       "cote": 1.67,
-       "recu": 178.7,
-       "gain": 28.7
+       "cote": 1.62,
+       "recu": 178.2,
+       "gain": 28.2
       },
       {
        "compte": 2,
-       "mise": 43,
+       "mise": 40,
        "sur": "Nul",
-       "cote": 4.15,
-       "recu": 178.5,
-       "gain": 28.5
+       "cote": 4.43,
+       "recu": 177.2,
+       "gain": 27.2
       }
      ],
      "perte_si": "Sporting CP",
@@ -142168,23 +144754,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 180.4,
+     "gain_min": 195.5,
      "comptes": [
       {
        "compte": 1,
-       "mise": 80,
+       "mise": 78,
        "sur": "Nul",
-       "cote": 4.15,
-       "recu": 332.0,
-       "gain": 182.0
+       "cote": 4.43,
+       "recu": 345.5,
+       "gain": 195.5
       },
       {
        "compte": 2,
-       "mise": 70,
+       "mise": 72,
        "sur": "Sporting CP",
-       "cote": 4.72,
-       "recu": 330.4,
-       "gain": 180.4
+       "cote": 4.86,
+       "recu": 349.9,
+       "gain": 199.9
       }
      ],
      "perte_si": "AS Roma",
@@ -142193,28 +144779,28 @@
     },
     {
      "paire": "12",
-     "total": 150,
-     "gain_min": 34.1,
+     "total": 151,
+     "gain_min": 32.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 111,
+       "mise": 113,
        "sur": "AS Roma",
-       "cote": 1.67,
-       "recu": 185.4,
-       "gain": 35.4
+       "cote": 1.62,
+       "recu": 183.1,
+       "gain": 32.1
       },
       {
        "compte": 2,
-       "mise": 39,
+       "mise": 38,
        "sur": "Sporting CP",
-       "cote": 4.72,
-       "recu": 184.1,
-       "gain": 34.1
+       "cote": 4.86,
+       "recu": 184.7,
+       "gain": 33.7
       }
      ],
      "perte_si": "Nul",
-     "perte": 150,
+     "perte": 151,
      "proba": null
     }
    ],
@@ -143904,20 +146490,20 @@
    "equipe1": "PSV Eindhoven",
    "equipe2": "Atletico Madrid",
    "cotes_1x2": {
-    "1": 3.79,
-    "X": 3.97,
-    "2": 1.87
+    "1": 3.68,
+    "X": 4.0,
+    "2": 1.89
    },
    "double_chance": [
     {
      "pari": "1X",
-     "cote": "1.89",
+     "cote": "1.87",
      "feu": false,
      "modele": null
     },
     {
      "pari": "X2",
-     "cote": "1.28",
+     "cote": "1.29",
      "feu": false,
      "modele": null
     },
@@ -143932,23 +146518,23 @@
     {
      "paire": "1X",
      "total": 150,
-     "gain_min": 139.8,
+     "gain_min": 137.0,
      "comptes": [
       {
        "compte": 1,
-       "mise": 77,
+       "mise": 78,
        "sur": "PSV Eindhoven",
-       "cote": 3.79,
-       "recu": 291.8,
-       "gain": 141.8
+       "cote": 3.68,
+       "recu": 287.0,
+       "gain": 137.0
       },
       {
        "compte": 2,
-       "mise": 73,
+       "mise": 72,
        "sur": "Nul",
-       "cote": 3.97,
-       "recu": 289.8,
-       "gain": 139.8
+       "cote": 4.0,
+       "recu": 288.0,
+       "gain": 138.0
       }
      ],
      "perte_si": "Atletico Madrid",
@@ -143958,23 +146544,23 @@
     {
      "paire": "X2",
      "total": 150,
-     "gain_min": 40.6,
+     "gain_min": 42.0,
      "comptes": [
       {
        "compte": 1,
        "mise": 48,
        "sur": "Nul",
-       "cote": 3.97,
-       "recu": 190.6,
-       "gain": 40.6
+       "cote": 4.0,
+       "recu": 192.0,
+       "gain": 42.0
       },
       {
        "compte": 2,
        "mise": 102,
        "sur": "Atletico Madrid",
-       "cote": 1.87,
-       "recu": 190.7,
-       "gain": 40.7
+       "cote": 1.89,
+       "recu": 192.8,
+       "gain": 42.8
       }
      ],
      "perte_si": "PSV Eindhoven",
@@ -143984,23 +146570,23 @@
     {
      "paire": "12",
      "total": 150,
-     "gain_min": 37.0,
+     "gain_min": 37.1,
      "comptes": [
       {
        "compte": 1,
-       "mise": 50,
+       "mise": 51,
        "sur": "PSV Eindhoven",
-       "cote": 3.79,
-       "recu": 189.5,
-       "gain": 39.5
+       "cote": 3.68,
+       "recu": 187.7,
+       "gain": 37.7
       },
       {
        "compte": 2,
-       "mise": 100,
+       "mise": 99,
        "sur": "Atletico Madrid",
-       "cote": 1.87,
-       "recu": 187.0,
-       "gain": 37.0
+       "cote": 1.89,
+       "recu": 187.1,
+       "gain": 37.1
       }
      ],
      "perte_si": "Nul",
