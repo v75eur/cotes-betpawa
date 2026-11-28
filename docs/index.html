@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Radar BetPawa</title>
-<meta name="description" content="Cotes betPawa Bénin, double chance, répartition de mise et analyse de chaque match, mis à jour toutes les heures.">
+<meta name="description" content="Tous les matchs betPawa Bénin : cotes, double chance, calcul de ta mise et analyses calculées automatiquement. Réservé aux +18 ans.">
 <style>
 :root{
   --bg:#f3f6fb; --card:#ffffff; --card2:#eef2f9; --line:#dde4f0;
@@ -40,6 +40,18 @@ h1{margin:0;font-size:24px;line-height:1.15;letter-spacing:-.3px}
 .filters button{flex:none;border:1px solid var(--line);background:var(--card);color:var(--text);
   border-radius:999px;padding:7px 14px;font:inherit;font-size:13.5px;cursor:pointer}
 .filters button.on{background:var(--accent);border-color:var(--accent);color:#04210f;font-weight:700}
+.tools{display:flex;gap:8px;margin:0 0 6px}
+.tools select,.tools input{flex:1;min-width:0;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:12px;padding:10px 12px;font:inherit;font-size:14px}
+.stake{position:sticky;top:0;z-index:20;background:var(--bg);padding:8px 0 6px;margin:6px 0 0;border-bottom:1px solid var(--line)}
+.srow{display:flex;align-items:center;gap:10px}
+.srow label{font-weight:800;font-size:14px;white-space:nowrap}
+.sbox{display:flex;align-items:center;gap:6px;flex:1;min-width:0;font-weight:700}
+.sbox input{flex:1;min-width:0;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:12px;padding:8px 12px;font:inherit;font-size:16px;font-weight:700}
+.quick{display:flex;gap:6px;overflow-x:auto;padding-top:6px;scrollbar-width:none}
+.quick::-webkit-scrollbar{display:none}
+.quick button{flex:none;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:4px 11px;font:inherit;font-size:12.5px;cursor:pointer}
+.quick button.on{background:var(--accent);border-color:var(--accent);color:#04210f;font-weight:700}
+.lh{margin:18px 2px 8px;font-weight:800;font-size:13.5px;letter-spacing:.3px;color:var(--muted)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);margin:0 0 14px;overflow:hidden}
 .mh{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 16px 0;color:var(--muted);font-size:13px}
 .time{font-weight:700;color:var(--text);background:var(--card2);border-radius:8px;padding:2px 9px}
@@ -63,6 +75,14 @@ h1{margin:0;font-size:24px;line-height:1.15;letter-spacing:-.3px}
 .bar{height:7px;background:var(--line);border-radius:99px;margin-top:6px;overflow:hidden}
 .bar i{display:block;height:100%;background:var(--accent);border-radius:99px}
 .lbl{font-size:12.5px;color:var(--muted)}
+.gl{margin-top:4px;font-size:12.5px;color:var(--accent);font-weight:700}
+.grp{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:12px}
+.gh{background:var(--card2);padding:8px 12px;font-weight:700;font-size:13.5px}
+.bet{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:10px 12px;border-top:1px solid var(--line)}
+.bet .who{font-size:13.5px;min-width:0}
+.bet .who small{display:block;color:var(--muted);font-size:12px}
+.bet .res{text-align:right;flex:none}
+.bet .amt{font-weight:800;font-size:15.5px;white-space:nowrap}
 .pair{border:1px solid var(--line);border-radius:12px;margin-bottom:12px;overflow:hidden}
 .pair:last-child{margin-bottom:0}
 .ph{display:flex;justify-content:space-between;align-items:center;background:var(--accent-soft);padding:9px 12px;gap:8px}
@@ -72,7 +92,7 @@ h1{margin:0;font-size:24px;line-height:1.15;letter-spacing:-.3px}
 .acc .who{font-size:13.5px}
 .acc .who small{display:block;color:var(--muted);font-size:12px}
 .acc .amt{font-weight:800;font-size:17px;white-space:nowrap}
-.pos{color:var(--accent);font-weight:700}
+.pos{color:var(--accent);font-weight:700;font-size:12.5px}
 .loss{padding:9px 12px;border-top:1px solid var(--line);background:var(--red-soft);color:var(--red);font-size:13px;font-weight:600}
 .proba{padding:9px 12px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
 details{border:1px solid var(--line);border-radius:12px;margin-bottom:8px;background:var(--card2)}
@@ -83,37 +103,94 @@ details[open] summary:after{content:"－"}
 details .body{padding:0 14px 12px;font-size:13.5px}
 details .body div{padding:3px 0;border-top:1px dashed var(--line)}
 details .body div:first-child{border-top:0}
+details .rb{padding:0 12px 12px}
 .empty{text-align:center;color:var(--muted);padding:44px 16px;background:var(--card);border:1px dashed var(--line);border-radius:16px}
 .empty big{display:block;font-size:34px;margin-bottom:6px}
 .note{color:var(--muted);font-size:13px;margin:0}
 footer{padding:18px 0 40px;color:var(--muted);font-size:12.5px;text-align:center}
 footer b{color:var(--text)}
 @media (min-width:640px){.teams{flex-direction:row;align-items:baseline;gap:10px}.teams .vs{order:0}}
+.about{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:16px;margin:8px 0 6px}
+.about h2{margin:0 0 6px;font-size:17px}
+.about p{margin:0 0 8px;font-size:14px;color:var(--muted)}
+.about ul{margin:0 0 12px;padding-left:18px;font-size:14px;color:var(--muted)}
+.about li{margin-bottom:3px}
+.about b{color:var(--text)}
+.age{background:var(--amber-soft);color:var(--text);border-radius:12px;padding:10px 12px;font-size:13.5px}
+.gtab{width:100%;border-collapse:collapse;font-size:12.5px;margin:4px 0 8px}
+.gtab th,.gtab td{padding:6px 6px;border-top:1px solid var(--line);text-align:left;vertical-align:top}
+.gtab th{color:var(--muted);font-weight:600;border-top:0}
+.gnote{font-size:12.5px;color:var(--muted);margin:0 0 4px}
 </style>
 </head>
 <body>
-<div class="top">⚽ Toutes les cotes proviennent de <b>betPawa Bénin</b> · 🔞 Réservé aux +18 ans</div>
+<div class="top">⚽ Cotes issues de <b>betPawa Bénin</b> · 🔞 Réservé aux personnes de 18 ans et plus</div>
 <div class="wrap">
   <header>
     <div class="brand">
       <div class="logo">⚽</div>
       <div>
         <h1>Radar BetPawa</h1>
-        <p class="sub">Double chance, répartition des mises et analyse de chaque match · <span class="pill">betPawa</span></p>
+        <p class="sub">Tous les matchs : cotes, calcul de ta mise et analyses · <span class="pill">betPawa</span></p>
       </div>
     </div>
     <div class="meta" id="meta"></div>
   </header>
-  <div class="filters" id="filters"></div>
-  <main id="liste"><div class="empty"><big>⏳</big>Chargement des matchs…</div></main>
+  <section class="about">
+    <h2>Comment ça marche ?</h2>
+    <p>Ce site réunit <b>tous les matchs de football proposés par betPawa Bénin</b> (1X2 et double chance, tous les jours, tous les championnats). Un algorithme de calcul automatique transforme les cotes en probabilités et les analyse. Pour les 5 grands championnats (Angleterre, Espagne, Italie, Allemagne, France), un modèle statistique construit sur les résultats réels ajoute une analyse détaillée. Mise à jour automatique toutes les 15 minutes.</p>
+    <ul>
+      <li><b>Ma mise</b> : choisis ton montant en haut de la page. Pour chaque match, le site calcule ce que tu reçois et ce que tu gagnes, et peut répartir ta mise sur 2 comptes.</li>
+      <li><b>Double chance</b> : les cotes betPawa et, quand c'est possible, la probabilité estimée.</li>
+      <li><b>Analyse</b> : probabilités déduites des cotes, lecture du match et, pour les grands championnats, forme, attaque, défense et confrontations.</li>
+    </ul>
+    <details class="guide">
+      <summary>📖 Comprendre les cotes (de 1.00 à 3.00)</summary>
+      <div class="body">
+        <div style="overflow-x:auto">
+        <table class="gtab">
+          <tr><th>Cote</th><th>Chance*</th><th>Sens</th><th>Gain net pour 1 000 F</th></tr>
+          <tr><td>1.00 – 1.05</td><td>95 % et plus</td><td>Quasi certain</td><td>0 à 50 F</td></tr>
+          <tr><td>1.05 – 1.10</td><td>91 – 95 %</td><td>Ultra favori</td><td>50 à 100 F</td></tr>
+          <tr><td>1.10 – 1.20</td><td>83 – 91 %</td><td>Très gros favori</td><td>100 à 200 F</td></tr>
+          <tr><td>1.20 – 1.30</td><td>77 – 83 %</td><td>Gros favori</td><td>200 à 300 F</td></tr>
+          <tr><td>1.30 – 1.50</td><td>67 – 77 %</td><td>Net favori</td><td>300 à 500 F</td></tr>
+          <tr><td>1.50 – 1.75</td><td>57 – 67 %</td><td>Favori</td><td>500 à 750 F</td></tr>
+          <tr><td>1.75 – 2.00</td><td>50 – 57 %</td><td>Léger favori</td><td>750 à 1 000 F</td></tr>
+          <tr><td>2.00 – 2.50</td><td>40 – 50 %</td><td>Incertain</td><td>1 000 à 1 500 F</td></tr>
+          <tr><td>2.50 – 3.00</td><td>33 – 40 %</td><td>Outsider</td><td>1 500 à 2 000 F</td></tr>
+        </table>
+        </div>
+        <p class="gnote">*Chance affichée = 1 ÷ cote. Le bookmaker garde une marge (souvent 5 à 10 %), donc la vraie chance est un peu plus faible. Une cote basse ne protège pas : un favori peut perdre. Gain net = mise × (cote − 1).</p>
+      </div>
+    </details>
+    <div class="age">🔞 <b>Réservé aux personnes de 18 ans et plus.</b> Le site est accessible à tous, mais les paris sont interdits aux mineurs. Ce n'est pas un conseil de pari : aucune analyse ne garantit un gain.</div>
+  </section>
+  <div class="stake">
+    <div class="srow">
+      <label for="mise">💰 Ma mise</label>
+      <div class="sbox"><input id="mise" type="number" inputmode="numeric" min="1" step="50" aria-label="Montant de ma mise en francs"><span>F</span></div>
+    </div>
+    <div class="quick" id="quick"></div>
+  </div>
+  <div class="filters" id="days"></div>
+  <div class="tools">
+    <select id="lig" aria-label="Championnat"></select>
+    <input id="q" type="search" placeholder="Chercher une équipe…" aria-label="Chercher une équipe">
+  </div>
+  <main id="liste"><div class="empty"><big>⏳</big>Chargement des matchs…</div><noscript><div class="empty">Activez JavaScript pour voir les matchs.</div></noscript></main>
   <footer>
-    <p>Données de <b>betPawa Bénin</b> et résultats de football-data.co.uk. Mise à jour automatique toutes les heures.</p>
-    <p>Les pourcentages sont des estimations statistiques (modèle de Poisson), pas des certitudes. Le modèle ignore blessures, compositions et enjeu du match. Les paris comportent des risques : ne misez que ce que vous pouvez perdre. 🔞</p>
+    <p>Données de <b>betPawa Bénin</b> et résultats de football-data.co.uk. Mise à jour automatique toutes les 15 minutes.</p>
+    <p>Les pourcentages sont des estimations calculées automatiquement (pas des certitudes). Les gains affichés sont indicatifs : vérifie toujours sur ton ticket betPawa. Les analyses ignorent blessures, compositions et enjeu du match. Les paris comportent des risques : ne misez que ce que vous pouvez perdre. 🔞 Site réservé aux personnes de 18 ans et plus.</p>
   </footer>
 </div>
 <script>
+window.onerror = function(msg){ var l = document.getElementById("liste"); if (l && l.textContent.indexOf("Chargement") >= 0) { l.textContent = "Erreur : " + msg; } };
 (function(){
-  var data = null, filtre = "Tous", jour = "Tous";
+  var data = null, jour = null, ligue = "", q = "", majVue = "";
+  var mise = 200, cartes = [], timer = null;
+  try { var s0 = parseInt(localStorage.getItem("mise"), 10); if (s0 > 0) mise = s0; } catch (e) {}
+  var PAIRES = [["1", "X", "1X"], ["X", "2", "X2"], ["1", "2", "12"]];
 
   function el(tag, cls, text){
     var e = document.createElement(tag);
@@ -121,60 +198,84 @@ footer b{color:var(--text)}
     if (text !== undefined && text !== null) e.textContent = text;
     return e;
   }
-  function fmt(n){ return Number(n).toFixed(1).replace(/\.0$/, ""); }
+  function F(n){ return Number(Number(n).toFixed(1)).toLocaleString("fr-FR", {maximumFractionDigits: 1}); }
+  function norm(s){ return String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
+  function cap(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
+  function cle(m){ return m.pays + " / " + m.ligue; }
+  function iso2date(iso){ return new Date(iso + "T12:00:00"); }
+  function nomRes(m, k){ return k === "1" ? m.equipe1 : (k === "2" ? m.equipe2 : "Nul"); }
 
-  function meta(){
-    var m = document.getElementById("meta");
-    m.textContent = "";
-    var c1 = el("span", "chip"); c1.appendChild(document.createTextNode("📅 ")); c1.appendChild(el("b", null, data.jour));
-    var c2 = el("span", "chip"); c2.appendChild(document.createTextNode("🏟️ ")); c2.appendChild(el("b", null, String(data.matchs.length))); c2.appendChild(document.createTextNode(" match" + (data.matchs.length > 1 ? "s" : "")));
-    var heure = data.maj ? data.maj.replace("T", " à ").slice(0, 18) : "—";
-    var c3 = el("span", "chip"); c3.appendChild(document.createTextNode("🔄 Mis à jour : ")); c3.appendChild(el("b", null, heure));
-    m.appendChild(c1); m.appendChild(c2); m.appendChild(c3);
+  function jourLabel(iso){
+    if (iso === data.aujourdhui) return "Aujourd'hui";
+    var diff = Math.round((iso2date(iso) - iso2date(data.aujourdhui)) / 86400000);
+    if (diff === 1) return "Demain";
+    return iso2date(iso).toLocaleDateString("fr-FR", {weekday: "short", day: "2-digit", month: "2-digit"});
   }
 
-  function filtres(){
-    var box = document.getElementById("filters");
+  function chip(prefix, bold, suite){
+    var c = el("span", "chip");
+    c.appendChild(document.createTextNode(prefix));
+    c.appendChild(el("b", null, bold));
+    if (suite) c.appendChild(document.createTextNode(suite));
+    return c;
+  }
+
+  function meta(nbJour){
+    var box = document.getElementById("meta");
     box.textContent = "";
-    var jours = [];
-    data.matchs.forEach(function(m){ if (jours.indexOf(m.date) < 0) jours.push(m.date); });
-    if (!window._j0 && jours.length) { jour = jours[0]; window._j0 = 1; }
-    if (jours.indexOf(jour) < 0) jour = "Tous";
-    if (jours.length > 1) {
-      var sel = el("select");
-      sel.style.cssText = "flex:none;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:7px 12px;font:inherit;font-size:13.5px";
-      [["Tous", "📅 Tous les jours"]].concat(jours.map(function(j){ return [j, "📅 " + j]; })).forEach(function(x){
-        var o = el("option", null, x[1]); o.value = x[0]; if (x[0] === jour) o.selected = true; sel.appendChild(o);
-      });
-      sel.onchange = function(){ jour = sel.value; render(); };
-      box.appendChild(sel);
-    }
-    var ligues = ["Tous"];
-    data.matchs.forEach(function(m){
-      var n = m.drapeau + " " + m.ligue;
-      if (ligues.indexOf(n) < 0) ligues.push(n);
-    });
-    if (ligues.indexOf(filtre) < 0) filtre = "Tous";
-    if (ligues.length < 3) { return; }
-    ligues.forEach(function(n){
-      var b = el("button", n === filtre ? "on" : "", n);
-      b.onclick = function(){ filtre = n; render(); };
+    var long = cap(iso2date(jour).toLocaleDateString("fr-FR", {weekday: "long", day: "numeric", month: "long"}));
+    box.appendChild(chip("📅 ", long));
+    box.appendChild(chip("🏟️ ", nbJour + " match" + (nbJour > 1 ? "s" : ""), " ce jour · " + data.matchs.length + " au total"));
+    var mm = (data.maj || "").match(/(\d{4})-(\d{2})-(\d{2})T(\d{2}:\d{2})/);
+    box.appendChild(chip("🔄 Mis à jour : ", mm ? mm[3] + "/" + mm[2] + " à " + mm[4] : "—"));
+  }
+
+  function barreJours(cnt, ordre){
+    var box = document.getElementById("days");
+    box.textContent = "";
+    ordre.forEach(function(iso){
+      var b = el("button", iso === jour ? "on" : "", jourLabel(iso) + " (" + cnt[iso] + ")");
+      b.onclick = function(){ jour = iso; ligue = ""; render(); };
       box.appendChild(b);
     });
+  }
+
+  function selectLigues(){
+    var s = document.getElementById("lig");
+    s.textContent = "";
+    var cnt = {}, ordre = [], tot = 0;
+    data.matchs.forEach(function(m){
+      if (m.iso !== jour) return;
+      var k = cle(m);
+      if (!cnt[k]) { cnt[k] = 0; ordre.push(k); }
+      cnt[k]++; tot++;
+    });
+    var o = el("option", null, "Tous les championnats (" + tot + ")"); o.value = ""; s.appendChild(o);
+    ordre.forEach(function(k){
+      var op = el("option", null, k + " (" + cnt[k] + ")"); op.value = k; s.appendChild(op);
+    });
+    if (ligue && !cnt[ligue]) ligue = "";
+    s.value = ligue;
+  }
+
+  function probaPaire(m, nom){
+    var x = (m.paires || []).filter(function(y){ return y.paire === nom; })[0];
+    if (x && x.proba !== null && x.proba !== undefined) return x.proba;
+    var d = (m.double_chance || []).filter(function(y){ return y.pari === nom; })[0];
+    return d && d.modele !== null && d.modele !== undefined ? d.modele : null;
   }
 
   function panelDC(m){
     var p = el("div", "panel dc");
     if (!m.double_chance){ p.appendChild(el("p", "note", "Cotes double chance indisponibles pour ce match.")); return p; }
-    var noms = {"1X":"Domicile ou nul","X2":"Nul ou extérieur","12":"Pas de nul"};
+    var noms = {"1X": "Domicile ou nul", "X2": "Nul ou extérieur", "12": "Pas de nul"};
     m.double_chance.forEach(function(d){
       var row = el("div", "dcrow");
       row.appendChild(el("div", "dcname", d.pari));
       var r = el("div");
       var top = el("div", "dcmain");
       var left = el("div");
-      var cote = el("span", "cote", isNaN(Number(d.cote)) ? d.cote : Number(d.cote).toFixed(2));
-      left.appendChild(cote);
+      left.appendChild(el("span", "cote", Number(d.cote).toFixed(2)));
       if (d.feu) left.appendChild(el("span", "fire", "🔥 cote basse"));
       top.appendChild(left);
       top.appendChild(el("span", "lbl", noms[d.pari] || ""));
@@ -184,52 +285,117 @@ footer b{color:var(--text)}
         r.appendChild(bar);
         r.appendChild(el("div", "lbl", "🤖 Modèle : " + d.modele + " %"));
       }
+      r.appendChild(el("div", "gl", "💰 Pour " + F(mise) + " F : tu reçois " + F(mise * d.cote) + " F (+" + F(mise * (d.cote - 1)) + " F)"));
       row.appendChild(r);
       p.appendChild(row);
     });
     return p;
   }
 
-  function panelMises(m){
-    var p = el("div", "panel");
-    if (!m.paires || !m.paires.length){
-      p.appendChild(el("p", "note", "Aucune répartition entre " + data.mise[0] + " et " + data.mise[1] + " F avec un gain d'au moins " + data.gain_min + " F pour ce match."));
-      return p;
-    }
-    p.appendChild(el("p", "note", "Mise totale " + data.mise[0] + "–" + data.mise[1] + " F · gain minimum " + data.gain_min + " F. Jouez chaque mise sur un compte différent."));
-    p.lastChild.style.marginBottom = "12px";
-    m.paires.forEach(function(x){
+  function ligneParis(tag, label, cote){
+    var row = el("div", "bet");
+    var l = el("div", "who");
+    l.appendChild(document.createTextNode(tag + " · " + label));
+    l.appendChild(el("small", null, "cote " + Number(cote).toFixed(2)));
+    row.appendChild(l);
+    var r = el("div", "res");
+    r.appendChild(el("div", "amt", "Reçu " + F(mise * cote) + " F"));
+    r.appendChild(el("div", "pos", "+" + F(mise * (cote - 1)) + " F"));
+    row.appendChild(r);
+    return row;
+  }
+
+  function groupe(titre, lignes){
+    var g = el("div", "grp");
+    g.appendChild(el("div", "gh", titre));
+    lignes.forEach(function(x){ g.appendChild(x); });
+    return g;
+  }
+
+  function repartition(m){
+    var c = m.cotes_1x2;
+    var d = el("details");
+    d.appendChild(el("summary", null, "Répartir ma mise sur 2 comptes"));
+    var b = el("div", "rb");
+    var n0 = el("p", "note", "Total visé : " + F(mise) + " F. Mets chaque montant sur un compte différent : tu gagnes si l'un des deux résultats arrive, tu perds tout si le troisième arrive.");
+    n0.style.marginBottom = "10px";
+    b.appendChild(n0);
+    var nb = 0;
+    PAIRES.forEach(function(pr){
+      var x = pr[0], y = pr[1], nom = pr[2];
+      var o1 = c[x], o2 = c[y];
+      var S = 1 / o1 + 1 / o2;
+      if (S >= 1) return;
+      var R = mise / S;
+      var m1 = Math.floor(R / o1 + 0.5), m2 = Math.floor(R / o2 + 0.5);
+      if (m1 < 1 || m2 < 1) return;
+      var tot = m1 + m2, r1 = m1 * o1, r2 = m2 * o2, g = Math.min(r1, r2) - tot;
+      var z = ["1", "X", "2"].filter(function(k){ return k !== x && k !== y; })[0];
+      nb++;
       var box = el("div", "pair");
       var h = el("div", "ph");
-      h.appendChild(el("b", null, "✅ " + x.paire));
-      h.appendChild(el("span", null, "Total " + x.total + " F · gain min +" + fmt(x.gain_min) + " F"));
+      h.appendChild(el("b", null, "✅ " + nom));
+      h.appendChild(el("span", null, "Total " + F(tot) + " F · " + (g > 0 ? "gain min +" + F(g) + " F" : "pas de gain assuré (mise trop petite)")));
       box.appendChild(h);
-      x.comptes.forEach(function(c){
-        var a = el("div", "acc");
+      [[1, m1, x, o1, r1], [2, m2, y, o2, r2]].forEach(function(a){
+        var row = el("div", "acc");
         var w = el("div", "who");
-        w.appendChild(document.createTextNode("Compte " + c.compte + " : " + c.sur));
-        w.appendChild(el("small", null, "cote " + c.cote + " · reçu " + fmt(c.recu) + " F si ça passe"));
-        a.appendChild(w);
-        var amt = el("div", "amt", c.mise + " F");
-        var g = el("div", "pos", "+" + fmt(c.gain) + " F"); g.style.fontSize = "12.5px"; g.style.textAlign = "right";
-        var col = el("div"); col.appendChild(amt); col.appendChild(g);
-        a.appendChild(col);
-        box.appendChild(a);
+        w.appendChild(document.createTextNode("Compte " + a[0] + " : " + nomRes(m, a[2])));
+        w.appendChild(el("small", null, "cote " + Number(a[3]).toFixed(2) + " · reçu " + F(a[4]) + " F si ça passe"));
+        row.appendChild(w);
+        var col = el("div");
+        col.appendChild(el("div", "amt", F(a[1]) + " F"));
+        var gg = el("div", "pos", (a[4] - tot >= 0 ? "+" : "−") + F(Math.abs(a[4] - tot)) + " F"); gg.style.textAlign = "right";
+        col.appendChild(gg);
+        row.appendChild(col);
+        box.appendChild(row);
       });
-      box.appendChild(el("div", "loss", "Si " + x.perte_si + " : perte de −" + x.perte + " F"));
-      if (x.proba !== null && x.proba !== undefined)
-        box.appendChild(el("div", "proba", "🤖 Chance que ça passe (modèle) : " + x.proba + " %"));
-      p.appendChild(box);
+      box.appendChild(el("div", "loss", "Si " + nomRes(m, z) + " : perte de −" + F(tot) + " F"));
+      var pb = probaPaire(m, nom);
+      if (pb !== null) box.appendChild(el("div", "proba", "🤖 Chance que ça passe (modèle) : " + pb + " %"));
+      b.appendChild(box);
     });
+    if (!nb) b.appendChild(el("p", "note", "Avec ces cotes, aucune répartition ne garantit un gain."));
+    d.appendChild(b);
+    return d;
+  }
+
+  function panelMise(m){
+    var p = el("div", "panel");
+    var info = el("p", "note", "Ta mise : " + F(mise) + " F. Si ton pari perd, tu perds " + F(mise) + " F. Les gains sont indicatifs : vérifie sur ton ticket betPawa.");
+    info.style.marginBottom = "12px";
+    p.appendChild(info);
+    var any = false;
+    if (m.cotes_1x2){
+      any = true;
+      p.appendChild(groupe("Résultat du match (1X2)", [
+        ligneParis("1", m.equipe1 + " gagne", m.cotes_1x2["1"]),
+        ligneParis("X", "Match nul", m.cotes_1x2["X"]),
+        ligneParis("2", m.equipe2 + " gagne", m.cotes_1x2["2"])
+      ]));
+    }
+    if (m.double_chance){
+      any = true;
+      var noms = {"1X": m.equipe1 + " ou nul", "X2": "Nul ou " + m.equipe2, "12": m.equipe1 + " ou " + m.equipe2};
+      p.appendChild(groupe("Double chance", m.double_chance.map(function(d){ return ligneParis(d.pari, noms[d.pari], d.cote); })));
+    }
+    if (!any){ p.appendChild(el("p", "note", "Aucune cote disponible pour ce match.")); return p; }
+    if (m.cotes_1x2) p.appendChild(repartition(m));
     return p;
   }
 
   function panelAnalyse(m){
     var p = el("div", "panel");
-    if (!m.analyse || !m.analyse.length){ p.appendChild(el("p", "note", "Analyse indisponible pour ce match.")); return p; }
-    m.analyse.forEach(function(s, i){
+    var secs = (m.analyse_cotes || []).concat(m.analyse || []);
+    if (!secs.length){ p.appendChild(el("p", "note", "Analyse indisponible pour ce match.")); return p; }
+    if (!m.modele){
+      var n0 = el("p", "note", "Analyse basée uniquement sur les cotes betPawa : pas de statistiques détaillées pour ce championnat.");
+      n0.style.marginBottom = "10px";
+      p.appendChild(n0);
+    }
+    secs.forEach(function(s, i){
       var d = el("details");
-      if (i < 2) d.open = true;
+      if (i === 0 || s.titre.indexOf("LECTURE") >= 0) d.open = true;
       d.appendChild(el("summary", null, s.titre));
       var b = el("div", "body");
       s.lignes.forEach(function(l){ b.appendChild(el("div", null, l)); });
@@ -243,7 +409,7 @@ footer b{color:var(--text)}
     var c = el("article", "card");
     var h = el("div", "mh");
     h.appendChild(el("span", null, m.drapeau + " " + m.ligue));
-    h.appendChild(el("span", "time", "🕒 " + (m.date ? m.date + " · " : "") + m.heure));
+    h.appendChild(el("span", "time", "🕒 " + m.heure));
     c.appendChild(h);
     var t = el("div", "teams");
     t.appendChild(el("span", null, m.equipe1));
@@ -258,49 +424,125 @@ footer b{color:var(--text)}
       });
       c.appendChild(o);
     }
-    var panels = [panelDC(m), panelMises(m), panelAnalyse(m)];
-    var noms = ["Double chance", "Mises", "Analyse"];
-    var tabs = el("div", "tabs");
-    panels.forEach(function(pn, i){
-      var b = el("button", i === 0 ? "on" : "", noms[i]);
-      b.onclick = function(){
-        Array.prototype.forEach.call(tabs.children, function(x, j){ x.classList.toggle("on", j === i); panels[j].classList.toggle("on", j === i); });
-      };
+    var makers = [panelDC, panelMise, panelAnalyse];
+    var noms = ["Double chance", "Ma mise", "Analyse"];
+    var built = [null, null, null];
+    var tabs = el("div", "tabs"), zone = el("div");
+    var boutons = [];
+    function montrer(i){
+      if (!built[i]) { built[i] = makers[i](m); zone.appendChild(built[i]); }
+      for (var j = 0; j < 3; j++){
+        boutons[j].classList.toggle("on", j === i);
+        if (built[j]) built[j].classList.toggle("on", j === i);
+      }
+    }
+    noms.forEach(function(nom, i){
+      var b = el("button", "", nom);
+      b.onclick = function(){ montrer(i); };
+      boutons.push(b);
       tabs.appendChild(b);
     });
-    panels[0].classList.add("on");
     c.appendChild(tabs);
-    panels.forEach(function(pn){ c.appendChild(pn); });
+    c.appendChild(zone);
+    montrer(0);
+    cartes.push({m: m, built: built, zone: zone, makers: makers});
     return c;
   }
 
+  function recalc(){
+    cartes.forEach(function(c){
+      [0, 1].forEach(function(i){
+        if (!c.built[i]) return;
+        var nv = c.makers[i](c.m);
+        if (c.built[i].classList.contains("on")) nv.classList.add("on");
+        var ouvert = c.built[i].querySelector("details[open]"), nd = nv.querySelector("details");
+        if (ouvert && nd) nd.open = true;
+        c.zone.replaceChild(nv, c.built[i]);
+        c.built[i] = nv;
+      });
+    });
+  }
+
+  function vide(emoji, msg){
+    var l = document.getElementById("liste"); l.textContent = "";
+    var e = el("div", "empty"); e.appendChild(el("big", null, emoji)); e.appendChild(document.createTextNode(msg));
+    l.appendChild(e);
+  }
+
   function render(){
-    meta(); filtres();
-    var liste = document.getElementById("liste");
-    liste.textContent = "";
-    var ms = data.matchs.filter(function(m){ return (filtre === "Tous" || (m.drapeau + " " + m.ligue) === filtre) && (jour === "Tous" || m.date === jour); });
-    if (!ms.length){
-      var e = el("div", "empty");
-      e.appendChild(el("big", null, "😴"));
-      e.appendChild(document.createTextNode("Aucun match betPawa à afficher pour le moment."));
-      liste.appendChild(e);
+    cartes = [];
+    if (!data.matchs || !data.matchs.length){
+      document.getElementById("days").textContent = "";
+      document.getElementById("meta").textContent = "";
+      document.getElementById("lig").textContent = "";
+      vide("😴", "Aucun match betPawa à afficher pour le moment.");
       return;
     }
-    ms.forEach(function(m){ liste.appendChild(carte(m)); });
+    var cnt = {}, ordre = [];
+    data.matchs.forEach(function(m){ if (!cnt[m.iso]) { cnt[m.iso] = 0; ordre.push(m.iso); } cnt[m.iso]++; });
+    ordre.sort();
+    if (!jour || !cnt[jour]) jour = cnt[data.aujourdhui] ? data.aujourdhui : ordre[0];
+    barreJours(cnt, ordre);
+    selectLigues();
+    meta(cnt[jour]);
+    var nq = norm(q.trim());
+    var ms = data.matchs.filter(function(m){
+      return m.iso === jour && (!ligue || cle(m) === ligue) &&
+        (!nq || norm(m.equipe1 + " " + m.equipe2).indexOf(nq) >= 0);
+    });
+    if (!ms.length){ vide("🔍", "Aucun match pour ce filtre."); return; }
+    var liste = document.getElementById("liste"); liste.textContent = "";
+    var cur = null;
+    ms.forEach(function(m){
+      var k = cle(m);
+      if (k !== cur){ cur = k; liste.appendChild(el("div", "lh", m.drapeau + " " + k.toUpperCase())); }
+      liste.appendChild(carte(m));
+    });
   }
 
   function charger(){
     fetch("data.json?t=" + Date.now(), {cache: "no-store"})
-      .then(function(r){ return r.json(); })
-      .then(function(d){ data = d; render(); })
-      .catch(function(){
-        if (!data) {
-          var l = document.getElementById("liste"); l.textContent = "";
-          var e = el("div", "empty"); e.appendChild(el("big", null, "⚠️")); e.appendChild(document.createTextNode("Impossible de charger les données. Réessayez dans un instant."));
-          l.appendChild(e);
-        }
+      .then(function(r){
+        if (!r.ok) throw new Error("fichier introuvable (" + r.status + ")");
+        return r.json();
+      })
+      .then(function(d){
+        if (data && d.maj === majVue) return;
+        data = d; majVue = d.maj;
+        try { render(); } catch (e) { vide("⚠️", "Erreur d'affichage : " + e.message); }
+      })
+      .catch(function(e){
+        if (!data) vide("⚠️", "Impossible de charger les données : " + (e && e.message ? e.message : e));
       });
   }
+
+  var inp = document.getElementById("mise"), quick = document.getElementById("quick");
+  function marquer(){
+    Array.prototype.forEach.call(quick.children, function(b){ b.classList.toggle("on", Number(b.getAttribute("data-v")) === mise); });
+  }
+  function definir(v, saisie){
+    v = Math.round(Number(v));
+    if (!(v >= 1)) return;
+    if (v > 10000000) v = 10000000;
+    mise = v;
+    if (!saisie) inp.value = v;
+    try { localStorage.setItem("mise", String(v)); } catch (e) {}
+    marquer();
+    clearTimeout(timer);
+    timer = setTimeout(recalc, 150);
+  }
+  inp.value = mise;
+  [100, 200, 500, 1000, 2000, 5000].forEach(function(v){
+    var b = el("button", "", F(v));
+    b.setAttribute("data-v", v);
+    b.onclick = function(){ definir(v, false); };
+    quick.appendChild(b);
+  });
+  marquer();
+  inp.oninput = function(){ definir(this.value, true); };
+
+  document.getElementById("lig").onchange = function(){ ligue = this.value; if (data) render(); };
+  document.getElementById("q").oninput = function(){ q = this.value; if (data) render(); };
   charger();
   setInterval(charger, 5 * 60 * 1000);
 })();
